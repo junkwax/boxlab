@@ -196,5 +196,57 @@ check("an edit back to the shipped value proposes nothing",
 val('delete EDITS["headband/hikick"]');
 
 
+/* 9. Dragging an edge. resize() is pure, so the geometry is checked here
+      rather than by moving a mouse. left = front - width, right = front,
+      top = y, bottom = y + height - and every handle has to respect that. */
+const box = { front: 94, y: 5, width: 69, height: 23 };
+check("dragging the right edge moves front and width together",
+      val(`resize(${JSON.stringify(box)}, "r", -3, 0)`),
+      { front: 91, y: 5, width: 66, height: 23 });
+check("dragging the left edge changes width alone",
+      val(`resize(${JSON.stringify(box)}, "l", 4, 0)`),
+      { front: 94, y: 5, width: 65, height: 23 });
+check("dragging the top edge holds the bottom still",
+      val(`resize(${JSON.stringify(box)}, "t", 0, 6)`),
+      { front: 94, y: 11, width: 69, height: 17 });
+check("dragging the bottom edge changes height alone",
+      val(`resize(${JSON.stringify(box)}, "b", 0, 5)`),
+      { front: 94, y: 5, width: 69, height: 28 });
+check("dragging the middle moves the box without resizing it",
+      val(`resize(${JSON.stringify(box)}, "move", -8, 3)`),
+      { front: 86, y: 8, width: 69, height: 23 });
+check("a corner drives both axes",
+      val(`resize(${JSON.stringify(box)}, "rb", 2, 2)`),
+      { front: 96, y: 5, width: 71, height: 25 });
+check("a box cannot be dragged to a negative width",
+      val(`resize(${JSON.stringify(box)}, "l", 999, 0)`).width, 0);
+
+/* 10. A drag reaches the proposal by the same road a typed number does. */
+val('EDITS["headband/hikick"] = {}');
+val(`(() => { const r = resize(byId["headband/hikick"], "r", -3, 0);
+             for (const f of ["front","y","width","height"])
+               setField("headband/hikick", f, r[f]); })()`);
+check("a dragged edge becomes a proposal",
+      val("proposal()").changes[0],
+      { id: "headband/hikick", front: { from: 94, to: 91 },
+        width: { from: 69, to: 66 } });
+val('delete EDITS["headband/hikick"]');
+
+/* 11. Ducking. A high punch that plainly connects on a standing opponent
+       clears the crouch entirely - the silhouette drops below the box, which
+       is why this is a different question from "is it shorter". */
+set({ atk: "frosty", mv: "ninjas/hipunch", def: "bigarms", pose: "stance",
+      fr: 0, dist: 70 });
+const up = S();
+check("the high punch connects standing at 70 px", up.overlap, true);
+check("the crouch lane is read for every frame", up.duckHits.length, 3);
+check("and it whiffs over the crouch on all of them",
+      up.duckHits.some(Boolean), false);
+
+/* A sweep is the other way round: flagged must-be-blocked-low, and ducking
+   is no escape from it. */
+set({ atk: "bigarms", mv: "bigarms/sweepk", def: "headband" });
+check("a sweep is flagged must be blocked low", S().mustDuck, true);
+
 console.log(`\n${n - fails}/${n} checks passed`);
 process.exit(fails ? 1 : 0);

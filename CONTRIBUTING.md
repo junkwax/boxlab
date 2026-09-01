@@ -8,11 +8,19 @@ That is the reason this repository exists, and the reason the review is picky.
 
 ## The loop
 
-**1. Change a number in the viewer.**
+**1. Change the box in the viewer.**
 
-Open the viewer, pick the move, and edit the field. The proposed box is drawn
-in amber over the current one, so you can see what you did before you argue
-for it. You are not editing `data/boxes.json` — what you send is an
+Open the viewer, pick the move, and **drag the box** — edges, corners, or the
+middle to move it. Typing a number does the same thing if you already know the
+value. Either way the proposed box is drawn in amber over the current one, so
+you can see what you did before you argue for it.
+
+Two things worth checking while you are there. The **play** button runs the
+defender's pose at roughly the speed the game does, because an idle animation
+breathes and the frame you happen to be parked on is not the whole story. And
+the readout under the verdict says whether your change still connects **if they
+duck** — a crouch is a different silhouette, not a modifier, and a move can
+sail clean over it at a range where it plainly hits standing. You are not editing `data/boxes.json` — what you send is an
 *overlay* naming the record, the field, the value it expects to find and the
 value it wants instead. [proposals/README.md](proposals/README.md) says why.
 

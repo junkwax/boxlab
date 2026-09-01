@@ -38,7 +38,19 @@ input[type=range]{padding:0;width:220px;vertical-align:middle}
 .key{display:inline-block;width:11px;height:11px;border-radius:2px;border:2px solid}
 .stage{background:var(--panel);border:1px solid var(--line);border-radius:10px;
        padding:10px;overflow-x:auto}
-canvas{display:block;width:100%;height:auto;image-rendering:pixelated}
+canvas{display:block;width:100%;height:auto;image-rendering:pixelated;
+       touch-action:none}
+.frrow{display:flex;gap:6px;align-items:center}
+.frrow input[type=range]{width:170px}
+#play{background:var(--bg);color:var(--ink);border:1px solid var(--line);
+      border-radius:6px;padding:5px 9px;font-size:13px;cursor:pointer;
+      font-family:var(--mono);min-width:34px}
+#play.on{border-color:var(--body);color:var(--body)}
+.duck{margin-top:9px;padding-top:9px;border-top:1px solid var(--line);
+      font-size:13.5px;color:var(--dim)}
+.duck b{font-family:var(--mono)}
+.duck .y{color:var(--body)}
+.duck .n{color:var(--hit)}
 .verdict{margin:14px 0;padding:13px 15px;border-radius:10px;border:1px solid var(--line);
          background:var(--panel);font-size:15px}
 .verdict b{font-family:var(--mono)}
@@ -131,7 +143,9 @@ textarea{width:100%;background:var(--bg);color:var(--ink);
   <div><label for="def">Defender</label><select id="def"></select></div>
   <div><label for="pose">Defender pose</label><select id="pose"></select></div>
   <div><label for="fr">Frame <span id="frv"></span></label>
-    <input type="range" id="fr" min="0" max="0" value="0"></div>
+    <div class="frrow"><input type="range" id="fr" min="0" max="0" value="0">
+      <button id="play" title="Play this pose at the speed the game runs it"
+        >&#9654;</button></div></div>
   <div>
     <label for="dist">Distance between anchors — <span id="distv">80</span> px</label>
     <input type="range" id="dist" min="0" max="260" value="80">
@@ -148,6 +162,8 @@ textarea{width:100%;background:var(--bg);color:var(--ink);
       <span class="key" style="border-color:var(--hurt)"></span> hurt box, as tested</label>
     <label><input type="checkbox" id="t_full">
       <span class="key" style="border-color:var(--dim)"></span> hurt box before the squeeze</label>
+    <label><input type="checkbox" id="t_duck" checked>
+      <span class="key" style="border-color:var(--dim)"></span> where the crouch would be</label>
     <label id="l_retail" hidden><input type="checkbox" id="t_retail" checked>
       <span class="key" style="border-color:var(--dim)"></span> retail box</label>
     <label><input type="checkbox" id="t_anc">
@@ -157,6 +173,7 @@ textarea{width:100%;background:var(--bg);color:var(--ink);
 
 <div class="stage"><canvas id="cv" width="1120" height="470"></canvas></div>
 <div class="verdict" id="verdict">…</div>
+<div class="duck" id="duck"></div>
 
 <div class="grid">
   <div class="card"><h2>The box</h2><table id="tbox"></table>
@@ -251,12 +268,15 @@ function init(){
   buildRoster();
   buildFields();
   wirePropose();
+  wireCanvas();
+  $("play").addEventListener("click", togglePlay);
 
   ["atk"].forEach(id => $(id).addEventListener("change", () => {
     refreshMoves(); draw(); }));
   ["def"].forEach(id => $(id).addEventListener("change", () => {
-    refreshPoses(); refreshFrames(); draw(); }));
-  $("pose").addEventListener("change", () => { refreshFrames(); draw(); });
+    stopPlay(); refreshPoses(); refreshFrames(); draw(); }));
+  $("pose").addEventListener("change", () => {
+    stopPlay(); refreshFrames(); draw(); });
   $("fr").addEventListener("input", () => { refreshFrames(); draw(); });
   $("mv").addEventListener("change", draw);
   $("dist").addEventListener("input", () => {
@@ -334,6 +354,49 @@ function effective(id){
   return e && Object.keys(e).length ? Object.assign({}, b, e) : b;
 }
 
+/* The tested column for ONE pose frame at ONE distance.  Pulled out of
+   state() so the ducking comparison can ask the same question of a lane that
+   is not on screen, rather than restating the arithmetic and drifting. */
+function columnAt(def, laneName, fi, D, id){
+  const lane = (POSE.stances[def] || {})[laneName] || [];
+  if (!lane.length) return null;
+  const rects = POSE.poses[lane[Math.min(fi, lane.length - 1)]];
+  if (!rects) return null;
+  const world = rects.map(([x,y,w,h]) => [D - x - w, y, w, h]);
+  const full = bbox(world);
+  const hurt = full.slice();
+  if ((flags[id] || []).includes("squeeze")){
+    const [l, r] = squeeze(hurt[0], hurt[2]);
+    hurt[0] = l; hurt[2] = r;
+  }
+  return { world, full, hurt };
+}
+
+function connects(strike, hurt){
+  return !!(strike && hurt &&
+            strike[0] < hurt[2] && strike[2] > hurt[0] &&
+            strike[1] < hurt[3] && strike[3] > hurt[1]);
+}
+
+/* Pure: the record a drag would produce.  Separate from the pointer handling
+   so the geometry is testable without a mouse, and so the number fields and
+   the canvas cannot disagree about what an edge means.
+
+   left = front - width, right = front, top = y, bottom = y + height. */
+function resize(rec, edge, dx, dy){
+  let front = rec.front, y = rec.y, width = rec.width, height = rec.height;
+  if (edge === "move"){ front += dx; y += dy; }
+  else {
+    if (edge.indexOf("r") >= 0){ front += dx; width += dx; }
+    if (edge.indexOf("l") >= 0){ width -= dx; }
+    if (edge.indexOf("t") >= 0){ y += dy; height -= dy; }
+    if (edge.indexOf("b") >= 0){ height += dy; }
+  }
+  const cl = (v, lo, hi) => Math.max(lo, Math.min(hi, v));
+  return { front: cl(front, -400, 400), y: cl(y, -400, 400),
+           width: cl(width, 0, 400), height: cl(height, 0, 400) };
+}
+
 function state(){
   const atk = $("atk").value, def = $("def").value, id = $("mv").value;
   const base = byId[id];
@@ -365,14 +428,22 @@ function state(){
   const sq = (flags[id] || []).includes("squeeze");
   if (hurt && sq){ const [l,r] = squeeze(hurt[0], hurt[2]); hurt[0]=l; hurt[2]=r; }
 
-  let overlap = null;
-  if (strike && hurt)
-    overlap = strike[0] < hurt[2] && strike[2] > hurt[0] &&
-              strike[1] < hurt[3] && strike[3] > hurt[1];
+  const overlap = (strike && hurt) ? connects(strike, hurt) : null;
+
+  /* Ducking, answered for every frame of the lane rather than the one the
+     slider happens to be on. A crouch is a different silhouette, not a
+     modifier - it is shorter, and usually narrower, so a move can sail over
+     it at a distance where it plainly connects standing. */
+  const duckLane = st.duck || [];
+  const duckHits = strike ? duckLane.map((_p, i) => {
+    const c = columnAt(def, "duck", i, D, id);
+    return c ? connects(strike, c.hurt) : null;
+  }) : [];
+  const mustDuck = (flags[id] || []).indexOf("duck") >= 0;
 
   return {atk, def, id, rec, base, edited, contact, atkWorld, defWorld, strike,
           strikeBase, strikeRetail, hurt, hurtFull, sq, overlap, D, lane, fi,
-          laneW};
+          laneW, duckLane, duckHits, mustDuck};
 }
 
 /* ---------------------------------------------------------------- drawing */
@@ -398,6 +469,7 @@ function draw(){
   const ox = padX - bb[0]*scale + (cssW - 2*padX - (bb[2]-bb[0])*scale)/2;
   const oy = padY - bb[1]*scale;
   const X = v => ox + v*scale, Y = v => oy + v*scale;
+  VIEW = { scale, ox, oy };   // so the pointer handlers can invert it
 
   const css = getComputedStyle(document.documentElement);
   const C = n => css.getPropertyValue(n).trim();
@@ -420,6 +492,13 @@ function draw(){
     rect([x,y,x+w,y+h], colour, fill));
 
   if ($("t_body").checked){
+    /* Where the crouch would be, if we are not already looking at it. Faint,
+       behind everything, because it answers "would this have hit if they
+       ducked" without pretending to be the pose under test. */
+    if ($("t_duck").checked && $("pose").value !== "duck" && s.duckLane.length){
+      const c = columnAt(s.def, "duck", s.fi, s.D, s.id);
+      if (c) pieces(c.world, C("--dim"), null);
+    }
     pieces(s.defWorld, C("--body"), "rgba(61,220,132,.10)");
     pieces(s.atkWorld, C("--body"), "rgba(61,220,132,.05)");
   }
@@ -480,6 +559,8 @@ function report(s){
           s.hurt[2] + " can be hit."
         : "This record does not squeeze, so the whole silhouette is live."));
   }
+
+  duckReport(s);
 
   const r = s.rec;
   const rt = retailById[s.id];
@@ -557,6 +638,7 @@ function report(s){
    wide one on top. The swords are the long thin ones. Four arms are four arms.
    No artwork is needed here, and artwork would say less. */
 let RMODE = "atk";
+let VIEW = null, DRAG = null, PLAY = null;
 
 function buildRoster(){
   const host = $("rcards");
@@ -571,6 +653,7 @@ function buildRoster(){
     nm.textContent = c.name;
     card.append(cv); card.append(nm);
     card.addEventListener("click", () => {
+      stopPlay();
       $(RMODE).value = c.id;
       if (RMODE === "atk") refreshMoves();
       else { refreshPoses(); refreshFrames(); }
@@ -635,24 +718,135 @@ function buildFields(){
     d.append(l); d.append(i);
     $("pfields").append(d);
   });
-  $("pintro").innerHTML = "Change a number and the proposed box is drawn in " +
-    "amber over the current one. Nothing here edits the data. What you send " +
+  $("pintro").innerHTML = "<b>Drag the strike box on the canvas</b> - edges, " +
+    "corners, or the middle to move it - or type a number here. Either way the " +
+    "proposed box is drawn in amber over the current one. Nothing here edits the data. What you send " +
     "is an <em>overlay</em> &mdash; the record, the field, the value it expects " +
     "to find and the value it wants instead &mdash; so the pull request stays " +
     "readable, two proposals never collide, and it fails loudly if the build " +
     "moved underneath it.";
 }
 
-function onField(f){
-  const id = $("mv").value, base = byId[id];
+/* The only writer. Both the number fields and the canvas go through it, so a
+   value typed and a value dragged cannot end up meaning different things - and
+   a field dragged back to what the build ships stops being an edit at all. */
+function setField(id, f, v){
+  const base = byId[id];
   if (!base) return;
-  const raw = $("pf_" + f).value;
-  const v = parseInt(raw, 10);
   const e = EDITS[id] || (EDITS[id] = {});
-  if (raw === "" || !isFinite(v) || v === base[f]) delete e[f];
+  if (!isFinite(v) || v === base[f]) delete e[f];
   else e[f] = v;
   if (!Object.keys(e).length) delete EDITS[id];
+}
+
+function onField(f){
+  const id = $("mv").value;
+  if (!byId[id]) return;
+  const raw = $("pf_" + f).value;
+  setField(id, f, raw === "" ? NaN : parseInt(raw, 10));
   draw();
+}
+
+/* ------------------------------------------------------- dragging the box */
+/* Grab targets are measured in SCREEN pixels so an edge is the same size to
+   grab however far the view has zoomed to fit. */
+const GRAB = 7;
+
+function boxScreen(s){
+  if (!VIEW || !s.strike) return null;
+  return [VIEW.ox + s.strike[0]*VIEW.scale, VIEW.oy + s.strike[1]*VIEW.scale,
+          VIEW.ox + s.strike[2]*VIEW.scale, VIEW.oy + s.strike[3]*VIEW.scale];
+}
+
+function pointerPos(ev){
+  const r = $("cv").getBoundingClientRect();
+  return [ev.clientX - r.left, ev.clientY - r.top];
+}
+
+function edgeUnder(ev, s){
+  const b = boxScreen(s);
+  if (!b) return null;
+  const [px, py] = pointerPos(ev);
+  if (px < b[0]-GRAB || px > b[2]+GRAB || py < b[1]-GRAB || py > b[3]+GRAB)
+    return null;
+  const e = (Math.abs(px-b[0]) <= GRAB ? "l" : Math.abs(px-b[2]) <= GRAB ? "r" : "")
+          + (Math.abs(py-b[1]) <= GRAB ? "t" : Math.abs(py-b[3]) <= GRAB ? "b" : "");
+  return e || "move";
+}
+
+const CURSOR = { l: "ew-resize", r: "ew-resize", t: "ns-resize", b: "ns-resize",
+                 lt: "nwse-resize", rb: "nwse-resize", rt: "nesw-resize",
+                 lb: "nesw-resize", move: "move" };
+
+function wireCanvas(){
+  const cv = $("cv");
+
+  cv.addEventListener("pointerdown", ev => {
+    const s = state();
+    const edge = s.rec ? edgeUnder(ev, s) : null;
+    if (!edge) return;
+    const [px, py] = pointerPos(ev);
+    DRAG = { edge, id: s.id, px, py,
+             rec: { front: s.rec.front, y: s.rec.y,
+                    width: s.rec.width, height: s.rec.height } };
+    if (cv.setPointerCapture) cv.setPointerCapture(ev.pointerId);
+    ev.preventDefault();
+  });
+
+  cv.addEventListener("pointermove", ev => {
+    if (!DRAG){
+      const s = state();
+      const e = s.rec ? edgeUnder(ev, s) : null;
+      cv.style.cursor = e ? CURSOR[e] : "default";
+      return;
+    }
+    const [px, py] = pointerPos(ev);
+    const dx = Math.round((px - DRAG.px) / VIEW.scale);
+    const dy = Math.round((py - DRAG.py) / VIEW.scale);
+    const next = resize(DRAG.rec, DRAG.edge, dx, dy);
+    for (const f of ["front", "y", "width", "height"])
+      setField(DRAG.id, f, next[f]);
+    draw();
+  });
+
+  const release = ev => {
+    if (!DRAG) return;
+    DRAG = null;
+    if (ev && ev.pointerId != null && cv.releasePointerCapture)
+      try { cv.releasePointerCapture(ev.pointerId); } catch (err) {}
+  };
+  cv.addEventListener("pointerup", release);
+  cv.addEventListener("pointercancel", release);
+}
+
+/* ------------------------------------------------------------- playback  */
+/* MK2 runs its idle lanes at five or six ticks a frame and a tick is 18.28 ms,
+   so this is roughly the speed the game plays them - not a guess dressed up
+   as one, but not frame-exact either: the per-lane rates are in code, not in
+   a table, which is the same reason frames.json is read-only. */
+const PLAY_MS = 110;
+
+function stopPlay(){
+  if (!PLAY) return;
+  clearInterval(PLAY);
+  PLAY = null;
+  $("play").innerHTML = "&#9654;";
+  $("play").className = "";
+}
+
+function togglePlay(){
+  if (PLAY) return stopPlay();
+  const fr = $("fr");
+  if (+fr.max < 1) return;
+  PLAY = setInterval(() => {
+    const n = +$("fr").max + 1;
+    if (n < 2) return stopPlay();
+    $("fr").value = (+$("fr").value + 1) % n;
+    refreshFrames();
+    draw();
+  }, PLAY_MS);
+  $("play").innerHTML = "&#9208;";
+  $("play").className = "on";
 }
 
 function syncFields(){
@@ -752,6 +946,36 @@ function wirePropose(){
       "GitHub has stopped accepting prefilled content: use <b>Copy proposal</b>.";
     window.open(url, "_blank", "noopener");
   });
+}
+
+/* Ducking is the question that actually decides pokes, and the model can
+   answer it without disturbing what is on screen: the same compare, run
+   against every frame of the defender's crouch. Reported per frame rather
+   than as one yes/no, because a crouch breathes like any other lane and a
+   move that connects on two frames of three is a different move from one
+   that connects on all of them. */
+function duckReport(s){
+  const el = $("duck");
+  if (!s.strike || !s.duckLane.length){ el.innerHTML = ""; return; }
+  if ($("pose").value === "duck"){
+    el.innerHTML = "You are looking at the crouch. " + (s.mustDuck
+      ? "This record is also flagged <b>must be blocked low</b>."
+      : "Switch the pose back to compare it against standing.");
+    return;
+  }
+  const hits = s.duckHits.filter(v => v === true).length;
+  const n = s.duckHits.length;
+  const word = hits === 0 ? "<span class='n'>whiffs over the crouch</span>"
+    : hits === n ? "<span class='y'>still connects</span>"
+    : "<span class='y'>connects on " + hits + "</span> of " + n + " frames";
+  el.innerHTML = "<b>If they duck at " + s.D + " px:</b> " + word +
+    (hits === n ? " on all " + n + " frames" : "") + ". " +
+    (s.mustDuck
+      ? "This record must be blocked low, so ducking is not the answer to it."
+      : hits === 0
+        ? "Crouching takes the silhouette below the box entirely."
+        : "") +
+    " <span style='opacity:.7'>Pick the duck pose to see it.</span>";
 }
 
 const row = (k,v) => "<tr><td>"+k+"</td><td>"+

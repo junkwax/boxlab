@@ -5,6 +5,10 @@
 Open [the viewer](https://junkwax.github.io/boxlab/), pick a move, and drag the
 distance slider until it stops connecting. That is the whole idea.
 
+Then drag the box itself and watch the range change, play the defender's idle
+and watch the tested column breathe, or duck and watch the move sail over.
+What shipped in 1993 is drawn underneath, so you can see what a change moved.
+
 This game has never had published hitbox data. What exists is scattered across
 forum threads and a couple of PDFs, and none of it can show you *why* a move
 that visibly overlaps an opponent does nothing. This can, because it draws the
