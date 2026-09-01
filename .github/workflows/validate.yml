@@ -25,10 +25,16 @@ jobs:
       - name: Validate the data
         run: python tools/validate.py
 
-      # The check that the check works. Eight injected faults, each of which
+      # The check that the check works. Twelve injected faults, each of which
       # must be rejected.
       - name: Prove the validator rejects what it should
         run: python tools/prove_validator.py
+
+      # Dry run. Prints what the open proposals would change, so the numbers
+      # are in the PR log without anyone checking out the branch. Writes
+      # nothing - only a maintainer with a build applies a proposal.
+      - name: Say what the proposals would change
+        run: python tools/apply.py
 
   viewer:
     runs-on: ubuntu-latest

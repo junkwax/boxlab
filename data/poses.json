@@ -1,1285 +1,1285 @@
 {
  "characters": [
   {
-   "id": "kung-lao",
-   "name": "Kung Lao",
-   "table": "kung-lao"
+   "id": "hathead",
+   "name": "Hathead",
+   "table": "hathead"
   },
   {
-   "id": "liu-kang",
-   "name": "Liu Kang",
-   "table": "liu-kang"
+   "id": "headband",
+   "name": "Headband",
+   "table": "headband"
   },
   {
-   "id": "johnny-cage",
-   "name": "Johnny Cage",
-   "table": "johnny-cage"
+   "id": "shades",
+   "name": "Shades",
+   "table": "shades"
   },
   {
-   "id": "baraka",
-   "name": "Baraka",
-   "table": "baraka"
+   "id": "swordarms",
+   "name": "Sword Arms",
+   "table": "swordarms"
   },
   {
-   "id": "kitana",
-   "name": "Kitana",
-   "table": "kitana-mileena"
+   "id": "knockout",
+   "name": "Knockout",
+   "table": "female-ninjas"
   },
   {
-   "id": "mileena",
-   "name": "Mileena",
-   "table": "kitana-mileena"
+   "id": "bombshell",
+   "name": "Bombshell",
+   "table": "female-ninjas"
   },
   {
-   "id": "shang-tsung",
-   "name": "Shang Tsung",
-   "table": "shang-tsung"
+   "id": "morphman",
+   "name": "Morphman",
+   "table": "morphman"
   },
   {
-   "id": "raiden",
-   "name": "Raiden",
-   "table": "raiden"
+   "id": "bolt",
+   "name": "Bolt",
+   "table": "bolt"
   },
   {
-   "id": "sub-zero",
-   "name": "Sub-Zero",
+   "id": "frosty",
+   "name": "Frosty",
    "table": "ninjas"
   },
   {
-   "id": "reptile",
-   "name": "Reptile",
+   "id": "acid",
+   "name": "Acid",
    "table": "ninjas"
   },
   {
-   "id": "scorpion",
-   "name": "Scorpion",
+   "id": "harpoon",
+   "name": "Harpoon",
    "table": "ninjas"
   },
   {
-   "id": "jax",
-   "name": "Jax",
-   "table": "jax"
+   "id": "bigarms",
+   "name": "Big Arms",
+   "table": "bigarms"
   },
   {
-   "id": "kintaro",
-   "name": "Kintaro",
-   "table": "goro-kintaro"
+   "id": "fourarms",
+   "name": "Four Arms",
+   "table": "fourarms"
   },
   {
-   "id": "shao-kahn",
-   "name": "Shao Kahn",
-   "table": "shao-kahn"
+   "id": "final-boss",
+   "name": "Final Boss",
+   "table": "final-boss"
   },
   {
-   "id": "smoke",
-   "name": "Smoke",
+   "id": "2ndhand",
+   "name": "2nd Hand",
    "table": "ninjas"
   },
   {
-   "id": "noob-saibot",
-   "name": "Noob Saibot",
+   "id": "blackout",
+   "name": "Blackout",
    "table": "ninjas"
   },
   {
-   "id": "jade",
-   "name": "Jade",
-   "table": "kitana-mileena"
+   "id": "pole",
+   "name": "Pole",
+   "table": "female-ninjas"
   }
  ],
  "contacts": [
   {
-   "character": "baraka",
+   "character": "bigarms",
    "confidence": "assumed",
-   "move": "baraka/duckkickh",
-   "pose": "p0761"
-  },
-  {
-   "character": "baraka",
-   "confidence": "assumed",
-   "move": "baraka/duckkickl",
-   "pose": "p0770"
-  },
-  {
-   "character": "baraka",
-   "confidence": "assumed",
-   "move": "baraka/duckpunch",
-   "pose": "p0779"
-  },
-  {
-   "character": "baraka",
-   "confidence": "assumed",
-   "move": "baraka/elbow",
-   "pose": "p0788"
-  },
-  {
-   "character": "baraka",
-   "confidence": "assumed",
-   "move": "baraka/flipk",
-   "pose": "p0798"
-  },
-  {
-   "character": "baraka",
-   "confidence": "assumed",
-   "move": "baraka/flipp",
-   "pose": "p0807"
-  },
-  {
-   "character": "baraka",
-   "confidence": "assumed",
-   "move": "baraka/hikick",
-   "pose": "p0817"
-  },
-  {
-   "character": "baraka",
-   "confidence": "assumed",
-   "move": "baraka/jumpupk",
-   "pose": "p0827"
-  },
-  {
-   "character": "baraka",
-   "confidence": "assumed",
-   "move": "baraka/jumpupp",
-   "pose": "p0807"
-  },
-  {
-   "character": "baraka",
-   "confidence": "assumed",
-   "move": "baraka/knee",
-   "pose": "p0836"
-  },
-  {
-   "character": "baraka",
-   "confidence": "assumed",
-   "move": "baraka/lokick",
-   "pose": "p0846"
-  },
-  {
-   "character": "baraka",
-   "confidence": "assumed",
-   "move": "baraka/roundh",
-   "pose": "p0854"
-  },
-  {
-   "character": "baraka",
-   "confidence": "assumed",
-   "move": "baraka/sweepk",
-   "pose": "p0863"
-  },
-  {
-   "character": "baraka",
-   "confidence": "table",
-   "move": "baraka/swipe",
-   "pose": "p0869"
-  },
-  {
-   "character": "jax",
-   "confidence": "assumed",
-   "move": "jax/duckkickh",
+   "move": "bigarms/duckkickh",
    "pose": "p0766"
   },
   {
-   "character": "jax",
+   "character": "bigarms",
    "confidence": "assumed",
-   "move": "jax/duckkickl",
+   "move": "bigarms/duckkickl",
    "pose": "p0775"
   },
   {
-   "character": "jax",
+   "character": "bigarms",
    "confidence": "assumed",
-   "move": "jax/duckpunch",
+   "move": "bigarms/duckpunch",
    "pose": "p0784"
   },
   {
-   "character": "jax",
+   "character": "bigarms",
    "confidence": "assumed",
-   "move": "jax/elbow",
+   "move": "bigarms/elbow",
    "pose": "p0793"
   },
   {
-   "character": "jax",
+   "character": "bigarms",
    "confidence": "assumed",
-   "move": "jax/flipk",
+   "move": "bigarms/flipk",
    "pose": "p0803"
   },
   {
-   "character": "jax",
+   "character": "bigarms",
    "confidence": "assumed",
-   "move": "jax/flipp",
+   "move": "bigarms/flipp",
    "pose": "p0812"
   },
   {
-   "character": "jax",
+   "character": "bigarms",
    "confidence": "assumed",
-   "move": "jax/hikick",
+   "move": "bigarms/hikick",
    "pose": "p0822"
   },
   {
-   "character": "jax",
+   "character": "bigarms",
    "confidence": "assumed",
-   "move": "jax/jumpupk",
+   "move": "bigarms/jumpupk",
    "pose": "p0832"
   },
   {
-   "character": "jax",
+   "character": "bigarms",
    "confidence": "assumed",
-   "move": "jax/jumpupp",
+   "move": "bigarms/jumpupp",
    "pose": "p0812"
   },
   {
-   "character": "jax",
+   "character": "bigarms",
    "confidence": "assumed",
-   "move": "jax/knee",
+   "move": "bigarms/knee",
    "pose": "p0841"
   },
   {
-   "character": "jax",
+   "character": "bigarms",
    "confidence": "assumed",
-   "move": "jax/roundh",
+   "move": "bigarms/roundh",
    "pose": "p0859"
   },
   {
-   "character": "jax",
+   "character": "bigarms",
    "confidence": "assumed",
-   "move": "jax/sweepk",
+   "move": "bigarms/sweepk",
    "pose": "p0868"
   },
   {
-   "character": "johnny-cage",
+   "character": "bolt",
    "confidence": "assumed",
-   "move": "johnny-cage/duckkickh",
-   "pose": "p0760"
-  },
-  {
-   "character": "johnny-cage",
-   "confidence": "assumed",
-   "move": "johnny-cage/duckkickl",
-   "pose": "p0769"
-  },
-  {
-   "character": "johnny-cage",
-   "confidence": "assumed",
-   "move": "johnny-cage/duckpunch",
-   "pose": "p0778"
-  },
-  {
-   "character": "johnny-cage",
-   "confidence": "assumed",
-   "move": "johnny-cage/elbow",
-   "pose": "p0787"
-  },
-  {
-   "character": "johnny-cage",
-   "confidence": "assumed",
-   "move": "johnny-cage/flipk",
-   "pose": "p0797"
-  },
-  {
-   "character": "johnny-cage",
-   "confidence": "assumed",
-   "move": "johnny-cage/flipp",
-   "pose": "p0806"
-  },
-  {
-   "character": "johnny-cage",
-   "confidence": "assumed",
-   "move": "johnny-cage/hikick",
-   "pose": "p0816"
-  },
-  {
-   "character": "johnny-cage",
-   "confidence": "assumed",
-   "move": "johnny-cage/jumpupk",
-   "pose": "p0826"
-  },
-  {
-   "character": "johnny-cage",
-   "confidence": "assumed",
-   "move": "johnny-cage/jumpupp",
-   "pose": "p0806"
-  },
-  {
-   "character": "johnny-cage",
-   "confidence": "assumed",
-   "move": "johnny-cage/knee",
-   "pose": "p0835"
-  },
-  {
-   "character": "johnny-cage",
-   "confidence": "assumed",
-   "move": "johnny-cage/lokick",
-   "pose": "p0845"
-  },
-  {
-   "character": "johnny-cage",
-   "confidence": "assumed",
-   "move": "johnny-cage/roundh",
-   "pose": "p0853"
-  },
-  {
-   "character": "johnny-cage",
-   "confidence": "handler-name",
-   "move": "johnny-cage/split",
-   "pose": "p0823"
-  },
-  {
-   "character": "johnny-cage",
-   "confidence": "assumed",
-   "move": "johnny-cage/sweepk",
-   "pose": "p0862"
-  },
-  {
-   "character": "jade",
-   "confidence": "assumed",
-   "move": "kitana-mileena/duckkickh",
-   "pose": "p0762"
-  },
-  {
-   "character": "kitana",
-   "confidence": "assumed",
-   "move": "kitana-mileena/duckkickh",
-   "pose": "p0762"
-  },
-  {
-   "character": "mileena",
-   "confidence": "assumed",
-   "move": "kitana-mileena/duckkickh",
-   "pose": "p0762"
-  },
-  {
-   "character": "jade",
-   "confidence": "assumed",
-   "move": "kitana-mileena/duckkickl",
-   "pose": "p0771"
-  },
-  {
-   "character": "kitana",
-   "confidence": "assumed",
-   "move": "kitana-mileena/duckkickl",
-   "pose": "p0771"
-  },
-  {
-   "character": "mileena",
-   "confidence": "assumed",
-   "move": "kitana-mileena/duckkickl",
-   "pose": "p0771"
-  },
-  {
-   "character": "jade",
-   "confidence": "assumed",
-   "move": "kitana-mileena/duckpunch",
-   "pose": "p0780"
-  },
-  {
-   "character": "kitana",
-   "confidence": "assumed",
-   "move": "kitana-mileena/duckpunch",
-   "pose": "p0780"
-  },
-  {
-   "character": "mileena",
-   "confidence": "assumed",
-   "move": "kitana-mileena/duckpunch",
-   "pose": "p0780"
-  },
-  {
-   "character": "jade",
-   "confidence": "assumed",
-   "move": "kitana-mileena/elbow",
-   "pose": "p0789"
-  },
-  {
-   "character": "kitana",
-   "confidence": "assumed",
-   "move": "kitana-mileena/elbow",
-   "pose": "p0789"
-  },
-  {
-   "character": "mileena",
-   "confidence": "assumed",
-   "move": "kitana-mileena/elbow",
-   "pose": "p0789"
-  },
-  {
-   "character": "kitana",
-   "confidence": "table",
-   "move": "kitana-mileena/fan-swipe",
-   "pose": "p0794"
-  },
-  {
-   "character": "jade",
-   "confidence": "assumed",
-   "move": "kitana-mileena/flipk",
-   "pose": "p0799"
-  },
-  {
-   "character": "kitana",
-   "confidence": "assumed",
-   "move": "kitana-mileena/flipk",
-   "pose": "p0799"
-  },
-  {
-   "character": "mileena",
-   "confidence": "assumed",
-   "move": "kitana-mileena/flipk",
-   "pose": "p0799"
-  },
-  {
-   "character": "jade",
-   "confidence": "assumed",
-   "move": "kitana-mileena/flipp",
-   "pose": "p0808"
-  },
-  {
-   "character": "kitana",
-   "confidence": "assumed",
-   "move": "kitana-mileena/flipp",
-   "pose": "p0808"
-  },
-  {
-   "character": "mileena",
-   "confidence": "assumed",
-   "move": "kitana-mileena/flipp",
-   "pose": "p0808"
-  },
-  {
-   "character": "jade",
-   "confidence": "assumed",
-   "move": "kitana-mileena/hikick",
-   "pose": "p0818"
-  },
-  {
-   "character": "kitana",
-   "confidence": "assumed",
-   "move": "kitana-mileena/hikick",
-   "pose": "p0818"
-  },
-  {
-   "character": "mileena",
-   "confidence": "assumed",
-   "move": "kitana-mileena/hikick",
-   "pose": "p0818"
-  },
-  {
-   "character": "jade",
-   "confidence": "assumed",
-   "move": "kitana-mileena/jumpupk",
-   "pose": "p0828"
-  },
-  {
-   "character": "kitana",
-   "confidence": "assumed",
-   "move": "kitana-mileena/jumpupk",
-   "pose": "p0828"
-  },
-  {
-   "character": "mileena",
-   "confidence": "assumed",
-   "move": "kitana-mileena/jumpupk",
-   "pose": "p0828"
-  },
-  {
-   "character": "jade",
-   "confidence": "assumed",
-   "move": "kitana-mileena/jumpupp",
-   "pose": "p0808"
-  },
-  {
-   "character": "kitana",
-   "confidence": "assumed",
-   "move": "kitana-mileena/jumpupp",
-   "pose": "p0808"
-  },
-  {
-   "character": "mileena",
-   "confidence": "assumed",
-   "move": "kitana-mileena/jumpupp",
-   "pose": "p0808"
-  },
-  {
-   "character": "jade",
-   "confidence": "assumed",
-   "move": "kitana-mileena/knee",
-   "pose": "p0837"
-  },
-  {
-   "character": "kitana",
-   "confidence": "assumed",
-   "move": "kitana-mileena/knee",
-   "pose": "p0837"
-  },
-  {
-   "character": "mileena",
-   "confidence": "assumed",
-   "move": "kitana-mileena/knee",
-   "pose": "p0837"
-  },
-  {
-   "character": "jade",
-   "confidence": "assumed",
-   "move": "kitana-mileena/lokick",
-   "pose": "p0847"
-  },
-  {
-   "character": "kitana",
-   "confidence": "assumed",
-   "move": "kitana-mileena/lokick",
-   "pose": "p0847"
-  },
-  {
-   "character": "mileena",
-   "confidence": "assumed",
-   "move": "kitana-mileena/lokick",
-   "pose": "p0847"
-  },
-  {
-   "character": "jade",
-   "confidence": "assumed",
-   "move": "kitana-mileena/roundh",
-   "pose": "p0855"
-  },
-  {
-   "character": "kitana",
-   "confidence": "assumed",
-   "move": "kitana-mileena/roundh",
-   "pose": "p0855"
-  },
-  {
-   "character": "mileena",
-   "confidence": "assumed",
-   "move": "kitana-mileena/roundh",
-   "pose": "p0855"
-  },
-  {
-   "character": "jade",
-   "confidence": "assumed",
-   "move": "kitana-mileena/sweepk",
-   "pose": "p0864"
-  },
-  {
-   "character": "kitana",
-   "confidence": "assumed",
-   "move": "kitana-mileena/sweepk",
-   "pose": "p0864"
-  },
-  {
-   "character": "mileena",
-   "confidence": "assumed",
-   "move": "kitana-mileena/sweepk",
-   "pose": "p0864"
-  },
-  {
-   "character": "kung-lao",
-   "confidence": "assumed",
-   "move": "kung-lao/duckkickh",
-   "pose": "p0758"
-  },
-  {
-   "character": "kung-lao",
-   "confidence": "assumed",
-   "move": "kung-lao/duckkickl",
-   "pose": "p0767"
-  },
-  {
-   "character": "kung-lao",
-   "confidence": "assumed",
-   "move": "kung-lao/duckpunch",
-   "pose": "p0776"
-  },
-  {
-   "character": "kung-lao",
-   "confidence": "assumed",
-   "move": "kung-lao/elbow",
-   "pose": "p0785"
-  },
-  {
-   "character": "kung-lao",
-   "confidence": "assumed",
-   "move": "kung-lao/flipk",
-   "pose": "p0795"
-  },
-  {
-   "character": "kung-lao",
-   "confidence": "assumed",
-   "move": "kung-lao/flipp",
-   "pose": "p0804"
-  },
-  {
-   "character": "kung-lao",
-   "confidence": "handler-name",
-   "move": "kung-lao/hikick",
-   "pose": "p0813"
-  },
-  {
-   "character": "kung-lao",
-   "confidence": "assumed",
-   "move": "kung-lao/hikick",
-   "pose": "p0814"
-  },
-  {
-   "character": "kung-lao",
-   "confidence": "assumed",
-   "move": "kung-lao/jumpupk",
-   "pose": "p0824"
-  },
-  {
-   "character": "kung-lao",
-   "confidence": "assumed",
-   "move": "kung-lao/jumpupp",
-   "pose": "p0804"
-  },
-  {
-   "character": "kung-lao",
-   "confidence": "assumed",
-   "move": "kung-lao/knee",
-   "pose": "p0833"
-  },
-  {
-   "character": "kung-lao",
-   "confidence": "assumed",
-   "move": "kung-lao/lokick",
-   "pose": "p0843"
-  },
-  {
-   "character": "kung-lao",
-   "confidence": "assumed",
-   "move": "kung-lao/roundh",
-   "pose": "p0851"
-  },
-  {
-   "character": "kung-lao",
-   "confidence": "assumed",
-   "move": "kung-lao/sweepk",
-   "pose": "p0860"
-  },
-  {
-   "character": "liu-kang",
-   "confidence": "assumed",
-   "move": "liu-kang/duckkickh",
-   "pose": "p0759"
-  },
-  {
-   "character": "liu-kang",
-   "confidence": "assumed",
-   "move": "liu-kang/duckkickl",
-   "pose": "p0768"
-  },
-  {
-   "character": "liu-kang",
-   "confidence": "assumed",
-   "move": "liu-kang/duckpunch",
-   "pose": "p0777"
-  },
-  {
-   "character": "liu-kang",
-   "confidence": "assumed",
-   "move": "liu-kang/elbow",
-   "pose": "p0786"
-  },
-  {
-   "character": "liu-kang",
-   "confidence": "assumed",
-   "move": "liu-kang/flipk",
-   "pose": "p0796"
-  },
-  {
-   "character": "liu-kang",
-   "confidence": "assumed",
-   "move": "liu-kang/flipp",
-   "pose": "p0805"
-  },
-  {
-   "character": "liu-kang",
-   "confidence": "assumed",
-   "move": "liu-kang/hikick",
-   "pose": "p0815"
-  },
-  {
-   "character": "liu-kang",
-   "confidence": "handler-name",
-   "move": "liu-kang/hikick",
-   "pose": "p0842"
-  },
-  {
-   "character": "liu-kang",
-   "confidence": "assumed",
-   "move": "liu-kang/jumpupk",
-   "pose": "p0825"
-  },
-  {
-   "character": "liu-kang",
-   "confidence": "assumed",
-   "move": "liu-kang/jumpupp",
-   "pose": "p0805"
-  },
-  {
-   "character": "liu-kang",
-   "confidence": "assumed",
-   "move": "liu-kang/knee",
-   "pose": "p0834"
-  },
-  {
-   "character": "liu-kang",
-   "confidence": "assumed",
-   "move": "liu-kang/lokick",
-   "pose": "p0844"
-  },
-  {
-   "character": "liu-kang",
-   "confidence": "assumed",
-   "move": "liu-kang/roundh",
-   "pose": "p0852"
-  },
-  {
-   "character": "liu-kang",
-   "confidence": "assumed",
-   "move": "liu-kang/sweepk",
-   "pose": "p0861"
-  },
-  {
-   "character": "noob-saibot",
-   "confidence": "assumed",
-   "move": "ninjas/duckkickh",
-   "pose": "p0765"
-  },
-  {
-   "character": "reptile",
-   "confidence": "assumed",
-   "move": "ninjas/duckkickh",
-   "pose": "p0765"
-  },
-  {
-   "character": "scorpion",
-   "confidence": "assumed",
-   "move": "ninjas/duckkickh",
-   "pose": "p0765"
-  },
-  {
-   "character": "smoke",
-   "confidence": "assumed",
-   "move": "ninjas/duckkickh",
-   "pose": "p0765"
-  },
-  {
-   "character": "sub-zero",
-   "confidence": "assumed",
-   "move": "ninjas/duckkickh",
-   "pose": "p0765"
-  },
-  {
-   "character": "noob-saibot",
-   "confidence": "assumed",
-   "move": "ninjas/duckkickl",
-   "pose": "p0774"
-  },
-  {
-   "character": "reptile",
-   "confidence": "assumed",
-   "move": "ninjas/duckkickl",
-   "pose": "p0774"
-  },
-  {
-   "character": "scorpion",
-   "confidence": "assumed",
-   "move": "ninjas/duckkickl",
-   "pose": "p0774"
-  },
-  {
-   "character": "smoke",
-   "confidence": "assumed",
-   "move": "ninjas/duckkickl",
-   "pose": "p0774"
-  },
-  {
-   "character": "sub-zero",
-   "confidence": "assumed",
-   "move": "ninjas/duckkickl",
-   "pose": "p0774"
-  },
-  {
-   "character": "noob-saibot",
-   "confidence": "assumed",
-   "move": "ninjas/duckpunch",
-   "pose": "p0783"
-  },
-  {
-   "character": "reptile",
-   "confidence": "assumed",
-   "move": "ninjas/duckpunch",
-   "pose": "p0783"
-  },
-  {
-   "character": "scorpion",
-   "confidence": "assumed",
-   "move": "ninjas/duckpunch",
-   "pose": "p0783"
-  },
-  {
-   "character": "smoke",
-   "confidence": "assumed",
-   "move": "ninjas/duckpunch",
-   "pose": "p0783"
-  },
-  {
-   "character": "sub-zero",
-   "confidence": "assumed",
-   "move": "ninjas/duckpunch",
-   "pose": "p0783"
-  },
-  {
-   "character": "noob-saibot",
-   "confidence": "assumed",
-   "move": "ninjas/elbow",
-   "pose": "p0792"
-  },
-  {
-   "character": "reptile",
-   "confidence": "assumed",
-   "move": "ninjas/elbow",
-   "pose": "p0792"
-  },
-  {
-   "character": "scorpion",
-   "confidence": "assumed",
-   "move": "ninjas/elbow",
-   "pose": "p0792"
-  },
-  {
-   "character": "smoke",
-   "confidence": "assumed",
-   "move": "ninjas/elbow",
-   "pose": "p0792"
-  },
-  {
-   "character": "sub-zero",
-   "confidence": "assumed",
-   "move": "ninjas/elbow",
-   "pose": "p0792"
-  },
-  {
-   "character": "noob-saibot",
-   "confidence": "assumed",
-   "move": "ninjas/flipk",
-   "pose": "p0802"
-  },
-  {
-   "character": "reptile",
-   "confidence": "assumed",
-   "move": "ninjas/flipk",
-   "pose": "p0802"
-  },
-  {
-   "character": "scorpion",
-   "confidence": "assumed",
-   "move": "ninjas/flipk",
-   "pose": "p0802"
-  },
-  {
-   "character": "smoke",
-   "confidence": "assumed",
-   "move": "ninjas/flipk",
-   "pose": "p0802"
-  },
-  {
-   "character": "sub-zero",
-   "confidence": "assumed",
-   "move": "ninjas/flipk",
-   "pose": "p0802"
-  },
-  {
-   "character": "noob-saibot",
-   "confidence": "assumed",
-   "move": "ninjas/flipp",
-   "pose": "p0811"
-  },
-  {
-   "character": "reptile",
-   "confidence": "assumed",
-   "move": "ninjas/flipp",
-   "pose": "p0811"
-  },
-  {
-   "character": "scorpion",
-   "confidence": "assumed",
-   "move": "ninjas/flipp",
-   "pose": "p0811"
-  },
-  {
-   "character": "smoke",
-   "confidence": "assumed",
-   "move": "ninjas/flipp",
-   "pose": "p0811"
-  },
-  {
-   "character": "sub-zero",
-   "confidence": "assumed",
-   "move": "ninjas/flipp",
-   "pose": "p0811"
-  },
-  {
-   "character": "noob-saibot",
-   "confidence": "assumed",
-   "move": "ninjas/hikick",
-   "pose": "p0821"
-  },
-  {
-   "character": "reptile",
-   "confidence": "assumed",
-   "move": "ninjas/hikick",
-   "pose": "p0821"
-  },
-  {
-   "character": "scorpion",
-   "confidence": "assumed",
-   "move": "ninjas/hikick",
-   "pose": "p0821"
-  },
-  {
-   "character": "smoke",
-   "confidence": "assumed",
-   "move": "ninjas/hikick",
-   "pose": "p0821"
-  },
-  {
-   "character": "sub-zero",
-   "confidence": "assumed",
-   "move": "ninjas/hikick",
-   "pose": "p0821"
-  },
-  {
-   "character": "noob-saibot",
-   "confidence": "assumed",
-   "move": "ninjas/jumpupk",
-   "pose": "p0831"
-  },
-  {
-   "character": "reptile",
-   "confidence": "assumed",
-   "move": "ninjas/jumpupk",
-   "pose": "p0831"
-  },
-  {
-   "character": "scorpion",
-   "confidence": "assumed",
-   "move": "ninjas/jumpupk",
-   "pose": "p0831"
-  },
-  {
-   "character": "smoke",
-   "confidence": "assumed",
-   "move": "ninjas/jumpupk",
-   "pose": "p0831"
-  },
-  {
-   "character": "sub-zero",
-   "confidence": "assumed",
-   "move": "ninjas/jumpupk",
-   "pose": "p0831"
-  },
-  {
-   "character": "noob-saibot",
-   "confidence": "assumed",
-   "move": "ninjas/jumpupp",
-   "pose": "p0811"
-  },
-  {
-   "character": "reptile",
-   "confidence": "assumed",
-   "move": "ninjas/jumpupp",
-   "pose": "p0811"
-  },
-  {
-   "character": "scorpion",
-   "confidence": "assumed",
-   "move": "ninjas/jumpupp",
-   "pose": "p0811"
-  },
-  {
-   "character": "smoke",
-   "confidence": "assumed",
-   "move": "ninjas/jumpupp",
-   "pose": "p0811"
-  },
-  {
-   "character": "sub-zero",
-   "confidence": "assumed",
-   "move": "ninjas/jumpupp",
-   "pose": "p0811"
-  },
-  {
-   "character": "noob-saibot",
-   "confidence": "assumed",
-   "move": "ninjas/knee",
-   "pose": "p0840"
-  },
-  {
-   "character": "reptile",
-   "confidence": "assumed",
-   "move": "ninjas/knee",
-   "pose": "p0840"
-  },
-  {
-   "character": "scorpion",
-   "confidence": "assumed",
-   "move": "ninjas/knee",
-   "pose": "p0840"
-  },
-  {
-   "character": "smoke",
-   "confidence": "assumed",
-   "move": "ninjas/knee",
-   "pose": "p0840"
-  },
-  {
-   "character": "sub-zero",
-   "confidence": "assumed",
-   "move": "ninjas/knee",
-   "pose": "p0840"
-  },
-  {
-   "character": "noob-saibot",
-   "confidence": "assumed",
-   "move": "ninjas/lokick",
-   "pose": "p0850"
-  },
-  {
-   "character": "reptile",
-   "confidence": "assumed",
-   "move": "ninjas/lokick",
-   "pose": "p0850"
-  },
-  {
-   "character": "scorpion",
-   "confidence": "assumed",
-   "move": "ninjas/lokick",
-   "pose": "p0850"
-  },
-  {
-   "character": "smoke",
-   "confidence": "assumed",
-   "move": "ninjas/lokick",
-   "pose": "p0850"
-  },
-  {
-   "character": "sub-zero",
-   "confidence": "assumed",
-   "move": "ninjas/lokick",
-   "pose": "p0850"
-  },
-  {
-   "character": "noob-saibot",
-   "confidence": "assumed",
-   "move": "ninjas/roundh",
-   "pose": "p0858"
-  },
-  {
-   "character": "reptile",
-   "confidence": "assumed",
-   "move": "ninjas/roundh",
-   "pose": "p0858"
-  },
-  {
-   "character": "scorpion",
-   "confidence": "assumed",
-   "move": "ninjas/roundh",
-   "pose": "p0858"
-  },
-  {
-   "character": "smoke",
-   "confidence": "assumed",
-   "move": "ninjas/roundh",
-   "pose": "p0858"
-  },
-  {
-   "character": "sub-zero",
-   "confidence": "assumed",
-   "move": "ninjas/roundh",
-   "pose": "p0858"
-  },
-  {
-   "character": "noob-saibot",
-   "confidence": "assumed",
-   "move": "ninjas/sweepk",
-   "pose": "p0867"
-  },
-  {
-   "character": "reptile",
-   "confidence": "assumed",
-   "move": "ninjas/sweepk",
-   "pose": "p0867"
-  },
-  {
-   "character": "scorpion",
-   "confidence": "assumed",
-   "move": "ninjas/sweepk",
-   "pose": "p0867"
-  },
-  {
-   "character": "smoke",
-   "confidence": "assumed",
-   "move": "ninjas/sweepk",
-   "pose": "p0867"
-  },
-  {
-   "character": "sub-zero",
-   "confidence": "assumed",
-   "move": "ninjas/sweepk",
-   "pose": "p0867"
-  },
-  {
-   "character": "raiden",
-   "confidence": "assumed",
-   "move": "raiden/duckkickh",
+   "move": "bolt/duckkickh",
    "pose": "p0764"
   },
   {
-   "character": "raiden",
+   "character": "bolt",
    "confidence": "assumed",
-   "move": "raiden/duckkickl",
+   "move": "bolt/duckkickl",
    "pose": "p0773"
   },
   {
-   "character": "raiden",
+   "character": "bolt",
    "confidence": "assumed",
-   "move": "raiden/duckpunch",
+   "move": "bolt/duckpunch",
    "pose": "p0782"
   },
   {
-   "character": "raiden",
+   "character": "bolt",
    "confidence": "assumed",
-   "move": "raiden/elbow",
+   "move": "bolt/elbow",
    "pose": "p0791"
   },
   {
-   "character": "raiden",
+   "character": "bolt",
    "confidence": "assumed",
-   "move": "raiden/flipk",
+   "move": "bolt/flipk",
    "pose": "p0801"
   },
   {
-   "character": "raiden",
+   "character": "bolt",
    "confidence": "assumed",
-   "move": "raiden/flipp",
+   "move": "bolt/flipp",
    "pose": "p0810"
   },
   {
-   "character": "raiden",
+   "character": "bolt",
    "confidence": "assumed",
-   "move": "raiden/hikick",
+   "move": "bolt/hikick",
    "pose": "p0820"
   },
   {
-   "character": "raiden",
+   "character": "bolt",
    "confidence": "assumed",
-   "move": "raiden/jumpupk",
+   "move": "bolt/jumpupk",
    "pose": "p0830"
   },
   {
-   "character": "raiden",
+   "character": "bolt",
    "confidence": "assumed",
-   "move": "raiden/jumpupp",
+   "move": "bolt/jumpupp",
    "pose": "p0810"
   },
   {
-   "character": "raiden",
+   "character": "bolt",
    "confidence": "assumed",
-   "move": "raiden/knee",
+   "move": "bolt/knee",
    "pose": "p0839"
   },
   {
-   "character": "raiden",
+   "character": "bolt",
    "confidence": "assumed",
-   "move": "raiden/lokick",
+   "move": "bolt/lokick",
    "pose": "p0849"
   },
   {
-   "character": "raiden",
+   "character": "bolt",
    "confidence": "assumed",
-   "move": "raiden/roundh",
+   "move": "bolt/roundh",
    "pose": "p0857"
   },
   {
-   "character": "raiden",
+   "character": "bolt",
    "confidence": "assumed",
-   "move": "raiden/sweepk",
+   "move": "bolt/sweepk",
    "pose": "p0866"
   },
   {
-   "character": "shang-tsung",
+   "character": "bombshell",
    "confidence": "assumed",
-   "move": "shang-tsung/duckkickh",
+   "move": "female-ninjas/duckkickh",
+   "pose": "p0762"
+  },
+  {
+   "character": "knockout",
+   "confidence": "assumed",
+   "move": "female-ninjas/duckkickh",
+   "pose": "p0762"
+  },
+  {
+   "character": "pole",
+   "confidence": "assumed",
+   "move": "female-ninjas/duckkickh",
+   "pose": "p0762"
+  },
+  {
+   "character": "bombshell",
+   "confidence": "assumed",
+   "move": "female-ninjas/duckkickl",
+   "pose": "p0771"
+  },
+  {
+   "character": "knockout",
+   "confidence": "assumed",
+   "move": "female-ninjas/duckkickl",
+   "pose": "p0771"
+  },
+  {
+   "character": "pole",
+   "confidence": "assumed",
+   "move": "female-ninjas/duckkickl",
+   "pose": "p0771"
+  },
+  {
+   "character": "bombshell",
+   "confidence": "assumed",
+   "move": "female-ninjas/duckpunch",
+   "pose": "p0780"
+  },
+  {
+   "character": "knockout",
+   "confidence": "assumed",
+   "move": "female-ninjas/duckpunch",
+   "pose": "p0780"
+  },
+  {
+   "character": "pole",
+   "confidence": "assumed",
+   "move": "female-ninjas/duckpunch",
+   "pose": "p0780"
+  },
+  {
+   "character": "bombshell",
+   "confidence": "assumed",
+   "move": "female-ninjas/elbow",
+   "pose": "p0789"
+  },
+  {
+   "character": "knockout",
+   "confidence": "assumed",
+   "move": "female-ninjas/elbow",
+   "pose": "p0789"
+  },
+  {
+   "character": "pole",
+   "confidence": "assumed",
+   "move": "female-ninjas/elbow",
+   "pose": "p0789"
+  },
+  {
+   "character": "knockout",
+   "confidence": "table",
+   "move": "female-ninjas/fan-swipe",
+   "pose": "p0794"
+  },
+  {
+   "character": "bombshell",
+   "confidence": "assumed",
+   "move": "female-ninjas/flipk",
+   "pose": "p0799"
+  },
+  {
+   "character": "knockout",
+   "confidence": "assumed",
+   "move": "female-ninjas/flipk",
+   "pose": "p0799"
+  },
+  {
+   "character": "pole",
+   "confidence": "assumed",
+   "move": "female-ninjas/flipk",
+   "pose": "p0799"
+  },
+  {
+   "character": "bombshell",
+   "confidence": "assumed",
+   "move": "female-ninjas/flipp",
+   "pose": "p0808"
+  },
+  {
+   "character": "knockout",
+   "confidence": "assumed",
+   "move": "female-ninjas/flipp",
+   "pose": "p0808"
+  },
+  {
+   "character": "pole",
+   "confidence": "assumed",
+   "move": "female-ninjas/flipp",
+   "pose": "p0808"
+  },
+  {
+   "character": "bombshell",
+   "confidence": "assumed",
+   "move": "female-ninjas/hikick",
+   "pose": "p0818"
+  },
+  {
+   "character": "knockout",
+   "confidence": "assumed",
+   "move": "female-ninjas/hikick",
+   "pose": "p0818"
+  },
+  {
+   "character": "pole",
+   "confidence": "assumed",
+   "move": "female-ninjas/hikick",
+   "pose": "p0818"
+  },
+  {
+   "character": "bombshell",
+   "confidence": "assumed",
+   "move": "female-ninjas/jumpupk",
+   "pose": "p0828"
+  },
+  {
+   "character": "knockout",
+   "confidence": "assumed",
+   "move": "female-ninjas/jumpupk",
+   "pose": "p0828"
+  },
+  {
+   "character": "pole",
+   "confidence": "assumed",
+   "move": "female-ninjas/jumpupk",
+   "pose": "p0828"
+  },
+  {
+   "character": "bombshell",
+   "confidence": "assumed",
+   "move": "female-ninjas/jumpupp",
+   "pose": "p0808"
+  },
+  {
+   "character": "knockout",
+   "confidence": "assumed",
+   "move": "female-ninjas/jumpupp",
+   "pose": "p0808"
+  },
+  {
+   "character": "pole",
+   "confidence": "assumed",
+   "move": "female-ninjas/jumpupp",
+   "pose": "p0808"
+  },
+  {
+   "character": "bombshell",
+   "confidence": "assumed",
+   "move": "female-ninjas/knee",
+   "pose": "p0837"
+  },
+  {
+   "character": "knockout",
+   "confidence": "assumed",
+   "move": "female-ninjas/knee",
+   "pose": "p0837"
+  },
+  {
+   "character": "pole",
+   "confidence": "assumed",
+   "move": "female-ninjas/knee",
+   "pose": "p0837"
+  },
+  {
+   "character": "bombshell",
+   "confidence": "assumed",
+   "move": "female-ninjas/lokick",
+   "pose": "p0847"
+  },
+  {
+   "character": "knockout",
+   "confidence": "assumed",
+   "move": "female-ninjas/lokick",
+   "pose": "p0847"
+  },
+  {
+   "character": "pole",
+   "confidence": "assumed",
+   "move": "female-ninjas/lokick",
+   "pose": "p0847"
+  },
+  {
+   "character": "bombshell",
+   "confidence": "assumed",
+   "move": "female-ninjas/roundh",
+   "pose": "p0855"
+  },
+  {
+   "character": "knockout",
+   "confidence": "assumed",
+   "move": "female-ninjas/roundh",
+   "pose": "p0855"
+  },
+  {
+   "character": "pole",
+   "confidence": "assumed",
+   "move": "female-ninjas/roundh",
+   "pose": "p0855"
+  },
+  {
+   "character": "bombshell",
+   "confidence": "assumed",
+   "move": "female-ninjas/sweepk",
+   "pose": "p0864"
+  },
+  {
+   "character": "knockout",
+   "confidence": "assumed",
+   "move": "female-ninjas/sweepk",
+   "pose": "p0864"
+  },
+  {
+   "character": "pole",
+   "confidence": "assumed",
+   "move": "female-ninjas/sweepk",
+   "pose": "p0864"
+  },
+  {
+   "character": "hathead",
+   "confidence": "assumed",
+   "move": "hathead/duckkickh",
+   "pose": "p0758"
+  },
+  {
+   "character": "hathead",
+   "confidence": "assumed",
+   "move": "hathead/duckkickl",
+   "pose": "p0767"
+  },
+  {
+   "character": "hathead",
+   "confidence": "assumed",
+   "move": "hathead/duckpunch",
+   "pose": "p0776"
+  },
+  {
+   "character": "hathead",
+   "confidence": "assumed",
+   "move": "hathead/elbow",
+   "pose": "p0785"
+  },
+  {
+   "character": "hathead",
+   "confidence": "assumed",
+   "move": "hathead/flipk",
+   "pose": "p0795"
+  },
+  {
+   "character": "hathead",
+   "confidence": "assumed",
+   "move": "hathead/flipp",
+   "pose": "p0804"
+  },
+  {
+   "character": "hathead",
+   "confidence": "handler-name",
+   "move": "hathead/hikick",
+   "pose": "p0813"
+  },
+  {
+   "character": "hathead",
+   "confidence": "assumed",
+   "move": "hathead/hikick",
+   "pose": "p0814"
+  },
+  {
+   "character": "hathead",
+   "confidence": "assumed",
+   "move": "hathead/jumpupk",
+   "pose": "p0824"
+  },
+  {
+   "character": "hathead",
+   "confidence": "assumed",
+   "move": "hathead/jumpupp",
+   "pose": "p0804"
+  },
+  {
+   "character": "hathead",
+   "confidence": "assumed",
+   "move": "hathead/knee",
+   "pose": "p0833"
+  },
+  {
+   "character": "hathead",
+   "confidence": "assumed",
+   "move": "hathead/lokick",
+   "pose": "p0843"
+  },
+  {
+   "character": "hathead",
+   "confidence": "assumed",
+   "move": "hathead/roundh",
+   "pose": "p0851"
+  },
+  {
+   "character": "hathead",
+   "confidence": "assumed",
+   "move": "hathead/sweepk",
+   "pose": "p0860"
+  },
+  {
+   "character": "headband",
+   "confidence": "assumed",
+   "move": "headband/duckkickh",
+   "pose": "p0759"
+  },
+  {
+   "character": "headband",
+   "confidence": "assumed",
+   "move": "headband/duckkickl",
+   "pose": "p0768"
+  },
+  {
+   "character": "headband",
+   "confidence": "assumed",
+   "move": "headband/duckpunch",
+   "pose": "p0777"
+  },
+  {
+   "character": "headband",
+   "confidence": "assumed",
+   "move": "headband/elbow",
+   "pose": "p0786"
+  },
+  {
+   "character": "headband",
+   "confidence": "assumed",
+   "move": "headband/flipk",
+   "pose": "p0796"
+  },
+  {
+   "character": "headband",
+   "confidence": "assumed",
+   "move": "headband/flipp",
+   "pose": "p0805"
+  },
+  {
+   "character": "headband",
+   "confidence": "assumed",
+   "move": "headband/hikick",
+   "pose": "p0815"
+  },
+  {
+   "character": "headband",
+   "confidence": "handler-name",
+   "move": "headband/hikick",
+   "pose": "p0842"
+  },
+  {
+   "character": "headband",
+   "confidence": "assumed",
+   "move": "headband/jumpupk",
+   "pose": "p0825"
+  },
+  {
+   "character": "headband",
+   "confidence": "assumed",
+   "move": "headband/jumpupp",
+   "pose": "p0805"
+  },
+  {
+   "character": "headband",
+   "confidence": "assumed",
+   "move": "headband/knee",
+   "pose": "p0834"
+  },
+  {
+   "character": "headband",
+   "confidence": "assumed",
+   "move": "headband/lokick",
+   "pose": "p0844"
+  },
+  {
+   "character": "headband",
+   "confidence": "assumed",
+   "move": "headband/roundh",
+   "pose": "p0852"
+  },
+  {
+   "character": "headband",
+   "confidence": "assumed",
+   "move": "headband/sweepk",
+   "pose": "p0861"
+  },
+  {
+   "character": "morphman",
+   "confidence": "assumed",
+   "move": "morphman/duckkickh",
    "pose": "p0763"
   },
   {
-   "character": "shang-tsung",
+   "character": "morphman",
    "confidence": "assumed",
-   "move": "shang-tsung/duckkickl",
+   "move": "morphman/duckkickl",
    "pose": "p0772"
   },
   {
-   "character": "shang-tsung",
+   "character": "morphman",
    "confidence": "assumed",
-   "move": "shang-tsung/duckpunch",
+   "move": "morphman/duckpunch",
    "pose": "p0781"
   },
   {
-   "character": "shang-tsung",
+   "character": "morphman",
    "confidence": "assumed",
-   "move": "shang-tsung/elbow",
+   "move": "morphman/elbow",
    "pose": "p0790"
   },
   {
-   "character": "shang-tsung",
+   "character": "morphman",
    "confidence": "assumed",
-   "move": "shang-tsung/flipk",
+   "move": "morphman/flipk",
    "pose": "p0800"
   },
   {
-   "character": "shang-tsung",
+   "character": "morphman",
    "confidence": "assumed",
-   "move": "shang-tsung/flipp",
+   "move": "morphman/flipp",
    "pose": "p0809"
   },
   {
-   "character": "shang-tsung",
+   "character": "morphman",
    "confidence": "assumed",
-   "move": "shang-tsung/hikick",
+   "move": "morphman/hikick",
    "pose": "p0819"
   },
   {
-   "character": "shang-tsung",
+   "character": "morphman",
    "confidence": "assumed",
-   "move": "shang-tsung/jumpupk",
+   "move": "morphman/jumpupk",
    "pose": "p0829"
   },
   {
-   "character": "shang-tsung",
+   "character": "morphman",
    "confidence": "assumed",
-   "move": "shang-tsung/jumpupp",
+   "move": "morphman/jumpupp",
    "pose": "p0809"
   },
   {
-   "character": "shang-tsung",
+   "character": "morphman",
    "confidence": "assumed",
-   "move": "shang-tsung/knee",
+   "move": "morphman/knee",
    "pose": "p0838"
   },
   {
-   "character": "shang-tsung",
+   "character": "morphman",
    "confidence": "assumed",
-   "move": "shang-tsung/lokick",
+   "move": "morphman/lokick",
    "pose": "p0848"
   },
   {
-   "character": "shang-tsung",
+   "character": "morphman",
    "confidence": "assumed",
-   "move": "shang-tsung/roundh",
+   "move": "morphman/roundh",
    "pose": "p0856"
   },
   {
-   "character": "shang-tsung",
+   "character": "morphman",
    "confidence": "assumed",
-   "move": "shang-tsung/sweepk",
+   "move": "morphman/sweepk",
    "pose": "p0865"
+  },
+  {
+   "character": "2ndhand",
+   "confidence": "assumed",
+   "move": "ninjas/duckkickh",
+   "pose": "p0765"
+  },
+  {
+   "character": "acid",
+   "confidence": "assumed",
+   "move": "ninjas/duckkickh",
+   "pose": "p0765"
+  },
+  {
+   "character": "blackout",
+   "confidence": "assumed",
+   "move": "ninjas/duckkickh",
+   "pose": "p0765"
+  },
+  {
+   "character": "frosty",
+   "confidence": "assumed",
+   "move": "ninjas/duckkickh",
+   "pose": "p0765"
+  },
+  {
+   "character": "harpoon",
+   "confidence": "assumed",
+   "move": "ninjas/duckkickh",
+   "pose": "p0765"
+  },
+  {
+   "character": "2ndhand",
+   "confidence": "assumed",
+   "move": "ninjas/duckkickl",
+   "pose": "p0774"
+  },
+  {
+   "character": "acid",
+   "confidence": "assumed",
+   "move": "ninjas/duckkickl",
+   "pose": "p0774"
+  },
+  {
+   "character": "blackout",
+   "confidence": "assumed",
+   "move": "ninjas/duckkickl",
+   "pose": "p0774"
+  },
+  {
+   "character": "frosty",
+   "confidence": "assumed",
+   "move": "ninjas/duckkickl",
+   "pose": "p0774"
+  },
+  {
+   "character": "harpoon",
+   "confidence": "assumed",
+   "move": "ninjas/duckkickl",
+   "pose": "p0774"
+  },
+  {
+   "character": "2ndhand",
+   "confidence": "assumed",
+   "move": "ninjas/duckpunch",
+   "pose": "p0783"
+  },
+  {
+   "character": "acid",
+   "confidence": "assumed",
+   "move": "ninjas/duckpunch",
+   "pose": "p0783"
+  },
+  {
+   "character": "blackout",
+   "confidence": "assumed",
+   "move": "ninjas/duckpunch",
+   "pose": "p0783"
+  },
+  {
+   "character": "frosty",
+   "confidence": "assumed",
+   "move": "ninjas/duckpunch",
+   "pose": "p0783"
+  },
+  {
+   "character": "harpoon",
+   "confidence": "assumed",
+   "move": "ninjas/duckpunch",
+   "pose": "p0783"
+  },
+  {
+   "character": "2ndhand",
+   "confidence": "assumed",
+   "move": "ninjas/elbow",
+   "pose": "p0792"
+  },
+  {
+   "character": "acid",
+   "confidence": "assumed",
+   "move": "ninjas/elbow",
+   "pose": "p0792"
+  },
+  {
+   "character": "blackout",
+   "confidence": "assumed",
+   "move": "ninjas/elbow",
+   "pose": "p0792"
+  },
+  {
+   "character": "frosty",
+   "confidence": "assumed",
+   "move": "ninjas/elbow",
+   "pose": "p0792"
+  },
+  {
+   "character": "harpoon",
+   "confidence": "assumed",
+   "move": "ninjas/elbow",
+   "pose": "p0792"
+  },
+  {
+   "character": "2ndhand",
+   "confidence": "assumed",
+   "move": "ninjas/flipk",
+   "pose": "p0802"
+  },
+  {
+   "character": "acid",
+   "confidence": "assumed",
+   "move": "ninjas/flipk",
+   "pose": "p0802"
+  },
+  {
+   "character": "blackout",
+   "confidence": "assumed",
+   "move": "ninjas/flipk",
+   "pose": "p0802"
+  },
+  {
+   "character": "frosty",
+   "confidence": "assumed",
+   "move": "ninjas/flipk",
+   "pose": "p0802"
+  },
+  {
+   "character": "harpoon",
+   "confidence": "assumed",
+   "move": "ninjas/flipk",
+   "pose": "p0802"
+  },
+  {
+   "character": "2ndhand",
+   "confidence": "assumed",
+   "move": "ninjas/flipp",
+   "pose": "p0811"
+  },
+  {
+   "character": "acid",
+   "confidence": "assumed",
+   "move": "ninjas/flipp",
+   "pose": "p0811"
+  },
+  {
+   "character": "blackout",
+   "confidence": "assumed",
+   "move": "ninjas/flipp",
+   "pose": "p0811"
+  },
+  {
+   "character": "frosty",
+   "confidence": "assumed",
+   "move": "ninjas/flipp",
+   "pose": "p0811"
+  },
+  {
+   "character": "harpoon",
+   "confidence": "assumed",
+   "move": "ninjas/flipp",
+   "pose": "p0811"
+  },
+  {
+   "character": "2ndhand",
+   "confidence": "assumed",
+   "move": "ninjas/hikick",
+   "pose": "p0821"
+  },
+  {
+   "character": "acid",
+   "confidence": "assumed",
+   "move": "ninjas/hikick",
+   "pose": "p0821"
+  },
+  {
+   "character": "blackout",
+   "confidence": "assumed",
+   "move": "ninjas/hikick",
+   "pose": "p0821"
+  },
+  {
+   "character": "frosty",
+   "confidence": "assumed",
+   "move": "ninjas/hikick",
+   "pose": "p0821"
+  },
+  {
+   "character": "harpoon",
+   "confidence": "assumed",
+   "move": "ninjas/hikick",
+   "pose": "p0821"
+  },
+  {
+   "character": "2ndhand",
+   "confidence": "assumed",
+   "move": "ninjas/jumpupk",
+   "pose": "p0831"
+  },
+  {
+   "character": "acid",
+   "confidence": "assumed",
+   "move": "ninjas/jumpupk",
+   "pose": "p0831"
+  },
+  {
+   "character": "blackout",
+   "confidence": "assumed",
+   "move": "ninjas/jumpupk",
+   "pose": "p0831"
+  },
+  {
+   "character": "frosty",
+   "confidence": "assumed",
+   "move": "ninjas/jumpupk",
+   "pose": "p0831"
+  },
+  {
+   "character": "harpoon",
+   "confidence": "assumed",
+   "move": "ninjas/jumpupk",
+   "pose": "p0831"
+  },
+  {
+   "character": "2ndhand",
+   "confidence": "assumed",
+   "move": "ninjas/jumpupp",
+   "pose": "p0811"
+  },
+  {
+   "character": "acid",
+   "confidence": "assumed",
+   "move": "ninjas/jumpupp",
+   "pose": "p0811"
+  },
+  {
+   "character": "blackout",
+   "confidence": "assumed",
+   "move": "ninjas/jumpupp",
+   "pose": "p0811"
+  },
+  {
+   "character": "frosty",
+   "confidence": "assumed",
+   "move": "ninjas/jumpupp",
+   "pose": "p0811"
+  },
+  {
+   "character": "harpoon",
+   "confidence": "assumed",
+   "move": "ninjas/jumpupp",
+   "pose": "p0811"
+  },
+  {
+   "character": "2ndhand",
+   "confidence": "assumed",
+   "move": "ninjas/knee",
+   "pose": "p0840"
+  },
+  {
+   "character": "acid",
+   "confidence": "assumed",
+   "move": "ninjas/knee",
+   "pose": "p0840"
+  },
+  {
+   "character": "blackout",
+   "confidence": "assumed",
+   "move": "ninjas/knee",
+   "pose": "p0840"
+  },
+  {
+   "character": "frosty",
+   "confidence": "assumed",
+   "move": "ninjas/knee",
+   "pose": "p0840"
+  },
+  {
+   "character": "harpoon",
+   "confidence": "assumed",
+   "move": "ninjas/knee",
+   "pose": "p0840"
+  },
+  {
+   "character": "2ndhand",
+   "confidence": "assumed",
+   "move": "ninjas/lokick",
+   "pose": "p0850"
+  },
+  {
+   "character": "acid",
+   "confidence": "assumed",
+   "move": "ninjas/lokick",
+   "pose": "p0850"
+  },
+  {
+   "character": "blackout",
+   "confidence": "assumed",
+   "move": "ninjas/lokick",
+   "pose": "p0850"
+  },
+  {
+   "character": "frosty",
+   "confidence": "assumed",
+   "move": "ninjas/lokick",
+   "pose": "p0850"
+  },
+  {
+   "character": "harpoon",
+   "confidence": "assumed",
+   "move": "ninjas/lokick",
+   "pose": "p0850"
+  },
+  {
+   "character": "2ndhand",
+   "confidence": "assumed",
+   "move": "ninjas/roundh",
+   "pose": "p0858"
+  },
+  {
+   "character": "acid",
+   "confidence": "assumed",
+   "move": "ninjas/roundh",
+   "pose": "p0858"
+  },
+  {
+   "character": "blackout",
+   "confidence": "assumed",
+   "move": "ninjas/roundh",
+   "pose": "p0858"
+  },
+  {
+   "character": "frosty",
+   "confidence": "assumed",
+   "move": "ninjas/roundh",
+   "pose": "p0858"
+  },
+  {
+   "character": "harpoon",
+   "confidence": "assumed",
+   "move": "ninjas/roundh",
+   "pose": "p0858"
+  },
+  {
+   "character": "2ndhand",
+   "confidence": "assumed",
+   "move": "ninjas/sweepk",
+   "pose": "p0867"
+  },
+  {
+   "character": "acid",
+   "confidence": "assumed",
+   "move": "ninjas/sweepk",
+   "pose": "p0867"
+  },
+  {
+   "character": "blackout",
+   "confidence": "assumed",
+   "move": "ninjas/sweepk",
+   "pose": "p0867"
+  },
+  {
+   "character": "frosty",
+   "confidence": "assumed",
+   "move": "ninjas/sweepk",
+   "pose": "p0867"
+  },
+  {
+   "character": "harpoon",
+   "confidence": "assumed",
+   "move": "ninjas/sweepk",
+   "pose": "p0867"
+  },
+  {
+   "character": "shades",
+   "confidence": "assumed",
+   "move": "shades/duckkickh",
+   "pose": "p0760"
+  },
+  {
+   "character": "shades",
+   "confidence": "assumed",
+   "move": "shades/duckkickl",
+   "pose": "p0769"
+  },
+  {
+   "character": "shades",
+   "confidence": "assumed",
+   "move": "shades/duckpunch",
+   "pose": "p0778"
+  },
+  {
+   "character": "shades",
+   "confidence": "assumed",
+   "move": "shades/elbow",
+   "pose": "p0787"
+  },
+  {
+   "character": "shades",
+   "confidence": "assumed",
+   "move": "shades/flipk",
+   "pose": "p0797"
+  },
+  {
+   "character": "shades",
+   "confidence": "assumed",
+   "move": "shades/flipp",
+   "pose": "p0806"
+  },
+  {
+   "character": "shades",
+   "confidence": "assumed",
+   "move": "shades/hikick",
+   "pose": "p0816"
+  },
+  {
+   "character": "shades",
+   "confidence": "assumed",
+   "move": "shades/jumpupk",
+   "pose": "p0826"
+  },
+  {
+   "character": "shades",
+   "confidence": "assumed",
+   "move": "shades/jumpupp",
+   "pose": "p0806"
+  },
+  {
+   "character": "shades",
+   "confidence": "assumed",
+   "move": "shades/knee",
+   "pose": "p0835"
+  },
+  {
+   "character": "shades",
+   "confidence": "assumed",
+   "move": "shades/lokick",
+   "pose": "p0845"
+  },
+  {
+   "character": "shades",
+   "confidence": "assumed",
+   "move": "shades/roundh",
+   "pose": "p0853"
+  },
+  {
+   "character": "shades",
+   "confidence": "handler-name",
+   "move": "shades/split",
+   "pose": "p0823"
+  },
+  {
+   "character": "shades",
+   "confidence": "assumed",
+   "move": "shades/sweepk",
+   "pose": "p0862"
+  },
+  {
+   "character": "swordarms",
+   "confidence": "assumed",
+   "move": "swordarms/duckkickh",
+   "pose": "p0761"
+  },
+  {
+   "character": "swordarms",
+   "confidence": "assumed",
+   "move": "swordarms/duckkickl",
+   "pose": "p0770"
+  },
+  {
+   "character": "swordarms",
+   "confidence": "assumed",
+   "move": "swordarms/duckpunch",
+   "pose": "p0779"
+  },
+  {
+   "character": "swordarms",
+   "confidence": "assumed",
+   "move": "swordarms/elbow",
+   "pose": "p0788"
+  },
+  {
+   "character": "swordarms",
+   "confidence": "assumed",
+   "move": "swordarms/flipk",
+   "pose": "p0798"
+  },
+  {
+   "character": "swordarms",
+   "confidence": "assumed",
+   "move": "swordarms/flipp",
+   "pose": "p0807"
+  },
+  {
+   "character": "swordarms",
+   "confidence": "assumed",
+   "move": "swordarms/hikick",
+   "pose": "p0817"
+  },
+  {
+   "character": "swordarms",
+   "confidence": "assumed",
+   "move": "swordarms/jumpupk",
+   "pose": "p0827"
+  },
+  {
+   "character": "swordarms",
+   "confidence": "assumed",
+   "move": "swordarms/jumpupp",
+   "pose": "p0807"
+  },
+  {
+   "character": "swordarms",
+   "confidence": "assumed",
+   "move": "swordarms/knee",
+   "pose": "p0836"
+  },
+  {
+   "character": "swordarms",
+   "confidence": "assumed",
+   "move": "swordarms/lokick",
+   "pose": "p0846"
+  },
+  {
+   "character": "swordarms",
+   "confidence": "assumed",
+   "move": "swordarms/roundh",
+   "pose": "p0854"
+  },
+  {
+   "character": "swordarms",
+   "confidence": "assumed",
+   "move": "swordarms/sweepk",
+   "pose": "p0863"
+  },
+  {
+   "character": "swordarms",
+   "confidence": "table",
+   "move": "swordarms/swipe",
+   "pose": "p0869"
   }
  ],
  "excluded": {
@@ -1290,10 +1290,10 @@
  "format": "boxlab-pose-pack",
  "format_version": 1,
  "meta": {
-  "digest": "0227836f514156ab",
+  "digest": "44e40aa7c50d0fb3",
   "generated": "2026-09-01",
   "public": true,
-  "source_commit": "91e8785",
+  "source_commit": "d436a98",
   "title": "Pose geometry",
   "units": "pixels, relative to the anchor; +x is forward, +y is down"
  },
@@ -16172,269 +16172,283 @@
   ]
  },
  "stances": {
-  "baraka": {
+  "2ndhand": {
    "duck": [
-    "p0223",
-    "p0224",
-    "p0225"
+    "p0495",
+    "p0496",
+    "p0497"
    ],
    "getup": [
-    "p0246",
-    "p0247",
-    "p0248",
-    "p0249",
-    "p0250"
+    "p0518",
+    "p0519",
+    "p0520",
+    "p0521",
+    "p0522",
+    "p0523"
    ],
    "getup-sweep": [
-    "p0257",
-    "p0258",
-    "p0259",
-    "p0260"
+    "p0530",
+    "p0531",
+    "p0532",
+    "p0533",
+    "p0534"
    ],
    "hit-ducking": [
-    "p0261",
-    "p0262",
-    "p0261",
-    "p0263",
-    "p0225"
+    "p0535",
+    "p0536",
+    "p0535",
+    "p0537",
+    "p0497"
    ],
    "hit-high": [
-    "p0240",
-    "p0241",
-    "p0240",
-    "p0242"
+    "p0512",
+    "p0513",
+    "p0512",
+    "p0514"
    ],
    "hit-low": [
-    "p0243",
-    "p0244",
-    "p0243",
-    "p0245"
+    "p0515",
+    "p0516",
+    "p0515",
+    "p0517"
    ],
    "jump-backward": [
-    "p0228",
-    "p0235",
-    "p0234",
-    "p0233",
-    "p0232",
-    "p0231",
-    "p0230",
-    "p0229"
+    "p0500",
+    "p0507",
+    "p0506",
+    "p0505",
+    "p0504",
+    "p0503",
+    "p0502",
+    "p0501"
    ],
    "jump-forward": [
-    "p0228",
-    "p0229",
-    "p0230",
-    "p0231",
-    "p0232",
-    "p0233",
-    "p0234",
-    "p0235"
+    "p0500",
+    "p0501",
+    "p0502",
+    "p0503",
+    "p0504",
+    "p0505",
+    "p0506",
+    "p0507"
    ],
    "jump-up": [
-    "p0226",
-    "p0227"
+    "p0498",
+    "p0499"
    ],
    "skip-forward": [
-    "p0214",
-    "p0215",
-    "p0221",
-    "p0222"
+    "p0486",
+    "p0487",
+    "p0493",
+    "p0494"
    ],
    "stance": [
-    "p0208",
-    "p0209",
-    "p0210",
-    "p0211",
-    "p0212",
-    "p0213",
-    "p0212",
-    "p0211",
-    "p0210",
-    "p0209"
+    "p0479",
+    "p0480",
+    "p0481",
+    "p0482",
+    "p0483",
+    "p0484",
+    "p0485",
+    "p0484",
+    "p0483",
+    "p0482",
+    "p0481",
+    "p0480"
    ],
    "stumble": [
-    "p0264",
-    "p0265",
-    "p0266",
-    "p0267",
-    "p0268",
-    "p0269"
+    "p0538",
+    "p0539",
+    "p0540",
+    "p0541",
+    "p0542",
+    "p0543"
    ],
    "stunned": [
-    "p0270",
-    "p0270",
-    "p0271",
-    "p0272",
-    "p0273",
-    "p0274",
-    "p0275"
+    "p0544",
+    "p0545",
+    "p0546",
+    "p0547",
+    "p0548",
+    "p0549",
+    "p0550"
    ],
    "sweep-fall": [
-    "p0251",
-    "p0252",
-    "p0253",
-    "p0254",
-    "p0255",
-    "p0256"
+    "p0524",
+    "p0525",
+    "p0526",
+    "p0527",
+    "p0528",
+    "p0529"
    ],
    "turn": [
-    "p0236",
-    "p0237",
-    "p0236"
+    "p0508",
+    "p0509",
+    "p0508"
    ],
    "turn-ducking": [
-    "p0238",
-    "p0239",
-    "p0239",
-    "p0225"
+    "p0510",
+    "p0511",
+    "p0510",
+    "p0497"
    ],
    "walk-backward": [
-    "p0222",
-    "p0221",
-    "p0215",
-    "p0214"
+    "p0494",
+    "p0493",
+    "p0487",
+    "p0486"
    ],
    "walk-forward": [
-    "p0214",
-    "p0215",
-    "p0216",
-    "p0217",
-    "p0218",
-    "p0219",
-    "p0220",
-    "p0221",
-    "p0222"
+    "p0486",
+    "p0487",
+    "p0488",
+    "p0489",
+    "p0490",
+    "p0491",
+    "p0492",
+    "p0493",
+    "p0494"
    ]
   },
-  "jade": {
+  "acid": {
    "duck": [
-    "p0291",
-    "p0292",
-    "p0293"
+    "p0495",
+    "p0496",
+    "p0497"
    ],
    "getup": [
-    "p0314",
-    "p0315",
-    "p0316",
-    "p0317",
-    "p0318"
+    "p0518",
+    "p0519",
+    "p0520",
+    "p0521",
+    "p0522",
+    "p0523"
    ],
    "getup-sweep": [
-    "p0323",
-    "p0324",
-    "p0325",
-    "p0326",
-    "p0327"
+    "p0530",
+    "p0531",
+    "p0532",
+    "p0533",
+    "p0534"
    ],
    "hit-ducking": [
-    "p0328",
-    "p0329",
-    "p0328",
-    "p0330",
-    "p0293"
+    "p0535",
+    "p0536",
+    "p0535",
+    "p0537",
+    "p0497"
    ],
    "hit-high": [
-    "p0308",
-    "p0309",
-    "p0308",
-    "p0310"
+    "p0512",
+    "p0513",
+    "p0512",
+    "p0514"
    ],
    "hit-low": [
-    "p0311",
-    "p0312",
-    "p0311",
-    "p0313"
+    "p0515",
+    "p0516",
+    "p0515",
+    "p0517"
    ],
    "jump-backward": [
-    "p0296",
-    "p0303",
-    "p0302",
-    "p0301",
-    "p0300",
-    "p0299",
-    "p0298",
-    "p0297"
+    "p0500",
+    "p0507",
+    "p0506",
+    "p0505",
+    "p0504",
+    "p0503",
+    "p0502",
+    "p0501"
    ],
    "jump-forward": [
-    "p0296",
-    "p0297",
-    "p0298",
-    "p0299",
-    "p0300",
-    "p0301",
-    "p0302",
-    "p0303"
+    "p0500",
+    "p0501",
+    "p0502",
+    "p0503",
+    "p0504",
+    "p0505",
+    "p0506",
+    "p0507"
    ],
    "jump-up": [
-    "p0294",
-    "p0295"
+    "p0498",
+    "p0499"
    ],
    "skip-forward": [
-    "p0282",
-    "p0283",
-    "p0289",
-    "p0290"
+    "p0486",
+    "p0487",
+    "p0493",
+    "p0494"
    ],
    "stance": [
-    "p0276",
-    "p0277",
-    "p0278",
-    "p0279",
-    "p0280",
-    "p0281"
+    "p0479",
+    "p0480",
+    "p0481",
+    "p0482",
+    "p0483",
+    "p0484",
+    "p0485",
+    "p0484",
+    "p0483",
+    "p0482",
+    "p0481",
+    "p0480"
    ],
    "stumble": [
-    "p0331",
-    "p0332",
-    "p0333",
-    "p0334",
-    "p0335"
+    "p0538",
+    "p0539",
+    "p0540",
+    "p0541",
+    "p0542",
+    "p0543"
    ],
    "stunned": [
-    "p0336",
-    "p0337",
-    "p0338",
-    "p0339",
-    "p0340",
-    "p0341",
-    "p0342"
+    "p0544",
+    "p0545",
+    "p0546",
+    "p0547",
+    "p0548",
+    "p0549",
+    "p0550"
    ],
    "sweep-fall": [
-    "p0319",
-    "p0320",
-    "p0321",
-    "p0322"
+    "p0524",
+    "p0525",
+    "p0526",
+    "p0527",
+    "p0528",
+    "p0529"
    ],
    "turn": [
-    "p0304",
-    "p0305",
-    "p0304"
+    "p0508",
+    "p0509",
+    "p0508"
    ],
    "turn-ducking": [
-    "p0306",
-    "p0307",
-    "p0306",
-    "p0293"
+    "p0510",
+    "p0511",
+    "p0510",
+    "p0497"
    ],
    "walk-backward": [
-    "p0290",
-    "p0289",
-    "p0283",
-    "p0282"
+    "p0494",
+    "p0493",
+    "p0487",
+    "p0486"
    ],
    "walk-forward": [
-    "p0282",
-    "p0283",
-    "p0284",
-    "p0285",
-    "p0286",
-    "p0287",
-    "p0288",
-    "p0289",
-    "p0290"
+    "p0486",
+    "p0487",
+    "p0488",
+    "p0489",
+    "p0490",
+    "p0491",
+    "p0492",
+    "p0493",
+    "p0494"
    ]
   },
-  "jax": {
+  "bigarms": {
    "duck": [
     "p0567",
     "p0568",
@@ -16567,782 +16581,7 @@
     "p0566"
    ]
   },
-  "johnny-cage": {
-   "duck": [
-    "p0152",
-    "p0153",
-    "p0154"
-   ],
-   "getup": [
-    "p0176",
-    "p0177",
-    "p0178",
-    "p0179",
-    "p0180",
-    "p0181"
-   ],
-   "getup-sweep": [
-    "p0188",
-    "p0189",
-    "p0190",
-    "p0191",
-    "p0192"
-   ],
-   "hit-ducking": [
-    "p0193",
-    "p0194",
-    "p0193",
-    "p0195",
-    "p0154"
-   ],
-   "hit-high": [
-    "p0170",
-    "p0171",
-    "p0170",
-    "p0172"
-   ],
-   "hit-low": [
-    "p0173",
-    "p0174",
-    "p0173",
-    "p0175"
-   ],
-   "jump-backward": [
-    "p0157",
-    "p0164",
-    "p0163",
-    "p0162",
-    "p0161",
-    "p0160",
-    "p0159",
-    "p0158"
-   ],
-   "jump-forward": [
-    "p0157",
-    "p0158",
-    "p0159",
-    "p0160",
-    "p0161",
-    "p0162",
-    "p0163",
-    "p0164"
-   ],
-   "jump-up": [
-    "p0155",
-    "p0156"
-   ],
-   "skip-forward": [
-    "p0143",
-    "p0144",
-    "p0150",
-    "p0151"
-   ],
-   "stance": [
-    "p0136",
-    "p0137",
-    "p0138",
-    "p0139",
-    "p0140",
-    "p0141",
-    "p0142"
-   ],
-   "stumble": [
-    "p0196",
-    "p0197",
-    "p0198",
-    "p0199",
-    "p0200"
-   ],
-   "stunned": [
-    "p0201",
-    "p0202",
-    "p0203",
-    "p0204",
-    "p0205",
-    "p0206",
-    "p0207"
-   ],
-   "sweep-fall": [
-    "p0182",
-    "p0183",
-    "p0184",
-    "p0185",
-    "p0186",
-    "p0187"
-   ],
-   "turn": [
-    "p0165",
-    "p0166",
-    "p0167",
-    "p0165"
-   ],
-   "turn-ducking": [
-    "p0168",
-    "p0169",
-    "p0168",
-    "p0154"
-   ],
-   "walk-backward": [
-    "p0151",
-    "p0150",
-    "p0144",
-    "p0143"
-   ],
-   "walk-forward": [
-    "p0143",
-    "p0144",
-    "p0145",
-    "p0146",
-    "p0147",
-    "p0148",
-    "p0149",
-    "p0150",
-    "p0151"
-   ]
-  },
-  "kintaro": {
-   "duck": [
-    "p0660",
-    "p0661",
-    "p0662",
-    "p0663"
-   ],
-   "getup": [
-    "p0687",
-    "p0688",
-    "p0689",
-    "p0688"
-   ],
-   "getup-sweep": [
-    "p0696",
-    "p0697",
-    "p0698",
-    "p0699"
-   ],
-   "hit-high": [
-    "p0687",
-    "p0688",
-    "p0689",
-    "p0690",
-    "p0691",
-    "p0692"
-   ],
-   "hit-low": [
-    "p0331",
-    "p0332",
-    "p0333",
-    "p0334",
-    "p0335"
-   ],
-   "jump-backward": [
-    "p0674",
-    "p0675",
-    "p0676",
-    "p0675"
-   ],
-   "jump-forward": [
-    "p0666",
-    "p0667",
-    "p0668",
-    "p0669",
-    "p0670",
-    "p0671",
-    "p0672",
-    "p0673"
-   ],
-   "jump-up": [
-    "p0664",
-    "p0665"
-   ],
-   "skip-forward": [
-    "p0648",
-    "p0649",
-    "p0650",
-    "p0651",
-    "p0652",
-    "p0651",
-    "p0650",
-    "p0649",
-    "p0648"
-   ],
-   "stance": [
-    "p0623",
-    "p0624",
-    "p0625",
-    "p0626",
-    "p0627",
-    "p0628",
-    "p0629",
-    "p0630",
-    "p0629",
-    "p0628",
-    "p0627",
-    "p0626",
-    "p0625",
-    "p0624"
-   ],
-   "sweep-fall": [
-    "p0693",
-    "p0694",
-    "p0695"
-   ],
-   "turn": [
-    "p0677",
-    "p0678",
-    "p0679",
-    "p0680",
-    "p0681",
-    "p0682"
-   ],
-   "turn-ducking": [
-    "p0683",
-    "p0684",
-    "p0685",
-    "p0686"
-   ],
-   "walk-backward": [
-    "p0656",
-    "p0657",
-    "p0658",
-    "p0659"
-   ],
-   "walk-forward": [
-    "p0631",
-    "p0632",
-    "p0633",
-    "p0634",
-    "p0635",
-    "p0636",
-    "p0637",
-    "p0638",
-    "p0639",
-    "p0640",
-    "p0641",
-    "p0642",
-    "p0643",
-    "p0644",
-    "p0645",
-    "p0646",
-    "p0647"
-   ]
-  },
-  "kitana": {
-   "duck": [
-    "p0291",
-    "p0292",
-    "p0293"
-   ],
-   "getup": [
-    "p0314",
-    "p0315",
-    "p0316",
-    "p0317",
-    "p0318"
-   ],
-   "getup-sweep": [
-    "p0323",
-    "p0324",
-    "p0325",
-    "p0326",
-    "p0327"
-   ],
-   "hit-ducking": [
-    "p0328",
-    "p0329",
-    "p0328",
-    "p0330",
-    "p0293"
-   ],
-   "hit-high": [
-    "p0308",
-    "p0309",
-    "p0308",
-    "p0310"
-   ],
-   "hit-low": [
-    "p0311",
-    "p0312",
-    "p0311",
-    "p0313"
-   ],
-   "jump-backward": [
-    "p0296",
-    "p0303",
-    "p0302",
-    "p0301",
-    "p0300",
-    "p0299",
-    "p0298",
-    "p0297"
-   ],
-   "jump-forward": [
-    "p0296",
-    "p0297",
-    "p0298",
-    "p0299",
-    "p0300",
-    "p0301",
-    "p0302",
-    "p0303"
-   ],
-   "jump-up": [
-    "p0294",
-    "p0295"
-   ],
-   "skip-forward": [
-    "p0282",
-    "p0283",
-    "p0289",
-    "p0290"
-   ],
-   "stance": [
-    "p0276",
-    "p0277",
-    "p0278",
-    "p0279",
-    "p0280",
-    "p0281"
-   ],
-   "stumble": [
-    "p0331",
-    "p0332",
-    "p0333",
-    "p0334",
-    "p0335"
-   ],
-   "stunned": [
-    "p0336",
-    "p0337",
-    "p0338",
-    "p0339",
-    "p0340",
-    "p0341",
-    "p0342"
-   ],
-   "sweep-fall": [
-    "p0319",
-    "p0320",
-    "p0321",
-    "p0322"
-   ],
-   "turn": [
-    "p0304",
-    "p0305",
-    "p0304"
-   ],
-   "turn-ducking": [
-    "p0306",
-    "p0307",
-    "p0306",
-    "p0293"
-   ],
-   "walk-backward": [
-    "p0290",
-    "p0289",
-    "p0283",
-    "p0282"
-   ],
-   "walk-forward": [
-    "p0282",
-    "p0283",
-    "p0284",
-    "p0285",
-    "p0286",
-    "p0287",
-    "p0288",
-    "p0289",
-    "p0290"
-   ]
-  },
-  "kung-lao": {
-   "duck": [
-    "p0016",
-    "p0017",
-    "p0018"
-   ],
-   "getup": [
-    "p0038",
-    "p0039",
-    "p0040",
-    "p0041"
-   ],
-   "getup-sweep": [
-    "p0046",
-    "p0047",
-    "p0048",
-    "p0049",
-    "p0050"
-   ],
-   "hit-ducking": [
-    "p0051",
-    "p0052",
-    "p0051",
-    "p0053",
-    "p0018"
-   ],
-   "hit-high": [
-    "p0032",
-    "p0033",
-    "p0032",
-    "p0034"
-   ],
-   "hit-low": [
-    "p0035",
-    "p0036",
-    "p0035",
-    "p0037"
-   ],
-   "jump-backward": [
-    "p0021",
-    "p0028",
-    "p0027",
-    "p0026",
-    "p0025",
-    "p0024",
-    "p0023",
-    "p0022"
-   ],
-   "jump-forward": [
-    "p0021",
-    "p0022",
-    "p0023",
-    "p0024",
-    "p0025",
-    "p0026",
-    "p0027",
-    "p0028"
-   ],
-   "jump-up": [
-    "p0019",
-    "p0020"
-   ],
-   "skip-forward": [
-    "p0007",
-    "p0008",
-    "p0014",
-    "p0015"
-   ],
-   "stance": [
-    "p0001",
-    "p0002",
-    "p0003",
-    "p0004",
-    "p0004",
-    "p0005",
-    "p0002",
-    "p0006"
-   ],
-   "stumble": [
-    "p0054",
-    "p0055",
-    "p0056",
-    "p0057",
-    "p0058",
-    "p0059"
-   ],
-   "stunned": [
-    "p0060",
-    "p0061",
-    "p0062",
-    "p0063",
-    "p0064",
-    "p0065",
-    "p0066"
-   ],
-   "sweep-fall": [
-    "p0042",
-    "p0043",
-    "p0044",
-    "p0045"
-   ],
-   "turn": [
-    "p0029",
-    "p0029"
-   ],
-   "turn-ducking": [
-    "p0030",
-    "p0031",
-    "p0030",
-    "p0018"
-   ],
-   "walk-backward": [
-    "p0015",
-    "p0014",
-    "p0008",
-    "p0007"
-   ],
-   "walk-forward": [
-    "p0007",
-    "p0008",
-    "p0009",
-    "p0010",
-    "p0011",
-    "p0012",
-    "p0013",
-    "p0014",
-    "p0015"
-   ]
-  },
-  "liu-kang": {
-   "duck": [
-    "p0083",
-    "p0084",
-    "p0085"
-   ],
-   "getup": [
-    "p0106",
-    "p0107",
-    "p0108",
-    "p0109",
-    "p0110"
-   ],
-   "getup-sweep": [
-    "p0115",
-    "p0116",
-    "p0117",
-    "p0118",
-    "p0119",
-    "p0120"
-   ],
-   "hit-ducking": [
-    "p0121",
-    "p0122",
-    "p0121",
-    "p0123",
-    "p0085"
-   ],
-   "hit-high": [
-    "p0100",
-    "p0101",
-    "p0100",
-    "p0102"
-   ],
-   "hit-low": [
-    "p0103",
-    "p0104",
-    "p0103",
-    "p0105"
-   ],
-   "jump-backward": [
-    "p0088",
-    "p0095",
-    "p0094",
-    "p0093",
-    "p0092",
-    "p0091",
-    "p0090",
-    "p0089"
-   ],
-   "jump-forward": [
-    "p0088",
-    "p0089",
-    "p0090",
-    "p0091",
-    "p0092",
-    "p0093",
-    "p0094",
-    "p0095"
-   ],
-   "jump-up": [
-    "p0086",
-    "p0087"
-   ],
-   "skip-forward": [
-    "p0074",
-    "p0075",
-    "p0081",
-    "p0082"
-   ],
-   "stance": [
-    "p0067",
-    "p0068",
-    "p0069",
-    "p0070",
-    "p0071",
-    "p0072",
-    "p0073"
-   ],
-   "stumble": [
-    "p0124",
-    "p0125",
-    "p0126",
-    "p0127",
-    "p0128"
-   ],
-   "stunned": [
-    "p0129",
-    "p0130",
-    "p0131",
-    "p0132",
-    "p0133",
-    "p0134",
-    "p0135"
-   ],
-   "sweep-fall": [
-    "p0111",
-    "p0112",
-    "p0113",
-    "p0114"
-   ],
-   "turn": [
-    "p0096",
-    "p0097",
-    "p0097",
-    "p0096"
-   ],
-   "turn-ducking": [
-    "p0098",
-    "p0099",
-    "p0099",
-    "p0085"
-   ],
-   "walk-backward": [
-    "p0082",
-    "p0081",
-    "p0075",
-    "p0074"
-   ],
-   "walk-forward": [
-    "p0074",
-    "p0075",
-    "p0076",
-    "p0077",
-    "p0078",
-    "p0079",
-    "p0080",
-    "p0081",
-    "p0082"
-   ]
-  },
-  "mileena": {
-   "duck": [
-    "p0291",
-    "p0292",
-    "p0293"
-   ],
-   "getup": [
-    "p0314",
-    "p0315",
-    "p0316",
-    "p0317",
-    "p0318"
-   ],
-   "getup-sweep": [
-    "p0323",
-    "p0324",
-    "p0325",
-    "p0326",
-    "p0327"
-   ],
-   "hit-ducking": [
-    "p0328",
-    "p0329",
-    "p0328",
-    "p0330",
-    "p0293"
-   ],
-   "hit-high": [
-    "p0308",
-    "p0309",
-    "p0308",
-    "p0310"
-   ],
-   "hit-low": [
-    "p0311",
-    "p0312",
-    "p0311",
-    "p0313"
-   ],
-   "jump-backward": [
-    "p0296",
-    "p0303",
-    "p0302",
-    "p0301",
-    "p0300",
-    "p0299",
-    "p0298",
-    "p0297"
-   ],
-   "jump-forward": [
-    "p0296",
-    "p0297",
-    "p0298",
-    "p0299",
-    "p0300",
-    "p0301",
-    "p0302",
-    "p0303"
-   ],
-   "jump-up": [
-    "p0294",
-    "p0295"
-   ],
-   "skip-forward": [
-    "p0282",
-    "p0283",
-    "p0289",
-    "p0290"
-   ],
-   "stance": [
-    "p0276",
-    "p0277",
-    "p0278",
-    "p0279",
-    "p0280",
-    "p0281"
-   ],
-   "stumble": [
-    "p0331",
-    "p0332",
-    "p0333",
-    "p0334",
-    "p0335"
-   ],
-   "stunned": [
-    "p0336",
-    "p0337",
-    "p0338",
-    "p0339",
-    "p0340",
-    "p0341",
-    "p0342"
-   ],
-   "sweep-fall": [
-    "p0319",
-    "p0320",
-    "p0321",
-    "p0322"
-   ],
-   "turn": [
-    "p0304",
-    "p0305",
-    "p0304"
-   ],
-   "turn-ducking": [
-    "p0306",
-    "p0307",
-    "p0306",
-    "p0293"
-   ],
-   "walk-backward": [
-    "p0290",
-    "p0289",
-    "p0283",
-    "p0282"
-   ],
-   "walk-forward": [
-    "p0282",
-    "p0283",
-    "p0284",
-    "p0285",
-    "p0286",
-    "p0287",
-    "p0288",
-    "p0289",
-    "p0290"
-   ]
-  },
-  "noob-saibot": {
+  "blackout": {
    "duck": [
     "p0495",
     "p0496",
@@ -17480,7 +16719,7 @@
     "p0494"
    ]
   },
-  "raiden": {
+  "bolt": {
    "duck": [
     "p0428",
     "p0429",
@@ -17613,7 +16852,363 @@
     "p0427"
    ]
   },
-  "reptile": {
+  "bombshell": {
+   "duck": [
+    "p0291",
+    "p0292",
+    "p0293"
+   ],
+   "getup": [
+    "p0314",
+    "p0315",
+    "p0316",
+    "p0317",
+    "p0318"
+   ],
+   "getup-sweep": [
+    "p0323",
+    "p0324",
+    "p0325",
+    "p0326",
+    "p0327"
+   ],
+   "hit-ducking": [
+    "p0328",
+    "p0329",
+    "p0328",
+    "p0330",
+    "p0293"
+   ],
+   "hit-high": [
+    "p0308",
+    "p0309",
+    "p0308",
+    "p0310"
+   ],
+   "hit-low": [
+    "p0311",
+    "p0312",
+    "p0311",
+    "p0313"
+   ],
+   "jump-backward": [
+    "p0296",
+    "p0303",
+    "p0302",
+    "p0301",
+    "p0300",
+    "p0299",
+    "p0298",
+    "p0297"
+   ],
+   "jump-forward": [
+    "p0296",
+    "p0297",
+    "p0298",
+    "p0299",
+    "p0300",
+    "p0301",
+    "p0302",
+    "p0303"
+   ],
+   "jump-up": [
+    "p0294",
+    "p0295"
+   ],
+   "skip-forward": [
+    "p0282",
+    "p0283",
+    "p0289",
+    "p0290"
+   ],
+   "stance": [
+    "p0276",
+    "p0277",
+    "p0278",
+    "p0279",
+    "p0280",
+    "p0281"
+   ],
+   "stumble": [
+    "p0331",
+    "p0332",
+    "p0333",
+    "p0334",
+    "p0335"
+   ],
+   "stunned": [
+    "p0336",
+    "p0337",
+    "p0338",
+    "p0339",
+    "p0340",
+    "p0341",
+    "p0342"
+   ],
+   "sweep-fall": [
+    "p0319",
+    "p0320",
+    "p0321",
+    "p0322"
+   ],
+   "turn": [
+    "p0304",
+    "p0305",
+    "p0304"
+   ],
+   "turn-ducking": [
+    "p0306",
+    "p0307",
+    "p0306",
+    "p0293"
+   ],
+   "walk-backward": [
+    "p0290",
+    "p0289",
+    "p0283",
+    "p0282"
+   ],
+   "walk-forward": [
+    "p0282",
+    "p0283",
+    "p0284",
+    "p0285",
+    "p0286",
+    "p0287",
+    "p0288",
+    "p0289",
+    "p0290"
+   ]
+  },
+  "final-boss": {
+   "duck": [
+    "p0728",
+    "p0729",
+    "p0730",
+    "p0731",
+    "p0732",
+    "p0733"
+   ],
+   "hit-high": [
+    "p0749",
+    "p0750",
+    "p0751",
+    "p0752",
+    "p0753",
+    "p0754",
+    "p0755"
+   ],
+   "hit-low": [
+    "p0331",
+    "p0332",
+    "p0333",
+    "p0334",
+    "p0335"
+   ],
+   "jump-backward": [
+    "p0740",
+    "p0741",
+    "p0742"
+   ],
+   "jump-forward": [
+    "p0738",
+    "p0739",
+    "p0738"
+   ],
+   "jump-up": [
+    "p0734",
+    "p0735",
+    "p0736",
+    "p0737"
+   ],
+   "skip-forward": [
+    "p0716",
+    "p0717",
+    "p0716"
+   ],
+   "stance": [
+    "p0700",
+    "p0701",
+    "p0702",
+    "p0703",
+    "p0704",
+    "p0705",
+    "p0706"
+   ],
+   "sweep-fall": [
+    "p0756",
+    "p0756",
+    "p0757",
+    "p0756",
+    "p0756",
+    "p0756",
+    "p0756"
+   ],
+   "turn": [
+    "p0743",
+    "p0744",
+    "p0745",
+    "p0746",
+    "p0747",
+    "p0748"
+   ],
+   "turn-ducking": [
+    "p0715",
+    "p0714",
+    "p0713",
+    "p0712",
+    "p0711",
+    "p0710",
+    "p0709",
+    "p0708",
+    "p0707"
+   ],
+   "walk-backward": [
+    "p0723",
+    "p0724",
+    "p0725",
+    "p0726",
+    "p0727"
+   ],
+   "walk-forward": [
+    "p0707",
+    "p0708",
+    "p0709",
+    "p0710",
+    "p0711",
+    "p0712",
+    "p0713",
+    "p0714",
+    "p0715"
+   ]
+  },
+  "fourarms": {
+   "duck": [
+    "p0660",
+    "p0661",
+    "p0662",
+    "p0663"
+   ],
+   "getup": [
+    "p0687",
+    "p0688",
+    "p0689",
+    "p0688"
+   ],
+   "getup-sweep": [
+    "p0696",
+    "p0697",
+    "p0698",
+    "p0699"
+   ],
+   "hit-high": [
+    "p0687",
+    "p0688",
+    "p0689",
+    "p0690",
+    "p0691",
+    "p0692"
+   ],
+   "hit-low": [
+    "p0331",
+    "p0332",
+    "p0333",
+    "p0334",
+    "p0335"
+   ],
+   "jump-backward": [
+    "p0674",
+    "p0675",
+    "p0676",
+    "p0675"
+   ],
+   "jump-forward": [
+    "p0666",
+    "p0667",
+    "p0668",
+    "p0669",
+    "p0670",
+    "p0671",
+    "p0672",
+    "p0673"
+   ],
+   "jump-up": [
+    "p0664",
+    "p0665"
+   ],
+   "skip-forward": [
+    "p0648",
+    "p0649",
+    "p0650",
+    "p0651",
+    "p0652",
+    "p0651",
+    "p0650",
+    "p0649",
+    "p0648"
+   ],
+   "stance": [
+    "p0623",
+    "p0624",
+    "p0625",
+    "p0626",
+    "p0627",
+    "p0628",
+    "p0629",
+    "p0630",
+    "p0629",
+    "p0628",
+    "p0627",
+    "p0626",
+    "p0625",
+    "p0624"
+   ],
+   "sweep-fall": [
+    "p0693",
+    "p0694",
+    "p0695"
+   ],
+   "turn": [
+    "p0677",
+    "p0678",
+    "p0679",
+    "p0680",
+    "p0681",
+    "p0682"
+   ],
+   "turn-ducking": [
+    "p0683",
+    "p0684",
+    "p0685",
+    "p0686"
+   ],
+   "walk-backward": [
+    "p0656",
+    "p0657",
+    "p0658",
+    "p0659"
+   ],
+   "walk-forward": [
+    "p0631",
+    "p0632",
+    "p0633",
+    "p0634",
+    "p0635",
+    "p0636",
+    "p0637",
+    "p0638",
+    "p0639",
+    "p0640",
+    "p0641",
+    "p0642",
+    "p0643",
+    "p0644",
+    "p0645",
+    "p0646",
+    "p0647"
+   ]
+  },
+  "frosty": {
    "duck": [
     "p0495",
     "p0496",
@@ -17751,7 +17346,7 @@
     "p0494"
    ]
   },
-  "scorpion": {
+  "harpoon": {
    "duck": [
     "p0495",
     "p0496",
@@ -17889,7 +17484,395 @@
     "p0494"
    ]
   },
-  "shang-tsung": {
+  "hathead": {
+   "duck": [
+    "p0016",
+    "p0017",
+    "p0018"
+   ],
+   "getup": [
+    "p0038",
+    "p0039",
+    "p0040",
+    "p0041"
+   ],
+   "getup-sweep": [
+    "p0046",
+    "p0047",
+    "p0048",
+    "p0049",
+    "p0050"
+   ],
+   "hit-ducking": [
+    "p0051",
+    "p0052",
+    "p0051",
+    "p0053",
+    "p0018"
+   ],
+   "hit-high": [
+    "p0032",
+    "p0033",
+    "p0032",
+    "p0034"
+   ],
+   "hit-low": [
+    "p0035",
+    "p0036",
+    "p0035",
+    "p0037"
+   ],
+   "jump-backward": [
+    "p0021",
+    "p0028",
+    "p0027",
+    "p0026",
+    "p0025",
+    "p0024",
+    "p0023",
+    "p0022"
+   ],
+   "jump-forward": [
+    "p0021",
+    "p0022",
+    "p0023",
+    "p0024",
+    "p0025",
+    "p0026",
+    "p0027",
+    "p0028"
+   ],
+   "jump-up": [
+    "p0019",
+    "p0020"
+   ],
+   "skip-forward": [
+    "p0007",
+    "p0008",
+    "p0014",
+    "p0015"
+   ],
+   "stance": [
+    "p0001",
+    "p0002",
+    "p0003",
+    "p0004",
+    "p0004",
+    "p0005",
+    "p0002",
+    "p0006"
+   ],
+   "stumble": [
+    "p0054",
+    "p0055",
+    "p0056",
+    "p0057",
+    "p0058",
+    "p0059"
+   ],
+   "stunned": [
+    "p0060",
+    "p0061",
+    "p0062",
+    "p0063",
+    "p0064",
+    "p0065",
+    "p0066"
+   ],
+   "sweep-fall": [
+    "p0042",
+    "p0043",
+    "p0044",
+    "p0045"
+   ],
+   "turn": [
+    "p0029",
+    "p0029"
+   ],
+   "turn-ducking": [
+    "p0030",
+    "p0031",
+    "p0030",
+    "p0018"
+   ],
+   "walk-backward": [
+    "p0015",
+    "p0014",
+    "p0008",
+    "p0007"
+   ],
+   "walk-forward": [
+    "p0007",
+    "p0008",
+    "p0009",
+    "p0010",
+    "p0011",
+    "p0012",
+    "p0013",
+    "p0014",
+    "p0015"
+   ]
+  },
+  "headband": {
+   "duck": [
+    "p0083",
+    "p0084",
+    "p0085"
+   ],
+   "getup": [
+    "p0106",
+    "p0107",
+    "p0108",
+    "p0109",
+    "p0110"
+   ],
+   "getup-sweep": [
+    "p0115",
+    "p0116",
+    "p0117",
+    "p0118",
+    "p0119",
+    "p0120"
+   ],
+   "hit-ducking": [
+    "p0121",
+    "p0122",
+    "p0121",
+    "p0123",
+    "p0085"
+   ],
+   "hit-high": [
+    "p0100",
+    "p0101",
+    "p0100",
+    "p0102"
+   ],
+   "hit-low": [
+    "p0103",
+    "p0104",
+    "p0103",
+    "p0105"
+   ],
+   "jump-backward": [
+    "p0088",
+    "p0095",
+    "p0094",
+    "p0093",
+    "p0092",
+    "p0091",
+    "p0090",
+    "p0089"
+   ],
+   "jump-forward": [
+    "p0088",
+    "p0089",
+    "p0090",
+    "p0091",
+    "p0092",
+    "p0093",
+    "p0094",
+    "p0095"
+   ],
+   "jump-up": [
+    "p0086",
+    "p0087"
+   ],
+   "skip-forward": [
+    "p0074",
+    "p0075",
+    "p0081",
+    "p0082"
+   ],
+   "stance": [
+    "p0067",
+    "p0068",
+    "p0069",
+    "p0070",
+    "p0071",
+    "p0072",
+    "p0073"
+   ],
+   "stumble": [
+    "p0124",
+    "p0125",
+    "p0126",
+    "p0127",
+    "p0128"
+   ],
+   "stunned": [
+    "p0129",
+    "p0130",
+    "p0131",
+    "p0132",
+    "p0133",
+    "p0134",
+    "p0135"
+   ],
+   "sweep-fall": [
+    "p0111",
+    "p0112",
+    "p0113",
+    "p0114"
+   ],
+   "turn": [
+    "p0096",
+    "p0097",
+    "p0097",
+    "p0096"
+   ],
+   "turn-ducking": [
+    "p0098",
+    "p0099",
+    "p0099",
+    "p0085"
+   ],
+   "walk-backward": [
+    "p0082",
+    "p0081",
+    "p0075",
+    "p0074"
+   ],
+   "walk-forward": [
+    "p0074",
+    "p0075",
+    "p0076",
+    "p0077",
+    "p0078",
+    "p0079",
+    "p0080",
+    "p0081",
+    "p0082"
+   ]
+  },
+  "knockout": {
+   "duck": [
+    "p0291",
+    "p0292",
+    "p0293"
+   ],
+   "getup": [
+    "p0314",
+    "p0315",
+    "p0316",
+    "p0317",
+    "p0318"
+   ],
+   "getup-sweep": [
+    "p0323",
+    "p0324",
+    "p0325",
+    "p0326",
+    "p0327"
+   ],
+   "hit-ducking": [
+    "p0328",
+    "p0329",
+    "p0328",
+    "p0330",
+    "p0293"
+   ],
+   "hit-high": [
+    "p0308",
+    "p0309",
+    "p0308",
+    "p0310"
+   ],
+   "hit-low": [
+    "p0311",
+    "p0312",
+    "p0311",
+    "p0313"
+   ],
+   "jump-backward": [
+    "p0296",
+    "p0303",
+    "p0302",
+    "p0301",
+    "p0300",
+    "p0299",
+    "p0298",
+    "p0297"
+   ],
+   "jump-forward": [
+    "p0296",
+    "p0297",
+    "p0298",
+    "p0299",
+    "p0300",
+    "p0301",
+    "p0302",
+    "p0303"
+   ],
+   "jump-up": [
+    "p0294",
+    "p0295"
+   ],
+   "skip-forward": [
+    "p0282",
+    "p0283",
+    "p0289",
+    "p0290"
+   ],
+   "stance": [
+    "p0276",
+    "p0277",
+    "p0278",
+    "p0279",
+    "p0280",
+    "p0281"
+   ],
+   "stumble": [
+    "p0331",
+    "p0332",
+    "p0333",
+    "p0334",
+    "p0335"
+   ],
+   "stunned": [
+    "p0336",
+    "p0337",
+    "p0338",
+    "p0339",
+    "p0340",
+    "p0341",
+    "p0342"
+   ],
+   "sweep-fall": [
+    "p0319",
+    "p0320",
+    "p0321",
+    "p0322"
+   ],
+   "turn": [
+    "p0304",
+    "p0305",
+    "p0304"
+   ],
+   "turn-ducking": [
+    "p0306",
+    "p0307",
+    "p0306",
+    "p0293"
+   ],
+   "walk-backward": [
+    "p0290",
+    "p0289",
+    "p0283",
+    "p0282"
+   ],
+   "walk-forward": [
+    "p0282",
+    "p0283",
+    "p0284",
+    "p0285",
+    "p0286",
+    "p0287",
+    "p0288",
+    "p0289",
+    "p0290"
+   ]
+  },
+  "morphman": {
    "duck": [
     "p0359",
     "p0360",
@@ -18020,382 +18003,399 @@
     "p0358"
    ]
   },
-  "shao-kahn": {
+  "pole": {
    "duck": [
-    "p0728",
-    "p0729",
-    "p0730",
-    "p0731",
-    "p0732",
-    "p0733"
+    "p0291",
+    "p0292",
+    "p0293"
+   ],
+   "getup": [
+    "p0314",
+    "p0315",
+    "p0316",
+    "p0317",
+    "p0318"
+   ],
+   "getup-sweep": [
+    "p0323",
+    "p0324",
+    "p0325",
+    "p0326",
+    "p0327"
+   ],
+   "hit-ducking": [
+    "p0328",
+    "p0329",
+    "p0328",
+    "p0330",
+    "p0293"
    ],
    "hit-high": [
-    "p0749",
-    "p0750",
-    "p0751",
-    "p0752",
-    "p0753",
-    "p0754",
-    "p0755"
+    "p0308",
+    "p0309",
+    "p0308",
+    "p0310"
    ],
    "hit-low": [
+    "p0311",
+    "p0312",
+    "p0311",
+    "p0313"
+   ],
+   "jump-backward": [
+    "p0296",
+    "p0303",
+    "p0302",
+    "p0301",
+    "p0300",
+    "p0299",
+    "p0298",
+    "p0297"
+   ],
+   "jump-forward": [
+    "p0296",
+    "p0297",
+    "p0298",
+    "p0299",
+    "p0300",
+    "p0301",
+    "p0302",
+    "p0303"
+   ],
+   "jump-up": [
+    "p0294",
+    "p0295"
+   ],
+   "skip-forward": [
+    "p0282",
+    "p0283",
+    "p0289",
+    "p0290"
+   ],
+   "stance": [
+    "p0276",
+    "p0277",
+    "p0278",
+    "p0279",
+    "p0280",
+    "p0281"
+   ],
+   "stumble": [
     "p0331",
     "p0332",
     "p0333",
     "p0334",
     "p0335"
    ],
-   "jump-backward": [
-    "p0740",
-    "p0741",
-    "p0742"
-   ],
-   "jump-forward": [
-    "p0738",
-    "p0739",
-    "p0738"
-   ],
-   "jump-up": [
-    "p0734",
-    "p0735",
-    "p0736",
-    "p0737"
-   ],
-   "skip-forward": [
-    "p0716",
-    "p0717",
-    "p0716"
-   ],
-   "stance": [
-    "p0700",
-    "p0701",
-    "p0702",
-    "p0703",
-    "p0704",
-    "p0705",
-    "p0706"
+   "stunned": [
+    "p0336",
+    "p0337",
+    "p0338",
+    "p0339",
+    "p0340",
+    "p0341",
+    "p0342"
    ],
    "sweep-fall": [
-    "p0756",
-    "p0756",
-    "p0757",
-    "p0756",
-    "p0756",
-    "p0756",
-    "p0756"
+    "p0319",
+    "p0320",
+    "p0321",
+    "p0322"
    ],
    "turn": [
-    "p0743",
-    "p0744",
-    "p0745",
-    "p0746",
-    "p0747",
-    "p0748"
+    "p0304",
+    "p0305",
+    "p0304"
    ],
    "turn-ducking": [
-    "p0715",
-    "p0714",
-    "p0713",
-    "p0712",
-    "p0711",
-    "p0710",
-    "p0709",
-    "p0708",
-    "p0707"
+    "p0306",
+    "p0307",
+    "p0306",
+    "p0293"
    ],
    "walk-backward": [
-    "p0723",
-    "p0724",
-    "p0725",
-    "p0726",
-    "p0727"
+    "p0290",
+    "p0289",
+    "p0283",
+    "p0282"
    ],
    "walk-forward": [
-    "p0707",
-    "p0708",
-    "p0709",
-    "p0710",
-    "p0711",
-    "p0712",
-    "p0713",
-    "p0714",
-    "p0715"
+    "p0282",
+    "p0283",
+    "p0284",
+    "p0285",
+    "p0286",
+    "p0287",
+    "p0288",
+    "p0289",
+    "p0290"
    ]
   },
-  "smoke": {
+  "shades": {
    "duck": [
-    "p0495",
-    "p0496",
-    "p0497"
+    "p0152",
+    "p0153",
+    "p0154"
    ],
    "getup": [
-    "p0518",
-    "p0519",
-    "p0520",
-    "p0521",
-    "p0522",
-    "p0523"
+    "p0176",
+    "p0177",
+    "p0178",
+    "p0179",
+    "p0180",
+    "p0181"
    ],
    "getup-sweep": [
-    "p0530",
-    "p0531",
-    "p0532",
-    "p0533",
-    "p0534"
+    "p0188",
+    "p0189",
+    "p0190",
+    "p0191",
+    "p0192"
    ],
    "hit-ducking": [
-    "p0535",
-    "p0536",
-    "p0535",
-    "p0537",
-    "p0497"
+    "p0193",
+    "p0194",
+    "p0193",
+    "p0195",
+    "p0154"
    ],
    "hit-high": [
-    "p0512",
-    "p0513",
-    "p0512",
-    "p0514"
+    "p0170",
+    "p0171",
+    "p0170",
+    "p0172"
    ],
    "hit-low": [
-    "p0515",
-    "p0516",
-    "p0515",
-    "p0517"
+    "p0173",
+    "p0174",
+    "p0173",
+    "p0175"
    ],
    "jump-backward": [
-    "p0500",
-    "p0507",
-    "p0506",
-    "p0505",
-    "p0504",
-    "p0503",
-    "p0502",
-    "p0501"
+    "p0157",
+    "p0164",
+    "p0163",
+    "p0162",
+    "p0161",
+    "p0160",
+    "p0159",
+    "p0158"
    ],
    "jump-forward": [
-    "p0500",
-    "p0501",
-    "p0502",
-    "p0503",
-    "p0504",
-    "p0505",
-    "p0506",
-    "p0507"
+    "p0157",
+    "p0158",
+    "p0159",
+    "p0160",
+    "p0161",
+    "p0162",
+    "p0163",
+    "p0164"
    ],
    "jump-up": [
-    "p0498",
-    "p0499"
+    "p0155",
+    "p0156"
    ],
    "skip-forward": [
-    "p0486",
-    "p0487",
-    "p0493",
-    "p0494"
+    "p0143",
+    "p0144",
+    "p0150",
+    "p0151"
    ],
    "stance": [
-    "p0479",
-    "p0480",
-    "p0481",
-    "p0482",
-    "p0483",
-    "p0484",
-    "p0485",
-    "p0484",
-    "p0483",
-    "p0482",
-    "p0481",
-    "p0480"
+    "p0136",
+    "p0137",
+    "p0138",
+    "p0139",
+    "p0140",
+    "p0141",
+    "p0142"
    ],
    "stumble": [
-    "p0538",
-    "p0539",
-    "p0540",
-    "p0541",
-    "p0542",
-    "p0543"
+    "p0196",
+    "p0197",
+    "p0198",
+    "p0199",
+    "p0200"
    ],
    "stunned": [
-    "p0544",
-    "p0545",
-    "p0546",
-    "p0547",
-    "p0548",
-    "p0549",
-    "p0550"
+    "p0201",
+    "p0202",
+    "p0203",
+    "p0204",
+    "p0205",
+    "p0206",
+    "p0207"
    ],
    "sweep-fall": [
-    "p0524",
-    "p0525",
-    "p0526",
-    "p0527",
-    "p0528",
-    "p0529"
+    "p0182",
+    "p0183",
+    "p0184",
+    "p0185",
+    "p0186",
+    "p0187"
    ],
    "turn": [
-    "p0508",
-    "p0509",
-    "p0508"
+    "p0165",
+    "p0166",
+    "p0167",
+    "p0165"
    ],
    "turn-ducking": [
-    "p0510",
-    "p0511",
-    "p0510",
-    "p0497"
+    "p0168",
+    "p0169",
+    "p0168",
+    "p0154"
    ],
    "walk-backward": [
-    "p0494",
-    "p0493",
-    "p0487",
-    "p0486"
+    "p0151",
+    "p0150",
+    "p0144",
+    "p0143"
    ],
    "walk-forward": [
-    "p0486",
-    "p0487",
-    "p0488",
-    "p0489",
-    "p0490",
-    "p0491",
-    "p0492",
-    "p0493",
-    "p0494"
+    "p0143",
+    "p0144",
+    "p0145",
+    "p0146",
+    "p0147",
+    "p0148",
+    "p0149",
+    "p0150",
+    "p0151"
    ]
   },
-  "sub-zero": {
+  "swordarms": {
    "duck": [
-    "p0495",
-    "p0496",
-    "p0497"
+    "p0223",
+    "p0224",
+    "p0225"
    ],
    "getup": [
-    "p0518",
-    "p0519",
-    "p0520",
-    "p0521",
-    "p0522",
-    "p0523"
+    "p0246",
+    "p0247",
+    "p0248",
+    "p0249",
+    "p0250"
    ],
    "getup-sweep": [
-    "p0530",
-    "p0531",
-    "p0532",
-    "p0533",
-    "p0534"
+    "p0257",
+    "p0258",
+    "p0259",
+    "p0260"
    ],
    "hit-ducking": [
-    "p0535",
-    "p0536",
-    "p0535",
-    "p0537",
-    "p0497"
+    "p0261",
+    "p0262",
+    "p0261",
+    "p0263",
+    "p0225"
    ],
    "hit-high": [
-    "p0512",
-    "p0513",
-    "p0512",
-    "p0514"
+    "p0240",
+    "p0241",
+    "p0240",
+    "p0242"
    ],
    "hit-low": [
-    "p0515",
-    "p0516",
-    "p0515",
-    "p0517"
+    "p0243",
+    "p0244",
+    "p0243",
+    "p0245"
    ],
    "jump-backward": [
-    "p0500",
-    "p0507",
-    "p0506",
-    "p0505",
-    "p0504",
-    "p0503",
-    "p0502",
-    "p0501"
+    "p0228",
+    "p0235",
+    "p0234",
+    "p0233",
+    "p0232",
+    "p0231",
+    "p0230",
+    "p0229"
    ],
    "jump-forward": [
-    "p0500",
-    "p0501",
-    "p0502",
-    "p0503",
-    "p0504",
-    "p0505",
-    "p0506",
-    "p0507"
+    "p0228",
+    "p0229",
+    "p0230",
+    "p0231",
+    "p0232",
+    "p0233",
+    "p0234",
+    "p0235"
    ],
    "jump-up": [
-    "p0498",
-    "p0499"
+    "p0226",
+    "p0227"
    ],
    "skip-forward": [
-    "p0486",
-    "p0487",
-    "p0493",
-    "p0494"
+    "p0214",
+    "p0215",
+    "p0221",
+    "p0222"
    ],
    "stance": [
-    "p0479",
-    "p0480",
-    "p0481",
-    "p0482",
-    "p0483",
-    "p0484",
-    "p0485",
-    "p0484",
-    "p0483",
-    "p0482",
-    "p0481",
-    "p0480"
+    "p0208",
+    "p0209",
+    "p0210",
+    "p0211",
+    "p0212",
+    "p0213",
+    "p0212",
+    "p0211",
+    "p0210",
+    "p0209"
    ],
    "stumble": [
-    "p0538",
-    "p0539",
-    "p0540",
-    "p0541",
-    "p0542",
-    "p0543"
+    "p0264",
+    "p0265",
+    "p0266",
+    "p0267",
+    "p0268",
+    "p0269"
    ],
    "stunned": [
-    "p0544",
-    "p0545",
-    "p0546",
-    "p0547",
-    "p0548",
-    "p0549",
-    "p0550"
+    "p0270",
+    "p0270",
+    "p0271",
+    "p0272",
+    "p0273",
+    "p0274",
+    "p0275"
    ],
    "sweep-fall": [
-    "p0524",
-    "p0525",
-    "p0526",
-    "p0527",
-    "p0528",
-    "p0529"
+    "p0251",
+    "p0252",
+    "p0253",
+    "p0254",
+    "p0255",
+    "p0256"
    ],
    "turn": [
-    "p0508",
-    "p0509",
-    "p0508"
+    "p0236",
+    "p0237",
+    "p0236"
    ],
    "turn-ducking": [
-    "p0510",
-    "p0511",
-    "p0510",
-    "p0497"
+    "p0238",
+    "p0239",
+    "p0239",
+    "p0225"
    ],
    "walk-backward": [
-    "p0494",
-    "p0493",
-    "p0487",
-    "p0486"
+    "p0222",
+    "p0221",
+    "p0215",
+    "p0214"
    ],
    "walk-forward": [
-    "p0486",
-    "p0487",
-    "p0488",
-    "p0489",
-    "p0490",
-    "p0491",
-    "p0492",
-    "p0493",
-    "p0494"
+    "p0214",
+    "p0215",
+    "p0216",
+    "p0217",
+    "p0218",
+    "p0219",
+    "p0220",
+    "p0221",
+    "p0222"
    ]
   }
  }

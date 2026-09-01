@@ -38,10 +38,17 @@ for an afternoon.
   python tools/validate.py --quiet    print only failures
 """
 import argparse
+import glob
 import json
 import os
 import re
 import sys
+
+# The one import, and it is deliberate: apply.py already knows what makes a
+# proposal valid, and a second copy of those rules here would drift from it.
+# Same reason selftest.mjs reads index.html's script instead of restating it.
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from apply import inspect as inspect_proposal
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
@@ -54,15 +61,18 @@ HEX = re.compile(r"^[0-9a-f]{7,40}$")
 DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 KEY = re.compile(r"^[a-z][a-z0-9_]*$")
 
-NAMES = {"Kung Lao", "Liu Kang", "Johnny Cage", "Baraka", "Kitana", "Mileena",
-         "Shang Tsung", "Raiden", "Sub-Zero", "Reptile", "Scorpion", "Jax",
-         "Kintaro", "Shao Kahn", "Smoke", "Noob Saibot", "Jade"}
+# The cast, under this project's own handles. No trademarked character name
+# appears in any data file, so none of them is whitelisted here - a proposal
+# that reintroduces one fails disclosure like any other unrecognised string.
+NAMES = {"Hathead", "Headband", "Shades", "Sword Arms", "Knockout",
+         "Bombshell", "Pole", "Morphman", "Bolt", "Frosty", "Acid", "Harpoon",
+         "2nd Hand", "Blackout", "Big Arms", "Four Arms", "Final Boss"}
 WORDS = {"mk2-hitbox-pack", "boxlab-pose-pack", "boxlab-frame-pack",
          "handler-name", "table", "assumed", "squeeze", "duck", ""}
 
 # Free text we wrote. Allowed only under these keys, so a future edit cannot
 # smuggle a borrowed sentence in under `id` or `character`.
-PROSE_KEYS = {"title", "description", "units", "author"}
+PROSE_KEYS = {"title", "description", "units", "author", "why"}
 
 
 def disclosure(node, path, prose_ok=False, bad=None):
@@ -272,6 +282,68 @@ def main():
                 errs.append("frames.json: %s.%s = %d is outside %d..%d"
                             % (m.get("id"), f, m[f], lo, hi))
     notes.append("%d timed moves" % len(frames.get("moves") or []))
+
+    # -- retail -----------------------------------------------------------
+    # Optional. data/retail/boxes.json is the same measurement taken against
+    # the unmodified game, frozen as a reference to diff against. It is the
+    # same KIND of file, so it gets the same disclosure whitelist - a reference
+    # nobody edits is exactly where a leak would sit unnoticed.
+    retail_path = os.path.join(DATA, "retail", "boxes.json")
+    if os.path.exists(retail_path):
+        try:
+            with open(retail_path, encoding="utf-8") as fh:
+                retail = json.load(fh)
+        except json.JSONDecodeError as e:
+            errs.append("data/retail/boxes.json: not valid JSON - %s" % e)
+            retail = None
+        if retail is not None:
+            if retail.get("format") != "mk2-hitbox-pack":
+                errs.append("data/retail/boxes.json: format is %r, expected "
+                            "'mk2-hitbox-pack'" % retail.get("format"))
+            for where, what in disclosure(retail, "data/retail/boxes.json"):
+                errs.append("data/retail/boxes.json: %r is not a string this "
+                            "project generates (%s)" % (what, where))
+            # Both directions matter, and they mean different things.
+            #
+            # A record the current build ADDED is ordinary - the whole point of
+            # a mod is that it has moves retail did not. The viewer draws no
+            # retail ghost for those, which is correct, and this is a note.
+            #
+            # A record retail had that the current build has LOST is not
+            # ordinary. Nothing legitimate removes a strike record, so it means
+            # the two files were generated from different things.
+            retail_ids = {m.get("id") for m in (retail.get("moves") or [])}
+            gone = sorted(retail_ids - move_ids)
+            added = sorted(move_ids - retail_ids)
+            if gone:
+                errs.append("data/retail/boxes.json: %d record(s) exist in "
+                            "retail but not in the current build, first is %s. "
+                            "A build does not lose strike records - these two "
+                            "files were not generated from the same cast"
+                            % (len(gone), gone[0]))
+            notes.append("%d retail records, %d new since retail"
+                         % (len(retail_ids), len(added)))
+    else:
+        notes.append("no retail reference")
+
+    # -- proposals --------------------------------------------------------
+    # A proposal is an overlay on boxes.json - see tools/apply.py. CI checks it
+    # here so a contributor learns their edit is stale from the PR, not from a
+    # maintainer three days later.
+    props = sorted(glob.glob(os.path.join(ROOT, "proposals", "*.json")))
+    for path in props:
+        rel = os.path.relpath(path, ROOT).replace(os.sep, "/")
+        try:
+            with open(path, encoding="utf-8") as fh:
+                prop = json.load(fh)
+        except json.JSONDecodeError as e:
+            errs.append("%s: not valid JSON - %s" % (rel, e))
+            continue
+        for where, what in disclosure(prop, rel):
+            errs.append("%s: %r is not a string this project generates (%s)"
+                        % (rel, what, where))
+        inspect_proposal(prop, rel, boxes, errs)
+    notes.append("%d open proposal(s)" % len(props))
 
     # -- report -----------------------------------------------------------
     if not args.quiet:

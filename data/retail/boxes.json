@@ -42,9 +42,6 @@
   "bigarms/noogy": [
    "squeeze"
   ],
-  "bigarms/powerp": [
-   "squeeze"
-  ],
   "bigarms/roundh": [
    "squeeze"
   ],
@@ -159,16 +156,7 @@
   "female-ninjas/lopunch": [
    "squeeze"
   ],
-  "female-ninjas/nitro": [
-   "squeeze"
-  ],
-  "female-ninjas/pole-boom": [
-   "squeeze"
-  ],
   "female-ninjas/roundh": [
-   "squeeze"
-  ],
-  "female-ninjas/spinchop": [
    "squeeze"
   ],
   "female-ninjas/spinfan": [
@@ -186,46 +174,13 @@
   "female-ninjas/uppercut": [
    "squeeze"
   ],
-  "final-boss/bigpow": [
-   "squeeze"
-  ],
   "final-boss/charge": [
-   "squeeze"
-  ],
-  "final-boss/grab": [
-   "squeeze"
-  ],
-  "final-boss/hammer": [
-   "squeeze"
-  ],
-  "final-boss/hamtop": [
    "squeeze"
   ],
   "final-boss/kick": [
    "squeeze"
   ],
-  "final-boss/knee": [
-   "squeeze"
-  ],
-  "final-boss/nupower": [
-   "squeeze"
-  ],
-  "final-boss/portal": [
-   "squeeze"
-  ],
   "final-boss/punch": [
-   "squeeze"
-  ],
-  "final-boss/slam": [
-   "squeeze"
-  ],
-  "final-boss/sonic": [
-   "squeeze"
-  ],
-  "final-boss/sonic-l": [
-   "squeeze"
-  ],
-  "final-boss/sonic-m": [
    "squeeze"
   ],
   "final-boss/spear": [
@@ -369,12 +324,6 @@
   "headband/zap4": [
    "squeeze"
   ],
-  "morphman/backflip": [
-   "squeeze"
-  ],
-  "morphman/ball-roll": [
-   "squeeze"
-  ],
   "morphman/duckkickh": [
    "squeeze"
   ],
@@ -411,13 +360,7 @@
   "morphman/lopunch": [
    "squeeze"
   ],
-  "morphman/oldskull": [
-   "squeeze"
-  ],
   "morphman/roundh": [
-   "squeeze"
-  ],
-  "morphman/roundpunch": [
    "squeeze"
   ],
   "morphman/skull1": [
@@ -430,15 +373,6 @@
    "duck"
   ],
   "morphman/uppercut": [
-   "squeeze"
-  ],
-  "ninjas/blackout-dive": [
-   "squeeze"
-  ],
-  "ninjas/blackout-kick": [
-   "squeeze"
-  ],
-  "ninjas/blackout-slide": [
    "squeeze"
   ],
   "ninjas/decoy": [
@@ -513,9 +447,6 @@
   "ninjas/sweepk": [
    "duck"
   ],
-  "ninjas/tornado": [
-   "squeeze"
-  ],
   "ninjas/uppercut": [
    "squeeze"
   ],
@@ -571,9 +502,6 @@
    "squeeze"
   ],
   "shades/zap4": [
-   "squeeze"
-  ],
-  "shared/hb-lokick-early": [
    "squeeze"
   ],
   "shared/hb-wheel": [
@@ -636,9 +564,6 @@
   "swordarms/swipe": [
    "squeeze"
   ],
-  "swordarms/swordkick": [
-   "squeeze"
-  ],
   "swordarms/uppercut": [
    "squeeze"
   ],
@@ -650,20 +575,20 @@
  "format_version": 1,
  "meta": {
   "author": "",
-  "base_commit": "d436a98",
-  "base_digest": "61a2c808aaa0e4d7",
+  "base_commit": null,
+  "base_digest": "7f8ce48017a6c957",
   "created": "2026-09-01",
-  "description": "Every strike box in the build. This file is the one that is applied back to the game, not a copy of it.",
+  "description": "The same measurement, taken against an unmodified checkout and frozen as a reference to diff this build against. Nothing applies this file to anything.",
   "public": true,
-  "title": "Strike boxes"
+  "title": "Strike boxes, retail"
  },
  "moves": [
   {
-   "block": 4,
+   "block": 3,
    "block_reaction": 17,
    "front": 89,
    "height": 36,
-   "hit": 20,
+   "hit": 13,
    "hit_reaction": 22,
    "id": "ninjas/decoy",
    "score": 0,
@@ -675,7 +600,7 @@
    "block": 7,
    "block_reaction": 27,
    "front": 80,
-   "height": 50,
+   "height": 24,
    "hit": 30,
    "hit_reaction": 20,
    "id": "bolt/dive",
@@ -736,19 +661,6 @@
    "table": "female-ninjas",
    "width": 68,
    "y": 32
-  },
-  {
-   "block": 3,
-   "block_reaction": 30,
-   "front": 103,
-   "height": 16,
-   "hit": 19,
-   "hit_reaction": 23,
-   "id": "female-ninjas/nitro",
-   "score": 0,
-   "table": "female-ninjas",
-   "width": 74,
-   "y": 40
   },
   {
    "block": 3,
@@ -944,19 +856,6 @@
    "table": "female-ninjas",
    "width": 68,
    "y": -3
-  },
-  {
-   "block": 6,
-   "block_reaction": 19,
-   "front": 85,
-   "height": 70,
-   "hit": 32,
-   "hit_reaction": 19,
-   "id": "female-ninjas/spinchop",
-   "score": 0,
-   "table": "female-ninjas",
-   "width": 60,
-   "y": -40
   },
   {
    "block": 5,
@@ -1177,7 +1076,7 @@
    "id": "hathead/jumpupk",
    "score": 0,
    "table": "hathead",
-   "width": 72,
+   "width": 55,
    "y": 12
   },
   {
@@ -1285,50 +1184,37 @@
    "y": -7
   },
   {
-   "block": 5,
+   "block": 0,
    "block_reaction": 19,
    "front": 64,
-   "height": 24,
-   "hit": 10,
+   "height": 16,
+   "hit": 0,
    "hit_reaction": 19,
    "id": "ninjas/ice1",
    "score": 0,
    "table": "ninjas",
-   "width": 120,
-   "y": -12
+   "width": 96,
+   "y": -8
   },
   {
-   "block": 5,
+   "block": 0,
    "block_reaction": 19,
    "front": 144,
-   "height": 24,
-   "hit": 10,
+   "height": 16,
+   "hit": 0,
    "hit_reaction": 19,
    "id": "ninjas/ice2",
    "score": 0,
    "table": "ninjas",
-   "width": 120,
-   "y": -16
+   "width": 96,
+   "y": -12
   },
   {
-   "block": 6,
-   "block_reaction": 16,
-   "front": 58,
-   "height": 16,
-   "hit": 24,
-   "hit_reaction": 24,
-   "id": "female-ninjas/pole-boom",
-   "score": 0,
-   "table": "female-ninjas",
-   "width": 56,
-   "y": 16
-  },
-  {
-   "block": 6,
+   "block": 1,
    "block_reaction": 20,
    "front": 102,
    "height": 34,
-   "hit": 24,
+   "hit": 0,
    "hit_reaction": 20,
    "id": "shades/pp",
    "score": 0,
@@ -1771,19 +1657,6 @@
    "y": 32
   },
   {
-   "block": 6,
-   "block_reaction": 18,
-   "front": 102,
-   "height": 34,
-   "hit": 24,
-   "hit_reaction": 18,
-   "id": "bigarms/powerp",
-   "score": 0,
-   "table": "bigarms",
-   "width": 74,
-   "y": 38
-  },
-  {
    "block": 8,
    "block_reaction": 30,
    "front": 93,
@@ -2044,19 +1917,6 @@
    "y": 42
   },
   {
-   "block": 6,
-   "block_reaction": 1,
-   "front": 56,
-   "height": 20,
-   "hit": 26,
-   "hit_reaction": 1,
-   "id": "shared/hb-lokick-early",
-   "score": 0,
-   "table": "shared",
-   "width": 67,
-   "y": 42
-  },
-  {
    "block": 2,
    "block_reaction": 3,
    "front": 80,
@@ -2183,7 +2043,7 @@
    "id": "ninjas/bang",
    "score": 0,
    "table": "ninjas",
-   "width": 64,
+   "width": 52,
    "y": -24
   },
   {
@@ -2408,54 +2268,6 @@
    "y": -16
   },
   {
-   "block": 7,
-   "block_reaction": 18,
-   "front": 99,
-   "height": 32,
-   "hit": 26,
-   "hit_reaction": 11,
-   "id": "ninjas/blackout-dive",
-   "table": "ninjas",
-   "width": 64,
-   "y": 36
-  },
-  {
-   "block": 6,
-   "block_reaction": 10,
-   "front": 96,
-   "height": 80,
-   "hit": 26,
-   "hit_reaction": 10,
-   "id": "ninjas/blackout-kick",
-   "table": "ninjas",
-   "width": 96,
-   "y": 16
-  },
-  {
-   "block": 3,
-   "block_reaction": 16,
-   "front": 72,
-   "height": 64,
-   "hit": 12,
-   "hit_reaction": 27,
-   "id": "ninjas/blackout-portal",
-   "table": "ninjas",
-   "width": 144,
-   "y": 90
-  },
-  {
-   "block": 5,
-   "block_reaction": 16,
-   "front": 120,
-   "height": 24,
-   "hit": 22,
-   "hit_reaction": 26,
-   "id": "ninjas/blackout-slide",
-   "table": "ninjas",
-   "width": 65,
-   "y": 125
-  },
-  {
    "block": 0,
    "block_reaction": 16,
    "front": 107,
@@ -2467,19 +2279,6 @@
    "table": "bigarms",
    "width": 64,
    "y": 24
-  },
-  {
-   "block": 4,
-   "block_reaction": 16,
-   "front": 40,
-   "height": 144,
-   "hit": 19,
-   "hit_reaction": 18,
-   "id": "morphman/oldskull",
-   "score": 0,
-   "table": "morphman",
-   "width": 80,
-   "y": -144
   },
   {
    "block": 3,
@@ -2979,19 +2778,6 @@
    "y": 12
   },
   {
-   "block": 20,
-   "block_reaction": 38,
-   "front": 104,
-   "height": 48,
-   "hit": 64,
-   "hit_reaction": 5,
-   "id": "final-boss/bigpow",
-   "score": 0,
-   "table": "final-boss",
-   "width": 96,
-   "y": 32
-  },
-  {
    "block": 18,
    "block_reaction": 38,
    "front": 80,
@@ -3003,45 +2789,6 @@
    "table": "final-boss",
    "width": 48,
    "y": 27
-  },
-  {
-   "block": 0,
-   "block_reaction": 38,
-   "front": 104,
-   "height": 48,
-   "hit": 0,
-   "hit_reaction": 0,
-   "id": "final-boss/grab",
-   "score": 0,
-   "table": "final-boss",
-   "width": 96,
-   "y": 32
-  },
-  {
-   "block": 5,
-   "block_reaction": 38,
-   "front": 112,
-   "height": 96,
-   "hit": 64,
-   "hit_reaction": 0,
-   "id": "final-boss/hammer",
-   "score": 0,
-   "table": "final-boss",
-   "width": 96,
-   "y": 0
-  },
-  {
-   "block": 6,
-   "block_reaction": 38,
-   "front": 134,
-   "height": 57,
-   "hit": 39,
-   "hit_reaction": 3,
-   "id": "final-boss/hamtop",
-   "score": 0,
-   "table": "final-boss",
-   "width": 119,
-   "y": 32
   },
   {
    "block": 18,
@@ -3057,108 +2804,17 @@
    "y": 59
   },
   {
-   "block": 5,
-   "block_reaction": 38,
-   "front": 77,
-   "height": 74,
-   "hit": 32,
-   "hit_reaction": 7,
-   "id": "final-boss/knee",
-   "score": 0,
-   "table": "final-boss",
-   "width": 70,
-   "y": 23
-  },
-  {
-   "block": 16,
-   "block_reaction": 37,
-   "front": 64,
-   "height": 112,
-   "hit": 52,
-   "hit_reaction": 0,
-   "id": "final-boss/nupower",
-   "score": 0,
-   "table": "final-boss",
-   "width": 144,
-   "y": 0
-  },
-  {
-   "block": 18,
-   "block_reaction": 41,
-   "front": 80,
-   "height": 96,
-   "hit": 60,
-   "hit_reaction": 0,
-   "id": "final-boss/portal",
-   "score": 0,
-   "table": "final-boss",
-   "width": 128,
-   "y": 0
-  },
-  {
    "block": 16,
    "block_reaction": 37,
    "front": 89,
    "height": 32,
    "hit": 48,
-   "hit_reaction": 6,
+   "hit_reaction": 0,
    "id": "final-boss/punch",
    "score": 0,
    "table": "final-boss",
    "width": 64,
    "y": 40
-  },
-  {
-   "block": 20,
-   "block_reaction": 38,
-   "front": 112,
-   "height": 96,
-   "hit": 60,
-   "hit_reaction": 6,
-   "id": "final-boss/slam",
-   "score": 0,
-   "table": "final-boss",
-   "width": 88,
-   "y": 37
-  },
-  {
-   "block": 4,
-   "block_reaction": 40,
-   "front": 24,
-   "height": 49,
-   "hit": 16,
-   "hit_reaction": 4,
-   "id": "final-boss/sonic",
-   "score": 0,
-   "table": "final-boss",
-   "width": 48,
-   "y": 0
-  },
-  {
-   "block": 4,
-   "block_reaction": 40,
-   "front": 16,
-   "height": 132,
-   "hit": 16,
-   "hit_reaction": 4,
-   "id": "final-boss/sonic-l",
-   "score": 0,
-   "table": "final-boss",
-   "width": 32,
-   "y": 0
-  },
-  {
-   "block": 4,
-   "block_reaction": 40,
-   "front": 22,
-   "height": 98,
-   "hit": 16,
-   "hit_reaction": 4,
-   "id": "final-boss/sonic-m",
-   "score": 0,
-   "table": "final-boss",
-   "width": 44,
-   "y": 0
   },
   {
    "block": 8,
@@ -3213,11 +2869,11 @@
    "y": 16
   },
   {
-   "block": 6,
+   "block": 3,
    "block_reaction": 16,
    "front": 78,
    "height": 24,
-   "hit": 22,
+   "hit": 13,
    "hit_reaction": 18,
    "id": "ninjas/slide",
    "table": "ninjas",
@@ -3240,7 +2896,7 @@
   {
    "block": 6,
    "block_reaction": 2,
-   "front": 120,
+   "front": 148,
    "height": 18,
    "hit": 24,
    "hit_reaction": 22,
@@ -3251,11 +2907,11 @@
    "y": 30
   },
   {
-   "block": 8,
+   "block": 0,
    "block_reaction": 22,
    "front": 104,
    "height": 24,
-   "hit": 32,
+   "hit": 0,
    "hit_reaction": 21,
    "id": "swordarms/spin",
    "score": 0,
@@ -3277,11 +2933,11 @@
    "y": -48
   },
   {
-   "block": 3,
+   "block": 4,
    "block_reaction": 1,
    "front": 121,
    "height": 20,
-   "hit": 18,
+   "hit": 15,
    "hit_reaction": 23,
    "id": "ninjas/spit1",
    "score": 0,
@@ -3290,11 +2946,11 @@
    "y": 20
   },
   {
-   "block": 3,
+   "block": 4,
    "block_reaction": 1,
    "front": 169,
    "height": 20,
-   "hit": 18,
+   "hit": 15,
    "hit_reaction": 23,
    "id": "ninjas/spit2",
    "score": 0,
@@ -3314,45 +2970,6 @@
    "table": "female-ninjas",
    "width": 60,
    "y": 36
-  },
-  {
-   "block": 7,
-   "block_reaction": 18,
-   "front": 85,
-   "height": 45,
-   "hit": 26,
-   "hit_reaction": 21,
-   "id": "morphman/backflip",
-   "score": 0,
-   "table": "morphman",
-   "width": 68,
-   "y": 40
-  },
-  {
-   "block": 5,
-   "block_reaction": 38,
-   "front": 64,
-   "height": 48,
-   "hit": 21,
-   "hit_reaction": 22,
-   "id": "morphman/ball-roll",
-   "score": 0,
-   "table": "morphman",
-   "width": 64,
-   "y": 16
-  },
-  {
-   "block": 8,
-   "block_reaction": 0,
-   "front": 80,
-   "height": 44,
-   "hit": 32,
-   "hit_reaction": 0,
-   "id": "morphman/roundpunch",
-   "score": 0,
-   "table": "morphman",
-   "width": 68,
-   "y": 6
   },
   {
    "block": 3,
@@ -3590,7 +3207,7 @@
   },
   {
    "block": 8,
-   "block_reaction": 39,
+   "block_reaction": 16,
    "front": 104,
    "height": 24,
    "hit": 32,
@@ -3600,32 +3217,6 @@
    "table": "swordarms",
    "width": 70,
    "y": 20
-  },
-  {
-   "block": 2,
-   "block_reaction": 24,
-   "front": 88,
-   "height": 48,
-   "hit": 0,
-   "hit_reaction": 25,
-   "id": "swordarms/swordkick",
-   "score": 0,
-   "table": "swordarms",
-   "width": 80,
-   "y": 45
-  },
-  {
-   "block": 5,
-   "block_reaction": 19,
-   "front": 96,
-   "height": 128,
-   "hit": 10,
-   "hit_reaction": 19,
-   "id": "ninjas/tornado",
-   "score": 0,
-   "table": "ninjas",
-   "width": 96,
-   "y": -32
   }
  ],
  "tables": [

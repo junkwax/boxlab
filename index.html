@@ -65,6 +65,38 @@ code{font-family:var(--mono);font-size:12.5px;background:var(--bg);
 footer{border-top:1px solid var(--line);color:var(--dim);font-size:12.5px;
        padding:18px 20px;max-width:1180px;margin:0 auto}
 a{color:var(--anchor)}
+.roster{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+        padding:10px 12px;margin-bottom:14px}
+.rbar{display:flex;align-items:center;flex-wrap:wrap;gap:8px;color:var(--dim);
+      font-size:12.5px;margin-bottom:8px}
+.rbar button,.pbtns button{background:var(--bg);color:var(--ink);cursor:pointer;
+      border:1px solid var(--line);border-radius:6px;padding:5px 10px;
+      font-size:13px;font-family:inherit}
+.rbar button.on{border-color:var(--anchor);color:var(--anchor)}
+.rcards{display:flex;flex-wrap:wrap;gap:5px}
+.rcard{width:64px;border:1px solid transparent;border-radius:8px;padding:4px 2px;
+       cursor:pointer;text-align:center}
+.rcard:hover{background:var(--bg)}
+.rcard.atk{border-color:var(--hit)}
+.rcard.def{border-color:var(--anchor)}
+.rcard canvas{display:block;width:56px;height:58px;margin:0 auto}
+.rname{font-size:10.5px;color:var(--dim);margin-top:3px;line-height:1.25}
+.rcard.atk .rname,.rcard.def .rname{color:var(--ink)}
+.propose{margin-top:14px}
+.fields{display:flex;flex-wrap:wrap;gap:10px;margin:10px 0}
+.fields div{width:100px}
+.fields input{width:100%;background:var(--bg);color:var(--ink);
+      font-family:var(--mono);border:1px solid var(--line);border-radius:6px;
+      padding:5px 7px;font-size:13px}
+.fields input.moved{border-color:var(--warn);color:var(--warn)}
+textarea{width:100%;background:var(--bg);color:var(--ink);
+      border:1px solid var(--line);border-radius:6px;padding:7px;
+      font:14px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+      resize:vertical}
+.pbtns{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.pbtns button[disabled]{opacity:.45;cursor:not-allowed}
+.pending{margin-top:10px;font-family:var(--mono);font-size:12.5px;color:var(--dim)}
+.pending b{color:var(--warn);font-weight:600}
 #err{display:none;background:#3a1e1e;border:1px solid #7a3a3a;color:#ffd9d9;
      padding:14px;border-radius:10px;font-size:14px}
 </style>
@@ -82,6 +114,16 @@ a{color:var(--anchor)}
 
 <main>
 <div id="err"></div>
+
+<div class="roster" id="roster" hidden>
+  <div class="rbar">
+    <span>The cast, drawn from the pose data. No artwork — this is the
+      silhouette the game itself tests. Click one to set the</span>
+    <button id="rm_atk" class="on">attacker</button>
+    <button id="rm_def">defender</button>
+  </div>
+  <div class="rcards" id="rcards"></div>
+</div>
 
 <div class="bar" id="controls" hidden>
   <div><label for="atk">Attacker</label><select id="atk"></select></div>
@@ -106,6 +148,8 @@ a{color:var(--anchor)}
       <span class="key" style="border-color:var(--hurt)"></span> hurt box, as tested</label>
     <label><input type="checkbox" id="t_full">
       <span class="key" style="border-color:var(--dim)"></span> hurt box before the squeeze</label>
+    <label id="l_retail" hidden><input type="checkbox" id="t_retail" checked>
+      <span class="key" style="border-color:var(--dim)"></span> retail box</label>
     <label><input type="checkbox" id="t_anc">
       <span class="key" style="border-color:var(--anchor)"></span> anchors</label>
   </div>
@@ -123,13 +167,29 @@ a{color:var(--anchor)}
     <div class="note">Every number on this page came out of the build named here.
       Nothing is measured by eye or copied from another game.</div></div>
 </div>
+
+<div class="card propose" id="propose" hidden>
+  <h2>Propose a change</h2>
+  <div class="note" id="pintro"></div>
+  <div class="fields" id="pfields"></div>
+  <label for="why">Why — state it as behaviour, not as a number</label>
+  <textarea id="why" rows="2"
+    placeholder="e.g. this whiffs at ranges where it visibly connects"></textarea>
+  <div class="pending" id="pending"></div>
+  <div class="pbtns">
+    <button id="preset">Reset this record</button>
+    <button id="pcopy">Copy proposal</button>
+    <button id="ppr">Open a pull request</button>
+  </div>
+  <div class="note" id="pnote"></div>
+</div>
 </main>
 
 <footer>
   An unofficial fan project. Not affiliated with, endorsed by, or associated with
-  Warner Bros. Entertainment Inc. or NetherRealm Studios. Character names are used
-  only to identify the characters they name. No game code, artwork, audio or ROM
-  data is distributed here — see <a href="NOTICE.md">NOTICE.md</a>.
+  Warner Bros. Entertainment Inc. or NetherRealm Studios. The fighters are named by
+  this project's own handles, not by any trademarked name. No game code, artwork,
+  audio or ROM data is distributed here — see <a href="NOTICE.md">NOTICE.md</a>.
 </footer>
 
 <script>
@@ -137,11 +197,31 @@ const $ = id => document.getElementById(id);
 let BOX = null, POSE = null, FRAME = null;
 let byId = {}, flags = {}, contacts = {}, frames = {}, chars = [], charById = {};
 
+/* Retail is OPTIONAL. The page is useful without it and better with it, so a
+   missing file is a missing overlay, never an error. */
+let RETAIL = null, retailById = {};
+
+/* Pending edits, keyed by record id. These never touch BOX - the proposal is
+   built from the difference, so the data on screen stays the data on disk. */
+const EDITS = {};
+
+/* Set this to OWNER/REPO if this page is served anywhere but GitHub Pages;
+   on Pages it is derived from the URL and this value is not used. */
+const REPO = "junkwax/boxlab";
+
 /* ---------------------------------------------------------------- loading */
 Promise.all(["data/boxes.json","data/poses.json","data/frames.json"]
     .map(u => fetch(u).then(r => { if(!r.ok) throw new Error(u+": "+r.status);
                                    return r.json(); })))
-  .then(([b,p,f]) => { BOX=b; POSE=p; FRAME=f; init(); })
+  .then(([b,p,f]) => {
+    BOX=b; POSE=p; FRAME=f;
+    return fetch("data/retail/boxes.json")
+      .then(r => r.ok ? r.json() : null).catch(() => null);
+  })
+  .then(rt => {
+    if (rt && rt.moves){ RETAIL = rt; rt.moves.forEach(m => retailById[m.id] = m); }
+    init();
+  })
   .catch(e => {
     $("err").style.display = "block";
     $("err").innerHTML = "<b>Could not load the data files.</b><br>" + e.message +
@@ -160,12 +240,17 @@ function init(){
 
   fill($("atk"), chars.map(c => [c.id, c.name]));
   fill($("def"), chars.map(c => [c.id, c.name]));
-  $("atk").value = "liu-kang";
-  $("def").value = "liu-kang";
+  $("atk").value = "headband";
+  $("def").value = "headband";
   refreshMoves();
   refreshPoses();
   refreshFrames();
   $("controls").hidden = $("tog").hidden = false;
+  $("roster").hidden = $("propose").hidden = false;
+  if (RETAIL) $("l_retail").hidden = false;
+  buildRoster();
+  buildFields();
+  wirePropose();
 
   ["atk"].forEach(id => $(id).addEventListener("change", () => {
     refreshMoves(); draw(); }));
@@ -193,7 +278,7 @@ function fill(sel, pairs, keep){
 }
 
 /* A character's moves are the records of the strike TABLE they use — which is
-   shared: Kitana, Mileena and Jade read one table, and the five ninjas read
+   shared: the three female ninjas read one table, and the five ninjas read
    another. Listing them per character rather than per table is the whole
    reason someone opens this page. */
 function refreshMoves(){
@@ -240,9 +325,20 @@ function squeeze(l, r){
   return [l + inset, r - inset];
 }
 
+/* The record as edited. Object.assign leaves byId alone, which is the point:
+   nothing on this page mutates the loaded data. */
+function effective(id){
+  const b = byId[id];
+  if (!b) return null;
+  const e = EDITS[id];
+  return e && Object.keys(e).length ? Object.assign({}, b, e) : b;
+}
+
 function state(){
   const atk = $("atk").value, def = $("def").value, id = $("mv").value;
-  const rec = byId[id];
+  const base = byId[id];
+  const rec = effective(id);
+  const edited = !!(EDITS[id] && Object.keys(EDITS[id]).length);
   const contact = (contacts[id] || {})[atk] || null;
   const atkRects = contact ? POSE.poses[contact.pose] : null;
 
@@ -259,8 +355,10 @@ function state(){
   const defWorld = (defRects || []).map(([x,y,w,h]) => [D - x - w, y, w, h]);
   const atkWorld = (atkRects || []).map(([x,y,w,h]) => [x, y, w, h]);
 
-  let strike = null;
-  if (rec) strike = [rec.front - rec.width, rec.y, rec.front, rec.y + rec.height];
+  const asBox = r => r ? [r.front - r.width, r.y, r.front, r.y + r.height] : null;
+  const strike = asBox(rec);
+  const strikeBase = edited ? asBox(base) : null;
+  const strikeRetail = asBox(retailById[id]);
 
   let hurtFull = defWorld.length ? bbox(defWorld) : null;
   let hurt = hurtFull ? hurtFull.slice() : null;
@@ -272,8 +370,9 @@ function state(){
     overlap = strike[0] < hurt[2] && strike[2] > hurt[0] &&
               strike[1] < hurt[3] && strike[3] > hurt[1];
 
-  return {atk, def, id, rec, contact, atkWorld, defWorld, strike,
-          hurt, hurtFull, sq, overlap, D, lane, fi, laneW};
+  return {atk, def, id, rec, base, edited, contact, atkWorld, defWorld, strike,
+          strikeBase, strikeRetail, hurt, hurtFull, sq, overlap, D, lane, fi,
+          laneW};
 }
 
 /* ---------------------------------------------------------------- drawing */
@@ -288,8 +387,9 @@ function draw(){
   g.clearRect(0,0,cssW,470);
 
   const all = [...s.atkWorld, ...s.defWorld];
-  if (s.strike) all.push([s.strike[0], s.strike[1],
-                          s.strike[2]-s.strike[0], s.strike[3]-s.strike[1]]);
+  const span = b => b && all.push([b[0], b[1], b[2]-b[0], b[3]-b[1]]);
+  span(s.strike); span(s.strikeBase);
+  if (RETAIL && $("t_retail").checked) span(s.strikeRetail);
   if (!all.length){ report(s); return; }
   const bb = bbox(all);
   const padX = 30, padY = 24;
@@ -327,9 +427,17 @@ function draw(){
     rect(s.hurtFull, C("--dim"), null, [4,4]);
   if ($("t_hurt").checked && s.hurt)
     rect(s.hurt, C("--hurt"), "rgba(255,255,255,.06)");
-  if ($("t_hit").checked && s.strike)
-    rect(s.strike, C("--hit"),
-         s.overlap ? "rgba(255,77,77,.22)" : "rgba(255,77,77,.10)");
+  if ($("t_hit").checked){
+    /* Three states, drawn back to front: what retail shipped, what this build
+       ships, and what you are proposing. Only the last one is solid. */
+    if (RETAIL && $("t_retail").checked && s.strikeRetail)
+      rect(s.strikeRetail, C("--dim"), null, [2,3]);
+    if (s.strikeBase) rect(s.strikeBase, C("--hit"), null, [5,4]);
+    if (s.strike)
+      rect(s.strike, s.edited ? C("--warn") : C("--hit"),
+           s.overlap ? (s.edited ? "rgba(255,176,32,.22)" : "rgba(255,77,77,.22)")
+                     : (s.edited ? "rgba(255,176,32,.10)" : "rgba(255,77,77,.10)"));
+  }
 
   if ($("t_anc").checked){
     g.strokeStyle = C("--anchor"); g.lineWidth = 1;
@@ -345,6 +453,8 @@ function draw(){
 
 /* ---------------------------------------------------------------- readout */
 function report(s){
+  markRoster();
+  syncFields();
   const v = $("verdict");
   if (!s.rec){ v.textContent = "No record selected."; return; }
   if (!s.hurt){
@@ -372,10 +482,20 @@ function report(s){
   }
 
   const r = s.rec;
-  $("tbox").innerHTML = row("front edge (reach)", r.front) +
-    row("width, backwards from the front", r.width) +
-    row("top edge, down from the anchor", r.y) + row("height", r.height) +
-    row("damage on hit", r.hit) + row("damage on block", r.block) +
+  const rt = retailById[s.id];
+  const vs = f => {
+    /* Current value, and what it was in retail when that differs. */
+    const now = r[f];
+    const moved = s.edited && s.base[f] !== now
+      ? " <span class='warn'>(was " + s.base[f] + ")</span>" : "";
+    const ship = rt && rt[f] !== s.base[f]
+      ? " <span style='color:var(--dim)'>retail " + rt[f] + "</span>" : "";
+    return now + moved + ship;
+  };
+  $("tbox").innerHTML = row("front edge (reach)", vs("front")) +
+    row("width, backwards from the front", vs("width")) +
+    row("top edge, down from the anchor", vs("y")) + row("height", vs("height")) +
+    row("damage on hit", vs("hit")) + row("damage on block", vs("block")) +
     row("squeezes the victim", s.sq ? "yes" : "no") +
     row("must be blocked low", (flags[s.id]||[]).includes("duck") ? "yes":"no");
   $("boxnote").innerHTML = "<b>Reach is not range.</b> <code>front</code> is " +
@@ -429,6 +549,209 @@ function report(s){
     row("contact pose", conf === "table" ? "resolved by table"
       : conf === "handler-name" ? "resolved by handler"
       : conf === "assumed" ? "assumed — verify" : "not resolved");
+}
+
+/* ----------------------------------------------------------------- roster */
+/* The cast, identified by the only picture this project has any business
+   drawing: the rectangles the game assembles a fighter out of. The hat is the
+   wide one on top. The swords are the long thin ones. Four arms are four arms.
+   No artwork is needed here, and artwork would say less. */
+let RMODE = "atk";
+
+function buildRoster(){
+  const host = $("rcards");
+  chars.forEach(c => {
+    const card = document.createElement("div");
+    card.className = "rcard";
+    card.id = "rc_" + c.id;
+    const cv = document.createElement("canvas");
+    cv.width = 112; cv.height = 116;
+    const nm = document.createElement("div");
+    nm.className = "rname";
+    nm.textContent = c.name;
+    card.append(cv); card.append(nm);
+    card.addEventListener("click", () => {
+      $(RMODE).value = c.id;
+      if (RMODE === "atk") refreshMoves();
+      else { refreshPoses(); refreshFrames(); }
+      draw();
+    });
+    host.append(card);
+    silhouette(cv, c.id);
+  });
+}
+
+function silhouette(cv, cid){
+  const lane = (POSE.stances[cid] || {}).stance || [];
+  const rects = lane.length ? POSE.poses[lane[0]] : null;
+  if (!rects || !rects.length) return;
+  const g = cv.getContext("2d");
+  const b = bbox(rects), pad = 7, W = cv.width, H = cv.height;
+  const k = Math.min((W - 2*pad) / Math.max(b[2]-b[0], 1),
+                     (H - 2*pad) / Math.max(b[3]-b[1], 1));
+  const ox = (W - (b[2]-b[0])*k)/2 - b[0]*k;
+  const oy = (H - (b[3]-b[1])*k)/2 - b[1]*k;
+  g.fillStyle = "rgba(61,220,132,.16)";
+  g.strokeStyle = getComputedStyle(document.documentElement)
+                    .getPropertyValue("--body").trim();
+  g.lineWidth = 1.5;
+  rects.forEach(([x,y,w,h]) => {
+    g.fillRect(ox + x*k, oy + y*k, w*k, h*k);
+    g.strokeRect(ox + x*k, oy + y*k, w*k, h*k);
+  });
+}
+
+function markRoster(){
+  chars.forEach(c => {
+    const e = $("rc_" + c.id);
+    if (!e) return;
+    e.className = "rcard" + ($("atk").value === c.id ? " atk" : "") +
+                            ($("def").value === c.id ? " def" : "");
+  });
+}
+
+function setMode(m){
+  RMODE = m;
+  $("rm_atk").className = m === "atk" ? "on" : "";
+  $("rm_def").className = m === "def" ? "on" : "";
+}
+
+/* ---------------------------------------------------------------- propose */
+/* Reactions are absent on purpose: they index a table of animations, so a
+   "better" value is not a bigger one and this page cannot show you what you
+   changed. tools/apply.py refuses them for the same reason. */
+const PFIELDS = [["front","front edge"], ["width","width"], ["y","top edge"],
+                 ["height","height"], ["hit","damage"], ["block","chip"]];
+
+function buildFields(){
+  PFIELDS.forEach(([f, lab]) => {
+    const d = document.createElement("div");
+    const l = document.createElement("label");
+    l.textContent = lab;
+    const i = document.createElement("input");
+    i.type = "number";
+    i.id = "pf_" + f;
+    i.addEventListener("input", () => onField(f));
+    d.append(l); d.append(i);
+    $("pfields").append(d);
+  });
+  $("pintro").innerHTML = "Change a number and the proposed box is drawn in " +
+    "amber over the current one. Nothing here edits the data. What you send " +
+    "is an <em>overlay</em> &mdash; the record, the field, the value it expects " +
+    "to find and the value it wants instead &mdash; so the pull request stays " +
+    "readable, two proposals never collide, and it fails loudly if the build " +
+    "moved underneath it.";
+}
+
+function onField(f){
+  const id = $("mv").value, base = byId[id];
+  if (!base) return;
+  const raw = $("pf_" + f).value;
+  const v = parseInt(raw, 10);
+  const e = EDITS[id] || (EDITS[id] = {});
+  if (raw === "" || !isFinite(v) || v === base[f]) delete e[f];
+  else e[f] = v;
+  if (!Object.keys(e).length) delete EDITS[id];
+  draw();
+}
+
+function syncFields(){
+  const id = $("mv").value, base = byId[id], e = EDITS[id] || {};
+  PFIELDS.forEach(([f]) => {
+    const i = $("pf_" + f);
+    if (!i) return;
+    i.disabled = !base;
+    const v = base ? (f in e ? e[f] : base[f]) : "";
+    if (String(i.value) !== String(v)) i.value = v;
+    i.className = f in e ? "moved" : "";
+  });
+
+  const p = proposal();
+  $("pending").innerHTML = p.changes.length
+    ? p.changes.map(c => "<b>" + c.id + "</b> &nbsp;" +
+        Object.keys(c).filter(k => k !== "id")
+          .map(k => k + " " + c[k].from + " to " + c[k].to).join(", ")).join("<br>")
+    : "No changes pending.";
+  const ready = p.changes.length > 0 && !!p.why;
+  $("pcopy").disabled = $("ppr").disabled = !ready;
+  $("preset").disabled = !(id in EDITS);
+  $("pnote").textContent = p.changes.length && !p.why
+    ? "Say why before proposing. A number with no reason cannot be reviewed."
+    : "";
+}
+
+function proposal(){
+  const changes = [];
+  Object.keys(EDITS).sort().forEach(id => {
+    const base = byId[id], e = EDITS[id], c = { id };
+    let any = false;
+    PFIELDS.forEach(([f]) => {
+      if (f in e && e[f] !== base[f]){ c[f] = { from: base[f], to: e[f] }; any = true; }
+    });
+    if (any) changes.push(c);
+  });
+  return { format: "boxlab-proposal", format_version: 1,
+           base_digest: BOX.meta.base_digest,
+           why: ($("why").value || "").trim(), changes };
+}
+
+/* On Pages the repository is in the URL. Anywhere else, REPO is used. */
+function repoSlug(){
+  try {
+    const host = location.hostname, tail = ".github.io";
+    const seg = location.pathname.split("/").filter(Boolean);
+    if (host.length > tail.length && host.slice(-tail.length) === tail && seg.length)
+      return host.slice(0, host.length - tail.length) + "/" + seg[0];
+  } catch (err) { /* not served over http; fall through to REPO */ }
+  return REPO;
+}
+
+function proposalFile(p){
+  const first = p.changes[0].id.split("/").join("-");
+  const more = p.changes.length > 1 ? "-and-" + (p.changes.length - 1) + "-more" : "";
+  return "proposals/" + new Date().toISOString().slice(0,10) + "-" + first +
+         more + ".json";
+}
+
+function offerText(text){
+  $("pnote").textContent = "Could not reach the clipboard \u2014 copy this by hand:";
+  const t = document.createElement("textarea");
+  t.value = text;
+  t.rows = 8;
+  $("pnote").append(t);
+}
+
+function wirePropose(){
+  $("rm_atk").addEventListener("click", () => setMode("atk"));
+  $("rm_def").addEventListener("click", () => setMode("def"));
+  $("why").addEventListener("input", syncFields);
+  $("preset").addEventListener("click", () => { delete EDITS[$("mv").value]; draw(); });
+
+  $("pcopy").addEventListener("click", () => {
+    const p = proposal(), text = JSON.stringify(p, null, 1);
+    const done = () => { $("pnote").textContent =
+      "Copied. Add it to the repository as " + proposalFile(p) +
+      " and open a pull request."; };
+    try { navigator.clipboard.writeText(text).then(done, () => offerText(text)); }
+    catch (err) { offerText(text); }
+  });
+
+  $("ppr").addEventListener("click", () => {
+    const p = proposal();
+    const url = "https://github.com/" + repoSlug() + "/new/main?filename=" +
+                encodeURIComponent(proposalFile(p)) +
+                "&value=" + encodeURIComponent(JSON.stringify(p, null, 1));
+    if (url.length > 7000){
+      $("pnote").textContent = "Too large to hand to GitHub in a link. Use " +
+        "Copy proposal and add the file by hand.";
+      return;
+    }
+    $("pnote").innerHTML = "GitHub will fork this repository to your account " +
+      "and open a new file with the proposal already in it &mdash; commit it " +
+      "and it becomes a pull request. If the editor comes up <em>empty</em>, " +
+      "GitHub has stopped accepting prefilled content: use <b>Copy proposal</b>.";
+    window.open(url, "_blank", "noopener");
+  });
 }
 
 const row = (k,v) => "<tr><td>"+k+"</td><td>"+

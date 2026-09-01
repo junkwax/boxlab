@@ -8,7 +8,7 @@
  *
  *   node tools/selftest.mjs
  */
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import vm from "node:vm";
@@ -20,6 +20,13 @@ const code = html.match(/<script>([\s\S]*?)<\/script>/)[1];
 
 const data = Object.fromEntries(["boxes", "poses", "frames"].map(n =>
   [`data/${n}.json`, JSON.parse(readFileSync(join(ROOT, "data", n + ".json"), "utf8"))]));
+
+/* The retail reference is optional by design, so the stub serves it only when
+   the repository actually carries one. Both paths get a check below. */
+const RETAIL_PATH = join(ROOT, "data", "retail", "boxes.json");
+const hasRetail = existsSync(RETAIL_PATH);
+if (hasRetail)
+  data["data/retail/boxes.json"] = JSON.parse(readFileSync(RETAIL_PATH, "utf8"));
 
 /* ------------------------------------------------------------- stub DOM -- */
 const els = {};
@@ -41,8 +48,15 @@ function el(id) {
 const sandbox = {
   document: {
     getElementById: el,
-    createElement: () => ({ style: {}, append: noop, set value(v) { this._v = v; },
-                            get value() { return this._v; } }),
+    createElement: (tag) => ({
+      tag, style: {}, className: "", id: "", textContent: "", innerHTML: "",
+      type: "", rows: 0, width: 0, height: 0, disabled: false, value: "",
+      kids: [], append(c) { this.kids.push(c); }, addEventListener: noop,
+      getContext: () => new Proxy({}, {
+        get: (_t, k) => (k === "canvas" ? {} :
+          typeof k === "string" ? noop : undefined)
+      }),
+    }),
   },
   fetch: async (u) => ({ ok: !!data[u], status: 200, json: async () => data[u] }),
   getComputedStyle: () => ({ getPropertyValue: () => "#000" }),
@@ -79,13 +93,38 @@ console.log("boxlab selftest — index.html's own model, against the committed d
 check("controls are shown after load", el("controls").hidden, false);
 check("attacker list is the full cast", el("atk").kids.length, 17);
 
-/* 2. The squeeze: the project notes measured Jax's stance at 66 px full and 18 px
-      squeezed, off the live overlay.  Frame 5 of 7 is the one that is 66. */
-set({ atk: "liu-kang", mv: "liu-kang/hikick", def: "jax", pose: "stance",
+/* 1b. init() ran to the END. Everything below this line tests the model; this
+       line tests that the page finished building at all, which is the failure
+       the stub used to hide. */
+check("no load error was shown", el("err").style.display || "", "");
+check("roster drew the whole cast", el("rcards").kids.length, 17);
+check("retail overlay follows the file on disk",
+      val("RETAIL") !== null, hasRetail);
+if (hasRetail) {
+  /* The mod widened this one from 96 to 120. If the two files ever stop
+     disagreeing here, one of them was generated from the wrong tree. */
+  set({ atk: "frosty", mv: "ninjas/ice1", def: "bigarms", pose: "stance",
+        fr: 0, dist: 80 });
+  const ice = S();
+  check("retail box is read for a record the mod changed",
+        ice.strikeRetail !== null, true);
+  check("retail and current disagree where the mod moved the box",
+        ice.strikeRetail[2] - ice.strikeRetail[0] !==
+        ice.strike[2] - ice.strike[0], true);
+  check("a record the mod did not touch has no ghost to draw",
+        (() => { set({ atk: "headband", mv: "headband/hikick" });
+                 const t = S();
+                 return JSON.stringify(t.strike) ===
+                        JSON.stringify(t.strikeRetail); })(), true);
+}
+
+/* 2. The squeeze: the project notes measured Big Arms' stance at 66 px full and
+      18 px squeezed, off the live overlay.  Frame 5 of 7 is the one that is 66. */
+set({ atk: "headband", mv: "headband/hikick", def: "bigarms", pose: "stance",
       fr: 4, dist: 80 });
 let s = S();
-check("jax stance frame 5 full width", s.hurtFull[2] - s.hurtFull[0], 66);
-check("jax stance frame 5 tested width", s.hurt[2] - s.hurt[0], 18);
+check("bigarms stance frame 5 full width", s.hurtFull[2] - s.hurtFull[0], 66);
+check("bigarms stance frame 5 tested width", s.hurt[2] - s.hurt[0], 18);
 
 /* 3. The squeeze is centred on the SILHOUETTE, not the anchor, so it drifts
       with the limbs rather than sitting symmetrically about 0. */
@@ -103,12 +142,12 @@ const holes = hits.slice(first, last + 1).filter(v => !v).length;
 check("the connecting range is one unbroken band", holes, 0);
 check("whiffs point blank - the near dead zone is real", hits[0], false);
 check("whiffs at 260 px", hits[260], false);
-console.log(`  INFO  liu-kang/hikick vs jax stance: connects from ${first} to ${last} px` +
+console.log(`  INFO  headband/hikick vs bigarms stance: connects from ${first} to ${last} px` +
             ` (dead zone 0..${first - 1})`);
 
 /* 5. Reach is not range.  The record's front edge is where the BOX ends; the
       move keeps connecting past it because the victim has width. */
-const front = val('byId["liu-kang/hikick"]').front;
+const front = val('byId["headband/hikick"]').front;
 check("connects past the record's front edge", last > front, true);
 console.log(`        front edge ${front} px, still connects at ${last} px`);
 
@@ -116,7 +155,7 @@ console.log(`        front edge ${front} px, still connects at ${last} px`);
       defender who is a different character (the mirroring path). */
 let drawn = 0, broke = [];
 for (const m of val("BOX").moves) {
-  set({ atk: "liu-kang", mv: m.id, def: "kitana", pose: "stance", fr: 0, dist: 70 });
+  set({ atk: "headband", mv: m.id, def: "knockout", pose: "stance", fr: 0, dist: 70 });
   try { sandbox.draw(); drawn++; } catch (e) { broke.push(m.id + ": " + e.message); }
 }
 check("every record renders", broke.slice(0, 3), []);
@@ -128,7 +167,7 @@ for (const c of val("POSE").characters) {
   const lanes = val("POSE").stances[c.id] || {};
   for (const lane of Object.keys(lanes)) {
     for (let i = 0; i < lanes[lane].length; i++) {
-      set({ atk: "liu-kang", mv: "liu-kang/hikick", def: c.id, pose: lane,
+      set({ atk: "headband", mv: "headband/hikick", def: c.id, pose: lane,
             fr: i, dist: 70 });
       try { sandbox.draw(); poses++; } catch (e) {
         broke.push(`${c.id}/${lane}#${i}: ${e.message}`);
@@ -138,6 +177,24 @@ for (const c of val("POSE").characters) {
 }
 check("every defender pose frame renders", broke.slice(0, 3), []);
 console.log(`  INFO  ${poses} pose frames drawn without error`);
+
+/* 8. A proposal is the DIFFERENCE, never an edited copy of the record. The
+      whole overlay design rests on this, and tools/apply.py reads back exactly
+      what is asserted here. */
+val('EDITS["headband/hikick"] = { front: 91 }');
+const prop = val("proposal()");
+check("proposal names the record", prop.changes[0].id, "headband/hikick");
+check("proposal carries from and to", prop.changes[0].front, { from: 94, to: 91 });
+check("proposal cites the digest it was written against",
+      prop.base_digest, val("BOX.meta.base_digest"));
+check("the loaded data is untouched by an edit",
+      val('byId["headband/hikick"].front'), 94);
+
+val('EDITS["headband/hikick"] = { front: 94 }');
+check("an edit back to the shipped value proposes nothing",
+      val("proposal()").changes.length, 0);
+val('delete EDITS["headband/hikick"]');
+
 
 console.log(`\n${n - fails}/${n} checks passed`);
 process.exit(fails ? 1 : 0);

@@ -2,7 +2,7 @@
 
 **What a 1993 arcade fighting game actually tests when you press a button.**
 
-Open [the viewer](https://example.github.io/boxlab/), pick a move, and drag the
+Open [the viewer](https://junkwax.github.io/boxlab/), pick a move, and drag the
 distance slider until it stops connecting. That is the whole idea.
 
 This game has never had published hitbox data. What exists is scattered across
@@ -33,14 +33,14 @@ Three consequences that decide real matches, all of which you can reproduce in
 the viewer in about ten seconds each:
 
 - **Reach is not range.** A record's `front` is where the box *ends*, not where
-  the move lands. Liu Kang's high kick has a front edge of 94 px and still
+  the move lands. Headband's high kick has a front edge of 94 px and still
   connects at 109, because the victim has width. Widening a box by 20 px does
   not buy 20 px of range.
 - **There is a dead zone at point blank.** That same kick connects from 24 px
   out. Stand closer than that and it passes straight through — the box starts
   in front of the attacker.
-- **Idle animations breathe, and it matters.** Jax's stance swings between 60
-  and 69 px wide across its seven frames. Which frame he is on changes the
+- **Idle animations breathe, and it matters.** Big Arms' stance swings between
+  60 and 69 px wide across its seven frames. Which frame they are on changes the
   tested column by 3 px, and at the edge of a move's range that is the hit.
 
 ## No artwork, on purpose — and it is the *better* picture
@@ -54,6 +54,28 @@ only thing worth seeing, which is how little of a fighter is actually live.
 That also keeps this repository clean. Every number here is a measurement.
 Nothing in it is copied out of anyone's game.
 
+## The cast
+
+Seventeen fighters, named for what they are rather than for anyone's trademark
+— see [NOTICE.md](NOTICE.md). Several read the same strike table, which is why
+editing one record can move more than one fighter:
+
+| strike table | fighters reading it | records |
+|---|---|---|
+| `bigarms` | `bigarms` | 20 |
+| `bolt` | `bolt` | 19 |
+| `female-ninjas` | `knockout`, `bombshell`, `pole` | 26 |
+| `final-boss` | `final-boss` | 16 |
+| `fourarms` | `fourarms` | 4 |
+| `hathead` | `hathead` | 19 |
+| `headband` | `headband` | 23 |
+| `morphman` | `morphman` | 22 |
+| `ninjas` | `frosty`, `acid`, `harpoon`, `2ndhand`, `blackout` | 32 |
+| `shades` | `shades` | 21 |
+| `swordarms` | `swordarms` | 24 |
+
+The two `shared` records belong to no table of their own.
+
 ## What is in here
 
 | | |
@@ -63,6 +85,8 @@ Nothing in it is copied out of anyone's game.
 | `data/poses.json` | 869 poses as rectangles, plus which one each move is live on |
 | `data/frames.json` | startup / active / recovery / advantage for 177 moves |
 | `tools/validate.py` | shape + disclosure checks. Runs with no game source |
+| `tools/apply.py` | folds a proposal into the data. Dry run by default |
+| `proposals/` | one open balance change per file — see [proposals/README.md](proposals/README.md) |
 | `tools/prove_validator.py` | injects eight faults and proves each is rejected |
 | `tools/selftest.mjs` | runs the viewer's own code against the data |
 
@@ -72,6 +96,7 @@ Run it locally:
 python -m http.server        # then open http://localhost:8000/
 python tools/validate.py
 python tools/prove_validator.py
+python tools/apply.py        # what the open proposals would change
 node   tools/selftest.mjs
 ```
 
@@ -100,9 +125,22 @@ Known limits, stated rather than hidden:
 
 ## Proposing a change
 
-The data files are the balance. Edit a number, open a pull request, and the
-diff GitHub renders *is* the change — no tooling required to read it. See
+The data files are the balance. Change a number in the viewer, press **Open a
+pull request**, and GitHub forks this repository and opens the proposal file
+prefilled — no clone, no tooling, nothing to install.
+
+What you send is an *overlay*, not an edited copy of the data: the record, the
+field, the value it expects to find and the value it wants instead. So the diff
+GitHub renders is four lines rather than four thousand, two proposals never
+collide, and a proposal written against a build that has since moved is
+rejected by CI instead of being silently applied to a number nobody measured.
+See [proposals/README.md](proposals/README.md) and
 [CONTRIBUTING.md](CONTRIBUTING.md).
+
+**Only strike boxes are proposable.** Hurt boxes are computed from the artwork
+and authored nowhere, so there is nothing to edit; frame timing lives in code
+rather than a table. Both are stated on the page rather than discovered in
+review.
 
 CI checks that a proposal is well formed and discloses nothing it should not.
 It cannot tell you whether a change is *good*. Only a build can, and that

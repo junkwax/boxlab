@@ -45,7 +45,8 @@ def run(tmp):
 def scratch():
     tmp = tempfile.mkdtemp(prefix="boxlab-prove-")
     os.makedirs(os.path.join(tmp, "tools"))
-    shutil.copy(os.path.join(HERE, "validate.py"), os.path.join(tmp, "tools"))
+    for f in ("validate.py", "apply.py"):   # validate.py imports apply.py
+        shutil.copy(os.path.join(HERE, f), os.path.join(tmp, "tools"))
     shutil.copytree(os.path.join(ROOT, "data"), os.path.join(tmp, "data"))
     return tmp
 
@@ -77,19 +78,21 @@ def edit(tmp, fname, fn):
 
 @case("a source symbol", "the obvious leak")
 def _(tmp):
-    # Split the same way validate.py splits its own terms: the fixture has to
-    # BE a leak at runtime without being one in the source.
-    edit(tmp, "boxes.json", lambda d: d["moves"][0].update(symbol="stk" "_lkhikick"))
+    # INVENTED, not lifted. The checks match on SHAPE - a prefix and an
+    # underscore - so a real symbol proves nothing a made-up one does not, and
+    # using a real one would leave it sitting in a public repository. Still
+    # split, because the whitelist has to reject it at runtime.
+    edit(tmp, "boxes.json", lambda d: d["moves"][0].update(symbol="stk" "_notareal"))
 
 
 @case("an artwork name", "UPPER CASE, no underscore - the one that got through")
 def _(tmp):
-    edit(tmp, "poses.json", lambda d: d["contacts"][0].update(art="UGSW" "IPE3"))
+    edit(tmp, "poses.json", lambda d: d["contacts"][0].update(art="NOTAN" "AME7"))
 
 
 @case("a lane label", "a symbol arriving under an innocent key")
 def _(tmp):
-    edit(tmp, "poses.json", lambda d: d["contacts"][0].update(lane="a" "_lkstance"))
+    edit(tmp, "poses.json", lambda d: d["contacts"][0].update(lane="a" "_notalane"))
 
 
 @case("a borrowed sentence", "free text where free text does not belong")
@@ -108,12 +111,15 @@ def _(tmp):
 
 @case("a source filename in the prose", "a doc that cites where it came from")
 def _(tmp):
-    write(tmp, "leak.md", "see the table in " "MKSTK." "ASM for the layout")
+    # An INVENTED name with the right shape. The pattern matches any stem, so
+    # a real one proves nothing extra - and would leave a source filename
+    # sitting in a public repository, which is the thing being tested for.
+    write(tmp, "leak.md", "see the table in " "NOTAFILE." "ASM for the layout")
 
 
 @case("a dangling move reference", "a proposal that renames a record")
 def _(tmp):
-    edit(tmp, "frames.json", lambda d: d["moves"][0].update(id="liu-kang/invented"))
+    edit(tmp, "frames.json", lambda d: d["moves"][0].update(id="headband/invented"))
 
 
 @case("a dangling pose reference", "a hand-edited pose list")
@@ -129,6 +135,40 @@ def _(tmp):
 @case("a duplicated record", "two people editing the same move")
 def _(tmp):
     edit(tmp, "boxes.json", lambda d: d["moves"].append(dict(d["moves"][0])))
+
+
+def propose(tmp, doc):
+    """Drop a proposal into the scratch copy. See tools/apply.py."""
+    os.makedirs(os.path.join(tmp, "proposals"), exist_ok=True)
+    with open(os.path.join(tmp, "proposals", "p.json"), "w",
+              encoding="utf-8") as fh:
+        json.dump(doc, fh)
+
+
+def a_real_record(tmp):
+    """A record that exists, and a field a proposal is allowed to move."""
+    with open(os.path.join(tmp, "data", "boxes.json"), encoding="utf-8") as fh:
+        m = json.load(fh)["moves"][0]
+    return m["id"], m["front"]
+
+
+@case("a stale proposal", "the build moved under a pull request")
+def _(tmp):
+    rid, front = a_real_record(tmp)
+    propose(tmp, {"format": "boxlab-proposal", "format_version": 1,
+                  "why": "reads plausibly, and is measured against a build "
+                         "that no longer exists",
+                  "changes": [{"id": rid,
+                               "front": {"from": front + 7, "to": front + 3}}]})
+
+
+@case("a leak in a proposal", "the newest file anyone can add to this repo")
+def _(tmp):
+    rid, front = a_real_record(tmp)
+    propose(tmp, {"format": "boxlab-proposal", "format_version": 1,
+                  "why": "a legitimate reason, so the leak is not here",
+                  "changes": [{"id": rid, "note": "a" "_notalane",
+                               "front": {"from": front, "to": front + 3}}]})
 
 
 def main():

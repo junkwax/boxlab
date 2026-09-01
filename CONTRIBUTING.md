@@ -8,13 +8,19 @@ That is the reason this repository exists, and the reason the review is picky.
 
 ## The loop
 
-**1. Edit a number.**
+**1. Change a number in the viewer.**
 
-Open `data/boxes.json`, find the record, change it. The fields are named for
-what they do, because the game's own field names mislead:
+Open the viewer, pick the move, and edit the field. The proposed box is drawn
+in amber over the current one, so you can see what you did before you argue
+for it. You are not editing `data/boxes.json` — what you send is an
+*overlay* naming the record, the field, the value it expects to find and the
+value it wants instead. [proposals/README.md](proposals/README.md) says why.
+
+The fields are named for what they do, because the game's own field names
+mislead:
 
 ```json
-{ "id": "liu-kang/hikick", "table": "liu-kang",
+{ "id": "headband/hikick", "table": "headband",
   "front": 94, "y": 5, "width": 69, "height": 23,
   "hit": 32, "block": 8, "hit_reaction": 0, "block_reaction": 0, "score": 0 }
 ```
@@ -26,24 +32,32 @@ what they do, because the game's own field names mislead:
 | `y` | the top edge, measured **down** from the anchor |
 | `height` | downward from `y` |
 | `hit` / `block` | damage on a clean hit, and chip damage on block |
-| `hit_reaction` / `block_reaction` | which reaction the victim plays. Leave alone unless you know exactly what you are doing |
+| `hit_reaction` / `block_reaction` | which reaction the victim plays. **Not proposable** — it indexes a table of animations, so a "better" value is not a bigger one and nothing here can show you what you changed |
 
 **`front` is where the box ends, not where the move lands.** The victim is cut
 to a quarter of his width before the compare, so a move connects to roughly
 `front + victim_width/8` and no further. A box widened by 20 px does not buy
 20 px of range. Check it in the viewer before you argue for it.
 
-**2. Check it locally.**
+**2. Press "Open a pull request".**
+
+GitHub forks this repository to your account and opens a new file under
+`proposals/` with your change already in it. Commit it, and it is a PR. If you
+would rather not use the browser, press **Copy proposal** and add the file by
+hand — it is four lines, and the format is documented.
+
+To check it locally first:
 
 ```
-python tools/validate.py
+python tools/validate.py     shape, disclosure, and your proposal
+python tools/apply.py        what your proposal would change. Writes nothing
 ```
 
-**3. Open a pull request.** The diff GitHub renders is the balance change,
-readable by anyone. Tell us three things the diff cannot:
+**3. Say what the numbers cannot.** The proposal already carries the record,
+the field and both values, and CI prints them on the PR. Tell us the rest:
 
 - **What changes** — which moves, in which direction.
-- **Why** — the problem, stated as *behaviour*. "Jax's high kick whiffs at
+- **Why** — the problem, stated as *behaviour*. "Big Arms' high kick whiffs at
   ranges where it visibly connects" is a reason. "`front` should be 96" is not.
 - **How to see it** — the matchup, the spacing, and the input that shows it.
 
@@ -57,7 +71,7 @@ comes back on the PR — a hitbox argument settled with a picture of the hitbox
 is settled; one settled with two people's memories is not.
 
 **6. Merged changes are cited by digest.** "We played digest `9e142d8c`" is
-checkable. "We played the version with the Kang fix" is not.
+checkable. "We played the version with the Headband fix" is not.
 
 ## What you cannot propose here, and why
 
@@ -65,12 +79,13 @@ checkable. "We played the version with the Kang fix" is not.
 |---|---|
 | **hurt boxes** | not authored anywhere. They are computed from the sprite, so they change only when the artwork does. There is nothing to edit |
 | **frame timing** | `data/frames.json` is currently read-only output. Timing lives in code, not a table, so it needs a different mechanism — it is the obvious next thing to build |
+| **retail numbers** | `data/retail/` is a frozen reference, not a proposal target. If it is wrong it is a measurement bug; open an issue rather than a proposal |
 | **inputs / motions** | same story, and likely the next pack after timing |
 | **anything requiring new artwork** | out of scope for this repository entirely |
 
 ## Things reviewers will ask about
 
-- **Shared records.** Kitana, Mileena and Jade read one strike table; five
+- **Shared records.** The three female ninjas read one strike table; the five
   ninjas read another. Editing one edits all of them. `tables` in
   `data/boxes.json` lists exactly who. Say whether that is what you intended.
 - **Aliases.** Some records are several names over a single body. Editing any
