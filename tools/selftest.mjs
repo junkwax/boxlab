@@ -259,5 +259,16 @@ check("attacker, defender and bystander are three different roles",
 set({ atk: "headband", def: "headband" });
 check("a mirror match resolves to the attacker", val('roleOf("headband")'), "--atk");
 
+/* 13. The life bar. 161 is the game's own full_strength, and hits-to-kill is a
+       CEILING - 32 damage leaves a point standing after five, so the fifth hit
+       does not win the round and the sixth does. Getting this wrong by one is
+       the difference between a change that matters and one that does not. */
+check("a full power bar is 161", val("FULL"), 161);
+check("32 damage takes six hits, not five", val("toKill(32)"), 6);
+check("  and five of them leave someone standing", 161 - 5 * 32 > 0, true);
+check("the hardest hit in the game kills in three", val("toKill(64)"), 3);
+check("one damage takes the whole bar", val("toKill(1)"), 161);
+check("a record that does no damage never kills", val("toKill(0)"), null);
+
 console.log(`\n${n - fails}/${n} checks passed`);
 process.exit(fails ? 1 : 0);

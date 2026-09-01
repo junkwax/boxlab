@@ -39,7 +39,7 @@ mislead:
 | `width` | extends **backwards** from `front`, toward the attacker. **Not** reach |
 | `y` | the top edge, measured **down** from the anchor |
 | `height` | downward from `y` |
-| `hit` / `block` | damage on a clean hit, and chip damage on block |
+| `hit` / `block` | damage on a clean hit, and chip damage on block. A full power bar is **161**, so the life bar at the top of the viewer shows what one hit removes and how many it takes to win |
 | `hit_reaction` / `block_reaction` | which reaction the victim plays. **Not proposable** — it indexes a table of animations, so a "better" value is not a bigger one and nothing here can show you what you changed |
 
 **`front` is where the box ends, not where the move lands.** The victim is cut

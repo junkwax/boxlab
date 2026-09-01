@@ -40,6 +40,27 @@ input[type=range]{padding:0;width:220px;vertical-align:middle}
       letter-spacing:0;font-size:13px;margin:0;cursor:pointer;color:var(--ink)}
 .key{display:inline-block;width:11px;height:11px;border-radius:2px;border:2px solid}
 .key + .key{margin-left:3px}
+.life{display:grid;grid-template-columns:1fr 1fr;gap:10px 22px;
+      background:var(--panel);border:1px solid var(--line);border-radius:10px;
+      padding:12px 14px;margin-bottom:14px}
+.lifetop{display:flex;justify-content:space-between;align-items:baseline;
+      font-size:12px;margin-bottom:5px;gap:10px}
+.lifetop b{font-size:13px;font-weight:600}
+.lifetop span{font-family:var(--mono);color:var(--dim);font-size:12px}
+.lbar{position:relative;height:15px;border:1px solid var(--line);
+      border-radius:3px;overflow:hidden;background:var(--bg)}
+.lbar i{position:absolute;top:0;bottom:0;display:block}
+.fill{left:0;background:var(--body)}
+.fill.atk{background:var(--atk)}
+.gone{background:var(--hit)}
+.gone.edited{background:var(--warn)}
+.chip{background:repeating-linear-gradient(45deg,var(--hit) 0 3px,
+      transparent 3px 6px);opacity:.85}
+.mark{position:absolute;top:-2px;bottom:-2px;width:2px;background:var(--dim)}
+.lifenote{grid-column:1/-1;color:var(--dim);font-size:12.5px;
+      font-family:var(--mono);margin-top:-2px}
+.lifenote b{color:var(--ink);font-weight:600}
+.lifenote .w{color:var(--warn)}
 .stage{background:var(--panel);border:1px solid var(--line);border-radius:10px;
        padding:10px;overflow-x:auto}
 canvas{display:block;width:100%;height:auto;image-rendering:pixelated;
@@ -177,6 +198,23 @@ textarea{width:100%;background:var(--bg);color:var(--ink);
   </div>
 </div>
 
+<div class="life" id="life" hidden>
+  <div>
+    <div class="lifetop"><b id="lnA">—</b><span id="lvA"></span></div>
+    <div class="lbar"><i id="lbA" class="fill atk"></i></div>
+  </div>
+  <div>
+    <div class="lifetop"><b id="lnD">—</b><span id="lvD"></span></div>
+    <div class="lbar">
+      <i id="lbD" class="fill"></i>
+      <i id="lbGone" class="gone"></i>
+      <i id="lbChip" class="chip"></i>
+      <u id="lbRetail" class="mark" hidden></u>
+    </div>
+  </div>
+  <div class="lifenote" id="lifenote"></div>
+</div>
+
 <div class="stage"><canvas id="cv" width="1120" height="470"></canvas></div>
 <div class="verdict" id="verdict">…</div>
 <div class="duck" id="duck"></div>
@@ -269,7 +307,7 @@ function init(){
   refreshPoses();
   refreshFrames();
   $("controls").hidden = $("tog").hidden = false;
-  $("roster").hidden = $("propose").hidden = false;
+  $("roster").hidden = $("propose").hidden = $("life").hidden = false;
   if (RETAIL) $("l_retail").hidden = false;
   buildRoster();
   buildFields();
@@ -566,6 +604,7 @@ function report(s){
         : "This record does not squeeze, so the whole silhouette is live."));
   }
 
+  lifeReport(s);
   duckReport(s);
 
   const r = s.rec;
@@ -852,6 +891,72 @@ function wireCanvas(){
    as one, but not frame-exact either: the per-lane rates are in code, not in
    a table, which is the same reason frames.json is read-only. */
 const PLAY_MS = 110;
+
+/* A full power bar. Not a round number and not ours - the game sets it once
+   and every damage byte in boxes.json is measured against it, so a hit is only
+   meaningful next to this. */
+const FULL = 161;
+
+/* Hits to kill. Ceiling, not rounding: 32 damage leaves 1 point standing after
+   five, which is a fifth hit that does not win the round. */
+function toKill(dmg){
+  return dmg > 0 ? Math.ceil(FULL / dmg) : null;
+}
+
+/* The bars. The attacker's stays full - they are not the one being hit - and
+   the defender's carries the whole answer: what one clean hit removes, what
+   the same move removes on block, and where retail's damage would have left
+   it if this build has moved it. */
+function lifeReport(s){
+  $("lnA").textContent = (charById[s.atk] || {}).name || "—";
+  $("lnD").textContent = (charById[s.def] || {}).name || "—";
+  $("lbA").style.width = "100%";
+  $("lvA").textContent = FULL + " / " + FULL;
+
+  const pct = v => (100 * Math.max(0, Math.min(FULL, v)) / FULL) + "%";
+  if (!s.rec){
+    $("lbD").style.width = "100%";
+    $("lbGone").style.width = $("lbChip").style.width = "0%";
+    $("lbRetail").hidden = true;
+    $("lvD").textContent = FULL + " / " + FULL;
+    $("lifenote").textContent = "";
+    return;
+  }
+
+  const hit = s.rec.hit || 0, chip = s.rec.block || 0;
+  const left = Math.max(0, FULL - hit);
+  $("lbD").style.width = pct(left);
+  $("lbGone").style.left = pct(left);
+  $("lbGone").style.width = pct(Math.min(hit, FULL - chip));
+  $("lbGone").className = "gone" + (s.edited && s.base.hit !== hit ? " edited" : "");
+  /* Chip rides at the far end, so the bar reads as one length of damage with
+     the blocked part hatched inside it. */
+  $("lbChip").style.left = pct(FULL - chip);
+  $("lbChip").style.width = pct(chip);
+
+  const rt = retailById[s.id];
+  if (rt && rt.hit !== s.base.hit){
+    $("lbRetail").hidden = false;
+    $("lbRetail").style.left = pct(FULL - rt.hit);
+  } else {
+    $("lbRetail").hidden = true;
+  }
+
+  $("lvD").textContent = left + " / " + FULL;
+
+  const k = toKill(hit), kc = toKill(chip);
+  const was = s.edited && s.base.hit !== hit ? toKill(s.base.hit) : null;
+  $("lifenote").innerHTML =
+    "hit <b>" + hit + "</b> — " +
+    (k ? "<b>" + k + "</b> to kill" : "does no damage") +
+    (was && was !== k ? " <span class='w'>(was " + was + ")</span>" : "") +
+    " &nbsp;·&nbsp; on block <b>" + chip + "</b>" +
+    (kc ? " — " + kc + " to chip out" : "") +
+    (rt && rt.hit !== s.base.hit
+      ? " &nbsp;·&nbsp; retail " + rt.hit +
+        (toKill(rt.hit) ? " — " + toKill(rt.hit) + " to kill" : "")
+      : "");
+}
 
 function stopPlay(){
   if (!PLAY) return;
