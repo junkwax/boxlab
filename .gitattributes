@@ -1,0 +1,7 @@
+# Everything here is text, and CI runs on Linux while this is authored on
+# Windows. Pin the line endings so the repository content is the same either
+# way - a viewer whose selftest passes locally and fails in CI over invisible
+# characters is a bad first impression for a project about precision.
+* text=auto eol=lf
+*.json text eol=lf
+*.png binary

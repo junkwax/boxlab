@@ -1,0 +1,2339 @@
+{
+ "format": "boxlab-frame-pack",
+ "format_version": 1,
+ "meta": {
+  "digest": "7ca6835d9b5537d7",
+  "generated": "2026-09-01",
+  "public": true,
+  "source_commit": "91e8785",
+  "title": "Frame timing and advantage",
+  "units": "pixels, relative to the anchor; +x is forward, +y is down"
+ },
+ "moves": [
+  {
+   "active": 5,
+   "approx": false,
+   "blockstun": 8,
+   "character": "baraka",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "baraka/duckkickh",
+   "reach": 77,
+   "startup": 12
+  },
+  {
+   "active": 2,
+   "approx": false,
+   "blockstun": 8,
+   "character": "baraka",
+   "id": "baraka/duckkickl",
+   "reach": 77,
+   "startup": 8
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 8,
+   "character": "baraka",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "baraka/duckpunch",
+   "on_block": 4,
+   "on_hit": [
+    11,
+    11
+   ],
+   "reach": 74,
+   "recovery": 4,
+   "startup": 4,
+   "total": 9
+  },
+  {
+   "active": 5,
+   "approx": true,
+   "blockstun": 8,
+   "character": "baraka",
+   "hitstun": [
+    15,
+    18
+   ],
+   "id": "baraka/elbow",
+   "on_block": -5,
+   "on_hit": [
+    2,
+    5
+   ],
+   "reach": 57,
+   "recovery": 9
+  },
+  {
+   "approx": true,
+   "blockstun": 12,
+   "character": "baraka",
+   "id": "baraka/flipk",
+   "reach": 96
+  },
+  {
+   "approx": true,
+   "blockstun": 12,
+   "character": "baraka",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "baraka/flipp",
+   "reach": 89
+  },
+  {
+   "active": 6,
+   "approx": true,
+   "blockstun": 12,
+   "character": "baraka",
+   "hitstun": [
+    15,
+    18
+   ],
+   "id": "baraka/hikick",
+   "on_block": -13,
+   "on_hit": [
+    -28,
+    -25
+   ],
+   "reach": 83,
+   "recovery": 38,
+   "startup": 6,
+   "total": 50
+  },
+  {
+   "approx": false,
+   "blockstun": 12,
+   "character": "baraka",
+   "hitstun": [
+    12,
+    21
+   ],
+   "id": "baraka/hipunch",
+   "reach": 81
+  },
+  {
+   "approx": true,
+   "blockstun": 8,
+   "character": "baraka",
+   "hitstun": [
+    16,
+    20
+   ],
+   "id": "baraka/jumpupk",
+   "reach": 70
+  },
+  {
+   "approx": true,
+   "blockstun": 8,
+   "character": "baraka",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "baraka/jumpupp",
+   "reach": 88
+  },
+  {
+   "active": 2,
+   "approx": true,
+   "blockstun": 8,
+   "character": "baraka",
+   "hitstun": [
+    16,
+    28
+   ],
+   "id": "baraka/knee",
+   "on_block": 7,
+   "on_hit": [
+    9,
+    21
+   ],
+   "reach": 53,
+   "recovery": 6,
+   "startup": 6,
+   "total": 14
+  },
+  {
+   "active": 6,
+   "approx": true,
+   "blockstun": 12,
+   "character": "baraka",
+   "hitstun": [
+    20,
+    20
+   ],
+   "id": "baraka/lokick",
+   "on_block": -13,
+   "on_hit": [
+    -23,
+    -23
+   ],
+   "reach": 96,
+   "recovery": 38,
+   "startup": 6,
+   "total": 50
+  },
+  {
+   "approx": false,
+   "blockstun": 12,
+   "character": "baraka",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "baraka/lopunch",
+   "reach": 84
+  },
+  {
+   "active": 3,
+   "approx": true,
+   "blockstun": 12,
+   "character": "baraka",
+   "id": "baraka/roundh",
+   "on_block": -6,
+   "reach": 96,
+   "recovery": 26
+  },
+  {
+   "approx": false,
+   "blockstun": 12,
+   "character": "baraka",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "baraka/spark1",
+   "reach": 116,
+   "recovery": 32
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 8,
+   "character": "baraka",
+   "hitstun": [
+    15,
+    35
+   ],
+   "id": "baraka/sweepk",
+   "on_block": -4,
+   "on_hit": [
+    -3,
+    17
+   ],
+   "reach": 99,
+   "recovery": 18,
+   "startup": 20,
+   "total": 39
+  },
+  {
+   "active": 4,
+   "approx": false,
+   "blockstun": 12,
+   "character": "baraka",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "baraka/swipe",
+   "on_block": -5,
+   "on_hit": [
+    3,
+    7
+   ],
+   "reach": 104,
+   "recovery": 14,
+   "startup": 9,
+   "total": 27
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 12,
+   "character": "baraka",
+   "id": "baraka/uppercut",
+   "reach": 78,
+   "startup": 8
+  },
+  {
+   "active": 6,
+   "approx": true,
+   "character": "kintaro",
+   "id": "goro-kintaro/ro-kick",
+   "reach": 122,
+   "recovery": 26,
+   "startup": 4,
+   "total": 36
+  },
+  {
+   "active": 6,
+   "approx": true,
+   "character": "kintaro",
+   "id": "goro-kintaro/ro-punch",
+   "reach": 122,
+   "recovery": 22,
+   "startup": 4,
+   "total": 32
+  },
+  {
+   "approx": false,
+   "character": "kintaro",
+   "id": "goro-kintaro/ro-punch",
+   "reach": 122
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "character": "kintaro",
+   "id": "goro-kintaro/ro-punch",
+   "reach": 122,
+   "recovery": 6,
+   "startup": 16,
+   "total": 23
+  },
+  {
+   "approx": false,
+   "character": "kintaro",
+   "id": "goro-kintaro/ro-uppercut",
+   "reach": 122
+  },
+  {
+   "active": 5,
+   "approx": false,
+   "blockstun": 8,
+   "character": "jax",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "jax/duckkickh",
+   "reach": 112,
+   "startup": 12
+  },
+  {
+   "active": 2,
+   "approx": false,
+   "blockstun": 8,
+   "character": "jax",
+   "id": "jax/duckkickl",
+   "reach": 96,
+   "startup": 8
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 8,
+   "character": "jax",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "jax/duckpunch",
+   "on_block": 2,
+   "on_hit": [
+    9,
+    9
+   ],
+   "reach": 92,
+   "recovery": 6,
+   "startup": 6,
+   "total": 13
+  },
+  {
+   "active": 5,
+   "approx": true,
+   "blockstun": 8,
+   "character": "jax",
+   "id": "jax/elbow",
+   "on_block": -2,
+   "reach": 72,
+   "recovery": 6
+  },
+  {
+   "approx": true,
+   "blockstun": 12,
+   "character": "jax",
+   "id": "jax/flipk",
+   "reach": 99
+  },
+  {
+   "approx": true,
+   "blockstun": 12,
+   "character": "jax",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "jax/flipp",
+   "reach": 89
+  },
+  {
+   "active": 6,
+   "approx": true,
+   "blockstun": 12,
+   "character": "jax",
+   "hitstun": [
+    15,
+    18
+   ],
+   "id": "jax/hikick",
+   "on_block": -13,
+   "on_hit": [
+    -28,
+    -25
+   ],
+   "reach": 118,
+   "recovery": 38
+  },
+  {
+   "approx": false,
+   "blockstun": 12,
+   "character": "jax",
+   "hitstun": [
+    12,
+    21
+   ],
+   "id": "jax/hipunch",
+   "reach": 88
+  },
+  {
+   "approx": true,
+   "blockstun": 8,
+   "character": "jax",
+   "hitstun": [
+    16,
+    20
+   ],
+   "id": "jax/jumpupk",
+   "reach": 84
+  },
+  {
+   "approx": true,
+   "blockstun": 8,
+   "character": "jax",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "jax/jumpupp",
+   "reach": 86
+  },
+  {
+   "active": 2,
+   "approx": true,
+   "blockstun": 8,
+   "character": "jax",
+   "hitstun": [
+    16,
+    28
+   ],
+   "id": "jax/knee",
+   "on_block": -5,
+   "on_hit": [
+    -3,
+    9
+   ],
+   "reach": 68,
+   "recovery": 18,
+   "startup": 6,
+   "total": 26
+  },
+  {
+   "active": 6,
+   "approx": true,
+   "blockstun": 12,
+   "character": "jax",
+   "hitstun": [
+    20,
+    20
+   ],
+   "id": "jax/lokick",
+   "on_block": -13,
+   "on_hit": [
+    -23,
+    -23
+   ],
+   "reach": 127,
+   "recovery": 38
+  },
+  {
+   "approx": false,
+   "blockstun": 12,
+   "character": "jax",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "jax/lopunch",
+   "reach": 90
+  },
+  {
+   "active": 3,
+   "approx": true,
+   "blockstun": 12,
+   "character": "jax",
+   "id": "jax/roundh",
+   "on_block": -6,
+   "reach": 93,
+   "recovery": 26
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 8,
+   "character": "jax",
+   "hitstun": [
+    15,
+    35
+   ],
+   "id": "jax/sweepk",
+   "on_block": -10,
+   "on_hit": [
+    -9,
+    11
+   ],
+   "reach": 96,
+   "recovery": 24
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 12,
+   "character": "jax",
+   "id": "jax/uppercut",
+   "reach": 90
+  },
+  {
+   "active": 5,
+   "approx": false,
+   "blockstun": 8,
+   "character": "johnny-cage",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "johnny-cage/duckkickh",
+   "reach": 76,
+   "startup": 12
+  },
+  {
+   "active": 2,
+   "approx": false,
+   "blockstun": 8,
+   "character": "johnny-cage",
+   "id": "johnny-cage/duckkickl",
+   "reach": 92,
+   "startup": 8
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 8,
+   "character": "johnny-cage",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "johnny-cage/duckpunch",
+   "on_block": 2,
+   "on_hit": [
+    9,
+    9
+   ],
+   "reach": 92,
+   "recovery": 6,
+   "startup": 6,
+   "total": 13
+  },
+  {
+   "active": 5,
+   "approx": true,
+   "blockstun": 8,
+   "character": "johnny-cage",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "johnny-cage/elbow",
+   "on_block": -2,
+   "on_hit": [
+    10,
+    14
+   ],
+   "reach": 56,
+   "recovery": 6
+  },
+  {
+   "approx": true,
+   "blockstun": 12,
+   "character": "johnny-cage",
+   "id": "johnny-cage/flipk",
+   "reach": 88
+  },
+  {
+   "approx": true,
+   "blockstun": 12,
+   "character": "johnny-cage",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "johnny-cage/flipp",
+   "reach": 89
+  },
+  {
+   "active": 6,
+   "approx": true,
+   "blockstun": 12,
+   "character": "johnny-cage",
+   "hitstun": [
+    15,
+    18
+   ],
+   "id": "johnny-cage/hikick",
+   "on_block": -13,
+   "on_hit": [
+    -28,
+    -25
+   ],
+   "reach": 92,
+   "recovery": 38,
+   "startup": 6,
+   "total": 50
+  },
+  {
+   "approx": false,
+   "blockstun": 12,
+   "character": "johnny-cage",
+   "hitstun": [
+    12,
+    21
+   ],
+   "id": "johnny-cage/hipunch",
+   "reach": 84
+  },
+  {
+   "approx": true,
+   "blockstun": 8,
+   "character": "johnny-cage",
+   "hitstun": [
+    16,
+    20
+   ],
+   "id": "johnny-cage/jumpupk",
+   "reach": 84
+  },
+  {
+   "approx": true,
+   "blockstun": 8,
+   "character": "johnny-cage",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "johnny-cage/jumpupp",
+   "reach": 88
+  },
+  {
+   "active": 2,
+   "approx": true,
+   "blockstun": 12,
+   "character": "johnny-cage",
+   "id": "johnny-cage/knee",
+   "on_block": -7,
+   "reach": 75,
+   "recovery": 24
+  },
+  {
+   "active": 6,
+   "approx": true,
+   "blockstun": 12,
+   "character": "johnny-cage",
+   "hitstun": [
+    20,
+    20
+   ],
+   "id": "johnny-cage/lokick",
+   "on_block": -13,
+   "on_hit": [
+    -23,
+    -23
+   ],
+   "reach": 103,
+   "recovery": 38,
+   "startup": 6,
+   "total": 50
+  },
+  {
+   "approx": false,
+   "blockstun": 12,
+   "character": "johnny-cage",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "johnny-cage/lopunch",
+   "reach": 84
+  },
+  {
+   "active": 3,
+   "approx": true,
+   "blockstun": 12,
+   "character": "johnny-cage",
+   "id": "johnny-cage/roundh",
+   "on_block": -2,
+   "reach": 96,
+   "recovery": 22
+  },
+  {
+   "active": 4,
+   "approx": true,
+   "blockstun": 12,
+   "character": "johnny-cage",
+   "id": "johnny-cage/split",
+   "reach": 63,
+   "startup": 10
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 8,
+   "character": "johnny-cage",
+   "hitstun": [
+    15,
+    35
+   ],
+   "id": "johnny-cage/sweepk",
+   "on_block": -4,
+   "on_hit": [
+    -3,
+    17
+   ],
+   "reach": 95,
+   "recovery": 18,
+   "startup": 20,
+   "total": 39
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 12,
+   "character": "johnny-cage",
+   "id": "johnny-cage/uppercut",
+   "reach": 78,
+   "startup": 8
+  },
+  {
+   "active": 5,
+   "approx": false,
+   "blockstun": 8,
+   "character": "jade",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "kitana-mileena/duckkickh",
+   "reach": 96,
+   "startup": 12
+  },
+  {
+   "active": 2,
+   "approx": false,
+   "blockstun": 8,
+   "character": "jade",
+   "id": "kitana-mileena/duckkickl",
+   "reach": 77,
+   "startup": 8
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 8,
+   "character": "jade",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "kitana-mileena/duckpunch",
+   "on_block": 2,
+   "on_hit": [
+    9,
+    9
+   ],
+   "reach": 60,
+   "recovery": 6,
+   "startup": 6,
+   "total": 13
+  },
+  {
+   "active": 5,
+   "approx": true,
+   "blockstun": 8,
+   "character": "jade",
+   "hitstun": [
+    15,
+    18
+   ],
+   "id": "kitana-mileena/elbow",
+   "on_block": -2,
+   "on_hit": [
+    5,
+    8
+   ],
+   "reach": 57,
+   "recovery": 6
+  },
+  {
+   "active": 4,
+   "approx": false,
+   "blockstun": 8,
+   "character": "kitana",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "kitana-mileena/fan-swipe",
+   "on_block": -5,
+   "on_hit": [
+    7,
+    11
+   ],
+   "reach": 90,
+   "recovery": 10,
+   "startup": 10,
+   "total": 24
+  },
+  {
+   "approx": true,
+   "blockstun": 12,
+   "character": "jade",
+   "id": "kitana-mileena/flipk",
+   "reach": 90
+  },
+  {
+   "approx": true,
+   "blockstun": 12,
+   "character": "jade",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "kitana-mileena/flipp",
+   "reach": 88
+  },
+  {
+   "active": 6,
+   "approx": true,
+   "blockstun": 12,
+   "character": "jade",
+   "hitstun": [
+    15,
+    18
+   ],
+   "id": "kitana-mileena/hikick",
+   "on_block": -17,
+   "on_hit": [
+    -32,
+    -29
+   ],
+   "reach": 93,
+   "recovery": 42,
+   "startup": 6,
+   "total": 54
+  },
+  {
+   "approx": false,
+   "blockstun": 12,
+   "character": "jade",
+   "hitstun": [
+    12,
+    21
+   ],
+   "id": "kitana-mileena/hipunch",
+   "reach": 68
+  },
+  {
+   "approx": true,
+   "blockstun": 8,
+   "character": "jade",
+   "hitstun": [
+    16,
+    20
+   ],
+   "id": "kitana-mileena/jumpupk",
+   "reach": 77
+  },
+  {
+   "approx": true,
+   "blockstun": 8,
+   "character": "jade",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "kitana-mileena/jumpupp",
+   "reach": 88
+  },
+  {
+   "approx": false,
+   "blockstun": 8,
+   "character": "jade",
+   "id": "kitana-mileena/kano",
+   "reach": 64,
+   "recovery": 32
+  },
+  {
+   "active": 2,
+   "approx": true,
+   "blockstun": 8,
+   "character": "jade",
+   "hitstun": [
+    16,
+    28
+   ],
+   "id": "kitana-mileena/knee",
+   "on_block": -5,
+   "on_hit": [
+    -3,
+    9
+   ],
+   "reach": 56,
+   "recovery": 18,
+   "startup": 6,
+   "total": 26
+  },
+  {
+   "active": 6,
+   "approx": true,
+   "blockstun": 12,
+   "character": "jade",
+   "hitstun": [
+    20,
+    20
+   ],
+   "id": "kitana-mileena/lokick",
+   "on_block": -17,
+   "on_hit": [
+    -27,
+    -27
+   ],
+   "reach": 100,
+   "recovery": 42,
+   "startup": 6,
+   "total": 54
+  },
+  {
+   "approx": false,
+   "blockstun": 12,
+   "character": "jade",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "kitana-mileena/lopunch",
+   "reach": 76
+  },
+  {
+   "active": 3,
+   "approx": true,
+   "blockstun": 12,
+   "character": "jade",
+   "id": "kitana-mileena/roundh",
+   "on_block": -6,
+   "reach": 96,
+   "recovery": 26
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 8,
+   "character": "jade",
+   "hitstun": [
+    15,
+    35
+   ],
+   "id": "kitana-mileena/sweepk",
+   "on_block": -10,
+   "on_hit": [
+    -9,
+    11
+   ],
+   "reach": 109,
+   "recovery": 24,
+   "startup": 16,
+   "total": 41
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 12,
+   "character": "jade",
+   "id": "kitana-mileena/uppercut",
+   "reach": 78,
+   "startup": 8
+  },
+  {
+   "active": 5,
+   "approx": false,
+   "blockstun": 8,
+   "character": "kung-lao",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "kung-lao/duckkickh",
+   "reach": 88,
+   "startup": 9
+  },
+  {
+   "active": 2,
+   "approx": false,
+   "blockstun": 8,
+   "character": "kung-lao",
+   "id": "kung-lao/duckkickl",
+   "reach": 93,
+   "startup": 8
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 8,
+   "character": "kung-lao",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "kung-lao/duckpunch",
+   "on_block": 2,
+   "on_hit": [
+    9,
+    9
+   ],
+   "reach": 85,
+   "recovery": 6,
+   "startup": 6,
+   "total": 13
+  },
+  {
+   "active": 5,
+   "approx": true,
+   "blockstun": 8,
+   "character": "kung-lao",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "kung-lao/elbow",
+   "on_block": 4,
+   "on_hit": [
+    16,
+    20
+   ],
+   "reach": 53,
+   "recovery": 0
+  },
+  {
+   "approx": true,
+   "blockstun": 12,
+   "character": "kung-lao",
+   "id": "kung-lao/flipk",
+   "reach": 82
+  },
+  {
+   "approx": true,
+   "blockstun": 12,
+   "character": "kung-lao",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "kung-lao/flipp",
+   "reach": 80
+  },
+  {
+   "approx": false,
+   "blockstun": 12,
+   "character": "kung-lao",
+   "hitstun": [
+    12,
+    21
+   ],
+   "id": "kung-lao/hipunch",
+   "reach": 76
+  },
+  {
+   "approx": true,
+   "blockstun": 8,
+   "character": "kung-lao",
+   "hitstun": [
+    16,
+    20
+   ],
+   "id": "kung-lao/jumpupk",
+   "reach": 77
+  },
+  {
+   "approx": true,
+   "blockstun": 8,
+   "character": "kung-lao",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "kung-lao/jumpupp",
+   "reach": 80
+  },
+  {
+   "active": 2,
+   "approx": true,
+   "blockstun": 8,
+   "character": "kung-lao",
+   "id": "kung-lao/knee",
+   "on_block": -5,
+   "reach": 73,
+   "recovery": 18,
+   "startup": 6,
+   "total": 26
+  },
+  {
+   "active": 6,
+   "approx": true,
+   "blockstun": 12,
+   "character": "kung-lao",
+   "hitstun": [
+    20,
+    20
+   ],
+   "id": "kung-lao/lokick",
+   "on_block": -13,
+   "on_hit": [
+    -23,
+    -23
+   ],
+   "reach": 103,
+   "recovery": 38,
+   "startup": 6,
+   "total": 50
+  },
+  {
+   "approx": false,
+   "blockstun": 12,
+   "character": "kung-lao",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "kung-lao/lopunch",
+   "reach": 86
+  },
+  {
+   "active": 3,
+   "approx": true,
+   "blockstun": 12,
+   "character": "kung-lao",
+   "id": "kung-lao/roundh",
+   "on_block": -6,
+   "reach": 100,
+   "recovery": 26
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 8,
+   "character": "kung-lao",
+   "hitstun": [
+    15,
+    35
+   ],
+   "id": "kung-lao/sweepk",
+   "on_block": -4,
+   "on_hit": [
+    -3,
+    17
+   ],
+   "reach": 85,
+   "recovery": 18,
+   "startup": 20,
+   "total": 39
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 12,
+   "character": "kung-lao",
+   "id": "kung-lao/uppercut",
+   "reach": 77,
+   "startup": 8
+  },
+  {
+   "active": 5,
+   "approx": false,
+   "blockstun": 8,
+   "character": "liu-kang",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "liu-kang/duckkickh",
+   "reach": 85,
+   "startup": 12
+  },
+  {
+   "active": 2,
+   "approx": false,
+   "blockstun": 8,
+   "character": "liu-kang",
+   "id": "liu-kang/duckkickl",
+   "reach": 85,
+   "startup": 8
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 8,
+   "character": "liu-kang",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "liu-kang/duckpunch",
+   "on_block": 2,
+   "on_hit": [
+    9,
+    9
+   ],
+   "reach": 75,
+   "recovery": 6,
+   "startup": 6,
+   "total": 13
+  },
+  {
+   "active": 5,
+   "approx": true,
+   "blockstun": 8,
+   "character": "liu-kang",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "liu-kang/elbow",
+   "on_block": -2,
+   "on_hit": [
+    10,
+    14
+   ],
+   "reach": 58,
+   "recovery": 6
+  },
+  {
+   "approx": true,
+   "blockstun": 12,
+   "character": "liu-kang",
+   "id": "liu-kang/flipk",
+   "reach": 89
+  },
+  {
+   "approx": true,
+   "blockstun": 12,
+   "character": "liu-kang",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "liu-kang/flipp",
+   "reach": 80
+  },
+  {
+   "approx": false,
+   "blockstun": 12,
+   "character": "liu-kang",
+   "hitstun": [
+    12,
+    21
+   ],
+   "id": "liu-kang/hipunch",
+   "reach": 80
+  },
+  {
+   "approx": true,
+   "blockstun": 8,
+   "character": "liu-kang",
+   "hitstun": [
+    16,
+    20
+   ],
+   "id": "liu-kang/jumpupk",
+   "reach": 77
+  },
+  {
+   "approx": true,
+   "blockstun": 8,
+   "character": "liu-kang",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "liu-kang/jumpupp",
+   "reach": 80
+  },
+  {
+   "active": 2,
+   "approx": true,
+   "blockstun": 8,
+   "character": "liu-kang",
+   "id": "liu-kang/knee",
+   "on_block": -5,
+   "reach": 60,
+   "recovery": 18,
+   "startup": 6,
+   "total": 26
+  },
+  {
+   "active": 6,
+   "approx": true,
+   "blockstun": 12,
+   "character": "liu-kang",
+   "hitstun": [
+    20,
+    20
+   ],
+   "id": "liu-kang/lokick",
+   "on_block": -13,
+   "on_hit": [
+    -23,
+    -23
+   ],
+   "reach": 104,
+   "recovery": 38,
+   "startup": 6,
+   "total": 50
+  },
+  {
+   "approx": false,
+   "blockstun": 12,
+   "character": "liu-kang",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "liu-kang/lopunch",
+   "reach": 80
+  },
+  {
+   "active": 3,
+   "approx": true,
+   "blockstun": 12,
+   "character": "liu-kang",
+   "id": "liu-kang/roundh",
+   "on_block": -6,
+   "reach": 88,
+   "recovery": 26
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 8,
+   "character": "liu-kang",
+   "hitstun": [
+    15,
+    35
+   ],
+   "id": "liu-kang/sweepk",
+   "on_block": -4,
+   "on_hit": [
+    -3,
+    17
+   ],
+   "reach": 92,
+   "recovery": 18
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 12,
+   "character": "liu-kang",
+   "id": "liu-kang/uppercut",
+   "reach": 75
+  },
+  {
+   "approx": false,
+   "blockstun": 8,
+   "character": "noob-saibot",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "ninjas/decoy",
+   "reach": 89,
+   "recovery": 32
+  },
+  {
+   "approx": false,
+   "blockstun": 8,
+   "character": "smoke",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "ninjas/decoy",
+   "reach": 89,
+   "recovery": 32
+  },
+  {
+   "active": 5,
+   "approx": false,
+   "blockstun": 8,
+   "character": "noob-saibot",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "ninjas/duckkickh",
+   "reach": 80,
+   "startup": 12
+  },
+  {
+   "active": 5,
+   "approx": false,
+   "blockstun": 8,
+   "character": "smoke",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "ninjas/duckkickh",
+   "reach": 80,
+   "startup": 12
+  },
+  {
+   "active": 2,
+   "approx": false,
+   "blockstun": 8,
+   "character": "noob-saibot",
+   "id": "ninjas/duckkickl",
+   "reach": 80,
+   "startup": 10
+  },
+  {
+   "active": 2,
+   "approx": false,
+   "blockstun": 8,
+   "character": "smoke",
+   "id": "ninjas/duckkickl",
+   "reach": 80,
+   "startup": 10
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 8,
+   "character": "noob-saibot",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "ninjas/duckpunch",
+   "on_block": 2,
+   "on_hit": [
+    9,
+    9
+   ],
+   "reach": 70,
+   "recovery": 6,
+   "startup": 6,
+   "total": 13
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 8,
+   "character": "smoke",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "ninjas/duckpunch",
+   "on_block": 2,
+   "on_hit": [
+    9,
+    9
+   ],
+   "reach": 70,
+   "recovery": 6,
+   "startup": 6,
+   "total": 13
+  },
+  {
+   "active": 5,
+   "approx": true,
+   "blockstun": 8,
+   "character": "noob-saibot",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "ninjas/elbow",
+   "on_block": 1,
+   "on_hit": [
+    13,
+    17
+   ],
+   "reach": 55,
+   "recovery": 3
+  },
+  {
+   "active": 5,
+   "approx": true,
+   "blockstun": 8,
+   "character": "smoke",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "ninjas/elbow",
+   "on_block": 1,
+   "on_hit": [
+    13,
+    17
+   ],
+   "reach": 55,
+   "recovery": 3
+  },
+  {
+   "approx": true,
+   "blockstun": 12,
+   "character": "noob-saibot",
+   "id": "ninjas/flipk",
+   "reach": 99
+  },
+  {
+   "approx": true,
+   "blockstun": 12,
+   "character": "smoke",
+   "id": "ninjas/flipk",
+   "reach": 99
+  },
+  {
+   "approx": true,
+   "blockstun": 12,
+   "character": "noob-saibot",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "ninjas/flipp",
+   "reach": 89
+  },
+  {
+   "approx": true,
+   "blockstun": 12,
+   "character": "smoke",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "ninjas/flipp",
+   "reach": 89
+  },
+  {
+   "active": 6,
+   "approx": true,
+   "blockstun": 12,
+   "character": "noob-saibot",
+   "hitstun": [
+    15,
+    18
+   ],
+   "id": "ninjas/hikick",
+   "on_block": -13,
+   "on_hit": [
+    -28,
+    -25
+   ],
+   "reach": 100,
+   "recovery": 38,
+   "startup": 6,
+   "total": 50
+  },
+  {
+   "active": 6,
+   "approx": true,
+   "blockstun": 12,
+   "character": "smoke",
+   "hitstun": [
+    15,
+    18
+   ],
+   "id": "ninjas/hikick",
+   "on_block": -13,
+   "on_hit": [
+    -28,
+    -25
+   ],
+   "reach": 100,
+   "recovery": 38,
+   "startup": 6,
+   "total": 50
+  },
+  {
+   "approx": false,
+   "blockstun": 12,
+   "character": "noob-saibot",
+   "hitstun": [
+    12,
+    21
+   ],
+   "id": "ninjas/hipunch",
+   "reach": 78
+  },
+  {
+   "approx": false,
+   "blockstun": 12,
+   "character": "smoke",
+   "hitstun": [
+    12,
+    21
+   ],
+   "id": "ninjas/hipunch",
+   "reach": 78
+  },
+  {
+   "approx": true,
+   "blockstun": 8,
+   "character": "noob-saibot",
+   "hitstun": [
+    16,
+    20
+   ],
+   "id": "ninjas/jumpupk",
+   "reach": 80
+  },
+  {
+   "approx": true,
+   "blockstun": 8,
+   "character": "smoke",
+   "hitstun": [
+    16,
+    20
+   ],
+   "id": "ninjas/jumpupk",
+   "reach": 80
+  },
+  {
+   "approx": true,
+   "blockstun": 8,
+   "character": "noob-saibot",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "ninjas/jumpupp",
+   "reach": 89
+  },
+  {
+   "approx": true,
+   "blockstun": 8,
+   "character": "smoke",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "ninjas/jumpupp",
+   "reach": 89
+  },
+  {
+   "active": 2,
+   "approx": true,
+   "blockstun": 8,
+   "character": "noob-saibot",
+   "hitstun": [
+    16,
+    28
+   ],
+   "id": "ninjas/knee",
+   "on_block": -5,
+   "on_hit": [
+    -3,
+    9
+   ],
+   "reach": 64,
+   "recovery": 18,
+   "startup": 6,
+   "total": 26
+  },
+  {
+   "active": 2,
+   "approx": true,
+   "blockstun": 8,
+   "character": "smoke",
+   "hitstun": [
+    16,
+    28
+   ],
+   "id": "ninjas/knee",
+   "on_block": -5,
+   "on_hit": [
+    -3,
+    9
+   ],
+   "reach": 64,
+   "recovery": 18,
+   "startup": 6,
+   "total": 26
+  },
+  {
+   "active": 6,
+   "approx": true,
+   "blockstun": 12,
+   "character": "noob-saibot",
+   "hitstun": [
+    20,
+    20
+   ],
+   "id": "ninjas/lokick",
+   "on_block": -13,
+   "on_hit": [
+    -23,
+    -23
+   ],
+   "reach": 109,
+   "recovery": 38,
+   "startup": 6,
+   "total": 50
+  },
+  {
+   "active": 6,
+   "approx": true,
+   "blockstun": 12,
+   "character": "smoke",
+   "hitstun": [
+    20,
+    20
+   ],
+   "id": "ninjas/lokick",
+   "on_block": -13,
+   "on_hit": [
+    -23,
+    -23
+   ],
+   "reach": 109,
+   "recovery": 38,
+   "startup": 6,
+   "total": 50
+  },
+  {
+   "approx": false,
+   "blockstun": 12,
+   "character": "noob-saibot",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "ninjas/lopunch",
+   "reach": 74
+  },
+  {
+   "approx": false,
+   "blockstun": 12,
+   "character": "smoke",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "ninjas/lopunch",
+   "reach": 74
+  },
+  {
+   "active": 3,
+   "approx": true,
+   "blockstun": 12,
+   "character": "noob-saibot",
+   "id": "ninjas/roundh",
+   "on_block": -2,
+   "reach": 96,
+   "recovery": 22
+  },
+  {
+   "active": 3,
+   "approx": true,
+   "blockstun": 12,
+   "character": "smoke",
+   "id": "ninjas/roundh",
+   "on_block": -2,
+   "reach": 96,
+   "recovery": 22
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 8,
+   "character": "noob-saibot",
+   "hitstun": [
+    15,
+    35
+   ],
+   "id": "ninjas/sweepk",
+   "on_block": -4,
+   "on_hit": [
+    -3,
+    17
+   ],
+   "reach": 96,
+   "recovery": 18,
+   "startup": 20,
+   "total": 39
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 8,
+   "character": "smoke",
+   "hitstun": [
+    15,
+    35
+   ],
+   "id": "ninjas/sweepk",
+   "on_block": -4,
+   "on_hit": [
+    -3,
+    17
+   ],
+   "reach": 96,
+   "recovery": 18,
+   "startup": 20,
+   "total": 39
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 12,
+   "character": "noob-saibot",
+   "id": "ninjas/uppercut",
+   "reach": 78,
+   "startup": 8
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 12,
+   "character": "smoke",
+   "id": "ninjas/uppercut",
+   "reach": 78,
+   "startup": 8
+  },
+  {
+   "active": 5,
+   "approx": false,
+   "blockstun": 8,
+   "character": "raiden",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "raiden/duckkickh",
+   "reach": 88,
+   "startup": 12
+  },
+  {
+   "active": 2,
+   "approx": false,
+   "blockstun": 8,
+   "character": "raiden",
+   "id": "raiden/duckkickl",
+   "reach": 92,
+   "startup": 8
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 8,
+   "character": "raiden",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "raiden/duckpunch",
+   "on_block": 2,
+   "on_hit": [
+    9,
+    9
+   ],
+   "reach": 70,
+   "recovery": 6,
+   "startup": 6,
+   "total": 13
+  },
+  {
+   "active": 5,
+   "approx": true,
+   "blockstun": 8,
+   "character": "raiden",
+   "hitstun": [
+    15,
+    18
+   ],
+   "id": "raiden/elbow",
+   "on_block": -5,
+   "on_hit": [
+    2,
+    5
+   ],
+   "reach": 57,
+   "recovery": 9
+  },
+  {
+   "approx": true,
+   "blockstun": 12,
+   "character": "raiden",
+   "id": "raiden/flipk",
+   "reach": 101
+  },
+  {
+   "approx": true,
+   "blockstun": 12,
+   "character": "raiden",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "raiden/flipp",
+   "reach": 99
+  },
+  {
+   "active": 6,
+   "approx": true,
+   "blockstun": 12,
+   "character": "raiden",
+   "hitstun": [
+    15,
+    18
+   ],
+   "id": "raiden/hikick",
+   "on_block": -13,
+   "on_hit": [
+    -28,
+    -25
+   ],
+   "reach": 88,
+   "recovery": 38,
+   "startup": 6,
+   "total": 50
+  },
+  {
+   "approx": false,
+   "blockstun": 12,
+   "character": "raiden",
+   "hitstun": [
+    12,
+    21
+   ],
+   "id": "raiden/hipunch",
+   "reach": 73
+  },
+  {
+   "approx": true,
+   "blockstun": 8,
+   "character": "raiden",
+   "hitstun": [
+    16,
+    20
+   ],
+   "id": "raiden/jumpupk",
+   "reach": 98
+  },
+  {
+   "approx": true,
+   "blockstun": 8,
+   "character": "raiden",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "raiden/jumpupp",
+   "reach": 99
+  },
+  {
+   "active": 2,
+   "approx": true,
+   "blockstun": 8,
+   "character": "raiden",
+   "hitstun": [
+    16,
+    28
+   ],
+   "id": "raiden/knee",
+   "on_block": -5,
+   "on_hit": [
+    -3,
+    9
+   ],
+   "reach": 59,
+   "recovery": 18,
+   "startup": 6,
+   "total": 26
+  },
+  {
+   "active": 6,
+   "approx": true,
+   "blockstun": 12,
+   "character": "raiden",
+   "hitstun": [
+    20,
+    20
+   ],
+   "id": "raiden/lokick",
+   "on_block": -13,
+   "on_hit": [
+    -23,
+    -23
+   ],
+   "reach": 99,
+   "recovery": 38,
+   "startup": 6,
+   "total": 50
+  },
+  {
+   "approx": false,
+   "blockstun": 12,
+   "character": "raiden",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "raiden/lopunch",
+   "reach": 74
+  },
+  {
+   "active": 3,
+   "approx": true,
+   "blockstun": 12,
+   "character": "raiden",
+   "id": "raiden/roundh",
+   "on_block": -2,
+   "reach": 80,
+   "recovery": 22
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 8,
+   "character": "raiden",
+   "hitstun": [
+    15,
+    35
+   ],
+   "id": "raiden/sweepk",
+   "on_block": -4,
+   "on_hit": [
+    -3,
+    17
+   ],
+   "reach": 103,
+   "recovery": 18,
+   "startup": 20,
+   "total": 39
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 12,
+   "character": "raiden",
+   "id": "raiden/uppercut",
+   "reach": 78,
+   "startup": 8
+  },
+  {
+   "active": 5,
+   "approx": false,
+   "blockstun": 8,
+   "character": "shang-tsung",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "shang-tsung/duckkickh",
+   "reach": 93,
+   "startup": 12
+  },
+  {
+   "active": 2,
+   "approx": false,
+   "blockstun": 8,
+   "character": "shang-tsung",
+   "id": "shang-tsung/duckkickl",
+   "reach": 92,
+   "startup": 8
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 8,
+   "character": "shang-tsung",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "shang-tsung/duckpunch",
+   "on_block": 2,
+   "on_hit": [
+    9,
+    9
+   ],
+   "reach": 66,
+   "recovery": 6,
+   "startup": 6,
+   "total": 13
+  },
+  {
+   "active": 5,
+   "approx": true,
+   "blockstun": 8,
+   "character": "shang-tsung",
+   "hitstun": [
+    15,
+    18
+   ],
+   "id": "shang-tsung/elbow",
+   "on_block": -2,
+   "on_hit": [
+    5,
+    8
+   ],
+   "reach": 57,
+   "recovery": 6
+  },
+  {
+   "approx": true,
+   "blockstun": 12,
+   "character": "shang-tsung",
+   "id": "shang-tsung/flipk",
+   "reach": 85
+  },
+  {
+   "approx": true,
+   "blockstun": 12,
+   "character": "shang-tsung",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "shang-tsung/flipp",
+   "reach": 80
+  },
+  {
+   "active": 6,
+   "approx": true,
+   "blockstun": 12,
+   "character": "shang-tsung",
+   "hitstun": [
+    15,
+    18
+   ],
+   "id": "shang-tsung/hikick",
+   "on_block": -13,
+   "on_hit": [
+    -28,
+    -25
+   ],
+   "reach": 93,
+   "recovery": 38,
+   "startup": 6,
+   "total": 50
+  },
+  {
+   "approx": false,
+   "blockstun": 12,
+   "character": "shang-tsung",
+   "hitstun": [
+    12,
+    21
+   ],
+   "id": "shang-tsung/hipunch",
+   "reach": 77
+  },
+  {
+   "approx": true,
+   "blockstun": 8,
+   "character": "shang-tsung",
+   "hitstun": [
+    16,
+    20
+   ],
+   "id": "shang-tsung/jumpupk",
+   "reach": 66
+  },
+  {
+   "approx": true,
+   "blockstun": 8,
+   "character": "shang-tsung",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "shang-tsung/jumpupp",
+   "reach": 83
+  },
+  {
+   "active": 2,
+   "approx": true,
+   "blockstun": 8,
+   "character": "shang-tsung",
+   "hitstun": [
+    16,
+    28
+   ],
+   "id": "shang-tsung/knee",
+   "on_block": -5,
+   "on_hit": [
+    -3,
+    9
+   ],
+   "reach": 59,
+   "recovery": 18,
+   "startup": 6,
+   "total": 26
+  },
+  {
+   "active": 6,
+   "approx": true,
+   "blockstun": 12,
+   "character": "shang-tsung",
+   "hitstun": [
+    20,
+    20
+   ],
+   "id": "shang-tsung/lokick",
+   "on_block": -13,
+   "on_hit": [
+    -23,
+    -23
+   ],
+   "reach": 93,
+   "recovery": 38,
+   "startup": 6,
+   "total": 50
+  },
+  {
+   "approx": false,
+   "blockstun": 12,
+   "character": "shang-tsung",
+   "hitstun": [
+    15,
+    15
+   ],
+   "id": "shang-tsung/lopunch",
+   "reach": 78
+  },
+  {
+   "active": 3,
+   "approx": true,
+   "blockstun": 12,
+   "character": "shang-tsung",
+   "id": "shang-tsung/roundh",
+   "on_block": -2,
+   "reach": 80,
+   "recovery": 22
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 8,
+   "character": "shang-tsung",
+   "hitstun": [
+    15,
+    35
+   ],
+   "id": "shang-tsung/sweepk",
+   "on_block": -10,
+   "on_hit": [
+    -9,
+    11
+   ],
+   "reach": 96,
+   "recovery": 24,
+   "startup": 16,
+   "total": 41
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "blockstun": 12,
+   "character": "shang-tsung",
+   "id": "shang-tsung/uppercut",
+   "reach": 78,
+   "startup": 8
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "character": "shao-kahn",
+   "id": "shao-kahn/bigpow",
+   "reach": 104,
+   "recovery": 0
+  },
+  {
+   "approx": false,
+   "character": "shao-kahn",
+   "id": "shao-kahn/charge",
+   "reach": 80
+  },
+  {
+   "active": 6,
+   "approx": true,
+   "character": "shao-kahn",
+   "id": "shao-kahn/kick",
+   "reach": 108,
+   "recovery": 18
+  },
+  {
+   "active": 6,
+   "approx": true,
+   "character": "shao-kahn",
+   "id": "shao-kahn/punch",
+   "reach": 89,
+   "recovery": 18,
+   "startup": 6,
+   "total": 30
+  },
+  {
+   "active": 5,
+   "approx": false,
+   "character": "shao-kahn",
+   "id": "shao-kahn/slam",
+   "reach": 112,
+   "recovery": 0
+  },
+  {
+   "active": 1,
+   "approx": true,
+   "character": "shao-kahn",
+   "hitstun": [
+    20,
+    24
+   ],
+   "id": "shao-kahn/spear",
+   "on_hit": [
+    14,
+    18
+   ],
+   "reach": 120,
+   "recovery": 6,
+   "startup": 16,
+   "total": 23
+  },
+  {
+   "approx": false,
+   "character": "shao-kahn",
+   "id": "shao-kahn/uppercut",
+   "reach": 86
+  }
+ ]
+}

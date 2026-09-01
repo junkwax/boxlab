@@ -1,0 +1,18402 @@
+{
+ "characters": [
+  {
+   "id": "kung-lao",
+   "name": "Kung Lao",
+   "table": "kung-lao"
+  },
+  {
+   "id": "liu-kang",
+   "name": "Liu Kang",
+   "table": "liu-kang"
+  },
+  {
+   "id": "johnny-cage",
+   "name": "Johnny Cage",
+   "table": "johnny-cage"
+  },
+  {
+   "id": "baraka",
+   "name": "Baraka",
+   "table": "baraka"
+  },
+  {
+   "id": "kitana",
+   "name": "Kitana",
+   "table": "kitana-mileena"
+  },
+  {
+   "id": "mileena",
+   "name": "Mileena",
+   "table": "kitana-mileena"
+  },
+  {
+   "id": "shang-tsung",
+   "name": "Shang Tsung",
+   "table": "shang-tsung"
+  },
+  {
+   "id": "raiden",
+   "name": "Raiden",
+   "table": "raiden"
+  },
+  {
+   "id": "sub-zero",
+   "name": "Sub-Zero",
+   "table": "ninjas"
+  },
+  {
+   "id": "reptile",
+   "name": "Reptile",
+   "table": "ninjas"
+  },
+  {
+   "id": "scorpion",
+   "name": "Scorpion",
+   "table": "ninjas"
+  },
+  {
+   "id": "jax",
+   "name": "Jax",
+   "table": "jax"
+  },
+  {
+   "id": "kintaro",
+   "name": "Kintaro",
+   "table": "goro-kintaro"
+  },
+  {
+   "id": "shao-kahn",
+   "name": "Shao Kahn",
+   "table": "shao-kahn"
+  },
+  {
+   "id": "smoke",
+   "name": "Smoke",
+   "table": "ninjas"
+  },
+  {
+   "id": "noob-saibot",
+   "name": "Noob Saibot",
+   "table": "ninjas"
+  },
+  {
+   "id": "jade",
+   "name": "Jade",
+   "table": "kitana-mileena"
+  }
+ ],
+ "contacts": [
+  {
+   "character": "baraka",
+   "confidence": "assumed",
+   "move": "baraka/duckkickh",
+   "pose": "p0761"
+  },
+  {
+   "character": "baraka",
+   "confidence": "assumed",
+   "move": "baraka/duckkickl",
+   "pose": "p0770"
+  },
+  {
+   "character": "baraka",
+   "confidence": "assumed",
+   "move": "baraka/duckpunch",
+   "pose": "p0779"
+  },
+  {
+   "character": "baraka",
+   "confidence": "assumed",
+   "move": "baraka/elbow",
+   "pose": "p0788"
+  },
+  {
+   "character": "baraka",
+   "confidence": "assumed",
+   "move": "baraka/flipk",
+   "pose": "p0798"
+  },
+  {
+   "character": "baraka",
+   "confidence": "assumed",
+   "move": "baraka/flipp",
+   "pose": "p0807"
+  },
+  {
+   "character": "baraka",
+   "confidence": "assumed",
+   "move": "baraka/hikick",
+   "pose": "p0817"
+  },
+  {
+   "character": "baraka",
+   "confidence": "assumed",
+   "move": "baraka/jumpupk",
+   "pose": "p0827"
+  },
+  {
+   "character": "baraka",
+   "confidence": "assumed",
+   "move": "baraka/jumpupp",
+   "pose": "p0807"
+  },
+  {
+   "character": "baraka",
+   "confidence": "assumed",
+   "move": "baraka/knee",
+   "pose": "p0836"
+  },
+  {
+   "character": "baraka",
+   "confidence": "assumed",
+   "move": "baraka/lokick",
+   "pose": "p0846"
+  },
+  {
+   "character": "baraka",
+   "confidence": "assumed",
+   "move": "baraka/roundh",
+   "pose": "p0854"
+  },
+  {
+   "character": "baraka",
+   "confidence": "assumed",
+   "move": "baraka/sweepk",
+   "pose": "p0863"
+  },
+  {
+   "character": "baraka",
+   "confidence": "table",
+   "move": "baraka/swipe",
+   "pose": "p0869"
+  },
+  {
+   "character": "jax",
+   "confidence": "assumed",
+   "move": "jax/duckkickh",
+   "pose": "p0766"
+  },
+  {
+   "character": "jax",
+   "confidence": "assumed",
+   "move": "jax/duckkickl",
+   "pose": "p0775"
+  },
+  {
+   "character": "jax",
+   "confidence": "assumed",
+   "move": "jax/duckpunch",
+   "pose": "p0784"
+  },
+  {
+   "character": "jax",
+   "confidence": "assumed",
+   "move": "jax/elbow",
+   "pose": "p0793"
+  },
+  {
+   "character": "jax",
+   "confidence": "assumed",
+   "move": "jax/flipk",
+   "pose": "p0803"
+  },
+  {
+   "character": "jax",
+   "confidence": "assumed",
+   "move": "jax/flipp",
+   "pose": "p0812"
+  },
+  {
+   "character": "jax",
+   "confidence": "assumed",
+   "move": "jax/hikick",
+   "pose": "p0822"
+  },
+  {
+   "character": "jax",
+   "confidence": "assumed",
+   "move": "jax/jumpupk",
+   "pose": "p0832"
+  },
+  {
+   "character": "jax",
+   "confidence": "assumed",
+   "move": "jax/jumpupp",
+   "pose": "p0812"
+  },
+  {
+   "character": "jax",
+   "confidence": "assumed",
+   "move": "jax/knee",
+   "pose": "p0841"
+  },
+  {
+   "character": "jax",
+   "confidence": "assumed",
+   "move": "jax/roundh",
+   "pose": "p0859"
+  },
+  {
+   "character": "jax",
+   "confidence": "assumed",
+   "move": "jax/sweepk",
+   "pose": "p0868"
+  },
+  {
+   "character": "johnny-cage",
+   "confidence": "assumed",
+   "move": "johnny-cage/duckkickh",
+   "pose": "p0760"
+  },
+  {
+   "character": "johnny-cage",
+   "confidence": "assumed",
+   "move": "johnny-cage/duckkickl",
+   "pose": "p0769"
+  },
+  {
+   "character": "johnny-cage",
+   "confidence": "assumed",
+   "move": "johnny-cage/duckpunch",
+   "pose": "p0778"
+  },
+  {
+   "character": "johnny-cage",
+   "confidence": "assumed",
+   "move": "johnny-cage/elbow",
+   "pose": "p0787"
+  },
+  {
+   "character": "johnny-cage",
+   "confidence": "assumed",
+   "move": "johnny-cage/flipk",
+   "pose": "p0797"
+  },
+  {
+   "character": "johnny-cage",
+   "confidence": "assumed",
+   "move": "johnny-cage/flipp",
+   "pose": "p0806"
+  },
+  {
+   "character": "johnny-cage",
+   "confidence": "assumed",
+   "move": "johnny-cage/hikick",
+   "pose": "p0816"
+  },
+  {
+   "character": "johnny-cage",
+   "confidence": "assumed",
+   "move": "johnny-cage/jumpupk",
+   "pose": "p0826"
+  },
+  {
+   "character": "johnny-cage",
+   "confidence": "assumed",
+   "move": "johnny-cage/jumpupp",
+   "pose": "p0806"
+  },
+  {
+   "character": "johnny-cage",
+   "confidence": "assumed",
+   "move": "johnny-cage/knee",
+   "pose": "p0835"
+  },
+  {
+   "character": "johnny-cage",
+   "confidence": "assumed",
+   "move": "johnny-cage/lokick",
+   "pose": "p0845"
+  },
+  {
+   "character": "johnny-cage",
+   "confidence": "assumed",
+   "move": "johnny-cage/roundh",
+   "pose": "p0853"
+  },
+  {
+   "character": "johnny-cage",
+   "confidence": "handler-name",
+   "move": "johnny-cage/split",
+   "pose": "p0823"
+  },
+  {
+   "character": "johnny-cage",
+   "confidence": "assumed",
+   "move": "johnny-cage/sweepk",
+   "pose": "p0862"
+  },
+  {
+   "character": "jade",
+   "confidence": "assumed",
+   "move": "kitana-mileena/duckkickh",
+   "pose": "p0762"
+  },
+  {
+   "character": "kitana",
+   "confidence": "assumed",
+   "move": "kitana-mileena/duckkickh",
+   "pose": "p0762"
+  },
+  {
+   "character": "mileena",
+   "confidence": "assumed",
+   "move": "kitana-mileena/duckkickh",
+   "pose": "p0762"
+  },
+  {
+   "character": "jade",
+   "confidence": "assumed",
+   "move": "kitana-mileena/duckkickl",
+   "pose": "p0771"
+  },
+  {
+   "character": "kitana",
+   "confidence": "assumed",
+   "move": "kitana-mileena/duckkickl",
+   "pose": "p0771"
+  },
+  {
+   "character": "mileena",
+   "confidence": "assumed",
+   "move": "kitana-mileena/duckkickl",
+   "pose": "p0771"
+  },
+  {
+   "character": "jade",
+   "confidence": "assumed",
+   "move": "kitana-mileena/duckpunch",
+   "pose": "p0780"
+  },
+  {
+   "character": "kitana",
+   "confidence": "assumed",
+   "move": "kitana-mileena/duckpunch",
+   "pose": "p0780"
+  },
+  {
+   "character": "mileena",
+   "confidence": "assumed",
+   "move": "kitana-mileena/duckpunch",
+   "pose": "p0780"
+  },
+  {
+   "character": "jade",
+   "confidence": "assumed",
+   "move": "kitana-mileena/elbow",
+   "pose": "p0789"
+  },
+  {
+   "character": "kitana",
+   "confidence": "assumed",
+   "move": "kitana-mileena/elbow",
+   "pose": "p0789"
+  },
+  {
+   "character": "mileena",
+   "confidence": "assumed",
+   "move": "kitana-mileena/elbow",
+   "pose": "p0789"
+  },
+  {
+   "character": "kitana",
+   "confidence": "table",
+   "move": "kitana-mileena/fan-swipe",
+   "pose": "p0794"
+  },
+  {
+   "character": "jade",
+   "confidence": "assumed",
+   "move": "kitana-mileena/flipk",
+   "pose": "p0799"
+  },
+  {
+   "character": "kitana",
+   "confidence": "assumed",
+   "move": "kitana-mileena/flipk",
+   "pose": "p0799"
+  },
+  {
+   "character": "mileena",
+   "confidence": "assumed",
+   "move": "kitana-mileena/flipk",
+   "pose": "p0799"
+  },
+  {
+   "character": "jade",
+   "confidence": "assumed",
+   "move": "kitana-mileena/flipp",
+   "pose": "p0808"
+  },
+  {
+   "character": "kitana",
+   "confidence": "assumed",
+   "move": "kitana-mileena/flipp",
+   "pose": "p0808"
+  },
+  {
+   "character": "mileena",
+   "confidence": "assumed",
+   "move": "kitana-mileena/flipp",
+   "pose": "p0808"
+  },
+  {
+   "character": "jade",
+   "confidence": "assumed",
+   "move": "kitana-mileena/hikick",
+   "pose": "p0818"
+  },
+  {
+   "character": "kitana",
+   "confidence": "assumed",
+   "move": "kitana-mileena/hikick",
+   "pose": "p0818"
+  },
+  {
+   "character": "mileena",
+   "confidence": "assumed",
+   "move": "kitana-mileena/hikick",
+   "pose": "p0818"
+  },
+  {
+   "character": "jade",
+   "confidence": "assumed",
+   "move": "kitana-mileena/jumpupk",
+   "pose": "p0828"
+  },
+  {
+   "character": "kitana",
+   "confidence": "assumed",
+   "move": "kitana-mileena/jumpupk",
+   "pose": "p0828"
+  },
+  {
+   "character": "mileena",
+   "confidence": "assumed",
+   "move": "kitana-mileena/jumpupk",
+   "pose": "p0828"
+  },
+  {
+   "character": "jade",
+   "confidence": "assumed",
+   "move": "kitana-mileena/jumpupp",
+   "pose": "p0808"
+  },
+  {
+   "character": "kitana",
+   "confidence": "assumed",
+   "move": "kitana-mileena/jumpupp",
+   "pose": "p0808"
+  },
+  {
+   "character": "mileena",
+   "confidence": "assumed",
+   "move": "kitana-mileena/jumpupp",
+   "pose": "p0808"
+  },
+  {
+   "character": "jade",
+   "confidence": "assumed",
+   "move": "kitana-mileena/knee",
+   "pose": "p0837"
+  },
+  {
+   "character": "kitana",
+   "confidence": "assumed",
+   "move": "kitana-mileena/knee",
+   "pose": "p0837"
+  },
+  {
+   "character": "mileena",
+   "confidence": "assumed",
+   "move": "kitana-mileena/knee",
+   "pose": "p0837"
+  },
+  {
+   "character": "jade",
+   "confidence": "assumed",
+   "move": "kitana-mileena/lokick",
+   "pose": "p0847"
+  },
+  {
+   "character": "kitana",
+   "confidence": "assumed",
+   "move": "kitana-mileena/lokick",
+   "pose": "p0847"
+  },
+  {
+   "character": "mileena",
+   "confidence": "assumed",
+   "move": "kitana-mileena/lokick",
+   "pose": "p0847"
+  },
+  {
+   "character": "jade",
+   "confidence": "assumed",
+   "move": "kitana-mileena/roundh",
+   "pose": "p0855"
+  },
+  {
+   "character": "kitana",
+   "confidence": "assumed",
+   "move": "kitana-mileena/roundh",
+   "pose": "p0855"
+  },
+  {
+   "character": "mileena",
+   "confidence": "assumed",
+   "move": "kitana-mileena/roundh",
+   "pose": "p0855"
+  },
+  {
+   "character": "jade",
+   "confidence": "assumed",
+   "move": "kitana-mileena/sweepk",
+   "pose": "p0864"
+  },
+  {
+   "character": "kitana",
+   "confidence": "assumed",
+   "move": "kitana-mileena/sweepk",
+   "pose": "p0864"
+  },
+  {
+   "character": "mileena",
+   "confidence": "assumed",
+   "move": "kitana-mileena/sweepk",
+   "pose": "p0864"
+  },
+  {
+   "character": "kung-lao",
+   "confidence": "assumed",
+   "move": "kung-lao/duckkickh",
+   "pose": "p0758"
+  },
+  {
+   "character": "kung-lao",
+   "confidence": "assumed",
+   "move": "kung-lao/duckkickl",
+   "pose": "p0767"
+  },
+  {
+   "character": "kung-lao",
+   "confidence": "assumed",
+   "move": "kung-lao/duckpunch",
+   "pose": "p0776"
+  },
+  {
+   "character": "kung-lao",
+   "confidence": "assumed",
+   "move": "kung-lao/elbow",
+   "pose": "p0785"
+  },
+  {
+   "character": "kung-lao",
+   "confidence": "assumed",
+   "move": "kung-lao/flipk",
+   "pose": "p0795"
+  },
+  {
+   "character": "kung-lao",
+   "confidence": "assumed",
+   "move": "kung-lao/flipp",
+   "pose": "p0804"
+  },
+  {
+   "character": "kung-lao",
+   "confidence": "handler-name",
+   "move": "kung-lao/hikick",
+   "pose": "p0813"
+  },
+  {
+   "character": "kung-lao",
+   "confidence": "assumed",
+   "move": "kung-lao/hikick",
+   "pose": "p0814"
+  },
+  {
+   "character": "kung-lao",
+   "confidence": "assumed",
+   "move": "kung-lao/jumpupk",
+   "pose": "p0824"
+  },
+  {
+   "character": "kung-lao",
+   "confidence": "assumed",
+   "move": "kung-lao/jumpupp",
+   "pose": "p0804"
+  },
+  {
+   "character": "kung-lao",
+   "confidence": "assumed",
+   "move": "kung-lao/knee",
+   "pose": "p0833"
+  },
+  {
+   "character": "kung-lao",
+   "confidence": "assumed",
+   "move": "kung-lao/lokick",
+   "pose": "p0843"
+  },
+  {
+   "character": "kung-lao",
+   "confidence": "assumed",
+   "move": "kung-lao/roundh",
+   "pose": "p0851"
+  },
+  {
+   "character": "kung-lao",
+   "confidence": "assumed",
+   "move": "kung-lao/sweepk",
+   "pose": "p0860"
+  },
+  {
+   "character": "liu-kang",
+   "confidence": "assumed",
+   "move": "liu-kang/duckkickh",
+   "pose": "p0759"
+  },
+  {
+   "character": "liu-kang",
+   "confidence": "assumed",
+   "move": "liu-kang/duckkickl",
+   "pose": "p0768"
+  },
+  {
+   "character": "liu-kang",
+   "confidence": "assumed",
+   "move": "liu-kang/duckpunch",
+   "pose": "p0777"
+  },
+  {
+   "character": "liu-kang",
+   "confidence": "assumed",
+   "move": "liu-kang/elbow",
+   "pose": "p0786"
+  },
+  {
+   "character": "liu-kang",
+   "confidence": "assumed",
+   "move": "liu-kang/flipk",
+   "pose": "p0796"
+  },
+  {
+   "character": "liu-kang",
+   "confidence": "assumed",
+   "move": "liu-kang/flipp",
+   "pose": "p0805"
+  },
+  {
+   "character": "liu-kang",
+   "confidence": "assumed",
+   "move": "liu-kang/hikick",
+   "pose": "p0815"
+  },
+  {
+   "character": "liu-kang",
+   "confidence": "handler-name",
+   "move": "liu-kang/hikick",
+   "pose": "p0842"
+  },
+  {
+   "character": "liu-kang",
+   "confidence": "assumed",
+   "move": "liu-kang/jumpupk",
+   "pose": "p0825"
+  },
+  {
+   "character": "liu-kang",
+   "confidence": "assumed",
+   "move": "liu-kang/jumpupp",
+   "pose": "p0805"
+  },
+  {
+   "character": "liu-kang",
+   "confidence": "assumed",
+   "move": "liu-kang/knee",
+   "pose": "p0834"
+  },
+  {
+   "character": "liu-kang",
+   "confidence": "assumed",
+   "move": "liu-kang/lokick",
+   "pose": "p0844"
+  },
+  {
+   "character": "liu-kang",
+   "confidence": "assumed",
+   "move": "liu-kang/roundh",
+   "pose": "p0852"
+  },
+  {
+   "character": "liu-kang",
+   "confidence": "assumed",
+   "move": "liu-kang/sweepk",
+   "pose": "p0861"
+  },
+  {
+   "character": "noob-saibot",
+   "confidence": "assumed",
+   "move": "ninjas/duckkickh",
+   "pose": "p0765"
+  },
+  {
+   "character": "reptile",
+   "confidence": "assumed",
+   "move": "ninjas/duckkickh",
+   "pose": "p0765"
+  },
+  {
+   "character": "scorpion",
+   "confidence": "assumed",
+   "move": "ninjas/duckkickh",
+   "pose": "p0765"
+  },
+  {
+   "character": "smoke",
+   "confidence": "assumed",
+   "move": "ninjas/duckkickh",
+   "pose": "p0765"
+  },
+  {
+   "character": "sub-zero",
+   "confidence": "assumed",
+   "move": "ninjas/duckkickh",
+   "pose": "p0765"
+  },
+  {
+   "character": "noob-saibot",
+   "confidence": "assumed",
+   "move": "ninjas/duckkickl",
+   "pose": "p0774"
+  },
+  {
+   "character": "reptile",
+   "confidence": "assumed",
+   "move": "ninjas/duckkickl",
+   "pose": "p0774"
+  },
+  {
+   "character": "scorpion",
+   "confidence": "assumed",
+   "move": "ninjas/duckkickl",
+   "pose": "p0774"
+  },
+  {
+   "character": "smoke",
+   "confidence": "assumed",
+   "move": "ninjas/duckkickl",
+   "pose": "p0774"
+  },
+  {
+   "character": "sub-zero",
+   "confidence": "assumed",
+   "move": "ninjas/duckkickl",
+   "pose": "p0774"
+  },
+  {
+   "character": "noob-saibot",
+   "confidence": "assumed",
+   "move": "ninjas/duckpunch",
+   "pose": "p0783"
+  },
+  {
+   "character": "reptile",
+   "confidence": "assumed",
+   "move": "ninjas/duckpunch",
+   "pose": "p0783"
+  },
+  {
+   "character": "scorpion",
+   "confidence": "assumed",
+   "move": "ninjas/duckpunch",
+   "pose": "p0783"
+  },
+  {
+   "character": "smoke",
+   "confidence": "assumed",
+   "move": "ninjas/duckpunch",
+   "pose": "p0783"
+  },
+  {
+   "character": "sub-zero",
+   "confidence": "assumed",
+   "move": "ninjas/duckpunch",
+   "pose": "p0783"
+  },
+  {
+   "character": "noob-saibot",
+   "confidence": "assumed",
+   "move": "ninjas/elbow",
+   "pose": "p0792"
+  },
+  {
+   "character": "reptile",
+   "confidence": "assumed",
+   "move": "ninjas/elbow",
+   "pose": "p0792"
+  },
+  {
+   "character": "scorpion",
+   "confidence": "assumed",
+   "move": "ninjas/elbow",
+   "pose": "p0792"
+  },
+  {
+   "character": "smoke",
+   "confidence": "assumed",
+   "move": "ninjas/elbow",
+   "pose": "p0792"
+  },
+  {
+   "character": "sub-zero",
+   "confidence": "assumed",
+   "move": "ninjas/elbow",
+   "pose": "p0792"
+  },
+  {
+   "character": "noob-saibot",
+   "confidence": "assumed",
+   "move": "ninjas/flipk",
+   "pose": "p0802"
+  },
+  {
+   "character": "reptile",
+   "confidence": "assumed",
+   "move": "ninjas/flipk",
+   "pose": "p0802"
+  },
+  {
+   "character": "scorpion",
+   "confidence": "assumed",
+   "move": "ninjas/flipk",
+   "pose": "p0802"
+  },
+  {
+   "character": "smoke",
+   "confidence": "assumed",
+   "move": "ninjas/flipk",
+   "pose": "p0802"
+  },
+  {
+   "character": "sub-zero",
+   "confidence": "assumed",
+   "move": "ninjas/flipk",
+   "pose": "p0802"
+  },
+  {
+   "character": "noob-saibot",
+   "confidence": "assumed",
+   "move": "ninjas/flipp",
+   "pose": "p0811"
+  },
+  {
+   "character": "reptile",
+   "confidence": "assumed",
+   "move": "ninjas/flipp",
+   "pose": "p0811"
+  },
+  {
+   "character": "scorpion",
+   "confidence": "assumed",
+   "move": "ninjas/flipp",
+   "pose": "p0811"
+  },
+  {
+   "character": "smoke",
+   "confidence": "assumed",
+   "move": "ninjas/flipp",
+   "pose": "p0811"
+  },
+  {
+   "character": "sub-zero",
+   "confidence": "assumed",
+   "move": "ninjas/flipp",
+   "pose": "p0811"
+  },
+  {
+   "character": "noob-saibot",
+   "confidence": "assumed",
+   "move": "ninjas/hikick",
+   "pose": "p0821"
+  },
+  {
+   "character": "reptile",
+   "confidence": "assumed",
+   "move": "ninjas/hikick",
+   "pose": "p0821"
+  },
+  {
+   "character": "scorpion",
+   "confidence": "assumed",
+   "move": "ninjas/hikick",
+   "pose": "p0821"
+  },
+  {
+   "character": "smoke",
+   "confidence": "assumed",
+   "move": "ninjas/hikick",
+   "pose": "p0821"
+  },
+  {
+   "character": "sub-zero",
+   "confidence": "assumed",
+   "move": "ninjas/hikick",
+   "pose": "p0821"
+  },
+  {
+   "character": "noob-saibot",
+   "confidence": "assumed",
+   "move": "ninjas/jumpupk",
+   "pose": "p0831"
+  },
+  {
+   "character": "reptile",
+   "confidence": "assumed",
+   "move": "ninjas/jumpupk",
+   "pose": "p0831"
+  },
+  {
+   "character": "scorpion",
+   "confidence": "assumed",
+   "move": "ninjas/jumpupk",
+   "pose": "p0831"
+  },
+  {
+   "character": "smoke",
+   "confidence": "assumed",
+   "move": "ninjas/jumpupk",
+   "pose": "p0831"
+  },
+  {
+   "character": "sub-zero",
+   "confidence": "assumed",
+   "move": "ninjas/jumpupk",
+   "pose": "p0831"
+  },
+  {
+   "character": "noob-saibot",
+   "confidence": "assumed",
+   "move": "ninjas/jumpupp",
+   "pose": "p0811"
+  },
+  {
+   "character": "reptile",
+   "confidence": "assumed",
+   "move": "ninjas/jumpupp",
+   "pose": "p0811"
+  },
+  {
+   "character": "scorpion",
+   "confidence": "assumed",
+   "move": "ninjas/jumpupp",
+   "pose": "p0811"
+  },
+  {
+   "character": "smoke",
+   "confidence": "assumed",
+   "move": "ninjas/jumpupp",
+   "pose": "p0811"
+  },
+  {
+   "character": "sub-zero",
+   "confidence": "assumed",
+   "move": "ninjas/jumpupp",
+   "pose": "p0811"
+  },
+  {
+   "character": "noob-saibot",
+   "confidence": "assumed",
+   "move": "ninjas/knee",
+   "pose": "p0840"
+  },
+  {
+   "character": "reptile",
+   "confidence": "assumed",
+   "move": "ninjas/knee",
+   "pose": "p0840"
+  },
+  {
+   "character": "scorpion",
+   "confidence": "assumed",
+   "move": "ninjas/knee",
+   "pose": "p0840"
+  },
+  {
+   "character": "smoke",
+   "confidence": "assumed",
+   "move": "ninjas/knee",
+   "pose": "p0840"
+  },
+  {
+   "character": "sub-zero",
+   "confidence": "assumed",
+   "move": "ninjas/knee",
+   "pose": "p0840"
+  },
+  {
+   "character": "noob-saibot",
+   "confidence": "assumed",
+   "move": "ninjas/lokick",
+   "pose": "p0850"
+  },
+  {
+   "character": "reptile",
+   "confidence": "assumed",
+   "move": "ninjas/lokick",
+   "pose": "p0850"
+  },
+  {
+   "character": "scorpion",
+   "confidence": "assumed",
+   "move": "ninjas/lokick",
+   "pose": "p0850"
+  },
+  {
+   "character": "smoke",
+   "confidence": "assumed",
+   "move": "ninjas/lokick",
+   "pose": "p0850"
+  },
+  {
+   "character": "sub-zero",
+   "confidence": "assumed",
+   "move": "ninjas/lokick",
+   "pose": "p0850"
+  },
+  {
+   "character": "noob-saibot",
+   "confidence": "assumed",
+   "move": "ninjas/roundh",
+   "pose": "p0858"
+  },
+  {
+   "character": "reptile",
+   "confidence": "assumed",
+   "move": "ninjas/roundh",
+   "pose": "p0858"
+  },
+  {
+   "character": "scorpion",
+   "confidence": "assumed",
+   "move": "ninjas/roundh",
+   "pose": "p0858"
+  },
+  {
+   "character": "smoke",
+   "confidence": "assumed",
+   "move": "ninjas/roundh",
+   "pose": "p0858"
+  },
+  {
+   "character": "sub-zero",
+   "confidence": "assumed",
+   "move": "ninjas/roundh",
+   "pose": "p0858"
+  },
+  {
+   "character": "noob-saibot",
+   "confidence": "assumed",
+   "move": "ninjas/sweepk",
+   "pose": "p0867"
+  },
+  {
+   "character": "reptile",
+   "confidence": "assumed",
+   "move": "ninjas/sweepk",
+   "pose": "p0867"
+  },
+  {
+   "character": "scorpion",
+   "confidence": "assumed",
+   "move": "ninjas/sweepk",
+   "pose": "p0867"
+  },
+  {
+   "character": "smoke",
+   "confidence": "assumed",
+   "move": "ninjas/sweepk",
+   "pose": "p0867"
+  },
+  {
+   "character": "sub-zero",
+   "confidence": "assumed",
+   "move": "ninjas/sweepk",
+   "pose": "p0867"
+  },
+  {
+   "character": "raiden",
+   "confidence": "assumed",
+   "move": "raiden/duckkickh",
+   "pose": "p0764"
+  },
+  {
+   "character": "raiden",
+   "confidence": "assumed",
+   "move": "raiden/duckkickl",
+   "pose": "p0773"
+  },
+  {
+   "character": "raiden",
+   "confidence": "assumed",
+   "move": "raiden/duckpunch",
+   "pose": "p0782"
+  },
+  {
+   "character": "raiden",
+   "confidence": "assumed",
+   "move": "raiden/elbow",
+   "pose": "p0791"
+  },
+  {
+   "character": "raiden",
+   "confidence": "assumed",
+   "move": "raiden/flipk",
+   "pose": "p0801"
+  },
+  {
+   "character": "raiden",
+   "confidence": "assumed",
+   "move": "raiden/flipp",
+   "pose": "p0810"
+  },
+  {
+   "character": "raiden",
+   "confidence": "assumed",
+   "move": "raiden/hikick",
+   "pose": "p0820"
+  },
+  {
+   "character": "raiden",
+   "confidence": "assumed",
+   "move": "raiden/jumpupk",
+   "pose": "p0830"
+  },
+  {
+   "character": "raiden",
+   "confidence": "assumed",
+   "move": "raiden/jumpupp",
+   "pose": "p0810"
+  },
+  {
+   "character": "raiden",
+   "confidence": "assumed",
+   "move": "raiden/knee",
+   "pose": "p0839"
+  },
+  {
+   "character": "raiden",
+   "confidence": "assumed",
+   "move": "raiden/lokick",
+   "pose": "p0849"
+  },
+  {
+   "character": "raiden",
+   "confidence": "assumed",
+   "move": "raiden/roundh",
+   "pose": "p0857"
+  },
+  {
+   "character": "raiden",
+   "confidence": "assumed",
+   "move": "raiden/sweepk",
+   "pose": "p0866"
+  },
+  {
+   "character": "shang-tsung",
+   "confidence": "assumed",
+   "move": "shang-tsung/duckkickh",
+   "pose": "p0763"
+  },
+  {
+   "character": "shang-tsung",
+   "confidence": "assumed",
+   "move": "shang-tsung/duckkickl",
+   "pose": "p0772"
+  },
+  {
+   "character": "shang-tsung",
+   "confidence": "assumed",
+   "move": "shang-tsung/duckpunch",
+   "pose": "p0781"
+  },
+  {
+   "character": "shang-tsung",
+   "confidence": "assumed",
+   "move": "shang-tsung/elbow",
+   "pose": "p0790"
+  },
+  {
+   "character": "shang-tsung",
+   "confidence": "assumed",
+   "move": "shang-tsung/flipk",
+   "pose": "p0800"
+  },
+  {
+   "character": "shang-tsung",
+   "confidence": "assumed",
+   "move": "shang-tsung/flipp",
+   "pose": "p0809"
+  },
+  {
+   "character": "shang-tsung",
+   "confidence": "assumed",
+   "move": "shang-tsung/hikick",
+   "pose": "p0819"
+  },
+  {
+   "character": "shang-tsung",
+   "confidence": "assumed",
+   "move": "shang-tsung/jumpupk",
+   "pose": "p0829"
+  },
+  {
+   "character": "shang-tsung",
+   "confidence": "assumed",
+   "move": "shang-tsung/jumpupp",
+   "pose": "p0809"
+  },
+  {
+   "character": "shang-tsung",
+   "confidence": "assumed",
+   "move": "shang-tsung/knee",
+   "pose": "p0838"
+  },
+  {
+   "character": "shang-tsung",
+   "confidence": "assumed",
+   "move": "shang-tsung/lokick",
+   "pose": "p0848"
+  },
+  {
+   "character": "shang-tsung",
+   "confidence": "assumed",
+   "move": "shang-tsung/roundh",
+   "pose": "p0856"
+  },
+  {
+   "character": "shang-tsung",
+   "confidence": "assumed",
+   "move": "shang-tsung/sweepk",
+   "pose": "p0865"
+  }
+ ],
+ "excluded": {
+  "boss-ani-table": 7,
+  "idle-art": 10,
+  "no-single-contact-pose": 7
+ },
+ "format": "boxlab-pose-pack",
+ "format_version": 1,
+ "meta": {
+  "digest": "0227836f514156ab",
+  "generated": "2026-09-01",
+  "public": true,
+  "source_commit": "91e8785",
+  "title": "Pose geometry",
+  "units": "pixels, relative to the anchor; +x is forward, +y is down"
+ },
+ "poses": {
+  "p0001": [
+   [
+    -29,
+    11,
+    29,
+    139
+   ],
+   [
+    0,
+    10,
+    41,
+    137
+   ]
+  ],
+  "p0002": [
+   [
+    -28,
+    12,
+    29,
+    138
+   ],
+   [
+    1,
+    11,
+    40,
+    136
+   ]
+  ],
+  "p0003": [
+   [
+    -25,
+    13,
+    28,
+    137
+   ],
+   [
+    3,
+    13,
+    38,
+    134
+   ]
+  ],
+  "p0004": [
+   [
+    -24,
+    16,
+    28,
+    134
+   ],
+   [
+    4,
+    15,
+    37,
+    132
+   ]
+  ],
+  "p0005": [
+   [
+    -26,
+    17,
+    27,
+    133
+   ],
+   [
+    1,
+    13,
+    40,
+    134
+   ]
+  ],
+  "p0006": [
+   [
+    -30,
+    10,
+    30,
+    140
+   ],
+   [
+    0,
+    10,
+    41,
+    137
+   ]
+  ],
+  "p0007": [
+   [
+    -43,
+    68,
+    41,
+    80
+   ],
+   [
+    -2,
+    68,
+    21,
+    80
+   ],
+   [
+    -28,
+    7,
+    48,
+    61
+   ],
+   [
+    20,
+    46,
+    16,
+    26
+   ]
+  ],
+  "p0008": [
+   [
+    -33,
+    69,
+    27,
+    80
+   ],
+   [
+    -6,
+    69,
+    22,
+    79
+   ],
+   [
+    -28,
+    8,
+    48,
+    61
+   ],
+   [
+    20,
+    47,
+    16,
+    26
+   ]
+  ],
+  "p0009": [
+   [
+    -17,
+    66,
+    33,
+    85
+   ],
+   [
+    -28,
+    8,
+    48,
+    61
+   ],
+   [
+    20,
+    47,
+    16,
+    26
+   ]
+  ],
+  "p0010": [
+   [
+    -15,
+    67,
+    23,
+    81
+   ],
+   [
+    8,
+    67,
+    21,
+    86
+   ],
+   [
+    -27,
+    10,
+    48,
+    61
+   ],
+   [
+    21,
+    49,
+    16,
+    26
+   ]
+  ],
+  "p0011": [
+   [
+    -18,
+    73,
+    24,
+    76
+   ],
+   [
+    6,
+    73,
+    24,
+    81
+   ],
+   [
+    -27,
+    12,
+    48,
+    61
+   ],
+   [
+    21,
+    51,
+    16,
+    26
+   ]
+  ],
+  "p0012": [
+   [
+    -26,
+    122,
+    11,
+    24
+   ],
+   [
+    -15,
+    72,
+    30,
+    81
+   ],
+   [
+    -27,
+    11,
+    48,
+    61
+   ],
+   [
+    21,
+    50,
+    16,
+    26
+   ]
+  ],
+  "p0013": [
+   [
+    -13,
+    73,
+    20,
+    80
+   ],
+   [
+    7,
+    73,
+    19,
+    69
+   ],
+   [
+    -26,
+    12,
+    48,
+    61
+   ],
+   [
+    22,
+    51,
+    16,
+    26
+   ]
+  ],
+  "p0014": [
+   [
+    -13,
+    72,
+    22,
+    81
+   ],
+   [
+    9,
+    72,
+    22,
+    73
+   ],
+   [
+    -26,
+    11,
+    48,
+    61
+   ],
+   [
+    22,
+    50,
+    16,
+    26
+   ]
+  ],
+  "p0015": [
+   [
+    -23,
+    71,
+    21,
+    80
+   ],
+   [
+    -2,
+    71,
+    40,
+    78
+   ],
+   [
+    -29,
+    10,
+    48,
+    61
+   ],
+   [
+    19,
+    49,
+    16,
+    26
+   ]
+  ],
+  "p0016": [
+   [
+    -27,
+    32,
+    34,
+    118
+   ],
+   [
+    7,
+    31,
+    34,
+    116
+   ]
+  ],
+  "p0017": [
+   [
+    -25,
+    53,
+    36,
+    97
+   ],
+   [
+    11,
+    53,
+    30,
+    94
+   ]
+  ],
+  "p0018": [
+   [
+    -24,
+    78,
+    34,
+    72
+   ],
+   [
+    10,
+    76,
+    31,
+    71
+   ]
+  ],
+  "p0019": [
+   [
+    -26,
+    0,
+    30,
+    150
+   ],
+   [
+    4,
+    -3,
+    35,
+    149
+   ]
+  ],
+  "p0020": [
+   [
+    -21,
+    -2,
+    27,
+    98
+   ],
+   [
+    6,
+    -2,
+    30,
+    101
+   ]
+  ],
+  "p0021": [
+   [
+    -15,
+    -16,
+    21,
+    149
+   ],
+   [
+    6,
+    -22,
+    27,
+    148
+   ]
+  ],
+  "p0022": [
+   [
+    -9,
+    -7,
+    53,
+    87
+   ]
+  ],
+  "p0023": [
+   [
+    -18,
+    14,
+    64,
+    75
+   ]
+  ],
+  "p0024": [
+   [
+    -37,
+    9,
+    82,
+    61
+   ]
+  ],
+  "p0025": [
+   [
+    -40,
+    2,
+    68,
+    71
+   ]
+  ],
+  "p0026": [
+   [
+    -27,
+    -17,
+    54,
+    91
+   ]
+  ],
+  "p0027": [
+   [
+    -38,
+    1,
+    88,
+    57
+   ]
+  ],
+  "p0028": [
+   [
+    -17,
+    -13,
+    68,
+    73
+   ]
+  ],
+  "p0029": [
+   [
+    -24,
+    8,
+    29,
+    142
+   ],
+   [
+    5,
+    8,
+    36,
+    139
+   ]
+  ],
+  "p0030": [
+   [
+    -23,
+    67,
+    38,
+    83
+   ],
+   [
+    15,
+    66,
+    26,
+    81
+   ]
+  ],
+  "p0031": [
+   [
+    -26,
+    61,
+    39,
+    89
+   ],
+   [
+    13,
+    59,
+    27,
+    88
+   ]
+  ],
+  "p0032": [
+   [
+    -38,
+    10,
+    45,
+    140
+   ],
+   [
+    7,
+    50,
+    34,
+    97
+   ]
+  ],
+  "p0033": [
+   [
+    -40,
+    16,
+    47,
+    134
+   ],
+   [
+    7,
+    47,
+    34,
+    100
+   ]
+  ],
+  "p0034": [
+   [
+    -32,
+    11,
+    39,
+    139
+   ],
+   [
+    7,
+    48,
+    34,
+    99
+   ]
+  ],
+  "p0035": [
+   [
+    -38,
+    12,
+    40,
+    138
+   ],
+   [
+    2,
+    41,
+    39,
+    106
+   ]
+  ],
+  "p0036": [
+   [
+    -49,
+    18,
+    52,
+    132
+   ],
+   [
+    3,
+    45,
+    37,
+    102
+   ]
+  ],
+  "p0037": [
+   [
+    -28,
+    9,
+    36,
+    140
+   ],
+   [
+    8,
+    48,
+    33,
+    99
+   ]
+  ],
+  "p0038": [
+   [
+    -35,
+    88,
+    42,
+    62
+   ],
+   [
+    7,
+    95,
+    24,
+    55
+   ],
+   [
+    31,
+    92,
+    32,
+    55
+   ]
+  ],
+  "p0039": [
+   [
+    -22,
+    60,
+    77,
+    90
+   ]
+  ],
+  "p0040": [
+   [
+    -25,
+    2,
+    27,
+    148
+   ],
+   [
+    2,
+    0,
+    23,
+    142
+   ]
+  ],
+  "p0041": [
+   [
+    -25,
+    8,
+    26,
+    139
+   ],
+   [
+    1,
+    5,
+    32,
+    142
+   ]
+  ],
+  "p0042": [
+   [
+    -46,
+    16,
+    47,
+    121
+   ],
+   [
+    1,
+    18,
+    50,
+    114
+   ]
+  ],
+  "p0043": [
+   [
+    -51,
+    42,
+    77,
+    58
+   ],
+   [
+    26,
+    61,
+    31,
+    30
+   ]
+  ],
+  "p0044": [
+   [
+    -43,
+    64,
+    60,
+    65
+   ],
+   [
+    17,
+    49,
+    29,
+    74
+   ]
+  ],
+  "p0045": [
+   [
+    -45,
+    79,
+    34,
+    59
+   ],
+   [
+    -11,
+    69,
+    64,
+    74
+   ]
+  ],
+  "p0046": [
+   [
+    -16,
+    92,
+    45,
+    70
+   ]
+  ],
+  "p0047": [
+   [
+    -28,
+    64,
+    32,
+    87
+   ],
+   [
+    4,
+    64,
+    31,
+    87
+   ]
+  ],
+  "p0048": [
+   [
+    -32,
+    20,
+    35,
+    129
+   ],
+   [
+    3,
+    20,
+    42,
+    128
+   ]
+  ],
+  "p0049": [
+   [
+    -31,
+    -12,
+    35,
+    159
+   ],
+   [
+    4,
+    -12,
+    50,
+    157
+   ]
+  ],
+  "p0050": [
+   [
+    -27,
+    1,
+    31,
+    148
+   ],
+   [
+    26,
+    31,
+    25,
+    31
+   ],
+   [
+    4,
+    1,
+    35,
+    146
+   ]
+  ],
+  "p0051": [
+   [
+    -30,
+    50,
+    32,
+    99
+   ],
+   [
+    2,
+    79,
+    38,
+    68
+   ]
+  ],
+  "p0052": [
+   [
+    -40,
+    54,
+    43,
+    96
+   ],
+   [
+    3,
+    91,
+    37,
+    56
+   ]
+  ],
+  "p0053": [
+   [
+    -29,
+    56,
+    32,
+    94
+   ],
+   [
+    3,
+    58,
+    38,
+    89
+   ]
+  ],
+  "p0054": [
+   [
+    -33,
+    15,
+    43,
+    135
+   ],
+   [
+    10,
+    65,
+    39,
+    77
+   ]
+  ],
+  "p0055": [
+   [
+    -29,
+    18,
+    44,
+    132
+   ],
+   [
+    15,
+    30,
+    39,
+    104
+   ]
+  ],
+  "p0056": [
+   [
+    -23,
+    22,
+    75,
+    128
+   ]
+  ],
+  "p0057": [
+   [
+    -22,
+    18,
+    64,
+    132
+   ]
+  ],
+  "p0058": [
+   [
+    -32,
+    17,
+    37,
+    134
+   ],
+   [
+    5,
+    17,
+    31,
+    129
+   ]
+  ],
+  "p0059": [
+   [
+    -32,
+    17,
+    32,
+    134
+   ],
+   [
+    0,
+    17,
+    46,
+    128
+   ]
+  ],
+  "p0060": [
+   [
+    -24,
+    4,
+    27,
+    146
+   ],
+   [
+    3,
+    31,
+    35,
+    117
+   ]
+  ],
+  "p0061": [
+   [
+    -24,
+    6,
+    27,
+    144
+   ],
+   [
+    3,
+    5,
+    35,
+    143
+   ]
+  ],
+  "p0062": [
+   [
+    -24,
+    8,
+    27,
+    142
+   ],
+   [
+    3,
+    8,
+    35,
+    140
+   ]
+  ],
+  "p0063": [
+   [
+    -24,
+    31,
+    27,
+    119
+   ],
+   [
+    3,
+    11,
+    38,
+    137
+   ]
+  ],
+  "p0064": [
+   [
+    -24,
+    31,
+    27,
+    119
+   ],
+   [
+    3,
+    13,
+    42,
+    135
+   ]
+  ],
+  "p0065": [
+   [
+    -24,
+    10,
+    27,
+    140
+   ],
+   [
+    3,
+    10,
+    35,
+    138
+   ]
+  ],
+  "p0066": [
+   [
+    -24,
+    9,
+    27,
+    141
+   ],
+   [
+    3,
+    9,
+    35,
+    139
+   ]
+  ],
+  "p0067": [
+   [
+    -29,
+    7,
+    30,
+    134
+   ],
+   [
+    13,
+    43,
+    29,
+    25
+   ],
+   [
+    1,
+    7,
+    33,
+    130
+   ]
+  ],
+  "p0068": [
+   [
+    -29,
+    8,
+    30,
+    133
+   ],
+   [
+    15,
+    47,
+    27,
+    23
+   ],
+   [
+    1,
+    8,
+    33,
+    129
+   ]
+  ],
+  "p0069": [
+   [
+    -29,
+    9,
+    30,
+    132
+   ],
+   [
+    14,
+    47,
+    28,
+    24
+   ],
+   [
+    1,
+    9,
+    33,
+    128
+   ]
+  ],
+  "p0070": [
+   [
+    -29,
+    9,
+    30,
+    132
+   ],
+   [
+    14,
+    48,
+    27,
+    23
+   ],
+   [
+    1,
+    9,
+    33,
+    128
+   ]
+  ],
+  "p0071": [
+   [
+    -29,
+    8,
+    29,
+    133
+   ],
+   [
+    14,
+    46,
+    27,
+    24
+   ],
+   [
+    0,
+    8,
+    34,
+    129
+   ]
+  ],
+  "p0072": [
+   [
+    -29,
+    7,
+    29,
+    134
+   ],
+   [
+    14,
+    45,
+    27,
+    24
+   ],
+   [
+    0,
+    7,
+    34,
+    130
+   ]
+  ],
+  "p0073": [
+   [
+    -29,
+    6,
+    29,
+    135
+   ],
+   [
+    13,
+    43,
+    28,
+    25
+   ],
+   [
+    0,
+    6,
+    34,
+    131
+   ]
+  ],
+  "p0074": [
+   [
+    -27,
+    68,
+    42,
+    72
+   ],
+   [
+    -30,
+    3,
+    42,
+    65
+   ],
+   [
+    12,
+    41,
+    28,
+    21
+   ]
+  ],
+  "p0075": [
+   [
+    -16,
+    68,
+    28,
+    73
+   ],
+   [
+    -30,
+    3,
+    42,
+    65
+   ],
+   [
+    12,
+    41,
+    28,
+    21
+   ]
+  ],
+  "p0076": [
+   [
+    -16,
+    67,
+    31,
+    73
+   ],
+   [
+    -30,
+    2,
+    42,
+    65
+   ],
+   [
+    12,
+    40,
+    28,
+    21
+   ]
+  ],
+  "p0077": [
+   [
+    -16,
+    68,
+    30,
+    73
+   ],
+   [
+    -30,
+    3,
+    42,
+    65
+   ],
+   [
+    12,
+    41,
+    28,
+    21
+   ]
+  ],
+  "p0078": [
+   [
+    -15,
+    68,
+    32,
+    72
+   ],
+   [
+    -30,
+    3,
+    42,
+    65
+   ],
+   [
+    12,
+    41,
+    28,
+    21
+   ]
+  ],
+  "p0079": [
+   [
+    -16,
+    68,
+    38,
+    72
+   ],
+   [
+    -30,
+    3,
+    42,
+    65
+   ],
+   [
+    12,
+    41,
+    28,
+    21
+   ]
+  ],
+  "p0080": [
+   [
+    -17,
+    68,
+    21,
+    72
+   ],
+   [
+    4,
+    68,
+    22,
+    65
+   ],
+   [
+    -30,
+    3,
+    42,
+    65
+   ],
+   [
+    12,
+    41,
+    28,
+    21
+   ]
+  ],
+  "p0081": [
+   [
+    -17,
+    69,
+    18,
+    71
+   ],
+   [
+    1,
+    69,
+    40,
+    68
+   ],
+   [
+    -30,
+    4,
+    42,
+    65
+   ],
+   [
+    12,
+    42,
+    28,
+    21
+   ]
+  ],
+  "p0082": [
+   [
+    -24,
+    71,
+    27,
+    69
+   ],
+   [
+    3,
+    71,
+    31,
+    66
+   ],
+   [
+    -30,
+    6,
+    42,
+    65
+   ],
+   [
+    12,
+    44,
+    28,
+    21
+   ]
+  ],
+  "p0083": [
+   [
+    -23,
+    23,
+    32,
+    119
+   ],
+   [
+    9,
+    22,
+    38,
+    57
+   ],
+   [
+    9,
+    82,
+    25,
+    55
+   ]
+  ],
+  "p0084": [
+   [
+    -23,
+    49,
+    35,
+    93
+   ],
+   [
+    12,
+    44,
+    35,
+    93
+   ]
+  ],
+  "p0085": [
+   [
+    -28,
+    71,
+    40,
+    71
+   ],
+   [
+    12,
+    68,
+    25,
+    69
+   ]
+  ],
+  "p0086": [
+   [
+    -24,
+    -6,
+    27,
+    147
+   ],
+   [
+    3,
+    -7,
+    28,
+    141
+   ],
+   [
+    31,
+    20,
+    25,
+    13
+   ]
+  ],
+  "p0087": [
+   [
+    -22,
+    -3,
+    26,
+    92
+   ],
+   [
+    4,
+    -7,
+    53,
+    94
+   ]
+  ],
+  "p0088": [
+   [
+    -24,
+    -4,
+    27,
+    144
+   ],
+   [
+    3,
+    -5,
+    44,
+    142
+   ]
+  ],
+  "p0089": [
+   [
+    -7,
+    -4,
+    52,
+    62
+   ]
+  ],
+  "p0090": [
+   [
+    -6,
+    -2,
+    60,
+    60
+   ]
+  ],
+  "p0091": [
+   [
+    -17,
+    -1,
+    62,
+    53
+   ]
+  ],
+  "p0092": [
+   [
+    -20,
+    -7,
+    60,
+    62
+   ]
+  ],
+  "p0093": [
+   [
+    -15,
+    -14,
+    54,
+    63
+   ]
+  ],
+  "p0094": [
+   [
+    -17,
+    -13,
+    64,
+    53
+   ]
+  ],
+  "p0095": [
+   [
+    -10,
+    -8,
+    64,
+    61
+   ]
+  ],
+  "p0096": [
+   [
+    -27,
+    4,
+    27,
+    137
+   ],
+   [
+    16,
+    47,
+    20,
+    24
+   ],
+   [
+    0,
+    4,
+    32,
+    134
+   ]
+  ],
+  "p0097": [
+   [
+    -27,
+    5,
+    27,
+    137
+   ],
+   [
+    0,
+    5,
+    31,
+    133
+   ]
+  ],
+  "p0098": [
+   [
+    -27,
+    54,
+    37,
+    86
+   ],
+   [
+    10,
+    55,
+    31,
+    83
+   ]
+  ],
+  "p0099": [
+   [
+    -28,
+    51,
+    30,
+    89
+   ],
+   [
+    2,
+    51,
+    31,
+    88
+   ]
+  ],
+  "p0100": [
+   [
+    -31,
+    5,
+    30,
+    136
+   ],
+   [
+    -1,
+    32,
+    32,
+    104
+   ]
+  ],
+  "p0101": [
+   [
+    -34,
+    12,
+    35,
+    129
+   ],
+   [
+    1,
+    44,
+    31,
+    93
+   ]
+  ],
+  "p0102": [
+   [
+    -29,
+    6,
+    30,
+    135
+   ],
+   [
+    1,
+    33,
+    30,
+    103
+   ]
+  ],
+  "p0103": [
+   [
+    -31,
+    13,
+    38,
+    129
+   ],
+   [
+    7,
+    53,
+    26,
+    84
+   ]
+  ],
+  "p0104": [
+   [
+    -33,
+    16,
+    39,
+    126
+   ],
+   [
+    6,
+    57,
+    28,
+    80
+   ]
+  ],
+  "p0105": [
+   [
+    -28,
+    9,
+    32,
+    133
+   ],
+   [
+    4,
+    10,
+    11,
+    66
+   ],
+   [
+    15,
+    50,
+    17,
+    25
+   ],
+   [
+    4,
+    76,
+    28,
+    61
+   ]
+  ],
+  "p0106": [
+   [
+    -58,
+    66,
+    71,
+    80
+   ]
+  ],
+  "p0107": [
+   [
+    -58,
+    54,
+    112,
+    86
+   ]
+  ],
+  "p0108": [
+   [
+    -61,
+    76,
+    51,
+    54
+   ],
+   [
+    -10,
+    72,
+    38,
+    71
+   ]
+  ],
+  "p0109": [
+   [
+    -31,
+    30,
+    35,
+    113
+   ],
+   [
+    4,
+    67,
+    30,
+    76
+   ]
+  ],
+  "p0110": [
+   [
+    -37,
+    8,
+    38,
+    137
+   ],
+   [
+    1,
+    17,
+    16,
+    84
+   ],
+   [
+    17,
+    62,
+    22,
+    74
+   ]
+  ],
+  "p0111": [
+   [
+    -37,
+    24,
+    37,
+    107
+   ],
+   [
+    0,
+    24,
+    51,
+    106
+   ]
+  ],
+  "p0112": [
+   [
+    -46,
+    61,
+    19,
+    28
+   ],
+   [
+    -27,
+    45,
+    65,
+    55
+   ],
+   [
+    38,
+    72,
+    25,
+    18
+   ]
+  ],
+  "p0113": [
+   [
+    -47,
+    59,
+    22,
+    54
+   ],
+   [
+    -25,
+    75,
+    31,
+    46
+   ],
+   [
+    6,
+    71,
+    38,
+    44
+   ]
+  ],
+  "p0114": [
+   [
+    -44,
+    99,
+    27,
+    29
+   ],
+   [
+    -17,
+    102,
+    27,
+    30
+   ],
+   [
+    10,
+    87,
+    36,
+    44
+   ]
+  ],
+  "p0115": [
+   [
+    -49,
+    105,
+    54,
+    58
+   ],
+   [
+    5,
+    108,
+    51,
+    52
+   ]
+  ],
+  "p0116": [
+   [
+    -25,
+    78,
+    31,
+    60
+   ],
+   [
+    6,
+    75,
+    24,
+    63
+   ]
+  ],
+  "p0117": [
+   [
+    -12,
+    50,
+    18,
+    91
+   ],
+   [
+    6,
+    50,
+    20,
+    91
+   ]
+  ],
+  "p0118": [
+   [
+    -22,
+    91,
+    31,
+    50
+   ],
+   [
+    9,
+    90,
+    27,
+    46
+   ]
+  ],
+  "p0119": [
+   [
+    -30,
+    79,
+    33,
+    63
+   ],
+   [
+    3,
+    80,
+    31,
+    59
+   ]
+  ],
+  "p0120": [
+   [
+    -32,
+    44,
+    33,
+    98
+   ],
+   [
+    1,
+    66,
+    15,
+    73
+   ],
+   [
+    16,
+    78,
+    15,
+    62
+   ]
+  ],
+  "p0121": [
+   [
+    -28,
+    46,
+    37,
+    96
+   ],
+   [
+    9,
+    90,
+    25,
+    47
+   ]
+  ],
+  "p0122": [
+   [
+    -28,
+    46,
+    36,
+    96
+   ],
+   [
+    8,
+    81,
+    26,
+    56
+   ]
+  ],
+  "p0123": [
+   [
+    -29,
+    52,
+    41,
+    90
+   ],
+   [
+    12,
+    96,
+    22,
+    41
+   ]
+  ],
+  "p0124": [
+   [
+    -26,
+    12,
+    35,
+    130
+   ],
+   [
+    9,
+    50,
+    25,
+    87
+   ]
+  ],
+  "p0125": [
+   [
+    -20,
+    11,
+    39,
+    131
+   ],
+   [
+    19,
+    75,
+    36,
+    47
+   ]
+  ],
+  "p0126": [
+   [
+    -15,
+    14,
+    27,
+    66
+   ],
+   [
+    12,
+    14,
+    24,
+    66
+   ],
+   [
+    -10,
+    80,
+    34,
+    62
+   ],
+   [
+    25,
+    80,
+    24,
+    26
+   ]
+  ],
+  "p0127": [
+   [
+    -12,
+    18,
+    21,
+    46
+   ],
+   [
+    9,
+    15,
+    38,
+    46
+   ],
+   [
+    -13,
+    64,
+    45,
+    76
+   ]
+  ],
+  "p0128": [
+   [
+    -22,
+    11,
+    56,
+    127
+   ]
+  ],
+  "p0129": [
+   [
+    -27,
+    25,
+    28,
+    116
+   ],
+   [
+    1,
+    7,
+    27,
+    132
+   ]
+  ],
+  "p0130": [
+   [
+    -27,
+    20,
+    30,
+    121
+   ],
+   [
+    3,
+    9,
+    25,
+    130
+   ]
+  ],
+  "p0131": [
+   [
+    -27,
+    12,
+    31,
+    129
+   ],
+   [
+    4,
+    28,
+    24,
+    111
+   ]
+  ],
+  "p0132": [
+   [
+    -30,
+    17,
+    34,
+    124
+   ],
+   [
+    4,
+    35,
+    24,
+    104
+   ]
+  ],
+  "p0133": [
+   [
+    -27,
+    8,
+    26,
+    133
+   ],
+   [
+    -1,
+    23,
+    29,
+    116
+   ]
+  ],
+  "p0134": [
+   [
+    -27,
+    4,
+    25,
+    137
+   ],
+   [
+    -2,
+    4,
+    30,
+    135
+   ]
+  ],
+  "p0135": [
+   [
+    -27,
+    24,
+    25,
+    117
+   ],
+   [
+    -2,
+    5,
+    30,
+    134
+   ]
+  ],
+  "p0136": [
+   [
+    -29,
+    16,
+    25,
+    134
+   ],
+   [
+    18,
+    45,
+    12,
+    22
+   ],
+   [
+    -4,
+    16,
+    38,
+    131
+   ]
+  ],
+  "p0137": [
+   [
+    -31,
+    14,
+    27,
+    136
+   ],
+   [
+    20,
+    42,
+    12,
+    22
+   ],
+   [
+    -4,
+    14,
+    38,
+    133
+   ]
+  ],
+  "p0138": [
+   [
+    -32,
+    13,
+    28,
+    137
+   ],
+   [
+    21,
+    41,
+    14,
+    22
+   ],
+   [
+    -4,
+    13,
+    38,
+    134
+   ]
+  ],
+  "p0139": [
+   [
+    -32,
+    15,
+    28,
+    135
+   ],
+   [
+    20,
+    45,
+    14,
+    20
+   ],
+   [
+    -4,
+    14,
+    38,
+    133
+   ]
+  ],
+  "p0140": [
+   [
+    -31,
+    16,
+    28,
+    134
+   ],
+   [
+    20,
+    48,
+    12,
+    18
+   ],
+   [
+    -3,
+    15,
+    37,
+    132
+   ]
+  ],
+  "p0141": [
+   [
+    -29,
+    17,
+    25,
+    133
+   ],
+   [
+    19,
+    49,
+    11,
+    18
+   ],
+   [
+    -4,
+    16,
+    38,
+    131
+   ]
+  ],
+  "p0142": [
+   [
+    -29,
+    17,
+    26,
+    133
+   ],
+   [
+    18,
+    49,
+    10,
+    19
+   ],
+   [
+    -3,
+    17,
+    37,
+    130
+   ]
+  ],
+  "p0143": [
+   [
+    -32,
+    67,
+    29,
+    82
+   ],
+   [
+    -3,
+    67,
+    21,
+    80
+   ],
+   [
+    -31,
+    13,
+    67,
+    60
+   ]
+  ],
+  "p0144": [
+   [
+    -22,
+    65,
+    14,
+    85
+   ],
+   [
+    -8,
+    65,
+    19,
+    82
+   ],
+   [
+    -33,
+    11,
+    67,
+    60
+   ]
+  ],
+  "p0145": [
+   [
+    -18,
+    66,
+    28,
+    86
+   ],
+   [
+    -34,
+    12,
+    67,
+    60
+   ]
+  ],
+  "p0146": [
+   [
+    -16,
+    67,
+    20,
+    80
+   ],
+   [
+    4,
+    67,
+    20,
+    82
+   ],
+   [
+    -33,
+    13,
+    67,
+    60
+   ]
+  ],
+  "p0147": [
+   [
+    -20,
+    68,
+    21,
+    79
+   ],
+   [
+    1,
+    68,
+    18,
+    83
+   ],
+   [
+    -31,
+    14,
+    67,
+    60
+   ]
+  ],
+  "p0148": [
+   [
+    -25,
+    69,
+    22,
+    78
+   ],
+   [
+    -3,
+    69,
+    16,
+    82
+   ],
+   [
+    -30,
+    15,
+    67,
+    60
+   ]
+  ],
+  "p0149": [
+   [
+    -16,
+    68,
+    37,
+    83
+   ],
+   [
+    -31,
+    14,
+    67,
+    60
+   ]
+  ],
+  "p0150": [
+   [
+    -17,
+    69,
+    23,
+    82
+   ],
+   [
+    6,
+    69,
+    24,
+    75
+   ],
+   [
+    -31,
+    15,
+    67,
+    60
+   ]
+  ],
+  "p0151": [
+   [
+    -17,
+    69,
+    18,
+    82
+   ],
+   [
+    1,
+    69,
+    41,
+    77
+   ],
+   [
+    -30,
+    15,
+    67,
+    60
+   ]
+  ],
+  "p0152": [
+   [
+    -23,
+    25,
+    25,
+    125
+   ],
+   [
+    2,
+    24,
+    35,
+    123
+   ]
+  ],
+  "p0153": [
+   [
+    -23,
+    42,
+    26,
+    108
+   ],
+   [
+    3,
+    41,
+    33,
+    106
+   ]
+  ],
+  "p0154": [
+   [
+    -23,
+    76,
+    27,
+    74
+   ],
+   [
+    4,
+    73,
+    30,
+    74
+   ]
+  ],
+  "p0155": [
+   [
+    -28,
+    26,
+    13,
+    31
+   ],
+   [
+    -29,
+    4,
+    30,
+    145
+   ],
+   [
+    1,
+    4,
+    27,
+    44
+   ],
+   [
+    28,
+    19,
+    14,
+    28
+   ],
+   [
+    1,
+    48,
+    33,
+    100
+   ]
+  ],
+  "p0156": [
+   [
+    -26,
+    4,
+    27,
+    103
+   ],
+   [
+    1,
+    3,
+    37,
+    108
+   ]
+  ],
+  "p0157": [
+   [
+    -18,
+    32,
+    16,
+    118
+   ],
+   [
+    -2,
+    1,
+    31,
+    142
+   ],
+   [
+    29,
+    18,
+    20,
+    21
+   ]
+  ],
+  "p0158": [
+   [
+    -8,
+    22,
+    27,
+    59
+   ],
+   [
+    19,
+    23,
+    24,
+    68
+   ]
+  ],
+  "p0159": [
+   [
+    -10,
+    24,
+    56,
+    76
+   ]
+  ],
+  "p0160": [
+   [
+    -25,
+    51,
+    15,
+    20
+   ],
+   [
+    -10,
+    24,
+    49,
+    54
+   ]
+  ],
+  "p0161": [
+   [
+    -30,
+    22,
+    29,
+    34
+   ],
+   [
+    -1,
+    15,
+    39,
+    63
+   ]
+  ],
+  "p0162": [
+   [
+    -15,
+    4,
+    28,
+    70
+   ],
+   [
+    13,
+    23,
+    25,
+    51
+   ]
+  ],
+  "p0163": [
+   [
+    -17,
+    -1,
+    57,
+    74
+   ]
+  ],
+  "p0164": [
+   [
+    -9,
+    12,
+    46,
+    60
+   ],
+   [
+    37,
+    36,
+    24,
+    19
+   ]
+  ],
+  "p0165": [
+   [
+    -29,
+    13,
+    27,
+    137
+   ],
+   [
+    18,
+    43,
+    10,
+    19
+   ],
+   [
+    -2,
+    13,
+    37,
+    134
+   ]
+  ],
+  "p0166": [
+   [
+    -25,
+    14,
+    26,
+    136
+   ],
+   [
+    14,
+    38,
+    11,
+    26
+   ],
+   [
+    1,
+    14,
+    34,
+    135
+   ]
+  ],
+  "p0167": [
+   [
+    -26,
+    40,
+    13,
+    27
+   ],
+   [
+    -28,
+    15,
+    31,
+    134
+   ],
+   [
+    3,
+    15,
+    31,
+    135
+   ]
+  ],
+  "p0168": [
+   [
+    -24,
+    68,
+    27,
+    82
+   ],
+   [
+    3,
+    68,
+    36,
+    80
+   ]
+  ],
+  "p0169": [
+   [
+    -24,
+    64,
+    29,
+    86
+   ],
+   [
+    5,
+    64,
+    35,
+    84
+   ]
+  ],
+  "p0170": [
+   [
+    -41,
+    20,
+    37,
+    130
+   ],
+   [
+    -4,
+    35,
+    37,
+    112
+   ]
+  ],
+  "p0171": [
+   [
+    -44,
+    23,
+    43,
+    127
+   ],
+   [
+    -1,
+    40,
+    33,
+    107
+   ]
+  ],
+  "p0172": [
+   [
+    -35,
+    13,
+    34,
+    137
+   ],
+   [
+    -1,
+    35,
+    33,
+    112
+   ]
+  ],
+  "p0173": [
+   [
+    -29,
+    16,
+    29,
+    134
+   ],
+   [
+    0,
+    47,
+    32,
+    99
+   ]
+  ],
+  "p0174": [
+   [
+    -33,
+    15,
+    32,
+    135
+   ],
+   [
+    -1,
+    47,
+    33,
+    98
+   ]
+  ],
+  "p0175": [
+   [
+    -35,
+    15,
+    36,
+    135
+   ],
+   [
+    1,
+    47,
+    31,
+    100
+   ]
+  ],
+  "p0176": [
+   [
+    -53,
+    105,
+    44,
+    38
+   ],
+   [
+    -9,
+    67,
+    35,
+    77
+   ]
+  ],
+  "p0177": [
+   [
+    -49,
+    86,
+    11,
+    19
+   ],
+   [
+    -42,
+    84,
+    62,
+    63
+   ]
+  ],
+  "p0178": [
+   [
+    -45,
+    29,
+    82,
+    118
+   ],
+   [
+    37,
+    47,
+    13,
+    22
+   ]
+  ],
+  "p0179": [
+   [
+    -48,
+    94,
+    19,
+    53
+   ],
+   [
+    -29,
+    78,
+    32,
+    57
+   ],
+   [
+    3,
+    72,
+    43,
+    64
+   ]
+  ],
+  "p0180": [
+   [
+    -40,
+    56,
+    70,
+    91
+   ]
+  ],
+  "p0181": [
+   [
+    -24,
+    24,
+    58,
+    124
+   ]
+  ],
+  "p0182": [
+   [
+    -50,
+    30,
+    17,
+    25
+   ],
+   [
+    -33,
+    26,
+    31,
+    118
+   ],
+   [
+    14,
+    24,
+    24,
+    30
+   ],
+   [
+    -2,
+    27,
+    28,
+    116
+   ]
+  ],
+  "p0183": [
+   [
+    -61,
+    63,
+    27,
+    14
+   ],
+   [
+    -34,
+    42,
+    30,
+    75
+   ],
+   [
+    -4,
+    42,
+    18,
+    58
+   ],
+   [
+    14,
+    56,
+    32,
+    61
+   ]
+  ],
+  "p0184": [
+   [
+    -55,
+    92,
+    35,
+    29
+   ],
+   [
+    -20,
+    50,
+    22,
+    66
+   ],
+   [
+    2,
+    81,
+    12,
+    35
+   ],
+   [
+    14,
+    53,
+    29,
+    68
+   ]
+  ],
+  "p0185": [
+   [
+    -49,
+    55,
+    51,
+    79
+   ],
+   [
+    2,
+    57,
+    38,
+    77
+   ]
+  ],
+  "p0186": [
+   [
+    -57,
+    90,
+    68,
+    49
+   ],
+   [
+    11,
+    96,
+    41,
+    41
+   ]
+  ],
+  "p0187": [
+   [
+    -55,
+    103,
+    51,
+    66
+   ],
+   [
+    -4,
+    105,
+    51,
+    63
+   ]
+  ],
+  "p0188": [
+   [
+    -25,
+    72,
+    20,
+    70
+   ],
+   [
+    -5,
+    80,
+    22,
+    62
+   ]
+  ],
+  "p0189": [
+   [
+    -31,
+    37,
+    28,
+    90
+   ],
+   [
+    -3,
+    42,
+    26,
+    85
+   ]
+  ],
+  "p0190": [
+   [
+    -31,
+    77,
+    24,
+    54
+   ],
+   [
+    -7,
+    78,
+    32,
+    55
+   ]
+  ],
+  "p0191": [
+   [
+    -53,
+    79,
+    39,
+    19
+   ],
+   [
+    -27,
+    62,
+    25,
+    86
+   ],
+   [
+    20,
+    88,
+    33,
+    22
+   ],
+   [
+    -2,
+    60,
+    25,
+    88
+   ]
+  ],
+  "p0192": [
+   [
+    -24,
+    26,
+    22,
+    118
+   ],
+   [
+    -2,
+    23,
+    28,
+    123
+   ]
+  ],
+  "p0193": [
+   [
+    -33,
+    65,
+    33,
+    85
+   ],
+   [
+    0,
+    74,
+    34,
+    73
+   ]
+  ],
+  "p0194": [
+   [
+    -44,
+    74,
+    42,
+    76
+   ],
+   [
+    -2,
+    78,
+    36,
+    69
+   ]
+  ],
+  "p0195": [
+   [
+    -32,
+    59,
+    33,
+    91
+   ],
+   [
+    1,
+    75,
+    33,
+    72
+   ]
+  ],
+  "p0196": [
+   [
+    -29,
+    16,
+    34,
+    134
+   ],
+   [
+    5,
+    51,
+    30,
+    95
+   ]
+  ],
+  "p0197": [
+   [
+    -35,
+    16,
+    62,
+    134
+   ]
+  ],
+  "p0198": [
+   [
+    -49,
+    21,
+    43,
+    120
+   ],
+   [
+    -6,
+    52,
+    15,
+    98
+   ]
+  ],
+  "p0199": [
+   [
+    -59,
+    17,
+    34,
+    56
+   ],
+   [
+    -28,
+    17,
+    26,
+    128
+   ],
+   [
+    -2,
+    54,
+    20,
+    96
+   ]
+  ],
+  "p0200": [
+   [
+    -27,
+    9,
+    19,
+    141
+   ],
+   [
+    -8,
+    9,
+    24,
+    135
+   ],
+   [
+    16,
+    48,
+    21,
+    24
+   ]
+  ],
+  "p0201": [
+   [
+    -25,
+    17,
+    28,
+    133
+   ],
+   [
+    3,
+    38,
+    23,
+    110
+   ]
+  ],
+  "p0202": [
+   [
+    -31,
+    18,
+    14,
+    132
+   ],
+   [
+    -17,
+    22,
+    20,
+    123
+   ],
+   [
+    3,
+    49,
+    23,
+    99
+   ]
+  ],
+  "p0203": [
+   [
+    -33,
+    17,
+    33,
+    133
+   ],
+   [
+    0,
+    41,
+    26,
+    107
+   ]
+  ],
+  "p0204": [
+   [
+    -25,
+    17,
+    23,
+    133
+   ],
+   [
+    -2,
+    26,
+    28,
+    122
+   ]
+  ],
+  "p0205": [
+   [
+    -25,
+    18,
+    24,
+    132
+   ],
+   [
+    -1,
+    18,
+    27,
+    130
+   ]
+  ],
+  "p0206": [
+   [
+    -29,
+    34,
+    27,
+    116
+   ],
+   [
+    -2,
+    18,
+    28,
+    130
+   ]
+  ],
+  "p0207": [
+   [
+    -27,
+    18,
+    28,
+    132
+   ],
+   [
+    1,
+    16,
+    25,
+    132
+   ]
+  ],
+  "p0208": [
+   [
+    -29,
+    27,
+    23,
+    120
+   ],
+   [
+    -6,
+    11,
+    39,
+    133
+   ]
+  ],
+  "p0209": [
+   [
+    -29,
+    30,
+    21,
+    117
+   ],
+   [
+    -8,
+    12,
+    40,
+    132
+   ]
+  ],
+  "p0210": [
+   [
+    -29,
+    32,
+    20,
+    115
+   ],
+   [
+    -9,
+    14,
+    40,
+    130
+   ]
+  ],
+  "p0211": [
+   [
+    -29,
+    33,
+    20,
+    114
+   ],
+   [
+    -9,
+    15,
+    39,
+    129
+   ]
+  ],
+  "p0212": [
+   [
+    -29,
+    17,
+    26,
+    130
+   ],
+   [
+    -3,
+    16,
+    32,
+    128
+   ]
+  ],
+  "p0213": [
+   [
+    -29,
+    18,
+    25,
+    129
+   ],
+   [
+    -4,
+    17,
+    33,
+    127
+   ]
+  ],
+  "p0214": [
+   [
+    -39,
+    61,
+    34,
+    87
+   ],
+   [
+    -5,
+    61,
+    27,
+    83
+   ],
+   [
+    -31,
+    8,
+    42,
+    53
+   ],
+   [
+    11,
+    28,
+    29,
+    19
+   ]
+  ],
+  "p0215": [
+   [
+    -35,
+    60,
+    26,
+    86
+   ],
+   [
+    -9,
+    60,
+    21,
+    84
+   ],
+   [
+    -31,
+    7,
+    42,
+    53
+   ],
+   [
+    11,
+    27,
+    29,
+    19
+   ]
+  ],
+  "p0216": [
+   [
+    -17,
+    60,
+    26,
+    88
+   ],
+   [
+    -31,
+    7,
+    42,
+    53
+   ],
+   [
+    11,
+    27,
+    29,
+    19
+   ]
+  ],
+  "p0217": [
+   [
+    -24,
+    62,
+    24,
+    82
+   ],
+   [
+    0,
+    62,
+    29,
+    84
+   ],
+   [
+    -31,
+    9,
+    42,
+    53
+   ],
+   [
+    11,
+    29,
+    29,
+    19
+   ]
+  ],
+  "p0218": [
+   [
+    -30,
+    64,
+    28,
+    80
+   ],
+   [
+    -2,
+    64,
+    23,
+    84
+   ],
+   [
+    -31,
+    11,
+    42,
+    53
+   ],
+   [
+    11,
+    31,
+    29,
+    19
+   ]
+  ],
+  "p0219": [
+   [
+    -19,
+    63,
+    35,
+    85
+   ],
+   [
+    -31,
+    10,
+    42,
+    53
+   ],
+   [
+    11,
+    30,
+    29,
+    19
+   ]
+  ],
+  "p0220": [
+   [
+    -17,
+    63,
+    21,
+    85
+   ],
+   [
+    4,
+    63,
+    29,
+    79
+   ],
+   [
+    -31,
+    10,
+    42,
+    53
+   ],
+   [
+    11,
+    30,
+    29,
+    19
+   ]
+  ],
+  "p0221": [
+   [
+    -21,
+    64,
+    22,
+    84
+   ],
+   [
+    1,
+    64,
+    37,
+    79
+   ],
+   [
+    -31,
+    11,
+    42,
+    53
+   ],
+   [
+    11,
+    31,
+    29,
+    19
+   ]
+  ],
+  "p0222": [
+   [
+    -32,
+    63,
+    29,
+    84
+   ],
+   [
+    -3,
+    63,
+    30,
+    81
+   ],
+   [
+    -30,
+    10,
+    42,
+    53
+   ],
+   [
+    12,
+    30,
+    29,
+    19
+   ]
+  ],
+  "p0223": [
+   [
+    -33,
+    33,
+    28,
+    114
+   ],
+   [
+    -5,
+    28,
+    18,
+    81
+   ],
+   [
+    13,
+    50,
+    19,
+    95
+   ]
+  ],
+  "p0224": [
+   [
+    -35,
+    59,
+    33,
+    88
+   ],
+   [
+    -2,
+    59,
+    34,
+    86
+   ]
+  ],
+  "p0225": [
+   [
+    -34,
+    72,
+    31,
+    75
+   ],
+   [
+    -3,
+    72,
+    34,
+    73
+   ]
+  ],
+  "p0226": [
+   [
+    -35,
+    0,
+    34,
+    145
+   ],
+   [
+    -1,
+    -1,
+    27,
+    146
+   ],
+   [
+    26,
+    1,
+    12,
+    28
+   ]
+  ],
+  "p0227": [
+   [
+    -35,
+    -4,
+    44,
+    99
+   ],
+   [
+    9,
+    1,
+    43,
+    95
+   ]
+  ],
+  "p0228": [
+   [
+    -27,
+    22,
+    32,
+    125
+   ],
+   [
+    5,
+    3,
+    43,
+    142
+   ]
+  ],
+  "p0229": [
+   [
+    -7,
+    11,
+    51,
+    65
+   ]
+  ],
+  "p0230": [
+   [
+    -14,
+    19,
+    62,
+    62
+   ]
+  ],
+  "p0231": [
+   [
+    -26,
+    40,
+    12,
+    21
+   ],
+   [
+    -14,
+    17,
+    53,
+    51
+   ]
+  ],
+  "p0232": [
+   [
+    -30,
+    9,
+    26,
+    45
+   ],
+   [
+    -4,
+    7,
+    37,
+    63
+   ]
+  ],
+  "p0233": [
+   [
+    -14,
+    -5,
+    27,
+    64
+   ],
+   [
+    13,
+    10,
+    23,
+    48
+   ]
+  ],
+  "p0234": [
+   [
+    -18,
+    -6,
+    62,
+    63
+   ]
+  ],
+  "p0235": [
+   [
+    -7,
+    8,
+    50,
+    50
+   ],
+   [
+    43,
+    16,
+    15,
+    20
+   ]
+  ],
+  "p0236": [
+   [
+    -30,
+    11,
+    24,
+    136
+   ],
+   [
+    -6,
+    10,
+    35,
+    133
+   ]
+  ],
+  "p0237": [
+   [
+    -30,
+    10,
+    26,
+    137
+   ],
+   [
+    -4,
+    10,
+    32,
+    136
+   ]
+  ],
+  "p0238": [
+   [
+    -38,
+    61,
+    32,
+    86
+   ],
+   [
+    -6,
+    63,
+    38,
+    80
+   ]
+  ],
+  "p0239": [
+   [
+    -37,
+    55,
+    33,
+    92
+   ],
+   [
+    -4,
+    57,
+    36,
+    86
+   ]
+  ],
+  "p0240": [
+   [
+    -34,
+    15,
+    32,
+    132
+   ],
+   [
+    -2,
+    35,
+    32,
+    108
+   ]
+  ],
+  "p0241": [
+   [
+    -43,
+    20,
+    39,
+    127
+   ],
+   [
+    -4,
+    43,
+    33,
+    100
+   ]
+  ],
+  "p0242": [
+   [
+    -28,
+    9,
+    26,
+    138
+   ],
+   [
+    -2,
+    10,
+    31,
+    133
+   ]
+  ],
+  "p0243": [
+   [
+    -39,
+    17,
+    34,
+    130
+   ],
+   [
+    -5,
+    57,
+    39,
+    81
+   ]
+  ],
+  "p0244": [
+   [
+    -47,
+    19,
+    41,
+    128
+   ],
+   [
+    -6,
+    58,
+    50,
+    67
+   ]
+  ],
+  "p0245": [
+   [
+    -35,
+    12,
+    31,
+    135
+   ],
+   [
+    -4,
+    43,
+    32,
+    99
+   ]
+  ],
+  "p0246": [
+   [
+    -59,
+    76,
+    30,
+    68
+   ],
+   [
+    -29,
+    88,
+    45,
+    58
+   ]
+  ],
+  "p0247": [
+   [
+    -50,
+    61,
+    110,
+    82
+   ]
+  ],
+  "p0248": [
+   [
+    -62,
+    78,
+    45,
+    39
+   ],
+   [
+    -17,
+    79,
+    47,
+    68
+   ]
+  ],
+  "p0249": [
+   [
+    -23,
+    46,
+    40,
+    101
+   ],
+   [
+    17,
+    78,
+    22,
+    45
+   ]
+  ],
+  "p0250": [
+   [
+    -21,
+    12,
+    21,
+    136
+   ],
+   [
+    0,
+    7,
+    24,
+    130
+   ],
+   [
+    24,
+    50,
+    23,
+    20
+   ]
+  ],
+  "p0251": [
+   [
+    -33,
+    28,
+    30,
+    119
+   ],
+   [
+    -3,
+    28,
+    40,
+    113
+   ]
+  ],
+  "p0252": [
+   [
+    -47,
+    40,
+    42,
+    67
+   ],
+   [
+    -5,
+    40,
+    54,
+    64
+   ]
+  ],
+  "p0253": [
+   [
+    -44,
+    55,
+    25,
+    77
+   ],
+   [
+    -19,
+    68,
+    32,
+    64
+   ],
+   [
+    13,
+    63,
+    27,
+    69
+   ]
+  ],
+  "p0254": [
+   [
+    -37,
+    70,
+    24,
+    65
+   ],
+   [
+    -13,
+    95,
+    22,
+    41
+   ],
+   [
+    9,
+    76,
+    29,
+    58
+   ]
+  ],
+  "p0255": [
+   [
+    -56,
+    94,
+    36,
+    39
+   ],
+   [
+    -20,
+    107,
+    33,
+    30
+   ],
+   [
+    13,
+    104,
+    20,
+    31
+   ],
+   [
+    33,
+    120,
+    18,
+    16
+   ]
+  ],
+  "p0256": [
+   [
+    -42,
+    102,
+    39,
+    64
+   ],
+   [
+    -3,
+    102,
+    38,
+    62
+   ]
+  ],
+  "p0257": [
+   [
+    -24,
+    71,
+    19,
+    68
+   ],
+   [
+    -5,
+    75,
+    22,
+    64
+   ]
+  ],
+  "p0258": [
+   [
+    -29,
+    89,
+    27,
+    52
+   ],
+   [
+    -2,
+    84,
+    25,
+    58
+   ]
+  ],
+  "p0259": [
+   [
+    -35,
+    72,
+    32,
+    74
+   ],
+   [
+    -3,
+    72,
+    29,
+    75
+   ]
+  ],
+  "p0260": [
+   [
+    -32,
+    59,
+    15,
+    83
+   ],
+   [
+    -17,
+    39,
+    14,
+    75
+   ],
+   [
+    -3,
+    38,
+    19,
+    102
+   ],
+   [
+    16,
+    67,
+    21,
+    77
+   ]
+  ],
+  "p0261": [
+   [
+    -39,
+    59,
+    34,
+    88
+   ],
+   [
+    -5,
+    77,
+    38,
+    68
+   ]
+  ],
+  "p0262": [
+   [
+    -45,
+    64,
+    42,
+    83
+   ],
+   [
+    -3,
+    78,
+    35,
+    67
+   ]
+  ],
+  "p0263": [
+   [
+    -35,
+    57,
+    28,
+    90
+   ],
+   [
+    -7,
+    75,
+    40,
+    70
+   ]
+  ],
+  "p0264": [
+   [
+    -36,
+    17,
+    38,
+    130
+   ],
+   [
+    2,
+    24,
+    32,
+    121
+   ]
+  ],
+  "p0265": [
+   [
+    -42,
+    13,
+    47,
+    134
+   ],
+   [
+    5,
+    67,
+    32,
+    69
+   ]
+  ],
+  "p0266": [
+   [
+    -37,
+    14,
+    58,
+    133
+   ]
+  ],
+  "p0267": [
+   [
+    -33,
+    13,
+    48,
+    134
+   ]
+  ],
+  "p0268": [
+   [
+    -31,
+    16,
+    52,
+    132
+   ]
+  ],
+  "p0269": [
+   [
+    -24,
+    15,
+    46,
+    132
+   ],
+   [
+    22,
+    39,
+    14,
+    10
+   ]
+  ],
+  "p0270": [
+   [
+    -29,
+    9,
+    27,
+    138
+   ],
+   [
+    -2,
+    17,
+    32,
+    127
+   ]
+  ],
+  "p0271": [
+   [
+    -29,
+    11,
+    28,
+    136
+   ],
+   [
+    -1,
+    11,
+    33,
+    133
+   ]
+  ],
+  "p0272": [
+   [
+    -29,
+    16,
+    30,
+    131
+   ],
+   [
+    1,
+    14,
+    30,
+    130
+   ]
+  ],
+  "p0273": [
+   [
+    -33,
+    32,
+    33,
+    115
+   ],
+   [
+    0,
+    23,
+    30,
+    121
+   ]
+  ],
+  "p0274": [
+   [
+    -31,
+    20,
+    30,
+    127
+   ],
+   [
+    -1,
+    19,
+    31,
+    125
+   ]
+  ],
+  "p0275": [
+   [
+    -30,
+    14,
+    28,
+    133
+   ],
+   [
+    -2,
+    15,
+    32,
+    129
+   ]
+  ],
+  "p0276": [
+   [
+    -25,
+    9,
+    24,
+    129
+   ],
+   [
+    -1,
+    9,
+    34,
+    128
+   ]
+  ],
+  "p0277": [
+   [
+    -23,
+    7,
+    24,
+    131
+   ],
+   [
+    1,
+    7,
+    32,
+    130
+   ]
+  ],
+  "p0278": [
+   [
+    -21,
+    7,
+    24,
+    131
+   ],
+   [
+    3,
+    7,
+    30,
+    130
+   ]
+  ],
+  "p0279": [
+   [
+    -21,
+    10,
+    23,
+    128
+   ],
+   [
+    2,
+    10,
+    33,
+    127
+   ]
+  ],
+  "p0280": [
+   [
+    -21,
+    12,
+    22,
+    126
+   ],
+   [
+    1,
+    12,
+    32,
+    125
+   ]
+  ],
+  "p0281": [
+   [
+    -23,
+    12,
+    23,
+    126
+   ],
+   [
+    0,
+    12,
+    33,
+    125
+   ]
+  ],
+  "p0282": [
+   [
+    -23,
+    4,
+    38,
+    57
+   ],
+   [
+    15,
+    30,
+    12,
+    43
+   ],
+   [
+    -33,
+    54,
+    33,
+    85
+   ],
+   [
+    0,
+    54,
+    18,
+    83
+   ]
+  ],
+  "p0283": [
+   [
+    -23,
+    4,
+    38,
+    57
+   ],
+   [
+    15,
+    30,
+    12,
+    43
+   ],
+   [
+    -18,
+    54,
+    17,
+    85
+   ],
+   [
+    -1,
+    54,
+    15,
+    83
+   ]
+  ],
+  "p0284": [
+   [
+    -23,
+    5,
+    38,
+    57
+   ],
+   [
+    15,
+    31,
+    12,
+    43
+   ],
+   [
+    -12,
+    54,
+    18,
+    82
+   ],
+   [
+    6,
+    54,
+    12,
+    87
+   ]
+  ],
+  "p0285": [
+   [
+    -23,
+    5,
+    38,
+    57
+   ],
+   [
+    15,
+    31,
+    12,
+    43
+   ],
+   [
+    -12,
+    55,
+    21,
+    82
+   ],
+   [
+    9,
+    55,
+    16,
+    84
+   ]
+  ],
+  "p0286": [
+   [
+    -22,
+    7,
+    38,
+    57
+   ],
+   [
+    16,
+    33,
+    12,
+    43
+   ],
+   [
+    -16,
+    57,
+    20,
+    80
+   ],
+   [
+    4,
+    57,
+    18,
+    82
+   ]
+  ],
+  "p0287": [
+   [
+    -21,
+    9,
+    38,
+    57
+   ],
+   [
+    16,
+    35,
+    12,
+    43
+   ],
+   [
+    -24,
+    59,
+    22,
+    78
+   ],
+   [
+    -2,
+    59,
+    13,
+    82
+   ]
+  ],
+  "p0288": [
+   [
+    -22,
+    9,
+    38,
+    57
+   ],
+   [
+    16,
+    35,
+    12,
+    43
+   ],
+   [
+    -14,
+    59,
+    30,
+    82
+   ]
+  ],
+  "p0289": [
+   [
+    -22,
+    9,
+    38,
+    57
+   ],
+   [
+    16,
+    35,
+    12,
+    43
+   ],
+   [
+    -13,
+    59,
+    19,
+    82
+   ],
+   [
+    6,
+    59,
+    26,
+    76
+   ]
+  ],
+  "p0290": [
+   [
+    -24,
+    8,
+    38,
+    57
+   ],
+   [
+    14,
+    34,
+    12,
+    43
+   ],
+   [
+    -15,
+    58,
+    14,
+    83
+   ],
+   [
+    -1,
+    58,
+    41,
+    79
+   ]
+  ],
+  "p0291": [
+   [
+    -24,
+    27,
+    25,
+    113
+   ],
+   [
+    1,
+    27,
+    20,
+    80
+   ],
+   [
+    20,
+    54,
+    15,
+    83
+   ]
+  ],
+  "p0292": [
+   [
+    -26,
+    47,
+    26,
+    92
+   ],
+   [
+    0,
+    47,
+    19,
+    66
+   ],
+   [
+    19,
+    65,
+    16,
+    71
+   ]
+  ],
+  "p0293": [
+   [
+    -27,
+    57,
+    27,
+    83
+   ],
+   [
+    0,
+    57,
+    17,
+    65
+   ],
+   [
+    17,
+    73,
+    16,
+    64
+   ]
+  ],
+  "p0294": [
+   [
+    -25,
+    -6,
+    27,
+    146
+   ],
+   [
+    2,
+    -6,
+    31,
+    146
+   ]
+  ],
+  "p0295": [
+   [
+    -21,
+    -9,
+    23,
+    124
+   ],
+   [
+    2,
+    -9,
+    28,
+    104
+   ]
+  ],
+  "p0296": [
+   [
+    -10,
+    -4,
+    35,
+    143
+   ],
+   [
+    25,
+    13,
+    22,
+    22
+   ]
+  ],
+  "p0297": [
+   [
+    -11,
+    19,
+    50,
+    65
+   ]
+  ],
+  "p0298": [
+   [
+    -10,
+    25,
+    54,
+    55
+   ]
+  ],
+  "p0299": [
+   [
+    -24,
+    20,
+    65,
+    50
+   ]
+  ],
+  "p0300": [
+   [
+    -10,
+    9,
+    21,
+    61
+   ],
+   [
+    11,
+    21,
+    27,
+    49
+   ]
+  ],
+  "p0301": [
+   [
+    -9,
+    2,
+    50,
+    67
+   ]
+  ],
+  "p0302": [
+   [
+    -14,
+    7,
+    54,
+    55
+   ]
+  ],
+  "p0303": [
+   [
+    -12,
+    14,
+    68,
+    51
+   ]
+  ],
+  "p0304": [
+   [
+    -29,
+    6,
+    26,
+    132
+   ],
+   [
+    -3,
+    6,
+    33,
+    133
+   ]
+  ],
+  "p0305": [
+   [
+    -24,
+    6,
+    26,
+    132
+   ],
+   [
+    2,
+    6,
+    27,
+    133
+   ]
+  ],
+  "p0306": [
+   [
+    -29,
+    53,
+    27,
+    86
+   ],
+   [
+    -2,
+    53,
+    39,
+    85
+   ]
+  ],
+  "p0307": [
+   [
+    -27,
+    52,
+    30,
+    87
+   ],
+   [
+    3,
+    52,
+    34,
+    85
+   ]
+  ],
+  "p0308": [
+   [
+    -31,
+    17,
+    33,
+    122
+   ],
+   [
+    2,
+    36,
+    31,
+    101
+   ]
+  ],
+  "p0309": [
+   [
+    -39,
+    31,
+    40,
+    107
+   ],
+   [
+    1,
+    40,
+    31,
+    97
+   ]
+  ],
+  "p0310": [
+   [
+    -21,
+    10,
+    24,
+    129
+   ],
+   [
+    3,
+    17,
+    15,
+    87
+   ],
+   [
+    18,
+    49,
+    15,
+    88
+   ]
+  ],
+  "p0311": [
+   [
+    -28,
+    14,
+    35,
+    124
+   ],
+   [
+    7,
+    51,
+    25,
+    87
+   ]
+  ],
+  "p0312": [
+   [
+    -35,
+    17,
+    43,
+    120
+   ],
+   [
+    8,
+    57,
+    24,
+    81
+   ]
+  ],
+  "p0313": [
+   [
+    -20,
+    10,
+    26,
+    128
+   ],
+   [
+    6,
+    34,
+    25,
+    105
+   ]
+  ],
+  "p0314": [
+   [
+    -39,
+    106,
+    39,
+    31
+   ],
+   [
+    0,
+    62,
+    41,
+    74
+   ]
+  ],
+  "p0315": [
+   [
+    -39,
+    89,
+    45,
+    47
+   ],
+   [
+    6,
+    93,
+    61,
+    43
+   ]
+  ],
+  "p0316": [
+   [
+    -7,
+    69,
+    33,
+    68
+   ],
+   [
+    26,
+    103,
+    27,
+    40
+   ]
+  ],
+  "p0317": [
+   [
+    -6,
+    39,
+    41,
+    103
+   ]
+  ],
+  "p0318": [
+   [
+    -17,
+    8,
+    24,
+    136
+   ],
+   [
+    7,
+    10,
+    38,
+    123
+   ]
+  ],
+  "p0319": [
+   [
+    -41,
+    15,
+    13,
+    27
+   ],
+   [
+    -28,
+    9,
+    31,
+    129
+   ],
+   [
+    22,
+    -9,
+    17,
+    37
+   ],
+   [
+    3,
+    10,
+    24,
+    126
+   ]
+  ],
+  "p0320": [
+   [
+    -44,
+    56,
+    28,
+    22
+   ],
+   [
+    -16,
+    24,
+    21,
+    83
+   ],
+   [
+    33,
+    36,
+    21,
+    16
+   ],
+   [
+    5,
+    27,
+    28,
+    79
+   ]
+  ],
+  "p0321": [
+   [
+    -29,
+    68,
+    15,
+    62
+   ],
+   [
+    -14,
+    62,
+    28,
+    57
+   ],
+   [
+    14,
+    76,
+    20,
+    46
+   ]
+  ],
+  "p0322": [
+   [
+    -30,
+    65,
+    18,
+    65
+   ],
+   [
+    -12,
+    87,
+    20,
+    47
+   ],
+   [
+    8,
+    70,
+    20,
+    62
+   ]
+  ],
+  "p0323": [
+   [
+    -22,
+    75,
+    27,
+    67
+   ],
+   [
+    5,
+    75,
+    27,
+    69
+   ]
+  ],
+  "p0324": [
+   [
+    -26,
+    55,
+    30,
+    84
+   ],
+   [
+    4,
+    55,
+    30,
+    84
+   ]
+  ],
+  "p0325": [
+   [
+    -18,
+    31,
+    24,
+    108
+   ],
+   [
+    6,
+    32,
+    32,
+    107
+   ]
+  ],
+  "p0326": [
+   [
+    -19,
+    -6,
+    22,
+    143
+   ],
+   [
+    3,
+    -6,
+    33,
+    143
+   ]
+  ],
+  "p0327": [
+   [
+    -26,
+    5,
+    30,
+    134
+   ],
+   [
+    4,
+    5,
+    42,
+    132
+   ]
+  ],
+  "p0328": [
+   [
+    -30,
+    60,
+    40,
+    80
+   ],
+   [
+    10,
+    71,
+    23,
+    68
+   ]
+  ],
+  "p0329": [
+   [
+    -38,
+    64,
+    41,
+    76
+   ],
+   [
+    3,
+    68,
+    31,
+    71
+   ]
+  ],
+  "p0330": [
+   [
+    -24,
+    54,
+    38,
+    85
+   ],
+   [
+    14,
+    73,
+    20,
+    65
+   ]
+  ],
+  "p0331": [
+   [
+    -32,
+    17,
+    42,
+    121
+   ],
+   [
+    10,
+    16,
+    11,
+    6
+   ],
+   [
+    10,
+    54,
+    16,
+    74
+   ]
+  ],
+  "p0332": [
+   [
+    -36,
+    13,
+    23,
+    51
+   ],
+   [
+    -18,
+    13,
+    23,
+    119
+   ],
+   [
+    5,
+    33,
+    21,
+    105
+   ]
+  ],
+  "p0333": [
+   [
+    -38,
+    21,
+    25,
+    60
+   ],
+   [
+    -16,
+    12,
+    12,
+    126
+   ],
+   [
+    -4,
+    12,
+    21,
+    124
+   ]
+  ],
+  "p0334": [
+   [
+    -33,
+    14,
+    40,
+    126
+   ],
+   [
+    7,
+    15,
+    26,
+    122
+   ]
+  ],
+  "p0335": [
+   [
+    -40,
+    16,
+    38,
+    125
+   ],
+   [
+    -2,
+    17,
+    36,
+    120
+   ]
+  ],
+  "p0336": [
+   [
+    -25,
+    9,
+    28,
+    129
+   ],
+   [
+    3,
+    26,
+    25,
+    113
+   ]
+  ],
+  "p0337": [
+   [
+    -34,
+    18,
+    36,
+    120
+   ],
+   [
+    2,
+    29,
+    26,
+    110
+   ]
+  ],
+  "p0338": [
+   [
+    -38,
+    22,
+    39,
+    116
+   ],
+   [
+    1,
+    30,
+    27,
+    109
+   ]
+  ],
+  "p0339": [
+   [
+    -19,
+    19,
+    20,
+    119
+   ],
+   [
+    1,
+    19,
+    27,
+    120
+   ]
+  ],
+  "p0340": [
+   [
+    -19,
+    27,
+    22,
+    111
+   ],
+   [
+    3,
+    13,
+    28,
+    126
+   ]
+  ],
+  "p0341": [
+   [
+    -21,
+    24,
+    22,
+    114
+   ],
+   [
+    1,
+    12,
+    28,
+    127
+   ]
+  ],
+  "p0342": [
+   [
+    -22,
+    8,
+    23,
+    130
+   ],
+   [
+    1,
+    8,
+    27,
+    131
+   ]
+  ],
+  "p0343": [
+   [
+    -25,
+    12,
+    28,
+    128
+   ],
+   [
+    3,
+    12,
+    30,
+    124
+   ]
+  ],
+  "p0344": [
+   [
+    -25,
+    11,
+    28,
+    129
+   ],
+   [
+    3,
+    12,
+    30,
+    124
+   ]
+  ],
+  "p0345": [
+   [
+    -25,
+    8,
+    26,
+    132
+   ],
+   [
+    1,
+    8,
+    32,
+    128
+   ]
+  ],
+  "p0346": [
+   [
+    -25,
+    7,
+    25,
+    133
+   ],
+   [
+    0,
+    7,
+    33,
+    129
+   ]
+  ],
+  "p0347": [
+   [
+    -25,
+    9,
+    26,
+    131
+   ],
+   [
+    1,
+    9,
+    32,
+    127
+   ]
+  ],
+  "p0348": [
+   [
+    -26,
+    11,
+    27,
+    129
+   ],
+   [
+    1,
+    11,
+    32,
+    125
+   ]
+  ],
+  "p0349": [
+   [
+    -26,
+    12,
+    28,
+    128
+   ],
+   [
+    2,
+    12,
+    31,
+    124
+   ]
+  ],
+  "p0350": [
+   [
+    -36,
+    60,
+    35,
+    79
+   ],
+   [
+    -1,
+    59,
+    20,
+    78
+   ],
+   [
+    -24,
+    8,
+    23,
+    55
+   ],
+   [
+    -1,
+    8,
+    23,
+    54
+   ]
+  ],
+  "p0351": [
+   [
+    -17,
+    59,
+    15,
+    81
+   ],
+   [
+    -2,
+    58,
+    17,
+    79
+   ],
+   [
+    -24,
+    7,
+    23,
+    55
+   ],
+   [
+    -1,
+    7,
+    23,
+    54
+   ]
+  ],
+  "p0352": [
+   [
+    -12,
+    57,
+    30,
+    80
+   ],
+   [
+    -23,
+    6,
+    23,
+    55
+   ],
+   [
+    0,
+    6,
+    23,
+    54
+   ]
+  ],
+  "p0353": [
+   [
+    -11,
+    59,
+    21,
+    78
+   ],
+   [
+    10,
+    66,
+    22,
+    71
+   ],
+   [
+    -23,
+    8,
+    23,
+    55
+   ],
+   [
+    0,
+    8,
+    23,
+    54
+   ]
+  ],
+  "p0354": [
+   [
+    -21,
+    61,
+    20,
+    76
+   ],
+   [
+    -1,
+    60,
+    18,
+    78
+   ],
+   [
+    -23,
+    9,
+    23,
+    55
+   ],
+   [
+    0,
+    9,
+    23,
+    54
+   ]
+  ],
+  "p0355": [
+   [
+    -13,
+    59,
+    9,
+    67
+   ],
+   [
+    -4,
+    58,
+    24,
+    80
+   ],
+   [
+    -23,
+    7,
+    23,
+    55
+   ],
+   [
+    0,
+    7,
+    23,
+    54
+   ]
+  ],
+  "p0356": [
+   [
+    -13,
+    59,
+    21,
+    79
+   ],
+   [
+    8,
+    59,
+    21,
+    65
+   ],
+   [
+    -24,
+    8,
+    23,
+    55
+   ],
+   [
+    -1,
+    8,
+    23,
+    54
+   ]
+  ],
+  "p0357": [
+   [
+    -12,
+    60,
+    19,
+    78
+   ],
+   [
+    7,
+    60,
+    31,
+    70
+   ],
+   [
+    -24,
+    9,
+    23,
+    55
+   ],
+   [
+    -1,
+    9,
+    23,
+    54
+   ]
+  ],
+  "p0358": [
+   [
+    -13,
+    61,
+    18,
+    77
+   ],
+   [
+    5,
+    61,
+    42,
+    69
+   ],
+   [
+    -24,
+    10,
+    23,
+    55
+   ],
+   [
+    -1,
+    10,
+    23,
+    54
+   ]
+  ],
+  "p0359": [
+   [
+    -28,
+    16,
+    29,
+    125
+   ],
+   [
+    1,
+    16,
+    28,
+    120
+   ]
+  ],
+  "p0360": [
+   [
+    -28,
+    47,
+    30,
+    94
+   ],
+   [
+    2,
+    45,
+    28,
+    91
+   ]
+  ],
+  "p0361": [
+   [
+    -27,
+    64,
+    32,
+    77
+   ],
+   [
+    5,
+    64,
+    28,
+    72
+   ]
+  ],
+  "p0362": [
+   [
+    -32,
+    2,
+    33,
+    138
+   ],
+   [
+    1,
+    2,
+    28,
+    135
+   ]
+  ],
+  "p0363": [
+   [
+    -33,
+    2,
+    31,
+    99
+   ],
+   [
+    -2,
+    1,
+    26,
+    95
+   ]
+  ],
+  "p0364": [
+   [
+    -7,
+    1,
+    32,
+    139
+   ],
+   [
+    25,
+    19,
+    21,
+    16
+   ]
+  ],
+  "p0365": [
+   [
+    -6,
+    18,
+    53,
+    58
+   ]
+  ],
+  "p0366": [
+   [
+    -10,
+    22,
+    59,
+    57
+   ]
+  ],
+  "p0367": [
+   [
+    -21,
+    40,
+    10,
+    19
+   ],
+   [
+    -11,
+    17,
+    48,
+    53
+   ]
+  ],
+  "p0368": [
+   [
+    -19,
+    14,
+    20,
+    40
+   ],
+   [
+    1,
+    12,
+    36,
+    59
+   ]
+  ],
+  "p0369": [
+   [
+    -13,
+    3,
+    53,
+    56
+   ]
+  ],
+  "p0370": [
+   [
+    -14,
+    2,
+    59,
+    57
+   ]
+  ],
+  "p0371": [
+   [
+    -4,
+    10,
+    46,
+    54
+   ],
+   [
+    42,
+    24,
+    12,
+    19
+   ]
+  ],
+  "p0372": [
+   [
+    -27,
+    8,
+    26,
+    133
+   ],
+   [
+    -1,
+    8,
+    29,
+    130
+   ]
+  ],
+  "p0373": [
+   [
+    -28,
+    8,
+    25,
+    133
+   ],
+   [
+    -3,
+    9,
+    29,
+    128
+   ]
+  ],
+  "p0374": [
+   [
+    -26,
+    67,
+    29,
+    74
+   ],
+   [
+    3,
+    67,
+    30,
+    71
+   ]
+  ],
+  "p0375": [
+   [
+    -28,
+    67,
+    30,
+    74
+   ],
+   [
+    2,
+    67,
+    29,
+    72
+   ]
+  ],
+  "p0376": [
+   [
+    -38,
+    11,
+    36,
+    129
+   ],
+   [
+    -2,
+    34,
+    32,
+    102
+   ]
+  ],
+  "p0377": [
+   [
+    -48,
+    18,
+    45,
+    122
+   ],
+   [
+    -3,
+    41,
+    33,
+    95
+   ]
+  ],
+  "p0378": [
+   [
+    -32,
+    5,
+    30,
+    135
+   ],
+   [
+    -2,
+    26,
+    32,
+    110
+   ]
+  ],
+  "p0379": [
+   [
+    -39,
+    10,
+    39,
+    130
+   ],
+   [
+    0,
+    50,
+    36,
+    77
+   ]
+  ],
+  "p0380": [
+   [
+    -50,
+    15,
+    48,
+    125
+   ],
+   [
+    -2,
+    47,
+    42,
+    70
+   ]
+  ],
+  "p0381": [
+   [
+    -31,
+    9,
+    30,
+    131
+   ],
+   [
+    -1,
+    47,
+    30,
+    89
+   ]
+  ],
+  "p0382": [
+   [
+    -61,
+    91,
+    37,
+    54
+   ],
+   [
+    -24,
+    95,
+    29,
+    51
+   ]
+  ],
+  "p0383": [
+   [
+    -53,
+    63,
+    60,
+    78
+   ],
+   [
+    7,
+    63,
+    29,
+    42
+   ]
+  ],
+  "p0384": [
+   [
+    -53,
+    68,
+    46,
+    70
+   ],
+   [
+    -7,
+    94,
+    42,
+    54
+   ]
+  ],
+  "p0385": [
+   [
+    -45,
+    71,
+    21,
+    40
+   ],
+   [
+    -24,
+    53,
+    55,
+    93
+   ]
+  ],
+  "p0386": [
+   [
+    -25,
+    16,
+    29,
+    122
+   ],
+   [
+    4,
+    36,
+    29,
+    87
+   ]
+  ],
+  "p0387": [
+   [
+    -46,
+    40,
+    29,
+    22
+   ],
+   [
+    -30,
+    16,
+    28,
+    122
+   ],
+   [
+    -2,
+    17,
+    57,
+    119
+   ]
+  ],
+  "p0388": [
+   [
+    -49,
+    77,
+    11,
+    19
+   ],
+   [
+    -59,
+    34,
+    59,
+    60
+   ],
+   [
+    44,
+    76,
+    13,
+    19
+   ],
+   [
+    0,
+    34,
+    51,
+    61
+   ]
+  ],
+  "p0389": [
+   [
+    -54,
+    51,
+    34,
+    40
+   ],
+   [
+    -20,
+    55,
+    42,
+    53
+   ],
+   [
+    22,
+    57,
+    23,
+    37
+   ]
+  ],
+  "p0390": [
+   [
+    -50,
+    60,
+    42,
+    66
+   ],
+   [
+    -8,
+    90,
+    18,
+    37
+   ],
+   [
+    10,
+    68,
+    39,
+    58
+   ]
+  ],
+  "p0391": [
+   [
+    -52,
+    104,
+    112,
+    28
+   ]
+  ],
+  "p0392": [
+   [
+    -16,
+    71,
+    16,
+    68
+   ],
+   [
+    0,
+    70,
+    21,
+    65
+   ]
+  ],
+  "p0393": [
+   [
+    -22,
+    80,
+    26,
+    56
+   ],
+   [
+    4,
+    77,
+    21,
+    59
+   ]
+  ],
+  "p0394": [
+   [
+    -23,
+    76,
+    21,
+    62
+   ],
+   [
+    -2,
+    67,
+    21,
+    68
+   ]
+  ],
+  "p0395": [
+   [
+    -22,
+    54,
+    19,
+    84
+   ],
+   [
+    -3,
+    71,
+    23,
+    66
+   ]
+  ],
+  "p0396": [
+   [
+    -27,
+    13,
+    29,
+    126
+   ],
+   [
+    2,
+    29,
+    25,
+    109
+   ]
+  ],
+  "p0397": [
+   [
+    -28,
+    55,
+    41,
+    86
+   ],
+   [
+    13,
+    80,
+    19,
+    56
+   ]
+  ],
+  "p0398": [
+   [
+    -39,
+    61,
+    52,
+    81
+   ],
+   [
+    13,
+    80,
+    19,
+    56
+   ]
+  ],
+  "p0399": [
+   [
+    -23,
+    55,
+    37,
+    86
+   ],
+   [
+    14,
+    79,
+    18,
+    57
+   ]
+  ],
+  "p0400": [
+   [
+    -22,
+    13,
+    34,
+    127
+   ],
+   [
+    12,
+    44,
+    27,
+    93
+   ]
+  ],
+  "p0401": [
+   [
+    -19,
+    15,
+    33,
+    48
+   ],
+   [
+    14,
+    29,
+    21,
+    32
+   ],
+   [
+    -13,
+    63,
+    32,
+    77
+   ],
+   [
+    19,
+    80,
+    35,
+    45
+   ]
+  ],
+  "p0402": [
+   [
+    -15,
+    6,
+    24,
+    57
+   ],
+   [
+    9,
+    -2,
+    22,
+    34
+   ],
+   [
+    -12,
+    63,
+    38,
+    77
+   ]
+  ],
+  "p0403": [
+   [
+    -13,
+    5,
+    37,
+    136
+   ]
+  ],
+  "p0404": [
+   [
+    -32,
+    31,
+    32,
+    109
+   ],
+   [
+    0,
+    12,
+    27,
+    51
+   ],
+   [
+    27,
+    34,
+    17,
+    23
+   ],
+   [
+    0,
+    63,
+    28,
+    72
+   ]
+  ],
+  "p0405": [
+   [
+    -33,
+    34,
+    34,
+    106
+   ],
+   [
+    1,
+    15,
+    34,
+    118
+   ]
+  ],
+  "p0406": [
+   [
+    -23,
+    7,
+    22,
+    133
+   ],
+   [
+    -1,
+    29,
+    26,
+    108
+   ]
+  ],
+  "p0407": [
+   [
+    -25,
+    8,
+    23,
+    132
+   ],
+   [
+    -2,
+    27,
+    27,
+    110
+   ]
+  ],
+  "p0408": [
+   [
+    -25,
+    7,
+    23,
+    133
+   ],
+   [
+    -2,
+    25,
+    27,
+    112
+   ]
+  ],
+  "p0409": [
+   [
+    -21,
+    7,
+    21,
+    133
+   ],
+   [
+    0,
+    25,
+    25,
+    112
+   ]
+  ],
+  "p0410": [
+   [
+    -19,
+    6,
+    19,
+    134
+   ],
+   [
+    0,
+    6,
+    25,
+    131
+   ]
+  ],
+  "p0411": [
+   [
+    -19,
+    24,
+    19,
+    116
+   ],
+   [
+    0,
+    6,
+    25,
+    131
+   ]
+  ],
+  "p0412": [
+   [
+    -21,
+    9,
+    19,
+    131
+   ],
+   [
+    -2,
+    4,
+    27,
+    133
+   ]
+  ],
+  "p0413": [
+   [
+    -27,
+    9,
+    25,
+    137
+   ],
+   [
+    -2,
+    9,
+    37,
+    136
+   ]
+  ],
+  "p0414": [
+   [
+    -28,
+    7,
+    26,
+    139
+   ],
+   [
+    -2,
+    8,
+    37,
+    137
+   ]
+  ],
+  "p0415": [
+   [
+    -28,
+    6,
+    27,
+    140
+   ],
+   [
+    -1,
+    7,
+    37,
+    138
+   ]
+  ],
+  "p0416": [
+   [
+    -27,
+    6,
+    29,
+    140
+   ],
+   [
+    2,
+    8,
+    35,
+    137
+   ]
+  ],
+  "p0417": [
+   [
+    -27,
+    5,
+    28,
+    141
+   ],
+   [
+    1,
+    7,
+    36,
+    138
+   ]
+  ],
+  "p0418": [
+   [
+    -26,
+    5,
+    26,
+    141
+   ],
+   [
+    0,
+    7,
+    35,
+    138
+   ]
+  ],
+  "p0419": [
+   [
+    -36,
+    59,
+    34,
+    87
+   ],
+   [
+    -2,
+    59,
+    25,
+    86
+   ],
+   [
+    -25,
+    2,
+    50,
+    59
+   ],
+   [
+    25,
+    22,
+    14,
+    32
+   ]
+  ],
+  "p0420": [
+   [
+    -23,
+    59,
+    19,
+    87
+   ],
+   [
+    -4,
+    59,
+    25,
+    86
+   ],
+   [
+    -26,
+    2,
+    50,
+    59
+   ],
+   [
+    24,
+    22,
+    14,
+    32
+   ]
+  ],
+  "p0421": [
+   [
+    -18,
+    59,
+    39,
+    88
+   ],
+   [
+    -25,
+    2,
+    50,
+    59
+   ],
+   [
+    25,
+    22,
+    14,
+    32
+   ]
+  ],
+  "p0422": [
+   [
+    -17,
+    60,
+    25,
+    85
+   ],
+   [
+    8,
+    60,
+    14,
+    86
+   ],
+   [
+    -26,
+    3,
+    50,
+    59
+   ],
+   [
+    24,
+    23,
+    14,
+    32
+   ]
+  ],
+  "p0423": [
+   [
+    -16,
+    62,
+    22,
+    83
+   ],
+   [
+    6,
+    62,
+    17,
+    86
+   ],
+   [
+    -25,
+    5,
+    50,
+    59
+   ],
+   [
+    25,
+    25,
+    14,
+    32
+   ]
+  ],
+  "p0424": [
+   [
+    -15,
+    64,
+    18,
+    78
+   ],
+   [
+    3,
+    64,
+    22,
+    84
+   ],
+   [
+    -25,
+    7,
+    50,
+    59
+   ],
+   [
+    25,
+    27,
+    14,
+    32
+   ]
+  ],
+  "p0425": [
+   [
+    -16,
+    62,
+    25,
+    86
+   ],
+   [
+    9,
+    62,
+    22,
+    73
+   ],
+   [
+    -25,
+    5,
+    50,
+    59
+   ],
+   [
+    25,
+    25,
+    14,
+    32
+   ]
+  ],
+  "p0426": [
+   [
+    -17,
+    61,
+    25,
+    87
+   ],
+   [
+    8,
+    61,
+    31,
+    79
+   ],
+   [
+    -26,
+    4,
+    50,
+    59
+   ],
+   [
+    24,
+    24,
+    14,
+    32
+   ]
+  ],
+  "p0427": [
+   [
+    -17,
+    63,
+    22,
+    85
+   ],
+   [
+    5,
+    63,
+    39,
+    82
+   ],
+   [
+    -25,
+    6,
+    50,
+    59
+   ],
+   [
+    25,
+    26,
+    14,
+    32
+   ]
+  ],
+  "p0428": [
+   [
+    -27,
+    31,
+    35,
+    115
+   ],
+   [
+    35,
+    55,
+    9,
+    20
+   ],
+   [
+    8,
+    31,
+    30,
+    112
+   ]
+  ],
+  "p0429": [
+   [
+    -27,
+    47,
+    37,
+    99
+   ],
+   [
+    34,
+    71,
+    9,
+    18
+   ],
+   [
+    10,
+    46,
+    28,
+    97
+   ]
+  ],
+  "p0430": [
+   [
+    -27,
+    70,
+    38,
+    76
+   ],
+   [
+    11,
+    70,
+    28,
+    73
+   ]
+  ],
+  "p0431": [
+   [
+    -23,
+    -7,
+    29,
+    154
+   ],
+   [
+    34,
+    11,
+    17,
+    33
+   ],
+   [
+    6,
+    -5,
+    28,
+    146
+   ]
+  ],
+  "p0432": [
+   [
+    -26,
+    -5,
+    29,
+    106
+   ],
+   [
+    40,
+    26,
+    12,
+    20
+   ],
+   [
+    3,
+    -6,
+    37,
+    106
+   ]
+  ],
+  "p0433": [
+   [
+    -10,
+    18,
+    22,
+    122
+   ],
+   [
+    12,
+    0,
+    53,
+    144
+   ]
+  ],
+  "p0434": [
+   [
+    -2,
+    11,
+    26,
+    53
+   ],
+   [
+    24,
+    1,
+    24,
+    81
+   ]
+  ],
+  "p0435": [
+   [
+    -5,
+    15,
+    68,
+    65
+   ]
+  ],
+  "p0436": [
+   [
+    -22,
+    13,
+    52,
+    48
+   ],
+   [
+    30,
+    18,
+    29,
+    45
+   ]
+  ],
+  "p0437": [
+   [
+    7,
+    -12,
+    22,
+    81
+   ],
+   [
+    29,
+    7,
+    27,
+    54
+   ]
+  ],
+  "p0438": [
+   [
+    -6,
+    23,
+    18,
+    33
+   ],
+   [
+    12,
+    -8,
+    51,
+    65
+   ]
+  ],
+  "p0439": [
+   [
+    -4,
+    6,
+    28,
+    45
+   ],
+   [
+    24,
+    9,
+    53,
+    48
+   ]
+  ],
+  "p0440": [
+   [
+    11,
+    -2,
+    40,
+    70
+   ],
+   [
+    51,
+    23,
+    24,
+    36
+   ]
+  ],
+  "p0441": [
+   [
+    -23,
+    6,
+    19,
+    140
+   ],
+   [
+    -4,
+    7,
+    37,
+    138
+   ]
+  ],
+  "p0442": [
+   [
+    -25,
+    7,
+    23,
+    139
+   ],
+   [
+    -2,
+    6,
+    31,
+    140
+   ]
+  ],
+  "p0443": [
+   [
+    -24,
+    56,
+    27,
+    90
+   ],
+   [
+    3,
+    55,
+    33,
+    90
+   ]
+  ],
+  "p0444": [
+   [
+    -24,
+    55,
+    29,
+    91
+   ],
+   [
+    5,
+    54,
+    31,
+    91
+   ]
+  ],
+  "p0445": [
+   [
+    -29,
+    10,
+    33,
+    136
+   ],
+   [
+    27,
+    27,
+    9,
+    21
+   ],
+   [
+    4,
+    29,
+    30,
+    115
+   ]
+  ],
+  "p0446": [
+   [
+    -34,
+    11,
+    38,
+    135
+   ],
+   [
+    21,
+    27,
+    12,
+    24
+   ],
+   [
+    4,
+    32,
+    29,
+    112
+   ]
+  ],
+  "p0447": [
+   [
+    -27,
+    9,
+    34,
+    137
+   ],
+   [
+    31,
+    29,
+    9,
+    21
+   ],
+   [
+    7,
+    30,
+    27,
+    114
+   ]
+  ],
+  "p0448": [
+   [
+    -30,
+    12,
+    35,
+    134
+   ],
+   [
+    5,
+    37,
+    31,
+    107
+   ]
+  ],
+  "p0449": [
+   [
+    -32,
+    13,
+    37,
+    133
+   ],
+   [
+    5,
+    35,
+    31,
+    109
+   ]
+  ],
+  "p0450": [
+   [
+    16,
+    33,
+    9,
+    17
+   ],
+   [
+    -28,
+    9,
+    32,
+    137
+   ],
+   [
+    4,
+    17,
+    32,
+    127
+   ]
+  ],
+  "p0451": [
+   [
+    -44,
+    112,
+    83,
+    45
+   ],
+   [
+    39,
+    126,
+    34,
+    25
+   ],
+   [
+    73,
+    126,
+    25,
+    29
+   ]
+  ],
+  "p0452": [
+   [
+    -24,
+    81,
+    27,
+    66
+   ],
+   [
+    3,
+    80,
+    36,
+    65
+   ]
+  ],
+  "p0453": [
+   [
+    -27,
+    58,
+    31,
+    89
+   ],
+   [
+    4,
+    58,
+    35,
+    87
+   ]
+  ],
+  "p0454": [
+   [
+    -27,
+    44,
+    32,
+    103
+   ],
+   [
+    5,
+    44,
+    33,
+    101
+   ]
+  ],
+  "p0455": [
+   [
+    -27,
+    30,
+    31,
+    117
+   ],
+   [
+    4,
+    29,
+    33,
+    116
+   ]
+  ],
+  "p0456": [
+   [
+    -25,
+    4,
+    29,
+    143
+   ],
+   [
+    4,
+    6,
+    39,
+    139
+   ]
+  ],
+  "p0457": [
+   [
+    -58,
+    30,
+    34,
+    29
+   ],
+   [
+    -24,
+    18,
+    26,
+    122
+   ],
+   [
+    2,
+    18,
+    24,
+    122
+   ],
+   [
+    26,
+    17,
+    32,
+    36
+   ]
+  ],
+  "p0458": [
+   [
+    -60,
+    53,
+    16,
+    12
+   ],
+   [
+    -44,
+    33,
+    45,
+    105
+   ],
+   [
+    1,
+    33,
+    26,
+    69
+   ],
+   [
+    27,
+    48,
+    37,
+    20
+   ]
+  ],
+  "p0459": [
+   [
+    -51,
+    66,
+    33,
+    45
+   ],
+   [
+    -18,
+    37,
+    37,
+    78
+   ],
+   [
+    19,
+    75,
+    35,
+    39
+   ]
+  ],
+  "p0460": [
+   [
+    -51,
+    118,
+    12,
+    10
+   ],
+   [
+    -39,
+    62,
+    30,
+    73
+   ],
+   [
+    -9,
+    51,
+    33,
+    87
+   ],
+   [
+    24,
+    114,
+    28,
+    16
+   ]
+  ],
+  "p0461": [
+   [
+    -56,
+    91,
+    43,
+    54
+   ],
+   [
+    -13,
+    102,
+    30,
+    45
+   ],
+   [
+    17,
+    85,
+    33,
+    62
+   ],
+   [
+    50,
+    127,
+    12,
+    8
+   ]
+  ],
+  "p0462": [
+   [
+    -54,
+    102,
+    55,
+    73
+   ],
+   [
+    1,
+    102,
+    56,
+    72
+   ]
+  ],
+  "p0463": [
+   [
+    -35,
+    55,
+    51,
+    91
+   ],
+   [
+    16,
+    68,
+    22,
+    75
+   ]
+  ],
+  "p0464": [
+   [
+    -40,
+    57,
+    53,
+    88
+   ],
+   [
+    13,
+    66,
+    25,
+    77
+   ]
+  ],
+  "p0465": [
+   [
+    -34,
+    54,
+    52,
+    92
+   ],
+   [
+    18,
+    69,
+    19,
+    74
+   ]
+  ],
+  "p0466": [
+   [
+    -28,
+    16,
+    43,
+    130
+   ],
+   [
+    15,
+    41,
+    30,
+    104
+   ]
+  ],
+  "p0467": [
+   [
+    -32,
+    20,
+    30,
+    80
+   ],
+   [
+    -23,
+    15,
+    37,
+    131
+   ],
+   [
+    14,
+    13,
+    7,
+    9
+   ],
+   [
+    14,
+    69,
+    38,
+    72
+   ]
+  ],
+  "p0468": [
+   [
+    -45,
+    19,
+    22,
+    62
+   ],
+   [
+    -23,
+    23,
+    37,
+    123
+   ],
+   [
+    14,
+    70,
+    33,
+    67
+   ]
+  ],
+  "p0469": [
+   [
+    -50,
+    20,
+    32,
+    60
+   ],
+   [
+    -18,
+    23,
+    33,
+    123
+   ],
+   [
+    15,
+    66,
+    15,
+    62
+   ]
+  ],
+  "p0470": [
+   [
+    -34,
+    12,
+    32,
+    91
+   ],
+   [
+    -8,
+    23,
+    19,
+    106
+   ],
+   [
+    11,
+    16,
+    24,
+    130
+   ]
+  ],
+  "p0471": [
+   [
+    -20,
+    9,
+    30,
+    137
+   ],
+   [
+    10,
+    9,
+    24,
+    132
+   ]
+  ],
+  "p0472": [
+   [
+    -24,
+    9,
+    29,
+    137
+   ],
+   [
+    5,
+    17,
+    32,
+    127
+   ]
+  ],
+  "p0473": [
+   [
+    -19,
+    7,
+    29,
+    139
+   ],
+   [
+    10,
+    7,
+    27,
+    137
+   ]
+  ],
+  "p0474": [
+   [
+    -19,
+    11,
+    34,
+    135
+   ],
+   [
+    15,
+    9,
+    26,
+    135
+   ]
+  ],
+  "p0475": [
+   [
+    -21,
+    13,
+    25,
+    133
+   ],
+   [
+    4,
+    7,
+    33,
+    137
+   ]
+  ],
+  "p0476": [
+   [
+    -29,
+    8,
+    30,
+    138
+   ],
+   [
+    1,
+    14,
+    37,
+    130
+   ]
+  ],
+  "p0477": [
+   [
+    -36,
+    12,
+    38,
+    134
+   ],
+   [
+    2,
+    37,
+    35,
+    107
+   ]
+  ],
+  "p0478": [
+   [
+    -34,
+    14,
+    35,
+    132
+   ],
+   [
+    1,
+    31,
+    36,
+    113
+   ]
+  ],
+  "p0479": [
+   [
+    -25,
+    6,
+    30,
+    133
+   ],
+   [
+    5,
+    6,
+    29,
+    132
+   ]
+  ],
+  "p0480": [
+   [
+    -25,
+    5,
+    31,
+    134
+   ],
+   [
+    6,
+    6,
+    29,
+    132
+   ]
+  ],
+  "p0481": [
+   [
+    -26,
+    4,
+    30,
+    135
+   ],
+   [
+    4,
+    4,
+    31,
+    134
+   ]
+  ],
+  "p0482": [
+   [
+    -28,
+    4,
+    30,
+    135
+   ],
+   [
+    2,
+    4,
+    33,
+    134
+   ]
+  ],
+  "p0483": [
+   [
+    -29,
+    5,
+    31,
+    134
+   ],
+   [
+    2,
+    5,
+    33,
+    133
+   ]
+  ],
+  "p0484": [
+   [
+    -30,
+    5,
+    30,
+    134
+   ],
+   [
+    0,
+    5,
+    34,
+    133
+   ]
+  ],
+  "p0485": [
+   [
+    -31,
+    6,
+    29,
+    133
+   ],
+   [
+    -2,
+    6,
+    36,
+    132
+   ]
+  ],
+  "p0486": [
+   [
+    2,
+    58,
+    23,
+    79
+   ],
+   [
+    -25,
+    0,
+    51,
+    66
+   ],
+   [
+    -34,
+    58,
+    36,
+    82
+   ]
+  ],
+  "p0487": [
+   [
+    2,
+    56,
+    17,
+    81
+   ],
+   [
+    -25,
+    -1,
+    51,
+    66
+   ],
+   [
+    -22,
+    56,
+    24,
+    83
+   ]
+  ],
+  "p0488": [
+   [
+    -11,
+    55,
+    27,
+    86
+   ],
+   [
+    -26,
+    -2,
+    51,
+    66
+   ]
+  ],
+  "p0489": [
+   [
+    12,
+    56,
+    19,
+    82
+   ],
+   [
+    -25,
+    -1,
+    51,
+    66
+   ],
+   [
+    -10,
+    56,
+    22,
+    81
+   ]
+  ],
+  "p0490": [
+   [
+    9,
+    59,
+    25,
+    81
+   ],
+   [
+    -24,
+    2,
+    51,
+    66
+   ],
+   [
+    -15,
+    59,
+    24,
+    78
+   ]
+  ],
+  "p0491": [
+   [
+    5,
+    59,
+    19,
+    81
+   ],
+   [
+    -24,
+    2,
+    51,
+    66
+   ],
+   [
+    -25,
+    59,
+    30,
+    78
+   ]
+  ],
+  "p0492": [
+   [
+    -10,
+    57,
+    30,
+    83
+   ],
+   [
+    -25,
+    0,
+    51,
+    66
+   ],
+   [
+    -17,
+    104,
+    15,
+    27
+   ]
+  ],
+  "p0493": [
+   [
+    12,
+    56,
+    19,
+    76
+   ],
+   [
+    -25,
+    -1,
+    51,
+    66
+   ],
+   [
+    -10,
+    56,
+    22,
+    84
+   ]
+  ],
+  "p0494": [
+   [
+    9,
+    57,
+    39,
+    74
+   ],
+   [
+    -25,
+    1,
+    51,
+    66
+   ],
+   [
+    -12,
+    57,
+    21,
+    83
+   ]
+  ],
+  "p0495": [
+   [
+    -27,
+    32,
+    22,
+    107
+   ],
+   [
+    20,
+    52,
+    21,
+    18
+   ],
+   [
+    -5,
+    15,
+    40,
+    122
+   ]
+  ],
+  "p0496": [
+   [
+    -27,
+    36,
+    34,
+    103
+   ],
+   [
+    7,
+    36,
+    28,
+    101
+   ]
+  ],
+  "p0497": [
+   [
+    -27,
+    70,
+    27,
+    69
+   ],
+   [
+    0,
+    59,
+    35,
+    78
+   ]
+  ],
+  "p0498": [
+   [
+    -32,
+    -9,
+    36,
+    148
+   ],
+   [
+    4,
+    -8,
+    39,
+    144
+   ]
+  ],
+  "p0499": [
+   [
+    -31,
+    -7,
+    33,
+    105
+   ],
+   [
+    2,
+    -8,
+    18,
+    102
+   ],
+   [
+    20,
+    1,
+    26,
+    97
+   ]
+  ],
+  "p0500": [
+   [
+    -14,
+    16,
+    23,
+    123
+   ],
+   [
+    32,
+    24,
+    17,
+    36
+   ],
+   [
+    9,
+    -7,
+    25,
+    144
+   ]
+  ],
+  "p0501": [
+   [
+    0,
+    12,
+    58,
+    69
+   ]
+  ],
+  "p0502": [
+   [
+    -4,
+    17,
+    60,
+    55
+   ]
+  ],
+  "p0503": [
+   [
+    -20,
+    13,
+    42,
+    47
+   ],
+   [
+    22,
+    14,
+    25,
+    56
+   ]
+  ],
+  "p0504": [
+   [
+    -10,
+    11,
+    20,
+    59
+   ],
+   [
+    10,
+    11,
+    33,
+    59
+   ]
+  ],
+  "p0505": [
+   [
+    -10,
+    14,
+    20,
+    48
+   ],
+   [
+    10,
+    -3,
+    17,
+    66
+   ],
+   [
+    27,
+    18,
+    19,
+    43
+   ]
+  ],
+  "p0506": [
+   [
+    -10,
+    22,
+    18,
+    33
+   ],
+   [
+    8,
+    9,
+    29,
+    51
+   ],
+   [
+    37,
+    4,
+    13,
+    53
+   ]
+  ],
+  "p0507": [
+   [
+    -1,
+    10,
+    66,
+    58
+   ]
+  ],
+  "p0508": [
+   [
+    -31,
+    5,
+    31,
+    134
+   ],
+   [
+    18,
+    45,
+    13,
+    29
+   ],
+   [
+    0,
+    5,
+    37,
+    134
+   ]
+  ],
+  "p0509": [
+   [
+    -27,
+    3,
+    28,
+    136
+   ],
+   [
+    1,
+    3,
+    34,
+    134
+   ]
+  ],
+  "p0510": [
+   [
+    -32,
+    72,
+    20,
+    67
+   ],
+   [
+    -12,
+    57,
+    30,
+    77
+   ],
+   [
+    18,
+    74,
+    19,
+    63
+   ]
+  ],
+  "p0511": [
+   [
+    -29,
+    71,
+    21,
+    68
+   ],
+   [
+    -8,
+    57,
+    25,
+    76
+   ],
+   [
+    17,
+    74,
+    20,
+    64
+   ]
+  ],
+  "p0512": [
+   [
+    -36,
+    10,
+    34,
+    130
+   ],
+   [
+    -2,
+    18,
+    40,
+    118
+   ]
+  ],
+  "p0513": [
+   [
+    -41,
+    15,
+    24,
+    54
+   ],
+   [
+    -22,
+    17,
+    21,
+    123
+   ],
+   [
+    -1,
+    23,
+    39,
+    113
+   ]
+  ],
+  "p0514": [
+   [
+    -31,
+    4,
+    31,
+    136
+   ],
+   [
+    15,
+    44,
+    16,
+    23
+   ],
+   [
+    0,
+    21,
+    38,
+    116
+   ]
+  ],
+  "p0515": [
+   [
+    -29,
+    3,
+    28,
+    137
+   ],
+   [
+    -1,
+    38,
+    39,
+    99
+   ]
+  ],
+  "p0516": [
+   [
+    -36,
+    6,
+    36,
+    134
+   ],
+   [
+    0,
+    45,
+    38,
+    93
+   ]
+  ],
+  "p0517": [
+   [
+    -32,
+    4,
+    42,
+    136
+   ],
+   [
+    10,
+    41,
+    27,
+    98
+   ]
+  ],
+  "p0518": [
+   [
+    -44,
+    98,
+    46,
+    39
+   ],
+   [
+    2,
+    65,
+    48,
+    73
+   ]
+  ],
+  "p0519": [
+   [
+    -41,
+    59,
+    72,
+    88
+   ]
+  ],
+  "p0520": [
+   [
+    -43,
+    61,
+    81,
+    81
+   ],
+   [
+    38,
+    62,
+    37,
+    38
+   ]
+  ],
+  "p0521": [
+   [
+    -55,
+    69,
+    61,
+    57
+   ],
+   [
+    6,
+    75,
+    44,
+    64
+   ]
+  ],
+  "p0522": [
+   [
+    -27,
+    41,
+    41,
+    99
+   ],
+   [
+    14,
+    70,
+    13,
+    47
+   ]
+  ],
+  "p0523": [
+   [
+    -15,
+    11,
+    23,
+    133
+   ],
+   [
+    8,
+    9,
+    29,
+    118
+   ]
+  ],
+  "p0524": [
+   [
+    -42,
+    19,
+    16,
+    25
+   ],
+   [
+    -26,
+    21,
+    33,
+    110
+   ],
+   [
+    33,
+    49,
+    21,
+    12
+   ],
+   [
+    7,
+    21,
+    26,
+    113
+   ]
+  ],
+  "p0525": [
+   [
+    -50,
+    41,
+    23,
+    19
+   ],
+   [
+    -27,
+    38,
+    46,
+    59
+   ],
+   [
+    19,
+    58,
+    34,
+    47
+   ]
+  ],
+  "p0526": [
+   [
+    -52,
+    81,
+    28,
+    13
+   ],
+   [
+    -24,
+    43,
+    25,
+    72
+   ],
+   [
+    1,
+    67,
+    18,
+    49
+   ],
+   [
+    19,
+    63,
+    29,
+    64
+   ]
+  ],
+  "p0527": [
+   [
+    -47,
+    103,
+    29,
+    17
+   ],
+   [
+    -18,
+    51,
+    35,
+    82
+   ],
+   [
+    29,
+    110,
+    23,
+    12
+   ],
+   [
+    17,
+    65,
+    23,
+    63
+   ]
+  ],
+  "p0528": [
+   [
+    -52,
+    110,
+    15,
+    12
+   ],
+   [
+    -37,
+    92,
+    56,
+    47
+   ],
+   [
+    19,
+    98,
+    40,
+    37
+   ]
+  ],
+  "p0529": [
+   [
+    -50,
+    102,
+    55,
+    54
+   ],
+   [
+    5,
+    102,
+    52,
+    55
+   ]
+  ],
+  "p0530": [
+   [
+    -23,
+    63,
+    26,
+    73
+   ],
+   [
+    3,
+    62,
+    24,
+    74
+   ]
+  ],
+  "p0531": [
+   [
+    -21,
+    49,
+    30,
+    87
+   ],
+   [
+    9,
+    46,
+    27,
+    90
+   ]
+  ],
+  "p0532": [
+   [
+    -24,
+    82,
+    35,
+    45
+   ],
+   [
+    11,
+    82,
+    27,
+    48
+   ]
+  ],
+  "p0533": [
+   [
+    -44,
+    92,
+    23,
+    20
+   ],
+   [
+    -21,
+    55,
+    30,
+    84
+   ],
+   [
+    35,
+    67,
+    21,
+    18
+   ],
+   [
+    9,
+    69,
+    28,
+    69
+   ]
+  ],
+  "p0534": [
+   [
+    -27,
+    35,
+    32,
+    104
+   ],
+   [
+    5,
+    36,
+    26,
+    102
+   ]
+  ],
+  "p0535": [
+   [
+    -36,
+    48,
+    24,
+    91
+   ],
+   [
+    -12,
+    56,
+    26,
+    77
+   ],
+   [
+    14,
+    68,
+    23,
+    68
+   ]
+  ],
+  "p0536": [
+   [
+    -39,
+    51,
+    27,
+    88
+   ],
+   [
+    -12,
+    54,
+    27,
+    79
+   ],
+   [
+    15,
+    70,
+    21,
+    66
+   ]
+  ],
+  "p0537": [
+   [
+    -32,
+    45,
+    21,
+    94
+   ],
+   [
+    -11,
+    45,
+    27,
+    88
+   ],
+   [
+    16,
+    74,
+    21,
+    62
+   ]
+  ],
+  "p0538": [
+   [
+    -21,
+    11,
+    39,
+    128
+   ],
+   [
+    18,
+    31,
+    30,
+    104
+   ]
+  ],
+  "p0539": [
+   [
+    -24,
+    5,
+    17,
+    57
+   ],
+   [
+    -7,
+    1,
+    20,
+    138
+   ],
+   [
+    13,
+    32,
+    24,
+    99
+   ]
+  ],
+  "p0540": [
+   [
+    -26,
+    5,
+    34,
+    129
+   ],
+   [
+    8,
+    42,
+    24,
+    99
+   ]
+  ],
+  "p0541": [
+   [
+    -22,
+    26,
+    17,
+    65
+   ],
+   [
+    -6,
+    6,
+    21,
+    131
+   ],
+   [
+    15,
+    42,
+    23,
+    98
+   ]
+  ],
+  "p0542": [
+   [
+    -23,
+    6,
+    23,
+    136
+   ],
+   [
+    0,
+    5,
+    40,
+    131
+   ]
+  ],
+  "p0543": [
+   [
+    -31,
+    6,
+    41,
+    137
+   ],
+   [
+    23,
+    45,
+    16,
+    23
+   ],
+   [
+    10,
+    20,
+    37,
+    115
+   ]
+  ],
+  "p0544": [
+   [
+    -26,
+    9,
+    29,
+    130
+   ],
+   [
+    3,
+    16,
+    29,
+    122
+   ]
+  ],
+  "p0545": [
+   [
+    -30,
+    9,
+    33,
+    130
+   ],
+   [
+    3,
+    15,
+    26,
+    123
+   ]
+  ],
+  "p0546": [
+   [
+    -31,
+    27,
+    15,
+    62
+   ],
+   [
+    -20,
+    11,
+    21,
+    128
+   ],
+   [
+    1,
+    23,
+    28,
+    115
+   ]
+  ],
+  "p0547": [
+   [
+    -24,
+    22,
+    22,
+    117
+   ],
+   [
+    -2,
+    12,
+    31,
+    126
+   ]
+  ],
+  "p0548": [
+   [
+    -20,
+    18,
+    23,
+    121
+   ],
+   [
+    3,
+    8,
+    28,
+    130
+   ]
+  ],
+  "p0549": [
+   [
+    -23,
+    22,
+    23,
+    117
+   ],
+   [
+    0,
+    6,
+    31,
+    132
+   ]
+  ],
+  "p0550": [
+   [
+    -25,
+    6,
+    29,
+    133
+   ],
+   [
+    4,
+    6,
+    25,
+    132
+   ]
+  ],
+  "p0551": [
+   [
+    -21,
+    8,
+    25,
+    142
+   ],
+   [
+    4,
+    8,
+    36,
+    140
+   ]
+  ],
+  "p0552": [
+   [
+    -24,
+    10,
+    24,
+    140
+   ],
+   [
+    0,
+    10,
+    40,
+    138
+   ]
+  ],
+  "p0553": [
+   [
+    -28,
+    11,
+    28,
+    139
+   ],
+   [
+    15,
+    44,
+    16,
+    19
+   ],
+   [
+    0,
+    11,
+    40,
+    137
+   ]
+  ],
+  "p0554": [
+   [
+    -29,
+    11,
+    29,
+    139
+   ],
+   [
+    16,
+    44,
+    16,
+    23
+   ],
+   [
+    0,
+    11,
+    40,
+    137
+   ]
+  ],
+  "p0555": [
+   [
+    -26,
+    10,
+    28,
+    140
+   ],
+   [
+    18,
+    43,
+    13,
+    24
+   ],
+   [
+    2,
+    10,
+    38,
+    138
+   ]
+  ],
+  "p0556": [
+   [
+    -21,
+    8,
+    24,
+    142
+   ],
+   [
+    19,
+    40,
+    11,
+    22
+   ],
+   [
+    3,
+    8,
+    37,
+    140
+   ]
+  ],
+  "p0557": [
+   [
+    -20,
+    7,
+    23,
+    143
+   ],
+   [
+    20,
+    40,
+    9,
+    19
+   ],
+   [
+    3,
+    7,
+    37,
+    141
+   ]
+  ],
+  "p0558": [
+   [
+    -28,
+    57,
+    29,
+    93
+   ],
+   [
+    1,
+    57,
+    20,
+    91
+   ],
+   [
+    -26,
+    5,
+    40,
+    58
+   ],
+   [
+    14,
+    30,
+    21,
+    31
+   ]
+  ],
+  "p0559": [
+   [
+    -14,
+    58,
+    14,
+    91
+   ],
+   [
+    0,
+    58,
+    19,
+    90
+   ],
+   [
+    -25,
+    6,
+    40,
+    58
+   ],
+   [
+    15,
+    31,
+    21,
+    31
+   ]
+  ],
+  "p0560": [
+   [
+    -13,
+    58,
+    35,
+    92
+   ],
+   [
+    -26,
+    8,
+    40,
+    58
+   ],
+   [
+    14,
+    33,
+    21,
+    31
+   ]
+  ],
+  "p0561": [
+   [
+    -12,
+    60,
+    22,
+    89
+   ],
+   [
+    10,
+    61,
+    25,
+    88
+   ],
+   [
+    -25,
+    10,
+    40,
+    58
+   ],
+   [
+    15,
+    35,
+    21,
+    31
+   ]
+  ],
+  "p0562": [
+   [
+    -19,
+    62,
+    28,
+    87
+   ],
+   [
+    9,
+    62,
+    23,
+    89
+   ],
+   [
+    -25,
+    12,
+    40,
+    58
+   ],
+   [
+    15,
+    37,
+    21,
+    31
+   ]
+  ],
+  "p0563": [
+   [
+    -21,
+    58,
+    23,
+    89
+   ],
+   [
+    1,
+    58,
+    17,
+    92
+   ],
+   [
+    -26,
+    9,
+    40,
+    58
+   ],
+   [
+    14,
+    34,
+    21,
+    31
+   ]
+  ],
+  "p0564": [
+   [
+    -14,
+    59,
+    13,
+    80
+   ],
+   [
+    -1,
+    59,
+    28,
+    92
+   ],
+   [
+    -26,
+    10,
+    40,
+    58
+   ],
+   [
+    14,
+    35,
+    21,
+    31
+   ]
+  ],
+  "p0565": [
+   [
+    -14,
+    59,
+    23,
+    92
+   ],
+   [
+    9,
+    59,
+    23,
+    92
+   ],
+   [
+    -26,
+    9,
+    40,
+    58
+   ],
+   [
+    14,
+    34,
+    21,
+    31
+   ]
+  ],
+  "p0566": [
+   [
+    -14,
+    58,
+    19,
+    94
+   ],
+   [
+    5,
+    58,
+    43,
+    88
+   ],
+   [
+    -27,
+    9,
+    40,
+    58
+   ],
+   [
+    13,
+    34,
+    21,
+    31
+   ]
+  ],
+  "p0567": [
+   [
+    -23,
+    39,
+    34,
+    111
+   ],
+   [
+    37,
+    54,
+    15,
+    12
+   ],
+   [
+    11,
+    24,
+    32,
+    125
+   ]
+  ],
+  "p0568": [
+   [
+    -22,
+    63,
+    44,
+    87
+   ],
+   [
+    22,
+    51,
+    34,
+    98
+   ]
+  ],
+  "p0569": [
+   [
+    -20,
+    94,
+    19,
+    56
+   ],
+   [
+    -1,
+    80,
+    25,
+    67
+   ],
+   [
+    24,
+    71,
+    30,
+    78
+   ]
+  ],
+  "p0570": [
+   [
+    -19,
+    -2,
+    27,
+    151
+   ],
+   [
+    34,
+    8,
+    12,
+    28
+   ],
+   [
+    8,
+    -3,
+    32,
+    150
+   ]
+  ],
+  "p0571": [
+   [
+    -17,
+    14,
+    24,
+    97
+   ],
+   [
+    39,
+    24,
+    12,
+    20
+   ],
+   [
+    7,
+    -3,
+    18,
+    74
+   ],
+   [
+    25,
+    22,
+    14,
+    22
+   ],
+   [
+    13,
+    52,
+    26,
+    54
+   ]
+  ],
+  "p0572": [
+   [
+    -5,
+    14,
+    32,
+    137
+   ],
+   [
+    27,
+    8,
+    25,
+    65
+   ]
+  ],
+  "p0573": [
+   [
+    -3,
+    19,
+    34,
+    52
+   ],
+   [
+    31,
+    17,
+    22,
+    77
+   ]
+  ],
+  "p0574": [
+   [
+    -6,
+    26,
+    61,
+    77
+   ]
+  ],
+  "p0575": [
+   [
+    -26,
+    59,
+    17,
+    20
+   ],
+   [
+    -9,
+    23,
+    36,
+    52
+   ],
+   [
+    27,
+    28,
+    18,
+    43
+   ]
+  ],
+  "p0576": [
+   [
+    -33,
+    27,
+    35,
+    36
+   ],
+   [
+    2,
+    17,
+    38,
+    61
+   ]
+  ],
+  "p0577": [
+   [
+    -15,
+    -4,
+    18,
+    78
+   ],
+   [
+    3,
+    20,
+    36,
+    52
+   ]
+  ],
+  "p0578": [
+   [
+    -15,
+    27,
+    17,
+    33
+   ],
+   [
+    2,
+    0,
+    47,
+    64
+   ]
+  ],
+  "p0579": [
+   [
+    -2,
+    14,
+    19,
+    54
+   ],
+   [
+    17,
+    20,
+    26,
+    49
+   ],
+   [
+    43,
+    31,
+    25,
+    15
+   ]
+  ],
+  "p0580": [
+   [
+    -22,
+    9,
+    26,
+    141
+   ],
+   [
+    4,
+    9,
+    30,
+    139
+   ]
+  ],
+  "p0581": [
+   [
+    -23,
+    9,
+    25,
+    141
+   ],
+   [
+    2,
+    9,
+    30,
+    140
+   ]
+  ],
+  "p0582": [
+   [
+    -20,
+    129,
+    13,
+    21
+   ],
+   [
+    -7,
+    72,
+    26,
+    68
+   ],
+   [
+    19,
+    63,
+    30,
+    86
+   ]
+  ],
+  "p0583": [
+   [
+    -18,
+    63,
+    31,
+    86
+   ],
+   [
+    13,
+    59,
+    30,
+    90
+   ]
+  ],
+  "p0584": [
+   [
+    -19,
+    14,
+    27,
+    135
+   ],
+   [
+    8,
+    30,
+    34,
+    118
+   ]
+  ],
+  "p0585": [
+   [
+    -29,
+    19,
+    38,
+    131
+   ],
+   [
+    9,
+    42,
+    33,
+    106
+   ]
+  ],
+  "p0586": [
+   [
+    -18,
+    8,
+    25,
+    141
+   ],
+   [
+    7,
+    17,
+    35,
+    131
+   ]
+  ],
+  "p0587": [
+   [
+    -22,
+    11,
+    31,
+    139
+   ],
+   [
+    9,
+    43,
+    34,
+    106
+   ]
+  ],
+  "p0588": [
+   [
+    -31,
+    16,
+    42,
+    134
+   ],
+   [
+    11,
+    60,
+    33,
+    88
+   ]
+  ],
+  "p0589": [
+   [
+    -20,
+    10,
+    31,
+    140
+   ],
+   [
+    11,
+    33,
+    32,
+    116
+   ]
+  ],
+  "p0590": [
+   [
+    -50,
+    111,
+    64,
+    41
+   ],
+   [
+    14,
+    105,
+    23,
+    48
+   ],
+   [
+    37,
+    110,
+    18,
+    27
+   ],
+   [
+    55,
+    111,
+    18,
+    32
+   ]
+  ],
+  "p0591": [
+   [
+    -46,
+    115,
+    37,
+    38
+   ],
+   [
+    -9,
+    70,
+    42,
+    82
+   ]
+  ],
+  "p0592": [
+   [
+    -45,
+    118,
+    30,
+    35
+   ],
+   [
+    -15,
+    34,
+    63,
+    115
+   ]
+  ],
+  "p0593": [
+   [
+    -49,
+    93,
+    54,
+    54
+   ],
+   [
+    5,
+    92,
+    21,
+    25
+   ],
+   [
+    26,
+    92,
+    28,
+    51
+   ]
+  ],
+  "p0594": [
+   [
+    -12,
+    69,
+    25,
+    83
+   ],
+   [
+    13,
+    52,
+    15,
+    96
+   ],
+   [
+    28,
+    53,
+    27,
+    95
+   ]
+  ],
+  "p0595": [
+   [
+    -16,
+    24,
+    21,
+    129
+   ],
+   [
+    24,
+    29,
+    40,
+    30
+   ],
+   [
+    5,
+    6,
+    26,
+    143
+   ]
+  ],
+  "p0596": [
+   [
+    -37,
+    35,
+    18,
+    24
+   ],
+   [
+    -19,
+    15,
+    25,
+    125
+   ],
+   [
+    6,
+    17,
+    25,
+    135
+   ],
+   [
+    31,
+    50,
+    31,
+    10
+   ]
+  ],
+  "p0597": [
+   [
+    -37,
+    54,
+    20,
+    40
+   ],
+   [
+    -17,
+    33,
+    34,
+    63
+   ],
+   [
+    17,
+    55,
+    31,
+    85
+   ]
+  ],
+  "p0598": [
+   [
+    -26,
+    78,
+    14,
+    52
+   ],
+   [
+    -12,
+    21,
+    25,
+    86
+   ],
+   [
+    13,
+    78,
+    30,
+    48
+   ],
+   [
+    43,
+    77,
+    16,
+    22
+   ]
+  ],
+  "p0599": [
+   [
+    -34,
+    37,
+    44,
+    95
+   ],
+   [
+    10,
+    59,
+    46,
+    73
+   ]
+  ],
+  "p0600": [
+   [
+    -54,
+    117,
+    26,
+    15
+   ],
+   [
+    -28,
+    82,
+    54,
+    63
+   ],
+   [
+    26,
+    115,
+    41,
+    26
+   ]
+  ],
+  "p0601": [
+   [
+    -45,
+    108,
+    55,
+    59
+   ],
+   [
+    10,
+    111,
+    46,
+    56
+   ],
+   [
+    56,
+    127,
+    9,
+    9
+   ]
+  ],
+  "p0602": [
+   [
+    -19,
+    67,
+    31,
+    77
+   ],
+   [
+    12,
+    64,
+    21,
+    80
+   ]
+  ],
+  "p0603": [
+   [
+    -16,
+    43,
+    28,
+    101
+   ],
+   [
+    12,
+    44,
+    38,
+    100
+   ]
+  ],
+  "p0604": [
+   [
+    -44,
+    69,
+    56,
+    80
+   ],
+   [
+    12,
+    72,
+    33,
+    77
+   ]
+  ],
+  "p0605": [
+   [
+    -58,
+    73,
+    43,
+    28
+   ],
+   [
+    -15,
+    44,
+    22,
+    106
+   ],
+   [
+    25,
+    45,
+    15,
+    28
+   ],
+   [
+    7,
+    60,
+    28,
+    91
+   ]
+  ],
+  "p0606": [
+   [
+    -28,
+    46,
+    14,
+    103
+   ],
+   [
+    -14,
+    25,
+    21,
+    124
+   ],
+   [
+    7,
+    43,
+    22,
+    107
+   ]
+  ],
+  "p0607": [
+   [
+    -18,
+    131,
+    11,
+    19
+   ],
+   [
+    -7,
+    48,
+    32,
+    105
+   ],
+   [
+    25,
+    75,
+    21,
+    74
+   ]
+  ],
+  "p0608": [
+   [
+    -18,
+    131,
+    10,
+    19
+   ],
+   [
+    -17,
+    54,
+    42,
+    99
+   ],
+   [
+    25,
+    66,
+    21,
+    83
+   ]
+  ],
+  "p0609": [
+   [
+    -20,
+    131,
+    11,
+    19
+   ],
+   [
+    -9,
+    53,
+    33,
+    99
+   ],
+   [
+    24,
+    53,
+    21,
+    96
+   ]
+  ],
+  "p0610": [
+   [
+    -27,
+    11,
+    19,
+    53
+   ],
+   [
+    -25,
+    16,
+    38,
+    134
+   ],
+   [
+    13,
+    14,
+    8,
+    8
+   ],
+   [
+    13,
+    51,
+    22,
+    97
+   ]
+  ],
+  "p0611": [
+   [
+    -30,
+    3,
+    21,
+    59
+   ],
+   [
+    -9,
+    26,
+    40,
+    38
+   ],
+   [
+    -17,
+    64,
+    32,
+    86
+   ],
+   [
+    15,
+    73,
+    29,
+    69
+   ]
+  ],
+  "p0612": [
+   [
+    -28,
+    15,
+    16,
+    47
+   ],
+   [
+    -12,
+    18,
+    26,
+    132
+   ],
+   [
+    14,
+    21,
+    5,
+    9
+   ],
+   [
+    14,
+    74,
+    20,
+    64
+   ]
+  ],
+  "p0613": [
+   [
+    -36,
+    14,
+    42,
+    124
+   ],
+   [
+    5,
+    47,
+    22,
+    103
+   ]
+  ],
+  "p0614": [
+   [
+    -28,
+    15,
+    15,
+    51
+   ],
+   [
+    -13,
+    13,
+    24,
+    129
+   ],
+   [
+    11,
+    20,
+    29,
+    130
+   ]
+  ],
+  "p0615": [
+   [
+    -23,
+    13,
+    47,
+    137
+   ],
+   [
+    24,
+    45,
+    19,
+    15
+   ]
+  ],
+  "p0616": [
+   [
+    -26,
+    48,
+    13,
+    39
+   ],
+   [
+    -20,
+    19,
+    26,
+    131
+   ],
+   [
+    6,
+    20,
+    26,
+    130
+   ]
+  ],
+  "p0617": [
+   [
+    -23,
+    21,
+    9,
+    80
+   ],
+   [
+    -20,
+    21,
+    27,
+    129
+   ],
+   [
+    7,
+    25,
+    25,
+    125
+   ]
+  ],
+  "p0618": [
+   [
+    -29,
+    19,
+    35,
+    131
+   ],
+   [
+    6,
+    25,
+    26,
+    125
+   ]
+  ],
+  "p0619": [
+   [
+    -26,
+    37,
+    9,
+    55
+   ],
+   [
+    -20,
+    15,
+    24,
+    135
+   ],
+   [
+    4,
+    25,
+    29,
+    125
+   ]
+  ],
+  "p0620": [
+   [
+    -20,
+    25,
+    21,
+    125
+   ],
+   [
+    1,
+    15,
+    32,
+    135
+   ]
+  ],
+  "p0621": [
+   [
+    -20,
+    25,
+    23,
+    125
+   ],
+   [
+    3,
+    22,
+    18,
+    110
+   ],
+   [
+    21,
+    15,
+    16,
+    135
+   ]
+  ],
+  "p0622": [
+   [
+    -20,
+    29,
+    25,
+    121
+   ],
+   [
+    5,
+    18,
+    28,
+    132
+   ]
+  ],
+  "p0623": [
+   [
+    -69,
+    33,
+    28,
+    48
+   ],
+   [
+    -49,
+    10,
+    49,
+    152
+   ],
+   [
+    0,
+    10,
+    19,
+    102
+   ],
+   [
+    19,
+    28,
+    25,
+    119
+   ],
+   [
+    44,
+    138,
+    16,
+    10
+   ]
+  ],
+  "p0624": [
+   [
+    -67,
+    24,
+    31,
+    60
+   ],
+   [
+    -49,
+    10,
+    51,
+    152
+   ],
+   [
+    2,
+    10,
+    17,
+    102
+   ],
+   [
+    19,
+    30,
+    29,
+    118
+   ],
+   [
+    48,
+    140,
+    12,
+    8
+   ]
+  ],
+  "p0625": [
+   [
+    -62,
+    16,
+    34,
+    146
+   ],
+   [
+    -28,
+    17,
+    19,
+    144
+   ],
+   [
+    -9,
+    10,
+    13,
+    119
+   ],
+   [
+    4,
+    10,
+    45,
+    138
+   ],
+   [
+    49,
+    140,
+    11,
+    8
+   ]
+  ],
+  "p0626": [
+   [
+    -54,
+    18,
+    25,
+    144
+   ],
+   [
+    -29,
+    11,
+    30,
+    150
+   ],
+   [
+    1,
+    11,
+    20,
+    101
+   ],
+   [
+    21,
+    37,
+    31,
+    111
+   ],
+   [
+    52,
+    141,
+    8,
+    7
+   ]
+  ],
+  "p0627": [
+   [
+    -50,
+    20,
+    26,
+    142
+   ],
+   [
+    -24,
+    11,
+    27,
+    129
+   ],
+   [
+    3,
+    11,
+    20,
+    101
+   ],
+   [
+    23,
+    37,
+    30,
+    111
+   ],
+   [
+    53,
+    141,
+    7,
+    7
+   ]
+  ],
+  "p0628": [
+   [
+    -49,
+    21,
+    26,
+    141
+   ],
+   [
+    -23,
+    11,
+    27,
+    128
+   ],
+   [
+    4,
+    11,
+    21,
+    102
+   ],
+   [
+    25,
+    37,
+    35,
+    111
+   ]
+  ],
+  "p0629": [
+   [
+    -49,
+    141,
+    8,
+    20
+   ],
+   [
+    -41,
+    11,
+    45,
+    151
+   ],
+   [
+    4,
+    11,
+    22,
+    101
+   ],
+   [
+    26,
+    39,
+    34,
+    109
+   ]
+  ],
+  "p0630": [
+   [
+    -49,
+    137,
+    12,
+    25
+   ],
+   [
+    -37,
+    11,
+    42,
+    151
+   ],
+   [
+    5,
+    11,
+    56,
+    137
+   ]
+  ],
+  "p0631": [
+   [
+    -48,
+    21,
+    27,
+    141
+   ],
+   [
+    -21,
+    12,
+    28,
+    127
+   ],
+   [
+    7,
+    12,
+    28,
+    134
+   ],
+   [
+    35,
+    43,
+    23,
+    106
+   ]
+  ],
+  "p0632": [
+   [
+    -45,
+    8,
+    47,
+    153
+   ],
+   [
+    2,
+    8,
+    28,
+    145
+   ],
+   [
+    30,
+    42,
+    17,
+    111
+   ]
+  ],
+  "p0633": [
+   [
+    -34,
+    14,
+    28,
+    149
+   ],
+   [
+    -6,
+    8,
+    44,
+    153
+   ]
+  ],
+  "p0634": [
+   [
+    -30,
+    3,
+    64,
+    155
+   ]
+  ],
+  "p0635": [
+   [
+    -32,
+    4,
+    67,
+    154
+   ]
+  ],
+  "p0636": [
+   [
+    -41,
+    12,
+    35,
+    140
+   ],
+   [
+    -6,
+    7,
+    49,
+    152
+   ]
+  ],
+  "p0637": [
+   [
+    -49,
+    15,
+    43,
+    137
+   ],
+   [
+    -6,
+    10,
+    54,
+    150
+   ]
+  ],
+  "p0638": [
+   [
+    -60,
+    20,
+    54,
+    133
+   ],
+   [
+    -6,
+    15,
+    35,
+    148
+   ],
+   [
+    29,
+    45,
+    23,
+    118
+   ]
+  ],
+  "p0639": [
+   [
+    -52,
+    13,
+    47,
+    138
+   ],
+   [
+    -5,
+    10,
+    49,
+    152
+   ]
+  ],
+  "p0640": [
+   [
+    -41,
+    13,
+    27,
+    138
+   ],
+   [
+    -14,
+    6,
+    50,
+    154
+   ]
+  ],
+  "p0641": [
+   [
+    -28,
+    4,
+    59,
+    156
+   ]
+  ],
+  "p0642": [
+   [
+    -33,
+    4,
+    70,
+    156
+   ]
+  ],
+  "p0643": [
+   [
+    -42,
+    13,
+    35,
+    149
+   ],
+   [
+    -7,
+    6,
+    32,
+    141
+   ],
+   [
+    25,
+    43,
+    23,
+    44
+   ]
+  ],
+  "p0644": [
+   [
+    -55,
+    15,
+    49,
+    147
+   ],
+   [
+    -6,
+    8,
+    38,
+    140
+   ],
+   [
+    32,
+    46,
+    23,
+    46
+   ]
+  ],
+  "p0645": [
+   [
+    -64,
+    136,
+    12,
+    23
+   ],
+   [
+    -52,
+    17,
+    46,
+    145
+   ],
+   [
+    -6,
+    13,
+    46,
+    139
+   ],
+   [
+    40,
+    57,
+    23,
+    41
+   ]
+  ],
+  "p0646": [
+   [
+    -62,
+    14,
+    53,
+    146
+   ],
+   [
+    -9,
+    8,
+    41,
+    145
+   ],
+   [
+    32,
+    53,
+    18,
+    42
+   ]
+  ],
+  "p0647": [
+   [
+    -48,
+    12,
+    35,
+    148
+   ],
+   [
+    -13,
+    4,
+    49,
+    148
+   ]
+  ],
+  "p0648": [
+   [
+    -41,
+    13,
+    51,
+    147
+   ],
+   [
+    10,
+    10,
+    52,
+    138
+   ],
+   [
+    62,
+    47,
+    11,
+    16
+   ]
+  ],
+  "p0649": [
+   [
+    -39,
+    17,
+    34,
+    139
+   ],
+   [
+    -5,
+    17,
+    26,
+    116
+   ],
+   [
+    21,
+    10,
+    70,
+    138
+   ]
+  ],
+  "p0650": [
+   [
+    -51,
+    17,
+    30,
+    136
+   ],
+   [
+    -21,
+    12,
+    37,
+    123
+   ],
+   [
+    16,
+    9,
+    43,
+    140
+   ],
+   [
+    59,
+    42,
+    37,
+    42
+   ]
+  ],
+  "p0651": [
+   [
+    -54,
+    20,
+    30,
+    131
+   ],
+   [
+    -24,
+    12,
+    33,
+    138
+   ],
+   [
+    9,
+    10,
+    48,
+    140
+   ],
+   [
+    57,
+    44,
+    32,
+    45
+   ]
+  ],
+  "p0652": [
+   [
+    -71,
+    16,
+    45,
+    132
+   ],
+   [
+    -26,
+    9,
+    32,
+    133
+   ],
+   [
+    6,
+    9,
+    39,
+    139
+   ],
+   [
+    45,
+    17,
+    41,
+    131
+   ]
+  ],
+  "p0653": [
+   [
+    -49,
+    18,
+    55,
+    142
+   ],
+   [
+    6,
+    14,
+    52,
+    134
+   ]
+  ],
+  "p0654": [
+   [
+    -49,
+    18,
+    57,
+    144
+   ],
+   [
+    8,
+    20,
+    52,
+    128
+   ],
+   [
+    60,
+    49,
+    46,
+    22
+   ]
+  ],
+  "p0655": [
+   [
+    -46,
+    17,
+    34,
+    145
+   ],
+   [
+    -12,
+    18,
+    37,
+    125
+   ],
+   [
+    25,
+    27,
+    39,
+    120
+   ],
+   [
+    64,
+    104,
+    14,
+    20
+   ],
+   [
+    64,
+    47,
+    59,
+    23
+   ]
+  ],
+  "p0656": [
+   [
+    -23,
+    13,
+    45,
+    143
+   ],
+   [
+    22,
+    8,
+    59,
+    140
+   ]
+  ],
+  "p0657": [
+   [
+    13,
+    11,
+    76,
+    137
+   ]
+  ],
+  "p0658": [
+   [
+    -7,
+    10,
+    82,
+    138
+   ],
+   [
+    75,
+    48,
+    22,
+    25
+   ],
+   [
+    97,
+    43,
+    13,
+    33
+   ]
+  ],
+  "p0659": [
+   [
+    -37,
+    18,
+    34,
+    83
+   ],
+   [
+    -3,
+    17,
+    63,
+    131
+   ],
+   [
+    60,
+    52,
+    67,
+    39
+   ]
+  ],
+  "p0660": [
+   [
+    -71,
+    33,
+    33,
+    132
+   ],
+   [
+    -38,
+    18,
+    42,
+    147
+   ],
+   [
+    4,
+    15,
+    54,
+    134
+   ]
+  ],
+  "p0661": [
+   [
+    -56,
+    20,
+    52,
+    144
+   ],
+   [
+    -4,
+    13,
+    62,
+    137
+   ]
+  ],
+  "p0662": [
+   [
+    -52,
+    11,
+    59,
+    150
+   ],
+   [
+    7,
+    13,
+    73,
+    137
+   ]
+  ],
+  "p0663": [
+   [
+    -63,
+    29,
+    38,
+    126
+   ],
+   [
+    -25,
+    9,
+    39,
+    125
+   ],
+   [
+    14,
+    6,
+    36,
+    139
+   ],
+   [
+    50,
+    -24,
+    31,
+    168
+   ]
+  ],
+  "p0664": [
+   [
+    -47,
+    19,
+    53,
+    145
+   ],
+   [
+    6,
+    15,
+    33,
+    133
+   ],
+   [
+    39,
+    19,
+    37,
+    129
+   ]
+  ],
+  "p0665": [
+   [
+    -47,
+    46,
+    66,
+    118
+   ],
+   [
+    19,
+    20,
+    97,
+    129
+   ]
+  ],
+  "p0666": [
+   [
+    -75,
+    35,
+    31,
+    43
+   ],
+   [
+    -44,
+    13,
+    32,
+    136
+   ],
+   [
+    -12,
+    8,
+    21,
+    106
+   ],
+   [
+    9,
+    8,
+    22,
+    116
+   ],
+   [
+    31,
+    15,
+    25,
+    133
+   ],
+   [
+    56,
+    35,
+    36,
+    48
+   ]
+  ],
+  "p0667": [
+   [
+    -75,
+    22,
+    29,
+    42
+   ],
+   [
+    -46,
+    11,
+    35,
+    138
+   ],
+   [
+    -11,
+    8,
+    19,
+    98
+   ],
+   [
+    8,
+    8,
+    47,
+    141
+   ],
+   [
+    55,
+    17,
+    35,
+    52
+   ]
+  ],
+  "p0668": [
+   [
+    -75,
+    13,
+    28,
+    32
+   ],
+   [
+    -47,
+    15,
+    36,
+    132
+   ],
+   [
+    -11,
+    12,
+    17,
+    95
+   ],
+   [
+    6,
+    12,
+    16,
+    95
+   ],
+   [
+    22,
+    18,
+    30,
+    130
+   ],
+   [
+    52,
+    4,
+    31,
+    46
+   ]
+  ],
+  "p0669": [
+   [
+    -69,
+    -2,
+    22,
+    40
+   ],
+   [
+    -47,
+    6,
+    34,
+    140
+   ],
+   [
+    -13,
+    14,
+    18,
+    98
+   ],
+   [
+    5,
+    14,
+    16,
+    92
+   ],
+   [
+    21,
+    6,
+    32,
+    142
+   ],
+   [
+    53,
+    -7,
+    21,
+    48
+   ]
+  ],
+  "p0670": [
+   [
+    -85,
+    15,
+    33,
+    36
+   ],
+   [
+    -52,
+    8,
+    37,
+    139
+   ],
+   [
+    -15,
+    20,
+    22,
+    94
+   ],
+   [
+    7,
+    20,
+    27,
+    104
+   ],
+   [
+    34,
+    29,
+    19,
+    118
+   ],
+   [
+    53,
+    2,
+    30,
+    43
+   ]
+  ],
+  "p0671": [
+   [
+    -92,
+    31,
+    45,
+    31
+   ],
+   [
+    -47,
+    23,
+    52,
+    125
+   ],
+   [
+    5,
+    23,
+    31,
+    116
+   ],
+   [
+    36,
+    35,
+    17,
+    112
+   ],
+   [
+    53,
+    21,
+    40,
+    48
+   ]
+  ],
+  "p0672": [
+   [
+    -88,
+    54,
+    35,
+    37
+   ],
+   [
+    -53,
+    35,
+    34,
+    112
+   ],
+   [
+    -19,
+    24,
+    23,
+    106
+   ],
+   [
+    4,
+    26,
+    21,
+    88
+   ],
+   [
+    25,
+    35,
+    28,
+    112
+   ],
+   [
+    53,
+    49,
+    39,
+    37
+   ]
+  ],
+  "p0673": [
+   [
+    -90,
+    64,
+    43,
+    46
+   ],
+   [
+    -47,
+    28,
+    52,
+    119
+   ],
+   [
+    5,
+    31,
+    48,
+    116
+   ],
+   [
+    53,
+    60,
+    39,
+    44
+   ]
+  ],
+  "p0674": [
+   [
+    -70,
+    26,
+    33,
+    136
+   ],
+   [
+    -37,
+    11,
+    40,
+    152
+   ],
+   [
+    3,
+    10,
+    57,
+    136
+   ]
+  ],
+  "p0675": [
+   [
+    -83,
+    35,
+    36,
+    73
+   ],
+   [
+    -47,
+    9,
+    50,
+    154
+   ],
+   [
+    3,
+    -4,
+    57,
+    150
+   ]
+  ],
+  "p0676": [
+   [
+    -95,
+    35,
+    40,
+    68
+   ],
+   [
+    -55,
+    -7,
+    59,
+    170
+   ],
+   [
+    4,
+    1,
+    56,
+    145
+   ]
+  ],
+  "p0677": [
+   [
+    -36,
+    4,
+    45,
+    153
+   ],
+   [
+    9,
+    8,
+    21,
+    106
+   ],
+   [
+    30,
+    32,
+    39,
+    97
+   ]
+  ],
+  "p0678": [
+   [
+    -24,
+    12,
+    57,
+    120
+   ],
+   [
+    33,
+    25,
+    18,
+    113
+   ],
+   [
+    51,
+    39,
+    30,
+    91
+   ]
+  ],
+  "p0679": [
+   [
+    -50,
+    22,
+    72,
+    104
+   ],
+   [
+    22,
+    22,
+    7,
+    21
+   ],
+   [
+    22,
+    45,
+    50,
+    79
+   ],
+   [
+    72,
+    70,
+    23,
+    54
+   ]
+  ],
+  "p0680": [
+   [
+    -64,
+    40,
+    92,
+    97
+   ],
+   [
+    28,
+    67,
+    67,
+    67
+   ]
+  ],
+  "p0681": [
+   [
+    -69,
+    78,
+    57,
+    85
+   ],
+   [
+    -12,
+    92,
+    88,
+    64
+   ],
+   [
+    76,
+    115,
+    39,
+    41
+   ]
+  ],
+  "p0682": [
+   [
+    -70,
+    109,
+    46,
+    69
+   ],
+   [
+    -24,
+    108,
+    30,
+    61
+   ],
+   [
+    6,
+    109,
+    73,
+    63
+   ],
+   [
+    79,
+    117,
+    35,
+    40
+   ]
+  ],
+  "p0683": [
+   [
+    -68,
+    55,
+    25,
+    40
+   ],
+   [
+    -43,
+    32,
+    48,
+    117
+   ],
+   [
+    5,
+    31,
+    26,
+    98
+   ],
+   [
+    31,
+    38,
+    41,
+    109
+   ]
+  ],
+  "p0684": [
+   [
+    -63,
+    42,
+    67,
+    107
+   ],
+   [
+    4,
+    42,
+    24,
+    81
+   ],
+   [
+    28,
+    47,
+    42,
+    101
+   ]
+  ],
+  "p0685": [
+   [
+    -76,
+    45,
+    33,
+    53
+   ],
+   [
+    -43,
+    21,
+    45,
+    127
+   ],
+   [
+    2,
+    21,
+    34,
+    128
+   ],
+   [
+    36,
+    26,
+    47,
+    123
+   ]
+  ],
+  "p0686": [
+   [
+    -84,
+    3,
+    54,
+    73
+   ],
+   [
+    -30,
+    3,
+    34,
+    143
+   ],
+   [
+    4,
+    5,
+    39,
+    142
+   ],
+   [
+    43,
+    12,
+    44,
+    69
+   ]
+  ],
+  "p0687": [
+   [
+    -68,
+    16,
+    38,
+    56
+   ],
+   [
+    -30,
+    5,
+    45,
+    156
+   ],
+   [
+    15,
+    17,
+    38,
+    143
+   ]
+  ],
+  "p0688": [
+   [
+    -54,
+    9,
+    100,
+    151
+   ]
+  ],
+  "p0689": [
+   [
+    -41,
+    9,
+    66,
+    138
+   ],
+   [
+    25,
+    52,
+    43,
+    105
+   ]
+  ],
+  "p0690": [
+   [
+    -46,
+    6,
+    71,
+    141
+   ],
+   [
+    25,
+    49,
+    39,
+    102
+   ]
+  ],
+  "p0691": [
+   [
+    -60,
+    7,
+    70,
+    144
+   ],
+   [
+    10,
+    11,
+    49,
+    147
+   ]
+  ],
+  "p0692": [
+   [
+    -62,
+    12,
+    90,
+    150
+   ],
+   [
+    28,
+    19,
+    46,
+    125
+   ]
+  ],
+  "p0693": [
+   [
+    -52,
+    24,
+    60,
+    139
+   ],
+   [
+    8,
+    18,
+    51,
+    130
+   ]
+  ],
+  "p0694": [
+   [
+    -51,
+    16,
+    62,
+    147
+   ],
+   [
+    11,
+    16,
+    48,
+    132
+   ]
+  ],
+  "p0695": [
+   [
+    -51,
+    5,
+    61,
+    159
+   ],
+   [
+    10,
+    5,
+    53,
+    143
+   ]
+  ],
+  "p0696": [
+   [
+    -10,
+    -3,
+    21,
+    8
+   ]
+  ],
+  "p0697": [
+   [
+    -14,
+    -5,
+    29,
+    12
+   ]
+  ],
+  "p0698": [
+   [
+    -19,
+    -7,
+    39,
+    16
+   ]
+  ],
+  "p0699": [
+   [
+    -18,
+    -7,
+    38,
+    15
+   ]
+  ],
+  "p0700": [
+   [
+    -30,
+    21,
+    29,
+    148
+   ],
+   [
+    -1,
+    13,
+    38,
+    154
+   ]
+  ],
+  "p0701": [
+   [
+    -33,
+    21,
+    30,
+    148
+   ],
+   [
+    -3,
+    13,
+    40,
+    154
+   ]
+  ],
+  "p0702": [
+   [
+    -34,
+    23,
+    30,
+    146
+   ],
+   [
+    14,
+    59,
+    20,
+    28
+   ],
+   [
+    -4,
+    14,
+    41,
+    153
+   ]
+  ],
+  "p0703": [
+   [
+    -34,
+    19,
+    32,
+    150
+   ],
+   [
+    16,
+    61,
+    24,
+    25
+   ],
+   [
+    -2,
+    12,
+    39,
+    155
+   ]
+  ],
+  "p0704": [
+   [
+    -30,
+    19,
+    30,
+    150
+   ],
+   [
+    19,
+    61,
+    24,
+    29
+   ],
+   [
+    0,
+    12,
+    37,
+    155
+   ]
+  ],
+  "p0705": [
+   [
+    -27,
+    19,
+    31,
+    150
+   ],
+   [
+    30,
+    81,
+    14,
+    19
+   ],
+   [
+    4,
+    12,
+    35,
+    155
+   ]
+  ],
+  "p0706": [
+   [
+    -27,
+    21,
+    28,
+    148
+   ],
+   [
+    1,
+    12,
+    36,
+    155
+   ]
+  ],
+  "p0707": [
+   [
+    -32,
+    9,
+    66,
+    68
+   ],
+   [
+    -29,
+    75,
+    27,
+    91
+   ],
+   [
+    -2,
+    75,
+    31,
+    93
+   ]
+  ],
+  "p0708": [
+   [
+    -32,
+    7,
+    66,
+    68
+   ],
+   [
+    -35,
+    73,
+    34,
+    93
+   ],
+   [
+    -1,
+    73,
+    25,
+    95
+   ]
+  ],
+  "p0709": [
+   [
+    -33,
+    6,
+    66,
+    68
+   ],
+   [
+    -22,
+    72,
+    20,
+    97
+   ],
+   [
+    -2,
+    72,
+    22,
+    96
+   ]
+  ],
+  "p0710": [
+   [
+    -33,
+    8,
+    66,
+    68
+   ],
+   [
+    -16,
+    74,
+    34,
+    97
+   ]
+  ],
+  "p0711": [
+   [
+    -33,
+    8,
+    66,
+    68
+   ],
+   [
+    -13,
+    74,
+    17,
+    92
+   ],
+   [
+    4,
+    74,
+    14,
+    97
+   ]
+  ],
+  "p0712": [
+   [
+    -33,
+    9,
+    66,
+    68
+   ],
+   [
+    -13,
+    75,
+    13,
+    91
+   ],
+   [
+    0,
+    75,
+    18,
+    96
+   ]
+  ],
+  "p0713": [
+   [
+    -33,
+    9,
+    66,
+    68
+   ],
+   [
+    -13,
+    75,
+    9,
+    91
+   ],
+   [
+    -4,
+    75,
+    28,
+    96
+   ]
+  ],
+  "p0714": [
+   [
+    -32,
+    10,
+    66,
+    68
+   ],
+   [
+    -13,
+    76,
+    20,
+    95
+   ],
+   [
+    7,
+    76,
+    24,
+    84
+   ]
+  ],
+  "p0715": [
+   [
+    -33,
+    10,
+    66,
+    68
+   ],
+   [
+    -15,
+    76,
+    18,
+    95
+   ],
+   [
+    3,
+    76,
+    37,
+    87
+   ]
+  ],
+  "p0716": [
+   [
+    -33,
+    19,
+    35,
+    150
+   ],
+   [
+    17,
+    62,
+    20,
+    18
+   ],
+   [
+    2,
+    18,
+    32,
+    151
+   ]
+  ],
+  "p0717": [
+   [
+    -31,
+    17,
+    32,
+    152
+   ],
+   [
+    1,
+    16,
+    33,
+    153
+   ]
+  ],
+  "p0718": [
+   [
+    -34,
+    24,
+    37,
+    145
+   ],
+   [
+    22,
+    62,
+    19,
+    18
+   ],
+   [
+    3,
+    19,
+    38,
+    148
+   ]
+  ],
+  "p0719": [
+   [
+    -30,
+    23,
+    40,
+    147
+   ],
+   [
+    10,
+    16,
+    33,
+    151
+   ]
+  ],
+  "p0720": [
+   [
+    -35,
+    25,
+    45,
+    144
+   ],
+   [
+    10,
+    15,
+    30,
+    152
+   ]
+  ],
+  "p0721": [
+   [
+    -37,
+    36,
+    48,
+    134
+   ],
+   [
+    53,
+    47,
+    33,
+    15
+   ],
+   [
+    11,
+    18,
+    42,
+    149
+   ]
+  ],
+  "p0722": [
+   [
+    -38,
+    44,
+    52,
+    128
+   ],
+   [
+    14,
+    26,
+    28,
+    141
+   ],
+   [
+    42,
+    31,
+    18,
+    57
+   ]
+  ],
+  "p0723": [
+   [
+    -27,
+    20,
+    33,
+    148
+   ],
+   [
+    20,
+    65,
+    24,
+    16
+   ],
+   [
+    6,
+    13,
+    33,
+    155
+   ]
+  ],
+  "p0724": [
+   [
+    -9,
+    18,
+    22,
+    146
+   ],
+   [
+    26,
+    52,
+    21,
+    20
+   ],
+   [
+    13,
+    13,
+    26,
+    155
+   ]
+  ],
+  "p0725": [
+   [
+    30,
+    47,
+    16,
+    22
+   ],
+   [
+    -3,
+    13,
+    36,
+    140
+   ],
+   [
+    33,
+    84,
+    31,
+    63
+   ],
+   [
+    16,
+    153,
+    21,
+    15
+   ]
+  ],
+  "p0726": [
+   [
+    36,
+    65,
+    44,
+    53
+   ],
+   [
+    -1,
+    14,
+    45,
+    155
+   ]
+  ],
+  "p0727": [
+   [
+    95,
+    60,
+    12,
+    23
+   ],
+   [
+    41,
+    64,
+    54,
+    36
+   ],
+   [
+    -13,
+    21,
+    59,
+    148
+   ]
+  ],
+  "p0728": [
+   [
+    -36,
+    53,
+    23,
+    39
+   ],
+   [
+    -39,
+    32,
+    45,
+    139
+   ],
+   [
+    20,
+    39,
+    20,
+    18
+   ],
+   [
+    6,
+    26,
+    33,
+    141
+   ]
+  ],
+  "p0729": [
+   [
+    -19,
+    43,
+    14,
+    85
+   ],
+   [
+    -39,
+    36,
+    53,
+    135
+   ],
+   [
+    14,
+    27,
+    29,
+    140
+   ]
+  ],
+  "p0730": [
+   [
+    -39,
+    33,
+    53,
+    138
+   ],
+   [
+    14,
+    29,
+    34,
+    138
+   ]
+  ],
+  "p0731": [
+   [
+    -21,
+    38,
+    21,
+    40
+   ],
+   [
+    -38,
+    37,
+    52,
+    135
+   ],
+   [
+    49,
+    60,
+    26,
+    26
+   ],
+   [
+    14,
+    27,
+    35,
+    140
+   ]
+  ],
+  "p0732": [
+   [
+    -25,
+    45,
+    16,
+    33
+   ],
+   [
+    -34,
+    37,
+    49,
+    136
+   ],
+   [
+    44,
+    21,
+    24,
+    50
+   ],
+   [
+    15,
+    26,
+    29,
+    141
+   ]
+  ],
+  "p0733": [
+   [
+    -33,
+    50,
+    23,
+    25
+   ],
+   [
+    -32,
+    38,
+    47,
+    135
+   ],
+   [
+    39,
+    21,
+    16,
+    55
+   ],
+   [
+    15,
+    15,
+    26,
+    152
+   ]
+  ],
+  "p0734": [
+   [
+    -63,
+    54,
+    48,
+    11
+   ]
+  ],
+  "p0735": [
+   [
+    -54,
+    49,
+    102,
+    10
+   ]
+  ],
+  "p0736": [
+   [
+    -28,
+    45,
+    118,
+    9
+   ]
+  ],
+  "p0737": [
+   [
+    -33,
+    50,
+    158,
+    9
+   ]
+  ],
+  "p0738": [
+   [
+    -36,
+    40,
+    20,
+    51
+   ],
+   [
+    -28,
+    20,
+    30,
+    148
+   ],
+   [
+    18,
+    43,
+    41,
+    37
+   ],
+   [
+    2,
+    15,
+    32,
+    152
+   ]
+  ],
+  "p0739": [
+   [
+    -51,
+    44,
+    32,
+    51
+   ],
+   [
+    -28,
+    21,
+    37,
+    148
+   ],
+   [
+    19,
+    48,
+    44,
+    41
+   ],
+   [
+    9,
+    22,
+    26,
+    146
+   ]
+  ],
+  "p0740": [
+   [
+    -27,
+    24,
+    30,
+    144
+   ],
+   [
+    23,
+    55,
+    24,
+    25
+   ],
+   [
+    3,
+    19,
+    35,
+    151
+   ]
+  ],
+  "p0741": [
+   [
+    -27,
+    23,
+    31,
+    145
+   ],
+   [
+    4,
+    19,
+    34,
+    151
+   ]
+  ],
+  "p0742": [
+   [
+    -27,
+    20,
+    35,
+    148
+   ],
+   [
+    8,
+    35,
+    29,
+    135
+   ]
+  ],
+  "p0743": [
+   [
+    13,
+    61,
+    21,
+    33
+   ],
+   [
+    -36,
+    22,
+    35,
+    147
+   ],
+   [
+    -1,
+    21,
+    36,
+    147
+   ]
+  ],
+  "p0744": [
+   [
+    14,
+    41,
+    30,
+    19
+   ],
+   [
+    22,
+    88,
+    47,
+    55
+   ],
+   [
+    10,
+    60,
+    18,
+    17
+   ],
+   [
+    -36,
+    14,
+    60,
+    155
+   ]
+  ],
+  "p0745": [
+   [
+    -48,
+    29,
+    27,
+    60
+   ],
+   [
+    35,
+    80,
+    48,
+    33
+   ],
+   [
+    -1,
+    32,
+    28,
+    31
+   ],
+   [
+    -21,
+    38,
+    83,
+    120
+   ]
+  ],
+  "p0746": [
+   [
+    -57,
+    40,
+    38,
+    76
+   ],
+   [
+    52,
+    83,
+    20,
+    35
+   ],
+   [
+    17,
+    87,
+    35,
+    30
+   ],
+   [
+    -19,
+    65,
+    40,
+    55
+   ]
+  ],
+  "p0747": [
+   [
+    -52,
+    64,
+    41,
+    74
+   ],
+   [
+    39,
+    78,
+    24,
+    33
+   ],
+   [
+    -11,
+    86,
+    50,
+    51
+   ]
+  ],
+  "p0748": [
+   [
+    -54,
+    80,
+    33,
+    65
+   ],
+   [
+    -21,
+    103,
+    11,
+    48
+   ],
+   [
+    -10,
+    96,
+    32,
+    55
+   ],
+   [
+    22,
+    80,
+    38,
+    44
+   ]
+  ],
+  "p0749": [
+   [
+    -38,
+    18,
+    45,
+    150
+   ],
+   [
+    7,
+    43,
+    26,
+    124
+   ]
+  ],
+  "p0750": [
+   [
+    -39,
+    29,
+    28,
+    57
+   ],
+   [
+    -21,
+    31,
+    39,
+    139
+   ],
+   [
+    18,
+    90,
+    29,
+    76
+   ]
+  ],
+  "p0751": [
+   [
+    13,
+    56,
+    13,
+    19
+   ],
+   [
+    -27,
+    22,
+    46,
+    148
+   ],
+   [
+    19,
+    92,
+    23,
+    70
+   ]
+  ],
+  "p0752": [
+   [
+    -17,
+    127,
+    20,
+    37
+   ],
+   [
+    -21,
+    24,
+    54,
+    146
+   ]
+  ],
+  "p0753": [
+   [
+    -12,
+    29,
+    25,
+    136
+   ],
+   [
+    13,
+    30,
+    25,
+    140
+   ]
+  ],
+  "p0754": [
+   [
+    -20,
+    129,
+    23,
+    42
+   ],
+   [
+    -10,
+    26,
+    48,
+    139
+   ]
+  ],
+  "p0755": [
+   [
+    -27,
+    17,
+    39,
+    153
+   ],
+   [
+    12,
+    16,
+    29,
+    149
+   ]
+  ],
+  "p0756": [
+   [
+    -43,
+    20,
+    44,
+    149
+   ],
+   [
+    1,
+    20,
+    45,
+    150
+   ]
+  ],
+  "p0757": [
+   [
+    -43,
+    20,
+    43,
+    149
+   ],
+   [
+    0,
+    20,
+    46,
+    150
+   ]
+  ],
+  "p0758": [
+   [
+    -28,
+    95,
+    15,
+    61
+   ],
+   [
+    -13,
+    90,
+    51,
+    67
+   ],
+   [
+    38,
+    87,
+    50,
+    32
+   ]
+  ],
+  "p0759": [
+   [
+    -20,
+    95,
+    18,
+    59
+   ],
+   [
+    -2,
+    73,
+    87,
+    79
+   ]
+  ],
+  "p0760": [
+   [
+    -36,
+    96,
+    21,
+    58
+   ],
+   [
+    -15,
+    89,
+    40,
+    68
+   ],
+   [
+    25,
+    70,
+    53,
+    34
+   ]
+  ],
+  "p0761": [
+   [
+    -21,
+    101,
+    16,
+    48
+   ],
+   [
+    -5,
+    75,
+    34,
+    74
+   ],
+   [
+    29,
+    62,
+    47,
+    78
+   ]
+  ],
+  "p0762": [
+   [
+    -5,
+    96,
+    14,
+    49
+   ],
+   [
+    9,
+    74,
+    89,
+    76
+   ]
+  ],
+  "p0763": [
+   [
+    -15,
+    79,
+    25,
+    66
+   ],
+   [
+    10,
+    58,
+    83,
+    87
+   ]
+  ],
+  "p0764": [
+   [
+    -7,
+    88,
+    15,
+    61
+   ],
+   [
+    8,
+    61,
+    85,
+    88
+   ]
+  ],
+  "p0765": [
+   [
+    -28,
+    84,
+    32,
+    64
+   ],
+   [
+    4,
+    50,
+    79,
+    101
+   ]
+  ],
+  "p0766": [
+   [
+    -1,
+    99,
+    23,
+    58
+   ],
+   [
+    22,
+    88,
+    30,
+    73
+   ],
+   [
+    52,
+    80,
+    64,
+    28
+   ],
+   [
+    52,
+    128,
+    15,
+    19
+   ]
+  ],
+  "p0767": [
+   [
+    -24,
+    104,
+    27,
+    52
+   ],
+   [
+    3,
+    79,
+    43,
+    79
+   ],
+   [
+    46,
+    112,
+    58,
+    40
+   ]
+  ],
+  "p0768": [
+   [
+    -9,
+    91,
+    24,
+    64
+   ],
+   [
+    15,
+    82,
+    26,
+    68
+   ],
+   [
+    41,
+    116,
+    40,
+    27
+   ]
+  ],
+  "p0769": [
+   [
+    -20,
+    101,
+    16,
+    54
+   ],
+   [
+    -4,
+    93,
+    21,
+    62
+   ],
+   [
+    17,
+    93,
+    16,
+    63
+   ],
+   [
+    33,
+    103,
+    66,
+    44
+   ]
+  ],
+  "p0770": [
+   [
+    -25,
+    85,
+    24,
+    73
+   ],
+   [
+    -1,
+    80,
+    19,
+    77
+   ],
+   [
+    18,
+    113,
+    58,
+    38
+   ]
+  ],
+  "p0771": [
+   [
+    -12,
+    99,
+    24,
+    47
+   ],
+   [
+    12,
+    99,
+    15,
+    48
+   ],
+   [
+    27,
+    104,
+    14,
+    41
+   ],
+   [
+    41,
+    113,
+    39,
+    24
+   ]
+  ],
+  "p0772": [
+   [
+    -10,
+    84,
+    17,
+    62
+   ],
+   [
+    7,
+    70,
+    31,
+    76
+   ],
+   [
+    38,
+    92,
+    54,
+    35
+   ]
+  ],
+  "p0773": [
+   [
+    -8,
+    80,
+    47,
+    69
+   ],
+   [
+    39,
+    106,
+    51,
+    36
+   ]
+  ],
+  "p0774": [
+   [
+    -30,
+    95,
+    16,
+    51
+   ],
+   [
+    -14,
+    83,
+    27,
+    55
+   ],
+   [
+    13,
+    83,
+    19,
+    62
+   ],
+   [
+    32,
+    104,
+    52,
+    30
+   ]
+  ],
+  "p0775": [
+   [
+    -5,
+    92,
+    20,
+    69
+   ],
+   [
+    15,
+    89,
+    16,
+    58
+   ],
+   [
+    31,
+    90,
+    21,
+    69
+   ],
+   [
+    52,
+    109,
+    46,
+    38
+   ]
+  ],
+  "p0776": [
+   [
+    -22,
+    67,
+    38,
+    81
+   ],
+   [
+    16,
+    51,
+    37,
+    96
+   ],
+   [
+    53,
+    66,
+    32,
+    14
+   ]
+  ],
+  "p0777": [
+   [
+    -22,
+    123,
+    10,
+    20
+   ],
+   [
+    -12,
+    53,
+    48,
+    91
+   ],
+   [
+    36,
+    69,
+    37,
+    12
+   ]
+  ],
+  "p0778": [
+   [
+    -27,
+    131,
+    9,
+    21
+   ],
+   [
+    -18,
+    71,
+    44,
+    80
+   ],
+   [
+    26,
+    55,
+    66,
+    92
+   ]
+  ],
+  "p0779": [
+   [
+    -38,
+    93,
+    34,
+    54
+   ],
+   [
+    -4,
+    67,
+    36,
+    78
+   ],
+   [
+    32,
+    77,
+    38,
+    17
+   ]
+  ],
+  "p0780": [
+   [
+    -18,
+    57,
+    35,
+    80
+   ],
+   [
+    17,
+    57,
+    42,
+    80
+   ]
+  ],
+  "p0781": [
+   [
+    -34,
+    70,
+    44,
+    74
+   ],
+   [
+    10,
+    56,
+    24,
+    81
+   ],
+   [
+    34,
+    69,
+    32,
+    13
+   ]
+  ],
+  "p0782": [
+   [
+    -25,
+    125,
+    8,
+    22
+   ],
+   [
+    -20,
+    49,
+    38,
+    95
+   ],
+   [
+    18,
+    46,
+    53,
+    97
+   ]
+  ],
+  "p0783": [
+   [
+    -27,
+    119,
+    10,
+    21
+   ],
+   [
+    -17,
+    59,
+    33,
+    82
+   ],
+   [
+    16,
+    44,
+    22,
+    92
+   ],
+   [
+    38,
+    57,
+    36,
+    15
+   ]
+  ],
+  "p0784": [
+   [
+    -19,
+    137,
+    12,
+    16
+   ],
+   [
+    -7,
+    63,
+    62,
+    93
+   ],
+   [
+    55,
+    69,
+    38,
+    23
+   ]
+  ],
+  "p0785": [
+   [
+    -21,
+    10,
+    42,
+    140
+   ],
+   [
+    21,
+    10,
+    26,
+    137
+   ]
+  ],
+  "p0786": [
+   [
+    25,
+    5,
+    25,
+    132
+   ],
+   [
+    9,
+    6,
+    16,
+    89
+   ],
+   [
+    3,
+    114,
+    22,
+    29
+   ]
+  ],
+  "p0787": [
+   [
+    -19,
+    24,
+    41,
+    124
+   ],
+   [
+    22,
+    50,
+    28,
+    15
+   ],
+   [
+    50,
+    53,
+    12,
+    12
+   ],
+   [
+    22,
+    74,
+    23,
+    74
+   ]
+  ],
+  "p0788": [
+   [
+    -30,
+    31,
+    38,
+    116
+   ],
+   [
+    8,
+    14,
+    22,
+    130
+   ]
+  ],
+  "p0789": [
+   [
+    -22,
+    25,
+    36,
+    110
+   ],
+   [
+    14,
+    6,
+    23,
+    131
+   ],
+   [
+    37,
+    10,
+    15,
+    19
+   ]
+  ],
+  "p0790": [
+   [
+    -9,
+    8,
+    34,
+    133
+   ],
+   [
+    25,
+    8,
+    25,
+    129
+   ]
+  ],
+  "p0791": [
+   [
+    -33,
+    16,
+    48,
+    132
+   ],
+   [
+    15,
+    17,
+    25,
+    128
+   ]
+  ],
+  "p0792": [
+   [
+    -21,
+    -1,
+    27,
+    140
+   ],
+   [
+    31,
+    -4,
+    21,
+    27
+   ],
+   [
+    6,
+    -1,
+    32,
+    138
+   ]
+  ],
+  "p0793": [
+   [
+    -26,
+    8,
+    41,
+    141
+   ],
+   [
+    32,
+    16,
+    28,
+    14
+   ],
+   [
+    15,
+    8,
+    27,
+    140
+   ]
+  ],
+  "p0794": [
+   [
+    -32,
+    13,
+    43,
+    127
+   ],
+   [
+    11,
+    12,
+    47,
+    124
+   ],
+   [
+    58,
+    30,
+    35,
+    11
+   ]
+  ],
+  "p0795": [
+   [
+    -43,
+    -12,
+    53,
+    74
+   ],
+   [
+    10,
+    12,
+    34,
+    50
+   ],
+   [
+    44,
+    37,
+    40,
+    20
+   ]
+  ],
+  "p0796": [
+   [
+    -24,
+    -19,
+    69,
+    71
+   ],
+   [
+    45,
+    24,
+    44,
+    19
+   ]
+  ],
+  "p0797": [
+   [
+    -32,
+    6,
+    15,
+    30
+   ],
+   [
+    -17,
+    7,
+    48,
+    79
+   ],
+   [
+    31,
+    34,
+    49,
+    54
+   ],
+   [
+    80,
+    78,
+    10,
+    14
+   ]
+  ],
+  "p0798": [
+   [
+    -16,
+    8,
+    19,
+    60
+   ],
+   [
+    3,
+    9,
+    94,
+    70
+   ]
+  ],
+  "p0799": [
+   [
+    -17,
+    2,
+    62,
+    80
+   ],
+   [
+    45,
+    41,
+    46,
+    45
+   ]
+  ],
+  "p0800": [
+   [
+    -28,
+    24,
+    18,
+    31
+   ],
+   [
+    -10,
+    8,
+    49,
+    68
+   ],
+   [
+    39,
+    37,
+    48,
+    45
+   ]
+  ],
+  "p0801": [
+   [
+    -5,
+    -9,
+    67,
+    92
+   ],
+   [
+    62,
+    54,
+    41,
+    27
+   ]
+  ],
+  "p0802": [
+   [
+    -27,
+    -10,
+    20,
+    32
+   ],
+   [
+    -7,
+    -6,
+    61,
+    92
+   ],
+   [
+    54,
+    33,
+    48,
+    46
+   ]
+  ],
+  "p0803": [
+   [
+    -15,
+    5,
+    51,
+    86
+   ],
+   [
+    36,
+    33,
+    20,
+    60
+   ],
+   [
+    56,
+    64,
+    42,
+    27
+   ]
+  ],
+  "p0804": [
+   [
+    -78,
+    33,
+    65,
+    46
+   ],
+   [
+    -13,
+    -9,
+    50,
+    82
+   ],
+   [
+    37,
+    -9,
+    45,
+    60
+   ]
+  ],
+  "p0805": [
+   [
+    -74,
+    -23,
+    112,
+    84
+   ],
+   [
+    38,
+    -10,
+    40,
+    44
+   ]
+  ],
+  "p0806": [
+   [
+    -72,
+    56,
+    33,
+    15
+   ],
+   [
+    -39,
+    3,
+    86,
+    95
+   ],
+   [
+    47,
+    12,
+    41,
+    64
+   ]
+  ],
+  "p0807": [
+   [
+    -77,
+    17,
+    161,
+    55
+   ]
+  ],
+  "p0808": [
+   [
+    -62,
+    9,
+    46,
+    66
+   ],
+   [
+    -16,
+    23,
+    54,
+    57
+   ],
+   [
+    38,
+    29,
+    47,
+    49
+   ]
+  ],
+  "p0809": [
+   [
+    -50,
+    7,
+    95,
+    72
+   ],
+   [
+    45,
+    31,
+    38,
+    36
+   ]
+  ],
+  "p0810": [
+   [
+    -51,
+    -5,
+    78,
+    86
+   ],
+   [
+    27,
+    -6,
+    48,
+    93
+   ],
+   [
+    75,
+    27,
+    25,
+    17
+   ]
+  ],
+  "p0811": [
+   [
+    -61,
+    34,
+    67,
+    52
+   ],
+   [
+    6,
+    -2,
+    45,
+    86
+   ],
+   [
+    51,
+    24,
+    36,
+    31
+   ]
+  ],
+  "p0812": [
+   [
+    -54,
+    40,
+    55,
+    65
+   ],
+   [
+    1,
+    5,
+    43,
+    102
+   ],
+   [
+    44,
+    5,
+    44,
+    51
+   ]
+  ],
+  "p0813": [
+   [
+    -37,
+    32,
+    46,
+    21
+   ],
+   [
+    9,
+    5,
+    49,
+    67
+   ],
+   [
+    -19,
+    72,
+    42,
+    77
+   ],
+   [
+    23,
+    72,
+    20,
+    75
+   ]
+  ],
+  "p0814": [
+   [
+    -25,
+    47,
+    69,
+    101
+   ],
+   [
+    44,
+    23,
+    49,
+    53
+   ]
+  ],
+  "p0815": [
+   [
+    -17,
+    25,
+    55,
+    113
+   ],
+   [
+    38,
+    7,
+    54,
+    60
+   ]
+  ],
+  "p0816": [
+   [
+    -23,
+    50,
+    49,
+    42
+   ],
+   [
+    17,
+    24,
+    76,
+    120
+   ]
+  ],
+  "p0817": [
+   [
+    -25,
+    46,
+    21,
+    52
+   ],
+   [
+    -4,
+    30,
+    26,
+    115
+   ],
+   [
+    22,
+    13,
+    60,
+    129
+   ]
+  ],
+  "p0818": [
+   [
+    -4,
+    13,
+    53,
+    117
+   ],
+   [
+    49,
+    10,
+    44,
+    41
+   ]
+  ],
+  "p0819": [
+   [
+    -12,
+    39,
+    33,
+    57
+   ],
+   [
+    17,
+    15,
+    78,
+    128
+   ]
+  ],
+  "p0820": [
+   [
+    -28,
+    34,
+    69,
+    111
+   ],
+   [
+    41,
+    18,
+    49,
+    45
+   ]
+  ],
+  "p0821": [
+   [
+    -16,
+    33,
+    45,
+    60
+   ],
+   [
+    25,
+    35,
+    14,
+    99
+   ],
+   [
+    39,
+    9,
+    64,
+    123
+   ]
+  ],
+  "p0822": [
+   [
+    -36,
+    35,
+    48,
+    39
+   ],
+   [
+    12,
+    32,
+    42,
+    120
+   ],
+   [
+    54,
+    28,
+    16,
+    12
+   ],
+   [
+    54,
+    29,
+    68,
+    52
+   ]
+  ],
+  "p0823": [
+   [
+    -75,
+    123,
+    71,
+    26
+   ],
+   [
+    -8,
+    123,
+    71,
+    26
+   ],
+   [
+    -23,
+    67,
+    38,
+    63
+   ],
+   [
+    15,
+    79,
+    45,
+    24
+   ]
+  ],
+  "p0824": [
+   [
+    -29,
+    -6,
+    64,
+    130
+   ],
+   [
+    35,
+    19,
+    44,
+    42
+   ]
+  ],
+  "p0825": [
+   [
+    -20,
+    -10,
+    71,
+    131
+   ],
+   [
+    51,
+    -2,
+    38,
+    32
+   ]
+  ],
+  "p0826": [
+   [
+    -23,
+    12,
+    68,
+    113
+   ],
+   [
+    45,
+    8,
+    38,
+    37
+   ]
+  ],
+  "p0827": [
+   [
+    -52,
+    -8,
+    87,
+    87
+   ],
+   [
+    35,
+    9,
+    35,
+    31
+   ]
+  ],
+  "p0828": [
+   [
+    -24,
+    -11,
+    40,
+    118
+   ],
+   [
+    16,
+    -8,
+    38,
+    63
+   ]
+  ],
+  "p0829": [
+   [
+    -23,
+    -1,
+    40,
+    96
+   ],
+   [
+    17,
+    15,
+    24,
+    35
+   ],
+   [
+    7,
+    95,
+    18,
+    26
+   ]
+  ],
+  "p0830": [
+   [
+    -33,
+    2,
+    92,
+    85
+   ],
+   [
+    59,
+    25,
+    34,
+    30
+   ]
+  ],
+  "p0831": [
+   [
+    -28,
+    3,
+    37,
+    108
+   ],
+   [
+    9,
+    -4,
+    21,
+    69
+   ],
+   [
+    30,
+    11,
+    47,
+    56
+   ]
+  ],
+  "p0832": [
+   [
+    -27,
+    43,
+    20,
+    84
+   ],
+   [
+    -7,
+    -3,
+    45,
+    111
+   ],
+   [
+    38,
+    13,
+    43,
+    37
+   ]
+  ],
+  "p0833": [
+   [
+    -11,
+    9,
+    52,
+    138
+   ],
+   [
+    41,
+    47,
+    17,
+    55
+   ]
+  ],
+  "p0834": [
+   [
+    -15,
+    17,
+    43,
+    120
+   ],
+   [
+    28,
+    44,
+    21,
+    25
+   ]
+  ],
+  "p0835": [
+   [
+    11,
+    -3,
+    43,
+    147
+   ],
+   [
+    54,
+    55,
+    18,
+    12
+   ]
+  ],
+  "p0836": [
+   [
+    -17,
+    17,
+    48,
+    128
+   ],
+   [
+    31,
+    47,
+    22,
+    51
+   ]
+  ],
+  "p0837": [
+   [
+    -4,
+    11,
+    36,
+    126
+   ],
+   [
+    32,
+    58,
+    26,
+    43
+   ]
+  ],
+  "p0838": [
+   [
+    -3,
+    5,
+    37,
+    131
+   ],
+   [
+    34,
+    37,
+    12,
+    43
+   ],
+   [
+    46,
+    37,
+    20,
+    43
+   ]
+  ],
+  "p0839": [
+   [
+    -58,
+    37,
+    40,
+    57
+   ],
+   [
+    -24,
+    33,
+    30,
+    113
+   ],
+   [
+    6,
+    7,
+    37,
+    79
+   ]
+  ],
+  "p0840": [
+   [
+    -18,
+    7,
+    60,
+    131
+   ],
+   [
+    42,
+    35,
+    20,
+    39
+   ]
+  ],
+  "p0841": [
+   [
+    -4,
+    22,
+    16,
+    59
+   ],
+   [
+    12,
+    3,
+    29,
+    145
+   ],
+   [
+    41,
+    47,
+    30,
+    55
+   ]
+  ],
+  "p0842": [
+   [
+    17,
+    15,
+    29,
+    124
+   ],
+   [
+    46,
+    9,
+    57,
+    129
+   ]
+  ],
+  "p0843": [
+   [
+    -14,
+    20,
+    105,
+    128
+   ],
+   [
+    91,
+    53,
+    11,
+    14
+   ]
+  ],
+  "p0844": [
+   [
+    -13,
+    19,
+    120,
+    119
+   ]
+  ],
+  "p0845": [
+   [
+    -11,
+    26,
+    23,
+    51
+   ],
+   [
+    12,
+    39,
+    84,
+    104
+   ],
+   [
+    96,
+    52,
+    13,
+    15
+   ]
+  ],
+  "p0846": [
+   [
+    -28,
+    38,
+    24,
+    55
+   ],
+   [
+    -4,
+    40,
+    50,
+    105
+   ],
+   [
+    46,
+    48,
+    48,
+    24
+   ]
+  ],
+  "p0847": [
+   [
+    -2,
+    6,
+    102,
+    125
+   ]
+  ],
+  "p0848": [
+   [
+    -4,
+    14,
+    97,
+    125
+   ],
+   [
+    93,
+    52,
+    12,
+    13
+   ]
+  ],
+  "p0849": [
+   [
+    -23,
+    20,
+    29,
+    66
+   ],
+   [
+    6,
+    29,
+    93,
+    116
+   ]
+  ],
+  "p0850": [
+   [
+    -12,
+    12,
+    25,
+    63
+   ],
+   [
+    13,
+    20,
+    35,
+    114
+   ],
+   [
+    48,
+    35,
+    65,
+    24
+   ]
+  ],
+  "p0851": [
+   [
+    -3,
+    42,
+    38,
+    107
+   ],
+   [
+    35,
+    16,
+    69,
+    59
+   ]
+  ],
+  "p0852": [
+   [
+    -4,
+    44,
+    21,
+    54
+   ],
+   [
+    17,
+    40,
+    11,
+    52
+   ],
+   [
+    19,
+    3,
+    75,
+    134
+   ]
+  ],
+  "p0853": [
+   [
+    -1,
+    28,
+    49,
+    120
+   ],
+   [
+    48,
+    16,
+    49,
+    43
+   ]
+  ],
+  "p0854": [
+   [
+    -7,
+    42,
+    35,
+    105
+   ],
+   [
+    28,
+    21,
+    63,
+    46
+   ]
+  ],
+  "p0855": [
+   [
+    18,
+    5,
+    38,
+    132
+   ],
+   [
+    56,
+    0,
+    41,
+    63
+   ]
+  ],
+  "p0856": [
+   [
+    -5,
+    13,
+    21,
+    84
+   ],
+   [
+    15,
+    24,
+    21,
+    113
+   ],
+   [
+    36,
+    5,
+    46,
+    47
+   ]
+  ],
+  "p0857": [
+   [
+    -25,
+    42,
+    32,
+    50
+   ],
+   [
+    7,
+    31,
+    31,
+    114
+   ],
+   [
+    38,
+    7,
+    42,
+    56
+   ]
+  ],
+  "p0858": [
+   [
+    -13,
+    29,
+    24,
+    57
+   ],
+   [
+    11,
+    30,
+    40,
+    108
+   ],
+   [
+    51,
+    11,
+    45,
+    34
+   ]
+  ],
+  "p0859": [
+   [
+    -11,
+    13,
+    44,
+    73
+   ],
+   [
+    16,
+    86,
+    22,
+    62
+   ],
+   [
+    33,
+    15,
+    61,
+    53
+   ]
+  ],
+  "p0860": [
+   [
+    -33,
+    82,
+    66,
+    68
+   ],
+   [
+    33,
+    119,
+    60,
+    36
+   ]
+  ],
+  "p0861": [
+   [
+    -21,
+    86,
+    16,
+    50
+   ],
+   [
+    -5,
+    71,
+    48,
+    69
+   ],
+   [
+    43,
+    113,
+    49,
+    35
+   ]
+  ],
+  "p0862": [
+   [
+    -23,
+    85,
+    18,
+    64
+   ],
+   [
+    -5,
+    85,
+    20,
+    55
+   ],
+   [
+    15,
+    95,
+    22,
+    52
+   ],
+   [
+    37,
+    107,
+    60,
+    46
+   ]
+  ],
+  "p0863": [
+   [
+    -36,
+    90,
+    27,
+    59
+   ],
+   [
+    -9,
+    92,
+    46,
+    52
+   ],
+   [
+    37,
+    113,
+    63,
+    40
+   ]
+  ],
+  "p0864": [
+   [
+    -14,
+    69,
+    30,
+    74
+   ],
+   [
+    16,
+    72,
+    52,
+    66
+   ],
+   [
+    68,
+    114,
+    44,
+    24
+   ]
+  ],
+  "p0865": [
+   [
+    -30,
+    95,
+    36,
+    52
+   ],
+   [
+    6,
+    95,
+    24,
+    46
+   ],
+   [
+    30,
+    101,
+    64,
+    39
+   ]
+  ],
+  "p0866": [
+   [
+    -25,
+    89,
+    47,
+    65
+   ],
+   [
+    22,
+    92,
+    22,
+    53
+   ],
+   [
+    44,
+    104,
+    61,
+    39
+   ]
+  ],
+  "p0867": [
+   [
+    -28,
+    74,
+    21,
+    63
+   ],
+   [
+    -7,
+    75,
+    42,
+    60
+   ],
+   [
+    35,
+    98,
+    66,
+    44
+   ]
+  ],
+  "p0868": [
+   [
+    -28,
+    97,
+    17,
+    54
+   ],
+   [
+    -11,
+    89,
+    39,
+    59
+   ],
+   [
+    28,
+    94,
+    10,
+    54
+   ],
+   [
+    38,
+    105,
+    59,
+    49
+   ]
+  ],
+  "p0869": [
+   [
+    -54,
+    33,
+    44,
+    21
+   ],
+   [
+    -40,
+    29,
+    43,
+    119
+   ],
+   [
+    3,
+    12,
+    27,
+    132
+   ],
+   [
+    30,
+    19,
+    76,
+    23
+   ]
+  ]
+ },
+ "stances": {
+  "baraka": {
+   "duck": [
+    "p0223",
+    "p0224",
+    "p0225"
+   ],
+   "getup": [
+    "p0246",
+    "p0247",
+    "p0248",
+    "p0249",
+    "p0250"
+   ],
+   "getup-sweep": [
+    "p0257",
+    "p0258",
+    "p0259",
+    "p0260"
+   ],
+   "hit-ducking": [
+    "p0261",
+    "p0262",
+    "p0261",
+    "p0263",
+    "p0225"
+   ],
+   "hit-high": [
+    "p0240",
+    "p0241",
+    "p0240",
+    "p0242"
+   ],
+   "hit-low": [
+    "p0243",
+    "p0244",
+    "p0243",
+    "p0245"
+   ],
+   "jump-backward": [
+    "p0228",
+    "p0235",
+    "p0234",
+    "p0233",
+    "p0232",
+    "p0231",
+    "p0230",
+    "p0229"
+   ],
+   "jump-forward": [
+    "p0228",
+    "p0229",
+    "p0230",
+    "p0231",
+    "p0232",
+    "p0233",
+    "p0234",
+    "p0235"
+   ],
+   "jump-up": [
+    "p0226",
+    "p0227"
+   ],
+   "skip-forward": [
+    "p0214",
+    "p0215",
+    "p0221",
+    "p0222"
+   ],
+   "stance": [
+    "p0208",
+    "p0209",
+    "p0210",
+    "p0211",
+    "p0212",
+    "p0213",
+    "p0212",
+    "p0211",
+    "p0210",
+    "p0209"
+   ],
+   "stumble": [
+    "p0264",
+    "p0265",
+    "p0266",
+    "p0267",
+    "p0268",
+    "p0269"
+   ],
+   "stunned": [
+    "p0270",
+    "p0270",
+    "p0271",
+    "p0272",
+    "p0273",
+    "p0274",
+    "p0275"
+   ],
+   "sweep-fall": [
+    "p0251",
+    "p0252",
+    "p0253",
+    "p0254",
+    "p0255",
+    "p0256"
+   ],
+   "turn": [
+    "p0236",
+    "p0237",
+    "p0236"
+   ],
+   "turn-ducking": [
+    "p0238",
+    "p0239",
+    "p0239",
+    "p0225"
+   ],
+   "walk-backward": [
+    "p0222",
+    "p0221",
+    "p0215",
+    "p0214"
+   ],
+   "walk-forward": [
+    "p0214",
+    "p0215",
+    "p0216",
+    "p0217",
+    "p0218",
+    "p0219",
+    "p0220",
+    "p0221",
+    "p0222"
+   ]
+  },
+  "jade": {
+   "duck": [
+    "p0291",
+    "p0292",
+    "p0293"
+   ],
+   "getup": [
+    "p0314",
+    "p0315",
+    "p0316",
+    "p0317",
+    "p0318"
+   ],
+   "getup-sweep": [
+    "p0323",
+    "p0324",
+    "p0325",
+    "p0326",
+    "p0327"
+   ],
+   "hit-ducking": [
+    "p0328",
+    "p0329",
+    "p0328",
+    "p0330",
+    "p0293"
+   ],
+   "hit-high": [
+    "p0308",
+    "p0309",
+    "p0308",
+    "p0310"
+   ],
+   "hit-low": [
+    "p0311",
+    "p0312",
+    "p0311",
+    "p0313"
+   ],
+   "jump-backward": [
+    "p0296",
+    "p0303",
+    "p0302",
+    "p0301",
+    "p0300",
+    "p0299",
+    "p0298",
+    "p0297"
+   ],
+   "jump-forward": [
+    "p0296",
+    "p0297",
+    "p0298",
+    "p0299",
+    "p0300",
+    "p0301",
+    "p0302",
+    "p0303"
+   ],
+   "jump-up": [
+    "p0294",
+    "p0295"
+   ],
+   "skip-forward": [
+    "p0282",
+    "p0283",
+    "p0289",
+    "p0290"
+   ],
+   "stance": [
+    "p0276",
+    "p0277",
+    "p0278",
+    "p0279",
+    "p0280",
+    "p0281"
+   ],
+   "stumble": [
+    "p0331",
+    "p0332",
+    "p0333",
+    "p0334",
+    "p0335"
+   ],
+   "stunned": [
+    "p0336",
+    "p0337",
+    "p0338",
+    "p0339",
+    "p0340",
+    "p0341",
+    "p0342"
+   ],
+   "sweep-fall": [
+    "p0319",
+    "p0320",
+    "p0321",
+    "p0322"
+   ],
+   "turn": [
+    "p0304",
+    "p0305",
+    "p0304"
+   ],
+   "turn-ducking": [
+    "p0306",
+    "p0307",
+    "p0306",
+    "p0293"
+   ],
+   "walk-backward": [
+    "p0290",
+    "p0289",
+    "p0283",
+    "p0282"
+   ],
+   "walk-forward": [
+    "p0282",
+    "p0283",
+    "p0284",
+    "p0285",
+    "p0286",
+    "p0287",
+    "p0288",
+    "p0289",
+    "p0290"
+   ]
+  },
+  "jax": {
+   "duck": [
+    "p0567",
+    "p0568",
+    "p0569"
+   ],
+   "getup": [
+    "p0590",
+    "p0591",
+    "p0592",
+    "p0593",
+    "p0594",
+    "p0595"
+   ],
+   "getup-sweep": [
+    "p0602",
+    "p0603",
+    "p0604",
+    "p0605",
+    "p0606"
+   ],
+   "hit-ducking": [
+    "p0607",
+    "p0608",
+    "p0607",
+    "p0609",
+    "p0569"
+   ],
+   "hit-high": [
+    "p0584",
+    "p0585",
+    "p0584",
+    "p0586"
+   ],
+   "hit-low": [
+    "p0587",
+    "p0588",
+    "p0587",
+    "p0589"
+   ],
+   "jump-backward": [
+    "p0572",
+    "p0579",
+    "p0578",
+    "p0577",
+    "p0576",
+    "p0575",
+    "p0574",
+    "p0573"
+   ],
+   "jump-forward": [
+    "p0572",
+    "p0573",
+    "p0574",
+    "p0575",
+    "p0576",
+    "p0577",
+    "p0578",
+    "p0579"
+   ],
+   "jump-up": [
+    "p0570",
+    "p0571"
+   ],
+   "skip-forward": [
+    "p0558",
+    "p0559",
+    "p0565",
+    "p0566"
+   ],
+   "stance": [
+    "p0551",
+    "p0552",
+    "p0553",
+    "p0554",
+    "p0555",
+    "p0556",
+    "p0557"
+   ],
+   "stumble": [
+    "p0610",
+    "p0611",
+    "p0612",
+    "p0613",
+    "p0614",
+    "p0615"
+   ],
+   "stunned": [
+    "p0616",
+    "p0617",
+    "p0618",
+    "p0619",
+    "p0620",
+    "p0621",
+    "p0622"
+   ],
+   "sweep-fall": [
+    "p0596",
+    "p0597",
+    "p0598",
+    "p0599",
+    "p0600",
+    "p0601"
+   ],
+   "turn": [
+    "p0580",
+    "p0581",
+    "p0580"
+   ],
+   "turn-ducking": [
+    "p0582",
+    "p0583",
+    "p0582",
+    "p0569"
+   ],
+   "walk-backward": [
+    "p0566",
+    "p0565",
+    "p0559",
+    "p0558"
+   ],
+   "walk-forward": [
+    "p0558",
+    "p0559",
+    "p0560",
+    "p0561",
+    "p0562",
+    "p0563",
+    "p0564",
+    "p0565",
+    "p0566"
+   ]
+  },
+  "johnny-cage": {
+   "duck": [
+    "p0152",
+    "p0153",
+    "p0154"
+   ],
+   "getup": [
+    "p0176",
+    "p0177",
+    "p0178",
+    "p0179",
+    "p0180",
+    "p0181"
+   ],
+   "getup-sweep": [
+    "p0188",
+    "p0189",
+    "p0190",
+    "p0191",
+    "p0192"
+   ],
+   "hit-ducking": [
+    "p0193",
+    "p0194",
+    "p0193",
+    "p0195",
+    "p0154"
+   ],
+   "hit-high": [
+    "p0170",
+    "p0171",
+    "p0170",
+    "p0172"
+   ],
+   "hit-low": [
+    "p0173",
+    "p0174",
+    "p0173",
+    "p0175"
+   ],
+   "jump-backward": [
+    "p0157",
+    "p0164",
+    "p0163",
+    "p0162",
+    "p0161",
+    "p0160",
+    "p0159",
+    "p0158"
+   ],
+   "jump-forward": [
+    "p0157",
+    "p0158",
+    "p0159",
+    "p0160",
+    "p0161",
+    "p0162",
+    "p0163",
+    "p0164"
+   ],
+   "jump-up": [
+    "p0155",
+    "p0156"
+   ],
+   "skip-forward": [
+    "p0143",
+    "p0144",
+    "p0150",
+    "p0151"
+   ],
+   "stance": [
+    "p0136",
+    "p0137",
+    "p0138",
+    "p0139",
+    "p0140",
+    "p0141",
+    "p0142"
+   ],
+   "stumble": [
+    "p0196",
+    "p0197",
+    "p0198",
+    "p0199",
+    "p0200"
+   ],
+   "stunned": [
+    "p0201",
+    "p0202",
+    "p0203",
+    "p0204",
+    "p0205",
+    "p0206",
+    "p0207"
+   ],
+   "sweep-fall": [
+    "p0182",
+    "p0183",
+    "p0184",
+    "p0185",
+    "p0186",
+    "p0187"
+   ],
+   "turn": [
+    "p0165",
+    "p0166",
+    "p0167",
+    "p0165"
+   ],
+   "turn-ducking": [
+    "p0168",
+    "p0169",
+    "p0168",
+    "p0154"
+   ],
+   "walk-backward": [
+    "p0151",
+    "p0150",
+    "p0144",
+    "p0143"
+   ],
+   "walk-forward": [
+    "p0143",
+    "p0144",
+    "p0145",
+    "p0146",
+    "p0147",
+    "p0148",
+    "p0149",
+    "p0150",
+    "p0151"
+   ]
+  },
+  "kintaro": {
+   "duck": [
+    "p0660",
+    "p0661",
+    "p0662",
+    "p0663"
+   ],
+   "getup": [
+    "p0687",
+    "p0688",
+    "p0689",
+    "p0688"
+   ],
+   "getup-sweep": [
+    "p0696",
+    "p0697",
+    "p0698",
+    "p0699"
+   ],
+   "hit-high": [
+    "p0687",
+    "p0688",
+    "p0689",
+    "p0690",
+    "p0691",
+    "p0692"
+   ],
+   "hit-low": [
+    "p0331",
+    "p0332",
+    "p0333",
+    "p0334",
+    "p0335"
+   ],
+   "jump-backward": [
+    "p0674",
+    "p0675",
+    "p0676",
+    "p0675"
+   ],
+   "jump-forward": [
+    "p0666",
+    "p0667",
+    "p0668",
+    "p0669",
+    "p0670",
+    "p0671",
+    "p0672",
+    "p0673"
+   ],
+   "jump-up": [
+    "p0664",
+    "p0665"
+   ],
+   "skip-forward": [
+    "p0648",
+    "p0649",
+    "p0650",
+    "p0651",
+    "p0652",
+    "p0651",
+    "p0650",
+    "p0649",
+    "p0648"
+   ],
+   "stance": [
+    "p0623",
+    "p0624",
+    "p0625",
+    "p0626",
+    "p0627",
+    "p0628",
+    "p0629",
+    "p0630",
+    "p0629",
+    "p0628",
+    "p0627",
+    "p0626",
+    "p0625",
+    "p0624"
+   ],
+   "sweep-fall": [
+    "p0693",
+    "p0694",
+    "p0695"
+   ],
+   "turn": [
+    "p0677",
+    "p0678",
+    "p0679",
+    "p0680",
+    "p0681",
+    "p0682"
+   ],
+   "turn-ducking": [
+    "p0683",
+    "p0684",
+    "p0685",
+    "p0686"
+   ],
+   "walk-backward": [
+    "p0656",
+    "p0657",
+    "p0658",
+    "p0659"
+   ],
+   "walk-forward": [
+    "p0631",
+    "p0632",
+    "p0633",
+    "p0634",
+    "p0635",
+    "p0636",
+    "p0637",
+    "p0638",
+    "p0639",
+    "p0640",
+    "p0641",
+    "p0642",
+    "p0643",
+    "p0644",
+    "p0645",
+    "p0646",
+    "p0647"
+   ]
+  },
+  "kitana": {
+   "duck": [
+    "p0291",
+    "p0292",
+    "p0293"
+   ],
+   "getup": [
+    "p0314",
+    "p0315",
+    "p0316",
+    "p0317",
+    "p0318"
+   ],
+   "getup-sweep": [
+    "p0323",
+    "p0324",
+    "p0325",
+    "p0326",
+    "p0327"
+   ],
+   "hit-ducking": [
+    "p0328",
+    "p0329",
+    "p0328",
+    "p0330",
+    "p0293"
+   ],
+   "hit-high": [
+    "p0308",
+    "p0309",
+    "p0308",
+    "p0310"
+   ],
+   "hit-low": [
+    "p0311",
+    "p0312",
+    "p0311",
+    "p0313"
+   ],
+   "jump-backward": [
+    "p0296",
+    "p0303",
+    "p0302",
+    "p0301",
+    "p0300",
+    "p0299",
+    "p0298",
+    "p0297"
+   ],
+   "jump-forward": [
+    "p0296",
+    "p0297",
+    "p0298",
+    "p0299",
+    "p0300",
+    "p0301",
+    "p0302",
+    "p0303"
+   ],
+   "jump-up": [
+    "p0294",
+    "p0295"
+   ],
+   "skip-forward": [
+    "p0282",
+    "p0283",
+    "p0289",
+    "p0290"
+   ],
+   "stance": [
+    "p0276",
+    "p0277",
+    "p0278",
+    "p0279",
+    "p0280",
+    "p0281"
+   ],
+   "stumble": [
+    "p0331",
+    "p0332",
+    "p0333",
+    "p0334",
+    "p0335"
+   ],
+   "stunned": [
+    "p0336",
+    "p0337",
+    "p0338",
+    "p0339",
+    "p0340",
+    "p0341",
+    "p0342"
+   ],
+   "sweep-fall": [
+    "p0319",
+    "p0320",
+    "p0321",
+    "p0322"
+   ],
+   "turn": [
+    "p0304",
+    "p0305",
+    "p0304"
+   ],
+   "turn-ducking": [
+    "p0306",
+    "p0307",
+    "p0306",
+    "p0293"
+   ],
+   "walk-backward": [
+    "p0290",
+    "p0289",
+    "p0283",
+    "p0282"
+   ],
+   "walk-forward": [
+    "p0282",
+    "p0283",
+    "p0284",
+    "p0285",
+    "p0286",
+    "p0287",
+    "p0288",
+    "p0289",
+    "p0290"
+   ]
+  },
+  "kung-lao": {
+   "duck": [
+    "p0016",
+    "p0017",
+    "p0018"
+   ],
+   "getup": [
+    "p0038",
+    "p0039",
+    "p0040",
+    "p0041"
+   ],
+   "getup-sweep": [
+    "p0046",
+    "p0047",
+    "p0048",
+    "p0049",
+    "p0050"
+   ],
+   "hit-ducking": [
+    "p0051",
+    "p0052",
+    "p0051",
+    "p0053",
+    "p0018"
+   ],
+   "hit-high": [
+    "p0032",
+    "p0033",
+    "p0032",
+    "p0034"
+   ],
+   "hit-low": [
+    "p0035",
+    "p0036",
+    "p0035",
+    "p0037"
+   ],
+   "jump-backward": [
+    "p0021",
+    "p0028",
+    "p0027",
+    "p0026",
+    "p0025",
+    "p0024",
+    "p0023",
+    "p0022"
+   ],
+   "jump-forward": [
+    "p0021",
+    "p0022",
+    "p0023",
+    "p0024",
+    "p0025",
+    "p0026",
+    "p0027",
+    "p0028"
+   ],
+   "jump-up": [
+    "p0019",
+    "p0020"
+   ],
+   "skip-forward": [
+    "p0007",
+    "p0008",
+    "p0014",
+    "p0015"
+   ],
+   "stance": [
+    "p0001",
+    "p0002",
+    "p0003",
+    "p0004",
+    "p0004",
+    "p0005",
+    "p0002",
+    "p0006"
+   ],
+   "stumble": [
+    "p0054",
+    "p0055",
+    "p0056",
+    "p0057",
+    "p0058",
+    "p0059"
+   ],
+   "stunned": [
+    "p0060",
+    "p0061",
+    "p0062",
+    "p0063",
+    "p0064",
+    "p0065",
+    "p0066"
+   ],
+   "sweep-fall": [
+    "p0042",
+    "p0043",
+    "p0044",
+    "p0045"
+   ],
+   "turn": [
+    "p0029",
+    "p0029"
+   ],
+   "turn-ducking": [
+    "p0030",
+    "p0031",
+    "p0030",
+    "p0018"
+   ],
+   "walk-backward": [
+    "p0015",
+    "p0014",
+    "p0008",
+    "p0007"
+   ],
+   "walk-forward": [
+    "p0007",
+    "p0008",
+    "p0009",
+    "p0010",
+    "p0011",
+    "p0012",
+    "p0013",
+    "p0014",
+    "p0015"
+   ]
+  },
+  "liu-kang": {
+   "duck": [
+    "p0083",
+    "p0084",
+    "p0085"
+   ],
+   "getup": [
+    "p0106",
+    "p0107",
+    "p0108",
+    "p0109",
+    "p0110"
+   ],
+   "getup-sweep": [
+    "p0115",
+    "p0116",
+    "p0117",
+    "p0118",
+    "p0119",
+    "p0120"
+   ],
+   "hit-ducking": [
+    "p0121",
+    "p0122",
+    "p0121",
+    "p0123",
+    "p0085"
+   ],
+   "hit-high": [
+    "p0100",
+    "p0101",
+    "p0100",
+    "p0102"
+   ],
+   "hit-low": [
+    "p0103",
+    "p0104",
+    "p0103",
+    "p0105"
+   ],
+   "jump-backward": [
+    "p0088",
+    "p0095",
+    "p0094",
+    "p0093",
+    "p0092",
+    "p0091",
+    "p0090",
+    "p0089"
+   ],
+   "jump-forward": [
+    "p0088",
+    "p0089",
+    "p0090",
+    "p0091",
+    "p0092",
+    "p0093",
+    "p0094",
+    "p0095"
+   ],
+   "jump-up": [
+    "p0086",
+    "p0087"
+   ],
+   "skip-forward": [
+    "p0074",
+    "p0075",
+    "p0081",
+    "p0082"
+   ],
+   "stance": [
+    "p0067",
+    "p0068",
+    "p0069",
+    "p0070",
+    "p0071",
+    "p0072",
+    "p0073"
+   ],
+   "stumble": [
+    "p0124",
+    "p0125",
+    "p0126",
+    "p0127",
+    "p0128"
+   ],
+   "stunned": [
+    "p0129",
+    "p0130",
+    "p0131",
+    "p0132",
+    "p0133",
+    "p0134",
+    "p0135"
+   ],
+   "sweep-fall": [
+    "p0111",
+    "p0112",
+    "p0113",
+    "p0114"
+   ],
+   "turn": [
+    "p0096",
+    "p0097",
+    "p0097",
+    "p0096"
+   ],
+   "turn-ducking": [
+    "p0098",
+    "p0099",
+    "p0099",
+    "p0085"
+   ],
+   "walk-backward": [
+    "p0082",
+    "p0081",
+    "p0075",
+    "p0074"
+   ],
+   "walk-forward": [
+    "p0074",
+    "p0075",
+    "p0076",
+    "p0077",
+    "p0078",
+    "p0079",
+    "p0080",
+    "p0081",
+    "p0082"
+   ]
+  },
+  "mileena": {
+   "duck": [
+    "p0291",
+    "p0292",
+    "p0293"
+   ],
+   "getup": [
+    "p0314",
+    "p0315",
+    "p0316",
+    "p0317",
+    "p0318"
+   ],
+   "getup-sweep": [
+    "p0323",
+    "p0324",
+    "p0325",
+    "p0326",
+    "p0327"
+   ],
+   "hit-ducking": [
+    "p0328",
+    "p0329",
+    "p0328",
+    "p0330",
+    "p0293"
+   ],
+   "hit-high": [
+    "p0308",
+    "p0309",
+    "p0308",
+    "p0310"
+   ],
+   "hit-low": [
+    "p0311",
+    "p0312",
+    "p0311",
+    "p0313"
+   ],
+   "jump-backward": [
+    "p0296",
+    "p0303",
+    "p0302",
+    "p0301",
+    "p0300",
+    "p0299",
+    "p0298",
+    "p0297"
+   ],
+   "jump-forward": [
+    "p0296",
+    "p0297",
+    "p0298",
+    "p0299",
+    "p0300",
+    "p0301",
+    "p0302",
+    "p0303"
+   ],
+   "jump-up": [
+    "p0294",
+    "p0295"
+   ],
+   "skip-forward": [
+    "p0282",
+    "p0283",
+    "p0289",
+    "p0290"
+   ],
+   "stance": [
+    "p0276",
+    "p0277",
+    "p0278",
+    "p0279",
+    "p0280",
+    "p0281"
+   ],
+   "stumble": [
+    "p0331",
+    "p0332",
+    "p0333",
+    "p0334",
+    "p0335"
+   ],
+   "stunned": [
+    "p0336",
+    "p0337",
+    "p0338",
+    "p0339",
+    "p0340",
+    "p0341",
+    "p0342"
+   ],
+   "sweep-fall": [
+    "p0319",
+    "p0320",
+    "p0321",
+    "p0322"
+   ],
+   "turn": [
+    "p0304",
+    "p0305",
+    "p0304"
+   ],
+   "turn-ducking": [
+    "p0306",
+    "p0307",
+    "p0306",
+    "p0293"
+   ],
+   "walk-backward": [
+    "p0290",
+    "p0289",
+    "p0283",
+    "p0282"
+   ],
+   "walk-forward": [
+    "p0282",
+    "p0283",
+    "p0284",
+    "p0285",
+    "p0286",
+    "p0287",
+    "p0288",
+    "p0289",
+    "p0290"
+   ]
+  },
+  "noob-saibot": {
+   "duck": [
+    "p0495",
+    "p0496",
+    "p0497"
+   ],
+   "getup": [
+    "p0518",
+    "p0519",
+    "p0520",
+    "p0521",
+    "p0522",
+    "p0523"
+   ],
+   "getup-sweep": [
+    "p0530",
+    "p0531",
+    "p0532",
+    "p0533",
+    "p0534"
+   ],
+   "hit-ducking": [
+    "p0535",
+    "p0536",
+    "p0535",
+    "p0537",
+    "p0497"
+   ],
+   "hit-high": [
+    "p0512",
+    "p0513",
+    "p0512",
+    "p0514"
+   ],
+   "hit-low": [
+    "p0515",
+    "p0516",
+    "p0515",
+    "p0517"
+   ],
+   "jump-backward": [
+    "p0500",
+    "p0507",
+    "p0506",
+    "p0505",
+    "p0504",
+    "p0503",
+    "p0502",
+    "p0501"
+   ],
+   "jump-forward": [
+    "p0500",
+    "p0501",
+    "p0502",
+    "p0503",
+    "p0504",
+    "p0505",
+    "p0506",
+    "p0507"
+   ],
+   "jump-up": [
+    "p0498",
+    "p0499"
+   ],
+   "skip-forward": [
+    "p0486",
+    "p0487",
+    "p0493",
+    "p0494"
+   ],
+   "stance": [
+    "p0479",
+    "p0480",
+    "p0481",
+    "p0482",
+    "p0483",
+    "p0484",
+    "p0485",
+    "p0484",
+    "p0483",
+    "p0482",
+    "p0481",
+    "p0480"
+   ],
+   "stumble": [
+    "p0538",
+    "p0539",
+    "p0540",
+    "p0541",
+    "p0542",
+    "p0543"
+   ],
+   "stunned": [
+    "p0544",
+    "p0545",
+    "p0546",
+    "p0547",
+    "p0548",
+    "p0549",
+    "p0550"
+   ],
+   "sweep-fall": [
+    "p0524",
+    "p0525",
+    "p0526",
+    "p0527",
+    "p0528",
+    "p0529"
+   ],
+   "turn": [
+    "p0508",
+    "p0509",
+    "p0508"
+   ],
+   "turn-ducking": [
+    "p0510",
+    "p0511",
+    "p0510",
+    "p0497"
+   ],
+   "walk-backward": [
+    "p0494",
+    "p0493",
+    "p0487",
+    "p0486"
+   ],
+   "walk-forward": [
+    "p0486",
+    "p0487",
+    "p0488",
+    "p0489",
+    "p0490",
+    "p0491",
+    "p0492",
+    "p0493",
+    "p0494"
+   ]
+  },
+  "raiden": {
+   "duck": [
+    "p0428",
+    "p0429",
+    "p0430"
+   ],
+   "getup": [
+    "p0451",
+    "p0452",
+    "p0453",
+    "p0454",
+    "p0455",
+    "p0456"
+   ],
+   "getup-sweep": [
+    "p0462"
+   ],
+   "hit-ducking": [
+    "p0463",
+    "p0464",
+    "p0463",
+    "p0465",
+    "p0430"
+   ],
+   "hit-high": [
+    "p0445",
+    "p0446",
+    "p0445",
+    "p0447"
+   ],
+   "hit-low": [
+    "p0448",
+    "p0449",
+    "p0448",
+    "p0450"
+   ],
+   "jump-backward": [
+    "p0433",
+    "p0440",
+    "p0439",
+    "p0438",
+    "p0437",
+    "p0436",
+    "p0435",
+    "p0434"
+   ],
+   "jump-forward": [
+    "p0433",
+    "p0434",
+    "p0435",
+    "p0436",
+    "p0437",
+    "p0438",
+    "p0439",
+    "p0440"
+   ],
+   "jump-up": [
+    "p0431",
+    "p0432"
+   ],
+   "skip-forward": [
+    "p0419",
+    "p0420",
+    "p0426",
+    "p0427"
+   ],
+   "stance": [
+    "p0413",
+    "p0413",
+    "p0414",
+    "p0415",
+    "p0416",
+    "p0417",
+    "p0418",
+    "p0418",
+    "p0417",
+    "p0416",
+    "p0415",
+    "p0414"
+   ],
+   "stumble": [
+    "p0466",
+    "p0467",
+    "p0468",
+    "p0469",
+    "p0470",
+    "p0471"
+   ],
+   "stunned": [
+    "p0472",
+    "p0473",
+    "p0474",
+    "p0475",
+    "p0476",
+    "p0477",
+    "p0478"
+   ],
+   "sweep-fall": [
+    "p0457",
+    "p0458",
+    "p0459",
+    "p0460",
+    "p0461"
+   ],
+   "turn": [
+    "p0441",
+    "p0442",
+    "p0441"
+   ],
+   "turn-ducking": [
+    "p0443",
+    "p0444",
+    "p0443",
+    "p0430"
+   ],
+   "walk-backward": [
+    "p0427",
+    "p0426",
+    "p0420",
+    "p0419"
+   ],
+   "walk-forward": [
+    "p0419",
+    "p0420",
+    "p0421",
+    "p0422",
+    "p0423",
+    "p0424",
+    "p0425",
+    "p0426",
+    "p0427"
+   ]
+  },
+  "reptile": {
+   "duck": [
+    "p0495",
+    "p0496",
+    "p0497"
+   ],
+   "getup": [
+    "p0518",
+    "p0519",
+    "p0520",
+    "p0521",
+    "p0522",
+    "p0523"
+   ],
+   "getup-sweep": [
+    "p0530",
+    "p0531",
+    "p0532",
+    "p0533",
+    "p0534"
+   ],
+   "hit-ducking": [
+    "p0535",
+    "p0536",
+    "p0535",
+    "p0537",
+    "p0497"
+   ],
+   "hit-high": [
+    "p0512",
+    "p0513",
+    "p0512",
+    "p0514"
+   ],
+   "hit-low": [
+    "p0515",
+    "p0516",
+    "p0515",
+    "p0517"
+   ],
+   "jump-backward": [
+    "p0500",
+    "p0507",
+    "p0506",
+    "p0505",
+    "p0504",
+    "p0503",
+    "p0502",
+    "p0501"
+   ],
+   "jump-forward": [
+    "p0500",
+    "p0501",
+    "p0502",
+    "p0503",
+    "p0504",
+    "p0505",
+    "p0506",
+    "p0507"
+   ],
+   "jump-up": [
+    "p0498",
+    "p0499"
+   ],
+   "skip-forward": [
+    "p0486",
+    "p0487",
+    "p0493",
+    "p0494"
+   ],
+   "stance": [
+    "p0479",
+    "p0480",
+    "p0481",
+    "p0482",
+    "p0483",
+    "p0484",
+    "p0485",
+    "p0484",
+    "p0483",
+    "p0482",
+    "p0481",
+    "p0480"
+   ],
+   "stumble": [
+    "p0538",
+    "p0539",
+    "p0540",
+    "p0541",
+    "p0542",
+    "p0543"
+   ],
+   "stunned": [
+    "p0544",
+    "p0545",
+    "p0546",
+    "p0547",
+    "p0548",
+    "p0549",
+    "p0550"
+   ],
+   "sweep-fall": [
+    "p0524",
+    "p0525",
+    "p0526",
+    "p0527",
+    "p0528",
+    "p0529"
+   ],
+   "turn": [
+    "p0508",
+    "p0509",
+    "p0508"
+   ],
+   "turn-ducking": [
+    "p0510",
+    "p0511",
+    "p0510",
+    "p0497"
+   ],
+   "walk-backward": [
+    "p0494",
+    "p0493",
+    "p0487",
+    "p0486"
+   ],
+   "walk-forward": [
+    "p0486",
+    "p0487",
+    "p0488",
+    "p0489",
+    "p0490",
+    "p0491",
+    "p0492",
+    "p0493",
+    "p0494"
+   ]
+  },
+  "scorpion": {
+   "duck": [
+    "p0495",
+    "p0496",
+    "p0497"
+   ],
+   "getup": [
+    "p0518",
+    "p0519",
+    "p0520",
+    "p0521",
+    "p0522",
+    "p0523"
+   ],
+   "getup-sweep": [
+    "p0530",
+    "p0531",
+    "p0532",
+    "p0533",
+    "p0534"
+   ],
+   "hit-ducking": [
+    "p0535",
+    "p0536",
+    "p0535",
+    "p0537",
+    "p0497"
+   ],
+   "hit-high": [
+    "p0512",
+    "p0513",
+    "p0512",
+    "p0514"
+   ],
+   "hit-low": [
+    "p0515",
+    "p0516",
+    "p0515",
+    "p0517"
+   ],
+   "jump-backward": [
+    "p0500",
+    "p0507",
+    "p0506",
+    "p0505",
+    "p0504",
+    "p0503",
+    "p0502",
+    "p0501"
+   ],
+   "jump-forward": [
+    "p0500",
+    "p0501",
+    "p0502",
+    "p0503",
+    "p0504",
+    "p0505",
+    "p0506",
+    "p0507"
+   ],
+   "jump-up": [
+    "p0498",
+    "p0499"
+   ],
+   "skip-forward": [
+    "p0486",
+    "p0487",
+    "p0493",
+    "p0494"
+   ],
+   "stance": [
+    "p0479",
+    "p0480",
+    "p0481",
+    "p0482",
+    "p0483",
+    "p0484",
+    "p0485",
+    "p0484",
+    "p0483",
+    "p0482",
+    "p0481",
+    "p0480"
+   ],
+   "stumble": [
+    "p0538",
+    "p0539",
+    "p0540",
+    "p0541",
+    "p0542",
+    "p0543"
+   ],
+   "stunned": [
+    "p0544",
+    "p0545",
+    "p0546",
+    "p0547",
+    "p0548",
+    "p0549",
+    "p0550"
+   ],
+   "sweep-fall": [
+    "p0524",
+    "p0525",
+    "p0526",
+    "p0527",
+    "p0528",
+    "p0529"
+   ],
+   "turn": [
+    "p0508",
+    "p0509",
+    "p0508"
+   ],
+   "turn-ducking": [
+    "p0510",
+    "p0511",
+    "p0510",
+    "p0497"
+   ],
+   "walk-backward": [
+    "p0494",
+    "p0493",
+    "p0487",
+    "p0486"
+   ],
+   "walk-forward": [
+    "p0486",
+    "p0487",
+    "p0488",
+    "p0489",
+    "p0490",
+    "p0491",
+    "p0492",
+    "p0493",
+    "p0494"
+   ]
+  },
+  "shang-tsung": {
+   "duck": [
+    "p0359",
+    "p0360",
+    "p0361"
+   ],
+   "getup": [
+    "p0382",
+    "p0383",
+    "p0384",
+    "p0385",
+    "p0386"
+   ],
+   "getup-sweep": [
+    "p0392",
+    "p0393",
+    "p0394",
+    "p0395",
+    "p0396"
+   ],
+   "hit-ducking": [
+    "p0397",
+    "p0398",
+    "p0397",
+    "p0399",
+    "p0361"
+   ],
+   "hit-high": [
+    "p0376",
+    "p0377",
+    "p0376",
+    "p0378"
+   ],
+   "hit-low": [
+    "p0379",
+    "p0380",
+    "p0379",
+    "p0381"
+   ],
+   "jump-backward": [
+    "p0364",
+    "p0371",
+    "p0370",
+    "p0369",
+    "p0368",
+    "p0367",
+    "p0366",
+    "p0365"
+   ],
+   "jump-forward": [
+    "p0364",
+    "p0365",
+    "p0366",
+    "p0367",
+    "p0368",
+    "p0369",
+    "p0370",
+    "p0371"
+   ],
+   "jump-up": [
+    "p0362",
+    "p0363"
+   ],
+   "skip-forward": [
+    "p0350",
+    "p0351",
+    "p0357",
+    "p0358"
+   ],
+   "stance": [
+    "p0343",
+    "p0344",
+    "p0345",
+    "p0346",
+    "p0347",
+    "p0348",
+    "p0349"
+   ],
+   "stumble": [
+    "p0400",
+    "p0401",
+    "p0402",
+    "p0403",
+    "p0404",
+    "p0405"
+   ],
+   "stunned": [
+    "p0406",
+    "p0407",
+    "p0408",
+    "p0409",
+    "p0410",
+    "p0411",
+    "p0412"
+   ],
+   "sweep-fall": [
+    "p0387",
+    "p0388",
+    "p0389",
+    "p0390",
+    "p0391"
+   ],
+   "turn": [
+    "p0372",
+    "p0373",
+    "p0372"
+   ],
+   "turn-ducking": [
+    "p0374",
+    "p0375",
+    "p0374",
+    "p0361"
+   ],
+   "walk-backward": [
+    "p0358",
+    "p0357",
+    "p0351",
+    "p0350"
+   ],
+   "walk-forward": [
+    "p0350",
+    "p0351",
+    "p0352",
+    "p0353",
+    "p0354",
+    "p0355",
+    "p0356",
+    "p0357",
+    "p0358"
+   ]
+  },
+  "shao-kahn": {
+   "duck": [
+    "p0728",
+    "p0729",
+    "p0730",
+    "p0731",
+    "p0732",
+    "p0733"
+   ],
+   "hit-high": [
+    "p0749",
+    "p0750",
+    "p0751",
+    "p0752",
+    "p0753",
+    "p0754",
+    "p0755"
+   ],
+   "hit-low": [
+    "p0331",
+    "p0332",
+    "p0333",
+    "p0334",
+    "p0335"
+   ],
+   "jump-backward": [
+    "p0740",
+    "p0741",
+    "p0742"
+   ],
+   "jump-forward": [
+    "p0738",
+    "p0739",
+    "p0738"
+   ],
+   "jump-up": [
+    "p0734",
+    "p0735",
+    "p0736",
+    "p0737"
+   ],
+   "skip-forward": [
+    "p0716",
+    "p0717",
+    "p0716"
+   ],
+   "stance": [
+    "p0700",
+    "p0701",
+    "p0702",
+    "p0703",
+    "p0704",
+    "p0705",
+    "p0706"
+   ],
+   "sweep-fall": [
+    "p0756",
+    "p0756",
+    "p0757",
+    "p0756",
+    "p0756",
+    "p0756",
+    "p0756"
+   ],
+   "turn": [
+    "p0743",
+    "p0744",
+    "p0745",
+    "p0746",
+    "p0747",
+    "p0748"
+   ],
+   "turn-ducking": [
+    "p0715",
+    "p0714",
+    "p0713",
+    "p0712",
+    "p0711",
+    "p0710",
+    "p0709",
+    "p0708",
+    "p0707"
+   ],
+   "walk-backward": [
+    "p0723",
+    "p0724",
+    "p0725",
+    "p0726",
+    "p0727"
+   ],
+   "walk-forward": [
+    "p0707",
+    "p0708",
+    "p0709",
+    "p0710",
+    "p0711",
+    "p0712",
+    "p0713",
+    "p0714",
+    "p0715"
+   ]
+  },
+  "smoke": {
+   "duck": [
+    "p0495",
+    "p0496",
+    "p0497"
+   ],
+   "getup": [
+    "p0518",
+    "p0519",
+    "p0520",
+    "p0521",
+    "p0522",
+    "p0523"
+   ],
+   "getup-sweep": [
+    "p0530",
+    "p0531",
+    "p0532",
+    "p0533",
+    "p0534"
+   ],
+   "hit-ducking": [
+    "p0535",
+    "p0536",
+    "p0535",
+    "p0537",
+    "p0497"
+   ],
+   "hit-high": [
+    "p0512",
+    "p0513",
+    "p0512",
+    "p0514"
+   ],
+   "hit-low": [
+    "p0515",
+    "p0516",
+    "p0515",
+    "p0517"
+   ],
+   "jump-backward": [
+    "p0500",
+    "p0507",
+    "p0506",
+    "p0505",
+    "p0504",
+    "p0503",
+    "p0502",
+    "p0501"
+   ],
+   "jump-forward": [
+    "p0500",
+    "p0501",
+    "p0502",
+    "p0503",
+    "p0504",
+    "p0505",
+    "p0506",
+    "p0507"
+   ],
+   "jump-up": [
+    "p0498",
+    "p0499"
+   ],
+   "skip-forward": [
+    "p0486",
+    "p0487",
+    "p0493",
+    "p0494"
+   ],
+   "stance": [
+    "p0479",
+    "p0480",
+    "p0481",
+    "p0482",
+    "p0483",
+    "p0484",
+    "p0485",
+    "p0484",
+    "p0483",
+    "p0482",
+    "p0481",
+    "p0480"
+   ],
+   "stumble": [
+    "p0538",
+    "p0539",
+    "p0540",
+    "p0541",
+    "p0542",
+    "p0543"
+   ],
+   "stunned": [
+    "p0544",
+    "p0545",
+    "p0546",
+    "p0547",
+    "p0548",
+    "p0549",
+    "p0550"
+   ],
+   "sweep-fall": [
+    "p0524",
+    "p0525",
+    "p0526",
+    "p0527",
+    "p0528",
+    "p0529"
+   ],
+   "turn": [
+    "p0508",
+    "p0509",
+    "p0508"
+   ],
+   "turn-ducking": [
+    "p0510",
+    "p0511",
+    "p0510",
+    "p0497"
+   ],
+   "walk-backward": [
+    "p0494",
+    "p0493",
+    "p0487",
+    "p0486"
+   ],
+   "walk-forward": [
+    "p0486",
+    "p0487",
+    "p0488",
+    "p0489",
+    "p0490",
+    "p0491",
+    "p0492",
+    "p0493",
+    "p0494"
+   ]
+  },
+  "sub-zero": {
+   "duck": [
+    "p0495",
+    "p0496",
+    "p0497"
+   ],
+   "getup": [
+    "p0518",
+    "p0519",
+    "p0520",
+    "p0521",
+    "p0522",
+    "p0523"
+   ],
+   "getup-sweep": [
+    "p0530",
+    "p0531",
+    "p0532",
+    "p0533",
+    "p0534"
+   ],
+   "hit-ducking": [
+    "p0535",
+    "p0536",
+    "p0535",
+    "p0537",
+    "p0497"
+   ],
+   "hit-high": [
+    "p0512",
+    "p0513",
+    "p0512",
+    "p0514"
+   ],
+   "hit-low": [
+    "p0515",
+    "p0516",
+    "p0515",
+    "p0517"
+   ],
+   "jump-backward": [
+    "p0500",
+    "p0507",
+    "p0506",
+    "p0505",
+    "p0504",
+    "p0503",
+    "p0502",
+    "p0501"
+   ],
+   "jump-forward": [
+    "p0500",
+    "p0501",
+    "p0502",
+    "p0503",
+    "p0504",
+    "p0505",
+    "p0506",
+    "p0507"
+   ],
+   "jump-up": [
+    "p0498",
+    "p0499"
+   ],
+   "skip-forward": [
+    "p0486",
+    "p0487",
+    "p0493",
+    "p0494"
+   ],
+   "stance": [
+    "p0479",
+    "p0480",
+    "p0481",
+    "p0482",
+    "p0483",
+    "p0484",
+    "p0485",
+    "p0484",
+    "p0483",
+    "p0482",
+    "p0481",
+    "p0480"
+   ],
+   "stumble": [
+    "p0538",
+    "p0539",
+    "p0540",
+    "p0541",
+    "p0542",
+    "p0543"
+   ],
+   "stunned": [
+    "p0544",
+    "p0545",
+    "p0546",
+    "p0547",
+    "p0548",
+    "p0549",
+    "p0550"
+   ],
+   "sweep-fall": [
+    "p0524",
+    "p0525",
+    "p0526",
+    "p0527",
+    "p0528",
+    "p0529"
+   ],
+   "turn": [
+    "p0508",
+    "p0509",
+    "p0508"
+   ],
+   "turn-ducking": [
+    "p0510",
+    "p0511",
+    "p0510",
+    "p0497"
+   ],
+   "walk-backward": [
+    "p0494",
+    "p0493",
+    "p0487",
+    "p0486"
+   ],
+   "walk-forward": [
+    "p0486",
+    "p0487",
+    "p0488",
+    "p0489",
+    "p0490",
+    "p0491",
+    "p0492",
+    "p0493",
+    "p0494"
+   ]
+  }
+ }
+}

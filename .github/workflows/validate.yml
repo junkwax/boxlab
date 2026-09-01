@@ -1,0 +1,44 @@
+name: validate
+
+# Runs on a stranger's pull request, on a machine that has never seen the
+# game's source - which is the whole design constraint. Nothing here downloads
+# anything, and nothing here needs the build.
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # Shape AND disclosure. A proposal that names something from the game's
+      # source fails here even if every number in it is perfect.
+      - name: Validate the data
+        run: python tools/validate.py
+
+      # The check that the check works. Eight injected faults, each of which
+      # must be rejected.
+      - name: Prove the validator rejects what it should
+        run: python tools/prove_validator.py
+
+  viewer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Runs index.html's own javascript against the committed data, so a
+      # change to either that breaks the other is caught before merge.
+      - name: Selftest the viewer
+        run: node tools/selftest.mjs

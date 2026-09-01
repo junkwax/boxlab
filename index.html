@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Boxlab</title>
+<meta name="description" content="What a 1993 arcade fighter actually tests when you press a button: strike boxes, hurt boxes, and the quarter-width hit column, drawn from the game's own tables.">
+<style>
+:root{
+  --bg:#0e1013; --panel:#161a20; --line:#262c35; --ink:#e6e9ee; --dim:#8b95a3;
+  --hit:#ff4d4d; --body:#3ddc84; --hurt:#ffffff; --anchor:#4da3ff; --warn:#ffb020;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
+}
+@media (prefers-color-scheme:light){
+  :root{ --bg:#f6f7f9; --panel:#fff; --line:#dde1e7; --ink:#12151a; --dim:#5c6672;
+         --hurt:#111820; }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+     font:15px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+header{padding:22px 20px 14px;border-bottom:1px solid var(--line)}
+h1{margin:0;font-size:19px;letter-spacing:.2px}
+h1 span{color:var(--dim);font-weight:400}
+.sub{color:var(--dim);font-size:13.5px;margin-top:5px;max-width:70ch}
+main{max-width:1180px;margin:0 auto;padding:18px 20px 60px}
+.bar{display:flex;flex-wrap:wrap;gap:14px;align-items:flex-end;
+     background:var(--panel);border:1px solid var(--line);border-radius:10px;
+     padding:14px;margin-bottom:14px}
+label{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.08em;
+      color:var(--dim);margin-bottom:5px}
+select,input[type=range]{background:var(--bg);color:var(--ink);
+      border:1px solid var(--line);border-radius:6px;padding:6px 8px;font-size:14px}
+select{min-width:150px}
+input[type=range]{padding:0;width:220px;vertical-align:middle}
+.toggles{display:flex;flex-wrap:wrap;gap:12px;font-size:13px;color:var(--dim)}
+.toggles label{display:flex;align-items:center;gap:6px;text-transform:none;
+      letter-spacing:0;font-size:13px;margin:0;cursor:pointer;color:var(--ink)}
+.key{display:inline-block;width:11px;height:11px;border-radius:2px;border:2px solid}
+.stage{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+       padding:10px;overflow-x:auto}
+canvas{display:block;width:100%;height:auto;image-rendering:pixelated}
+.verdict{margin:14px 0;padding:13px 15px;border-radius:10px;border:1px solid var(--line);
+         background:var(--panel);font-size:15px}
+.verdict b{font-family:var(--mono)}
+.hit-yes{border-left:4px solid var(--body)}
+.hit-no{border-left:4px solid var(--hit)}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));
+      margin-top:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px}
+.card h2{margin:0 0 10px;font-size:12px;text-transform:uppercase;
+         letter-spacing:.08em;color:var(--dim)}
+table{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:13px}
+td{padding:3px 0;border-bottom:1px solid var(--line)}
+td:last-child{text-align:right}
+tr:last-child td{border-bottom:0}
+.tl{display:flex;height:26px;border-radius:5px;overflow:hidden;margin:8px 0 4px;
+    border:1px solid var(--line);font-family:var(--mono);font-size:11px}
+.tl div{display:flex;align-items:center;justify-content:center;color:#0e1013;
+        font-weight:600;min-width:0;overflow:hidden}
+.tl .s{background:#6b7684}.tl .a{background:var(--hit)}.tl .r{background:#39506b;color:#dfe6ef}
+.note{color:var(--dim);font-size:12.5px;margin-top:8px}
+.warn{color:var(--warn)}
+code{font-family:var(--mono);font-size:12.5px;background:var(--bg);
+     border:1px solid var(--line);border-radius:4px;padding:1px 5px}
+footer{border-top:1px solid var(--line);color:var(--dim);font-size:12.5px;
+       padding:18px 20px;max-width:1180px;margin:0 auto}
+a{color:var(--anchor)}
+#err{display:none;background:#3a1e1e;border:1px solid #7a3a3a;color:#ffd9d9;
+     padding:14px;border-radius:10px;font-size:14px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Boxlab <span>— what the game actually tests when you press a button</span></h1>
+  <div class="sub">
+    This fighter does not test sprites against sprites. It tests <em>one authored
+    rectangle</em> against the <em>bounding box</em> of the other fighter's pieces,
+    narrowed to a quarter of its width. Everything drawn below is that model, read
+    out of the game's own tables. No artwork is used, or needed.
+  </div>
+</header>
+
+<main>
+<div id="err"></div>
+
+<div class="bar" id="controls" hidden>
+  <div><label for="atk">Attacker</label><select id="atk"></select></div>
+  <div><label for="mv">Move</label><select id="mv"></select></div>
+  <div><label for="def">Defender</label><select id="def"></select></div>
+  <div><label for="pose">Defender pose</label><select id="pose"></select></div>
+  <div><label for="fr">Frame <span id="frv"></span></label>
+    <input type="range" id="fr" min="0" max="0" value="0"></div>
+  <div>
+    <label for="dist">Distance between anchors — <span id="distv">80</span> px</label>
+    <input type="range" id="dist" min="0" max="260" value="80">
+  </div>
+</div>
+
+<div class="bar" id="tog" hidden>
+  <div class="toggles">
+    <label><input type="checkbox" id="t_hit" checked>
+      <span class="key" style="border-color:var(--hit)"></span> strike box</label>
+    <label><input type="checkbox" id="t_body" checked>
+      <span class="key" style="border-color:var(--body)"></span> pieces (silhouette)</label>
+    <label><input type="checkbox" id="t_hurt" checked>
+      <span class="key" style="border-color:var(--hurt)"></span> hurt box, as tested</label>
+    <label><input type="checkbox" id="t_full">
+      <span class="key" style="border-color:var(--dim)"></span> hurt box before the squeeze</label>
+    <label><input type="checkbox" id="t_anc">
+      <span class="key" style="border-color:var(--anchor)"></span> anchors</label>
+  </div>
+</div>
+
+<div class="stage"><canvas id="cv" width="1120" height="470"></canvas></div>
+<div class="verdict" id="verdict">…</div>
+
+<div class="grid">
+  <div class="card"><h2>The box</h2><table id="tbox"></table>
+    <div class="note" id="boxnote"></div></div>
+  <div class="card"><h2>Timing</h2><div id="tl"></div><table id="tframe"></table>
+    <div class="note" id="framenote"></div></div>
+  <div class="card"><h2>Provenance</h2><table id="tprov"></table>
+    <div class="note">Every number on this page came out of the build named here.
+      Nothing is measured by eye or copied from another game.</div></div>
+</div>
+</main>
+
+<footer>
+  An unofficial fan project. Not affiliated with, endorsed by, or associated with
+  Warner Bros. Entertainment Inc. or NetherRealm Studios. Character names are used
+  only to identify the characters they name. No game code, artwork, audio or ROM
+  data is distributed here — see <a href="NOTICE.md">NOTICE.md</a>.
+</footer>
+
+<script>
+const $ = id => document.getElementById(id);
+let BOX = null, POSE = null, FRAME = null;
+let byId = {}, flags = {}, contacts = {}, frames = {}, chars = [], charById = {};
+
+/* ---------------------------------------------------------------- loading */
+Promise.all(["data/boxes.json","data/poses.json","data/frames.json"]
+    .map(u => fetch(u).then(r => { if(!r.ok) throw new Error(u+": "+r.status);
+                                   return r.json(); })))
+  .then(([b,p,f]) => { BOX=b; POSE=p; FRAME=f; init(); })
+  .catch(e => {
+    $("err").style.display = "block";
+    $("err").innerHTML = "<b>Could not load the data files.</b><br>" + e.message +
+      "<br><br>Opening this file straight off disk will not work — the browser " +
+      "blocks it. Serve the folder instead:<br><code>python -m http.server</code>" +
+      " then open <code>http://localhost:8000/</code>";
+  });
+
+function init(){
+  BOX.moves.forEach(m => byId[m.id] = m);
+  flags = BOX.flags || {};
+  POSE.contacts.forEach(c => { (contacts[c.move] ||= {})[c.character] = c; });
+  FRAME.moves.forEach(m => { (frames[m.id] ||= {})[m.character] = m; });
+  chars = POSE.characters;
+  chars.forEach(c => charById[c.id] = c);
+
+  fill($("atk"), chars.map(c => [c.id, c.name]));
+  fill($("def"), chars.map(c => [c.id, c.name]));
+  $("atk").value = "liu-kang";
+  $("def").value = "liu-kang";
+  refreshMoves();
+  refreshPoses();
+  refreshFrames();
+  $("controls").hidden = $("tog").hidden = false;
+
+  ["atk"].forEach(id => $(id).addEventListener("change", () => {
+    refreshMoves(); draw(); }));
+  ["def"].forEach(id => $(id).addEventListener("change", () => {
+    refreshPoses(); refreshFrames(); draw(); }));
+  $("pose").addEventListener("change", () => { refreshFrames(); draw(); });
+  $("fr").addEventListener("input", () => { refreshFrames(); draw(); });
+  $("mv").addEventListener("change", draw);
+  $("dist").addEventListener("input", () => {
+    $("distv").textContent = $("dist").value; draw(); });
+  ["t_hit","t_body","t_hurt","t_full","t_anc"]
+    .forEach(id => $(id).addEventListener("change", draw));
+  addEventListener("resize", draw);
+  draw();
+}
+
+function fill(sel, pairs, keep){
+  const was = keep ? sel.value : null;
+  sel.innerHTML = "";
+  for (const [v,t] of pairs){
+    const o = document.createElement("option");
+    o.value = v; o.textContent = t; sel.append(o);
+  }
+  if (was && pairs.some(p => p[0] === was)) sel.value = was;
+}
+
+/* A character's moves are the records of the strike TABLE they use — which is
+   shared: Kitana, Mileena and Jade read one table, and the five ninjas read
+   another. Listing them per character rather than per table is the whole
+   reason someone opens this page. */
+function refreshMoves(){
+  const table = charById[$("atk").value].table;
+  const list = BOX.moves.filter(m => m.table === table)
+    .map(m => [m.id, m.id.split("/")[1].replace(/-/g," ")])
+    .sort((a,b) => a[1].localeCompare(b[1]));
+  fill($("mv"), list.length ? list : [["","(no records)"]], true);
+}
+
+function refreshFrames(){
+  const lane = (POSE.stances[$("def").value] || {})[$("pose").value] || [];
+  const fr = $("fr");
+  fr.max = Math.max(lane.length - 1, 0);
+  if (+fr.value > +fr.max) fr.value = 0;
+  fr.disabled = lane.length < 2;
+  $("frv").textContent = lane.length ? (+fr.value + 1) + " of " + lane.length : "—";
+}
+
+function refreshPoses(){
+  const st = POSE.stances[$("def").value] || {};
+  const order = ["stance","duck","block","walk-forward","walk-backward",
+                 "jump-up","jump-forward","jump-backward","turn","hit-high",
+                 "hit-low","hit-ducking","stumble","stunned","getup",
+                 "sweep-fall","getup-sweep","skip-forward","skip-backward",
+                 "turn-ducking"];
+  const keys = Object.keys(st).sort(
+    (a,b) => (order.indexOf(a)+99*(order.indexOf(a)<0)) -
+             (order.indexOf(b)+99*(order.indexOf(b)<0)));
+  fill($("pose"), keys.map(k => [k, k.replace(/-/g," ") +
+        " (" + st[k].length + (st[k].length === 1 ? " frame)" : " frames)")]), true);
+}
+
+/* ------------------------------------------------------------ the model  */
+const bbox = rects => rects.reduce((a,[x,y,w,h]) => a
+  ? [Math.min(a[0],x), Math.min(a[1],y), Math.max(a[2],x+w), Math.max(a[3],y+h)]
+  : [x,y,x+w,y+h], null);
+
+/* The squeeze: an inset of W/8 + W/4 is taken off EACH side, by shifts, so
+   integer truncation is part of the answer. What survives is a quarter of the
+   width - not the five eighths the arithmetic is usually described as. */
+function squeeze(l, r){
+  const W = r - l, inset = (W >> 3) + (W >> 2);
+  return [l + inset, r - inset];
+}
+
+function state(){
+  const atk = $("atk").value, def = $("def").value, id = $("mv").value;
+  const rec = byId[id];
+  const contact = (contacts[id] || {})[atk] || null;
+  const atkRects = contact ? POSE.poses[contact.pose] : null;
+
+  const st = POSE.stances[def] || {};
+  const lane = st[$("pose").value] || [];
+  const fi = Math.min(+$("fr").value, Math.max(lane.length - 1, 0));
+  const defRects = lane.length ? POSE.poses[lane[fi]] : null;
+  const laneW = lane.map(p => { const b = bbox(POSE.poses[p]);
+                                return b[2] - b[0]; });
+
+  const D = +$("dist").value;
+  /* The defender faces the attacker, so his pieces are mirrored about his own
+     anchor before being placed in the world. */
+  const defWorld = (defRects || []).map(([x,y,w,h]) => [D - x - w, y, w, h]);
+  const atkWorld = (atkRects || []).map(([x,y,w,h]) => [x, y, w, h]);
+
+  let strike = null;
+  if (rec) strike = [rec.front - rec.width, rec.y, rec.front, rec.y + rec.height];
+
+  let hurtFull = defWorld.length ? bbox(defWorld) : null;
+  let hurt = hurtFull ? hurtFull.slice() : null;
+  const sq = (flags[id] || []).includes("squeeze");
+  if (hurt && sq){ const [l,r] = squeeze(hurt[0], hurt[2]); hurt[0]=l; hurt[2]=r; }
+
+  let overlap = null;
+  if (strike && hurt)
+    overlap = strike[0] < hurt[2] && strike[2] > hurt[0] &&
+              strike[1] < hurt[3] && strike[3] > hurt[1];
+
+  return {atk, def, id, rec, contact, atkWorld, defWorld, strike,
+          hurt, hurtFull, sq, overlap, D, lane, fi, laneW};
+}
+
+/* ---------------------------------------------------------------- drawing */
+function draw(){
+  const s = state();
+  const cv = $("cv"), g = cv.getContext("2d");
+  const cssW = cv.clientWidth || 1120;
+  const dpr = Math.min(devicePixelRatio || 1, 2);
+  cv.width = Math.round(cssW * dpr);
+  cv.height = Math.round(470 * dpr);
+  g.setTransform(dpr,0,0,dpr,0,0);
+  g.clearRect(0,0,cssW,470);
+
+  const all = [...s.atkWorld, ...s.defWorld];
+  if (s.strike) all.push([s.strike[0], s.strike[1],
+                          s.strike[2]-s.strike[0], s.strike[3]-s.strike[1]]);
+  if (!all.length){ report(s); return; }
+  const bb = bbox(all);
+  const padX = 30, padY = 24;
+  const scale = Math.min((cssW - 2*padX) / Math.max(bb[2]-bb[0], 1),
+                         (470 - 2*padY) / Math.max(bb[3]-bb[1], 1), 3.1);
+  const ox = padX - bb[0]*scale + (cssW - 2*padX - (bb[2]-bb[0])*scale)/2;
+  const oy = padY - bb[1]*scale;
+  const X = v => ox + v*scale, Y = v => oy + v*scale;
+
+  const css = getComputedStyle(document.documentElement);
+  const C = n => css.getPropertyValue(n).trim();
+
+  // floor
+  const floor = Y(bb[3]);
+  g.strokeStyle = C("--line"); g.lineWidth = 1;
+  g.beginPath(); g.moveTo(0, floor + 0.5); g.lineTo(cssW, floor + 0.5); g.stroke();
+
+  const rect = (r, colour, fill, dash) => {
+    g.save();
+    if (dash) g.setLineDash(dash);
+    g.strokeStyle = colour; g.lineWidth = 2;
+    const x = X(r[0]), y = Y(r[1]), w = (r[2]-r[0])*scale, h = (r[3]-r[1])*scale;
+    if (fill){ g.fillStyle = fill; g.fillRect(x,y,w,h); }
+    g.strokeRect(Math.round(x)+.5, Math.round(y)+.5, Math.round(w), Math.round(h));
+    g.restore();
+  };
+  const pieces = (list, colour, fill) => list.forEach(([x,y,w,h]) =>
+    rect([x,y,x+w,y+h], colour, fill));
+
+  if ($("t_body").checked){
+    pieces(s.defWorld, C("--body"), "rgba(61,220,132,.10)");
+    pieces(s.atkWorld, C("--body"), "rgba(61,220,132,.05)");
+  }
+  if ($("t_full").checked && s.hurtFull)
+    rect(s.hurtFull, C("--dim"), null, [4,4]);
+  if ($("t_hurt").checked && s.hurt)
+    rect(s.hurt, C("--hurt"), "rgba(255,255,255,.06)");
+  if ($("t_hit").checked && s.strike)
+    rect(s.strike, C("--hit"),
+         s.overlap ? "rgba(255,77,77,.22)" : "rgba(255,77,77,.10)");
+
+  if ($("t_anc").checked){
+    g.strokeStyle = C("--anchor"); g.lineWidth = 1;
+    [[0,"attacker"],[s.D,"defender"]].forEach(([wx,txt]) => {
+      g.beginPath();
+      g.moveTo(X(wx), Y(bb[1])); g.lineTo(X(wx), floor); g.stroke();
+      g.fillStyle = C("--anchor"); g.font = "11px " + C("--mono");
+      g.fillText(txt, X(wx)+4, Y(bb[1])+11);
+    });
+  }
+  report(s);
+}
+
+/* ---------------------------------------------------------------- readout */
+function report(s){
+  const v = $("verdict");
+  if (!s.rec){ v.textContent = "No record selected."; return; }
+  if (!s.hurt){
+    v.className = "verdict";
+    v.textContent = "No pose geometry for this defender — nothing to test against.";
+  } else if (s.overlap){
+    v.className = "verdict hit-yes";
+    v.innerHTML = "<b>Connects</b> at " + s.D + " px. The strike box spans <b>" +
+      s.strike[0] + "…" + s.strike[2] + "</b> and the tested column spans <b>" +
+      s.hurt[0] + "…" + s.hurt[2] + "</b>.";
+  } else {
+    const gapX = s.strike[0] > s.hurt[2] ? s.strike[0] - s.hurt[2]
+               : s.hurt[0] > s.strike[2] ? s.hurt[0] - s.strike[2] : 0;
+    const vertical = !(s.strike[1] < s.hurt[3] && s.strike[3] > s.hurt[1]);
+    v.className = "verdict hit-no";
+    v.innerHTML = "<b>Whiffs</b> at " + s.D + " px — " + (vertical && !gapX
+      ? "the two overlap horizontally but miss vertically: the box covers <b>" +
+        s.strike[1] + "…" + s.strike[3] + "</b> and the body <b>" +
+        s.hurt[1] + "…" + s.hurt[3] + "</b>."
+      : "short by <b>" + gapX + " px</b>. " + (s.sq
+        ? "The silhouette reaches " + s.hurtFull[0] + "…" + s.hurtFull[2] +
+          ", but only the quarter-width column at " + s.hurt[0] + "…" +
+          s.hurt[2] + " can be hit."
+        : "This record does not squeeze, so the whole silhouette is live."));
+  }
+
+  const r = s.rec;
+  $("tbox").innerHTML = row("front edge (reach)", r.front) +
+    row("width, backwards from the front", r.width) +
+    row("top edge, down from the anchor", r.y) + row("height", r.height) +
+    row("damage on hit", r.hit) + row("damage on block", r.block) +
+    row("squeezes the victim", s.sq ? "yes" : "no") +
+    row("must be blocked low", (flags[s.id]||[]).includes("duck") ? "yes":"no");
+  $("boxnote").innerHTML = "<b>Reach is not range.</b> <code>front</code> is " +
+    "where the box ends, not where the move lands. The victim is cut to a " +
+    "quarter of his width first, so a move connects to roughly " +
+    "<code>front + victim_width/8</code> and no further — widening a box by " +
+    "20 px does not buy 20 px of range.";
+
+  const f = (frames[s.id] || {})[s.atk];
+  if (f){
+    const tot = (f.startup||0) + (f.active||0) + (f.recovery||0);
+    const seg = (n,c,t) => n ? '<div class="'+c+'" style="flex:'+n+'">'+
+                               (n/tot > .09 ? t+" "+n : "")+'</div>' : "";
+    $("tl").innerHTML = '<div class="tl">' + seg(f.startup,"s","startup") +
+      seg(f.active,"a","active") + seg(f.recovery,"r","recovery") + '</div>';
+    $("tframe").innerHTML = row("startup", f.startup) + row("active", f.active) +
+      row("recovery", f.recovery) +
+      row("on block", f.on_block !== undefined ? sgn(f.on_block) : "—") +
+      row("on hit", f.on_hit ? (f.on_hit[0] === f.on_hit[1] ? sgn(f.on_hit[0])
+          : sgn(f.on_hit[0]) + " … " + sgn(f.on_hit[1])) : "—") +
+      row("blockstun", f.blockstun);
+    $("framenote").innerHTML = "Ticks, at 54.7 Hz — one tick is 18.28 ms, " +
+      "not 16.7." + (f.approx ? " <span class='warn'>The recovery tail is " +
+      "approximated for this move.</span>" : "");
+  } else {
+    $("tl").innerHTML = "";
+    $("tframe").innerHTML = row("startup", "—") + row("active", "—") +
+      row("recovery", "—");
+    $("framenote").textContent = "No timing resolved for this move on this " +
+      "character. Travelling moves, projectiles and the standing punches are " +
+      "left out rather than guessed — a missing row costs nothing, a wrong " +
+      "one costs a match.";
+  }
+
+  if (s.laneW && s.laneW.length > 1){
+    const lo = Math.min(...s.laneW), hi = Math.max(...s.laneW);
+    if (hi !== lo)
+      $("boxnote").innerHTML += "<br><br><b>This pose breathes.</b> Across its " +
+        s.laneW.length + " frames the silhouette swings between <code>" + lo +
+        "</code> and <code>" + hi + " px</code> wide, so the tested column " +
+        "moves with it — at the edge of a move's range, which frame of an " +
+        "idle animation you are on can decide the hit.";
+  }
+
+  const conf = s.contact ? s.contact.confidence : null;
+  $("tprov").innerHTML = row("record", s.id) +
+    row("strike table", r.table) +
+    row("box digest", BOX.meta.base_digest) +
+    row("pose digest", POSE.meta.digest) +
+    row("built from", BOX.meta.base_commit || "—") +
+    row("contact pose", conf === "table" ? "resolved by table"
+      : conf === "handler-name" ? "resolved by handler"
+      : conf === "assumed" ? "assumed — verify" : "not resolved");
+}
+
+const row = (k,v) => "<tr><td>"+k+"</td><td>"+
+  (v === undefined || v === null ? "—" : v)+"</td></tr>";
+const sgn = n => (n > 0 ? "+" : "") + n;
+</script>
+</body>
+</html>

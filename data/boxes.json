@@ -1,0 +1,3705 @@
+{
+ "flags": {
+  "baraka/duckkickh": [
+   "squeeze"
+  ],
+  "baraka/duckkickl": [
+   "squeeze"
+  ],
+  "baraka/duckpunch": [
+   "squeeze"
+  ],
+  "baraka/elbow": [
+   "squeeze"
+  ],
+  "baraka/flipk": [
+   "squeeze"
+  ],
+  "baraka/flipp": [
+   "squeeze"
+  ],
+  "baraka/hikick": [
+   "squeeze"
+  ],
+  "baraka/hipunch": [
+   "squeeze"
+  ],
+  "baraka/jumpupk": [
+   "squeeze"
+  ],
+  "baraka/jumpupp": [
+   "squeeze"
+  ],
+  "baraka/lokick": [
+   "squeeze"
+  ],
+  "baraka/lopunch": [
+   "squeeze"
+  ],
+  "baraka/roundh": [
+   "squeeze"
+  ],
+  "baraka/shred": [
+   "squeeze"
+  ],
+  "baraka/spark1": [
+   "squeeze"
+  ],
+  "baraka/spark2": [
+   "squeeze"
+  ],
+  "baraka/spin": [
+   "squeeze"
+  ],
+  "baraka/sweepk": [
+   "duck"
+  ],
+  "baraka/swipe": [
+   "squeeze"
+  ],
+  "baraka/swordkick": [
+   "squeeze"
+  ],
+  "baraka/uppercut": [
+   "squeeze"
+  ],
+  "baraka/zap4": [
+   "squeeze"
+  ],
+  "goro-kintaro/ro-fireball": [
+   "squeeze"
+  ],
+  "goro-kintaro/ro-kick": [
+   "squeeze"
+  ],
+  "goro-kintaro/ro-punch": [
+   "squeeze"
+  ],
+  "goro-kintaro/ro-uppercut": [
+   "squeeze"
+  ],
+  "jax/duckkickh": [
+   "squeeze"
+  ],
+  "jax/duckkickl": [
+   "squeeze"
+  ],
+  "jax/duckpunch": [
+   "squeeze"
+  ],
+  "jax/dummy": [
+   "squeeze"
+  ],
+  "jax/elbow": [
+   "squeeze"
+  ],
+  "jax/flipk": [
+   "squeeze"
+  ],
+  "jax/flipp": [
+   "squeeze"
+  ],
+  "jax/hikick": [
+   "squeeze"
+  ],
+  "jax/hipunch": [
+   "squeeze"
+  ],
+  "jax/jumpupk": [
+   "squeeze"
+  ],
+  "jax/jumpupp": [
+   "squeeze"
+  ],
+  "jax/lokick": [
+   "squeeze"
+  ],
+  "jax/lopunch": [
+   "squeeze"
+  ],
+  "jax/noogy": [
+   "squeeze"
+  ],
+  "jax/powerp": [
+   "squeeze"
+  ],
+  "jax/roundh": [
+   "squeeze"
+  ],
+  "jax/sweepk": [
+   "duck"
+  ],
+  "jax/uppercut": [
+   "squeeze"
+  ],
+  "jax/zap": [
+   "squeeze"
+  ],
+  "johnny-cage/duckkickh": [
+   "squeeze"
+  ],
+  "johnny-cage/duckkickl": [
+   "squeeze"
+  ],
+  "johnny-cage/duckpunch": [
+   "squeeze"
+  ],
+  "johnny-cage/elbow": [
+   "squeeze"
+  ],
+  "johnny-cage/flipk": [
+   "squeeze"
+  ],
+  "johnny-cage/flipp": [
+   "squeeze"
+  ],
+  "johnny-cage/hikick": [
+   "squeeze"
+  ],
+  "johnny-cage/hipunch": [
+   "squeeze"
+  ],
+  "johnny-cage/jumpupp": [
+   "squeeze"
+  ],
+  "johnny-cage/lokick": [
+   "squeeze"
+  ],
+  "johnny-cage/lopunch": [
+   "squeeze"
+  ],
+  "johnny-cage/pp": [
+   "squeeze"
+  ],
+  "johnny-cage/roundh": [
+   "squeeze"
+  ],
+  "johnny-cage/shadow": [
+   "squeeze"
+  ],
+  "johnny-cage/split": [
+   "squeeze"
+  ],
+  "johnny-cage/sweepk": [
+   "duck"
+  ],
+  "johnny-cage/uppercut": [
+   "squeeze"
+  ],
+  "johnny-cage/zap4": [
+   "squeeze"
+  ],
+  "kitana-mileena/2-tele": [
+   "squeeze"
+  ],
+  "kitana-mileena/duckkickh": [
+   "squeeze"
+  ],
+  "kitana-mileena/duckkickl": [
+   "squeeze"
+  ],
+  "kitana-mileena/duckpunch": [
+   "squeeze"
+  ],
+  "kitana-mileena/elbow": [
+   "squeeze"
+  ],
+  "kitana-mileena/fan-swipe": [
+   "squeeze"
+  ],
+  "kitana-mileena/fans": [
+   "squeeze"
+  ],
+  "kitana-mileena/flipk": [
+   "squeeze"
+  ],
+  "kitana-mileena/flipp": [
+   "squeeze"
+  ],
+  "kitana-mileena/hikick": [
+   "squeeze"
+  ],
+  "kitana-mileena/hipunch": [
+   "squeeze"
+  ],
+  "kitana-mileena/jade-boom": [
+   "squeeze"
+  ],
+  "kitana-mileena/jumpupk": [
+   "squeeze"
+  ],
+  "kitana-mileena/jumpupp": [
+   "squeeze"
+  ],
+  "kitana-mileena/kano": [
+   "squeeze"
+  ],
+  "kitana-mileena/lokick": [
+   "squeeze"
+  ],
+  "kitana-mileena/lopunch": [
+   "squeeze"
+  ],
+  "kitana-mileena/nitro": [
+   "squeeze"
+  ],
+  "kitana-mileena/roundh": [
+   "squeeze"
+  ],
+  "kitana-mileena/spinchop": [
+   "squeeze"
+  ],
+  "kitana-mileena/spinfan": [
+   "squeeze"
+  ],
+  "kitana-mileena/square": [
+   "squeeze"
+  ],
+  "kitana-mileena/sweepk": [
+   "duck"
+  ],
+  "kitana-mileena/tsai": [
+   "squeeze"
+  ],
+  "kitana-mileena/uppercut": [
+   "squeeze"
+  ],
+  "kung-lao/duckkickh": [
+   "squeeze"
+  ],
+  "kung-lao/duckkickl": [
+   "duck"
+  ],
+  "kung-lao/duckpunch": [
+   "squeeze"
+  ],
+  "kung-lao/elbow": [
+   "squeeze"
+  ],
+  "kung-lao/flipk": [
+   "squeeze"
+  ],
+  "kung-lao/flipp": [
+   "squeeze"
+  ],
+  "kung-lao/hat": [
+   "squeeze"
+  ],
+  "kung-lao/hikick": [
+   "squeeze"
+  ],
+  "kung-lao/hipunch": [
+   "squeeze"
+  ],
+  "kung-lao/jumpupk": [
+   "squeeze"
+  ],
+  "kung-lao/jumpupp": [
+   "squeeze"
+  ],
+  "kung-lao/knee": [
+   "squeeze"
+  ],
+  "kung-lao/lokick": [
+   "squeeze"
+  ],
+  "kung-lao/lopunch": [
+   "squeeze"
+  ],
+  "kung-lao/roundh": [
+   "squeeze"
+  ],
+  "kung-lao/super-rep": [
+   "squeeze"
+  ],
+  "kung-lao/sweepk": [
+   "duck"
+  ],
+  "kung-lao/uppercut": [
+   "squeeze"
+  ],
+  "liu-kang/bike": [
+   "squeeze"
+  ],
+  "liu-kang/dbuc": [
+   "squeeze"
+  ],
+  "liu-kang/duckkickh": [
+   "squeeze"
+  ],
+  "liu-kang/duckkickl": [
+   "duck"
+  ],
+  "liu-kang/duckpunch": [
+   "squeeze"
+  ],
+  "liu-kang/elbow": [
+   "squeeze"
+  ],
+  "liu-kang/flipk": [
+   "squeeze"
+  ],
+  "liu-kang/flipp": [
+   "squeeze"
+  ],
+  "liu-kang/hikick": [
+   "squeeze"
+  ],
+  "liu-kang/hipunch": [
+   "squeeze"
+  ],
+  "liu-kang/jumpupk": [
+   "squeeze"
+  ],
+  "liu-kang/jumpupp": [
+   "squeeze"
+  ],
+  "liu-kang/knee": [
+   "squeeze"
+  ],
+  "liu-kang/lokick": [
+   "squeeze"
+  ],
+  "liu-kang/lopunch": [
+   "squeeze"
+  ],
+  "liu-kang/roundh": [
+   "squeeze"
+  ],
+  "liu-kang/super": [
+   "squeeze"
+  ],
+  "liu-kang/sweepk": [
+   "duck"
+  ],
+  "liu-kang/uppercut": [
+   "squeeze"
+  ],
+  "liu-kang/zap1": [
+   "squeeze"
+  ],
+  "liu-kang/zap2": [
+   "squeeze"
+  ],
+  "liu-kang/zap3": [
+   "squeeze"
+  ],
+  "liu-kang/zap4": [
+   "squeeze"
+  ],
+  "ninjas/decoy": [
+   "squeeze"
+  ],
+  "ninjas/duckkickh": [
+   "squeeze"
+  ],
+  "ninjas/duckkickl": [
+   "squeeze"
+  ],
+  "ninjas/duckpunch": [
+   "squeeze"
+  ],
+  "ninjas/elbow": [
+   "squeeze"
+  ],
+  "ninjas/flipk": [
+   "squeeze"
+  ],
+  "ninjas/flipp": [
+   "squeeze"
+  ],
+  "ninjas/floor-ice": [
+   "squeeze"
+  ],
+  "ninjas/hikick": [
+   "squeeze"
+  ],
+  "ninjas/hipunch": [
+   "squeeze"
+  ],
+  "ninjas/ice1": [
+   "squeeze"
+  ],
+  "ninjas/ice2": [
+   "squeeze"
+  ],
+  "ninjas/jumpupk": [
+   "squeeze"
+  ],
+  "ninjas/jumpupp": [
+   "squeeze"
+  ],
+  "ninjas/lokick": [
+   "squeeze"
+  ],
+  "ninjas/lopunch": [
+   "squeeze"
+  ],
+  "ninjas/noob-dive": [
+   "squeeze"
+  ],
+  "ninjas/noob-kick": [
+   "squeeze"
+  ],
+  "ninjas/noob-slide": [
+   "squeeze"
+  ],
+  "ninjas/roundh": [
+   "squeeze"
+  ],
+  "ninjas/scissor": [
+   "squeeze"
+  ],
+  "ninjas/slide": [
+   "squeeze"
+  ],
+  "ninjas/spear": [
+   "squeeze"
+  ],
+  "ninjas/spit1": [
+   "squeeze"
+  ],
+  "ninjas/spit2": [
+   "squeeze"
+  ],
+  "ninjas/superf": [
+   "squeeze"
+  ],
+  "ninjas/sweepk": [
+   "duck"
+  ],
+  "ninjas/tornado": [
+   "squeeze"
+  ],
+  "ninjas/uppercut": [
+   "squeeze"
+  ],
+  "raiden/dive": [
+   "squeeze"
+  ],
+  "raiden/duckkickh": [
+   "squeeze"
+  ],
+  "raiden/duckkickl": [
+   "squeeze"
+  ],
+  "raiden/duckpunch": [
+   "squeeze"
+  ],
+  "raiden/elbow": [
+   "squeeze"
+  ],
+  "raiden/flipk": [
+   "squeeze"
+  ],
+  "raiden/flipp": [
+   "squeeze"
+  ],
+  "raiden/hikick": [
+   "squeeze"
+  ],
+  "raiden/hipunch": [
+   "squeeze"
+  ],
+  "raiden/jumpupk": [
+   "squeeze"
+  ],
+  "raiden/jumpupp": [
+   "squeeze"
+  ],
+  "raiden/lokick": [
+   "squeeze"
+  ],
+  "raiden/lopunch": [
+   "squeeze"
+  ],
+  "raiden/roundh": [
+   "squeeze"
+  ],
+  "raiden/sweepk": [
+   "duck"
+  ],
+  "raiden/uppercut": [
+   "squeeze"
+  ],
+  "raiden/zap1": [
+   "squeeze"
+  ],
+  "raiden/zap2": [
+   "squeeze"
+  ],
+  "shang-tsung/backflip": [
+   "squeeze"
+  ],
+  "shang-tsung/duckkickh": [
+   "squeeze"
+  ],
+  "shang-tsung/duckkickl": [
+   "squeeze"
+  ],
+  "shang-tsung/duckpunch": [
+   "squeeze"
+  ],
+  "shang-tsung/elbow": [
+   "squeeze"
+  ],
+  "shang-tsung/flipk": [
+   "squeeze"
+  ],
+  "shang-tsung/flipp": [
+   "squeeze"
+  ],
+  "shang-tsung/hikick": [
+   "squeeze"
+  ],
+  "shang-tsung/hipunch": [
+   "squeeze"
+  ],
+  "shang-tsung/jumpupk": [
+   "squeeze"
+  ],
+  "shang-tsung/jumpupp": [
+   "squeeze"
+  ],
+  "shang-tsung/kano-ball": [
+   "squeeze"
+  ],
+  "shang-tsung/lokick": [
+   "squeeze"
+  ],
+  "shang-tsung/lopunch": [
+   "squeeze"
+  ],
+  "shang-tsung/oldskull": [
+   "squeeze"
+  ],
+  "shang-tsung/roundh": [
+   "squeeze"
+  ],
+  "shang-tsung/roundpunch": [
+   "squeeze"
+  ],
+  "shang-tsung/skull1": [
+   "squeeze"
+  ],
+  "shang-tsung/skull2": [
+   "squeeze"
+  ],
+  "shang-tsung/sweepk": [
+   "duck"
+  ],
+  "shang-tsung/uppercut": [
+   "squeeze"
+  ],
+  "shao-kahn/bigpow": [
+   "squeeze"
+  ],
+  "shao-kahn/charge": [
+   "squeeze"
+  ],
+  "shao-kahn/grab": [
+   "squeeze"
+  ],
+  "shao-kahn/hammer": [
+   "squeeze"
+  ],
+  "shao-kahn/hamtop": [
+   "squeeze"
+  ],
+  "shao-kahn/kick": [
+   "squeeze"
+  ],
+  "shao-kahn/knee": [
+   "squeeze"
+  ],
+  "shao-kahn/nupower": [
+   "squeeze"
+  ],
+  "shao-kahn/portal": [
+   "squeeze"
+  ],
+  "shao-kahn/punch": [
+   "squeeze"
+  ],
+  "shao-kahn/slam": [
+   "squeeze"
+  ],
+  "shao-kahn/sonic": [
+   "squeeze"
+  ],
+  "shao-kahn/sonic-l": [
+   "squeeze"
+  ],
+  "shao-kahn/sonic-m": [
+   "squeeze"
+  ],
+  "shao-kahn/spear": [
+   "squeeze"
+  ],
+  "shao-kahn/uppercut": [
+   "squeeze"
+  ],
+  "shared/lk-wheel": [
+   "squeeze"
+  ],
+  "shared/lklokick-early": [
+   "squeeze"
+  ]
+ },
+ "format": "mk2-hitbox-pack",
+ "format_version": 1,
+ "meta": {
+  "author": "",
+  "base_commit": "91e8785",
+  "base_digest": "9e142d8c362712f1",
+  "created": "2026-09-01",
+  "description": "Every strike box in the build. This file is the one that is applied back to the game, not a copy of it.",
+  "public": true,
+  "title": "Strike boxes"
+ },
+ "moves": [
+  {
+   "block": 4,
+   "block_reaction": 17,
+   "front": 89,
+   "height": 36,
+   "hit": 20,
+   "hit_reaction": 22,
+   "id": "ninjas/decoy",
+   "score": 0,
+   "table": "ninjas",
+   "width": 48,
+   "y": 13
+  },
+  {
+   "block": 7,
+   "block_reaction": 27,
+   "front": 80,
+   "height": 50,
+   "hit": 30,
+   "hit_reaction": 20,
+   "id": "raiden/dive",
+   "score": 0,
+   "table": "raiden",
+   "width": 90,
+   "y": 45
+  },
+  {
+   "block": 0,
+   "block_reaction": 0,
+   "front": 0,
+   "height": 0,
+   "hit": 0,
+   "hit_reaction": 0,
+   "id": "jax/dummy",
+   "score": 0,
+   "shared": true,
+   "table": "jax",
+   "width": 0,
+   "y": 0
+  },
+  {
+   "block": 6,
+   "block_reaction": 19,
+   "front": 90,
+   "height": 18,
+   "hit": 24,
+   "hit_reaction": 19,
+   "id": "kitana-mileena/fan-swipe",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 48,
+   "y": 28
+  },
+  {
+   "block": 0,
+   "block_reaction": 21,
+   "front": 157,
+   "height": 16,
+   "hit": 0,
+   "hit_reaction": 21,
+   "id": "ninjas/floor-ice",
+   "score": 0,
+   "table": "ninjas",
+   "width": 96,
+   "y": 128
+  },
+  {
+   "block": 4,
+   "block_reaction": 29,
+   "front": 90,
+   "height": 51,
+   "hit": 32,
+   "hit_reaction": 21,
+   "id": "kitana-mileena/2-tele",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 68,
+   "y": 32
+  },
+  {
+   "block": 3,
+   "block_reaction": 30,
+   "front": 103,
+   "height": 16,
+   "hit": 19,
+   "hit_reaction": 23,
+   "id": "kitana-mileena/nitro",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 74,
+   "y": 40
+  },
+  {
+   "block": 3,
+   "block_reaction": 6,
+   "front": 96,
+   "height": 50,
+   "hit": 12,
+   "hit_reaction": 6,
+   "id": "kitana-mileena/duckkickh",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 69,
+   "y": 67
+  },
+  {
+   "block": 2,
+   "block_reaction": 7,
+   "front": 77,
+   "height": 27,
+   "hit": 6,
+   "hit_reaction": 7,
+   "id": "kitana-mileena/duckkickl",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 69,
+   "y": 112
+  },
+  {
+   "block": 2,
+   "block_reaction": 5,
+   "front": 60,
+   "height": 34,
+   "hit": 6,
+   "hit_reaction": 5,
+   "id": "kitana-mileena/duckpunch",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 48,
+   "y": 58
+  },
+  {
+   "block": 6,
+   "block_reaction": 15,
+   "front": 57,
+   "height": 34,
+   "hit": 24,
+   "hit_reaction": 15,
+   "id": "kitana-mileena/elbow",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 44,
+   "y": 12
+  },
+  {
+   "block": 4,
+   "block_reaction": 16,
+   "front": 58,
+   "height": 16,
+   "hit": 32,
+   "hit_reaction": 16,
+   "id": "kitana-mileena/fans",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 56,
+   "y": 16
+  },
+  {
+   "block": 7,
+   "block_reaction": 18,
+   "front": 90,
+   "height": 51,
+   "hit": 26,
+   "hit_reaction": 11,
+   "id": "kitana-mileena/flipk",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 68,
+   "y": 32
+  },
+  {
+   "block": 5,
+   "block_reaction": 18,
+   "front": 88,
+   "height": 54,
+   "hit": 16,
+   "hit_reaction": 12,
+   "id": "kitana-mileena/flipp",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 60,
+   "y": 20
+  },
+  {
+   "block": 8,
+   "block_reaction": 0,
+   "front": 93,
+   "height": 35,
+   "hit": 32,
+   "hit_reaction": 0,
+   "id": "kitana-mileena/hikick",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 60,
+   "y": 10
+  },
+  {
+   "block": 3,
+   "block_reaction": 2,
+   "front": 68,
+   "height": 36,
+   "hit": 11,
+   "hit_reaction": 2,
+   "id": "kitana-mileena/hipunch",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 50,
+   "y": 16
+  },
+  {
+   "block": 6,
+   "block_reaction": 10,
+   "front": 77,
+   "height": 66,
+   "hit": 32,
+   "hit_reaction": 10,
+   "id": "kitana-mileena/jumpupk",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 64,
+   "y": -3
+  },
+  {
+   "block": 5,
+   "block_reaction": 9,
+   "front": 88,
+   "height": 54,
+   "hit": 16,
+   "hit_reaction": 9,
+   "id": "kitana-mileena/jumpupp",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 60,
+   "y": 20
+  },
+  {
+   "block": 4,
+   "block_reaction": 14,
+   "front": 56,
+   "height": 43,
+   "hit": 16,
+   "hit_reaction": 14,
+   "id": "kitana-mileena/knee",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 48,
+   "y": 48
+  },
+  {
+   "block": 6,
+   "block_reaction": 1,
+   "front": 100,
+   "height": 34,
+   "hit": 26,
+   "hit_reaction": 1,
+   "id": "kitana-mileena/lokick",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 74,
+   "y": 37
+  },
+  {
+   "block": 2,
+   "block_reaction": 3,
+   "front": 76,
+   "height": 24,
+   "hit": 8,
+   "hit_reaction": 3,
+   "id": "kitana-mileena/lopunch",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 56,
+   "y": 27
+  },
+  {
+   "block": 9,
+   "block_reaction": 30,
+   "front": 96,
+   "height": 44,
+   "hit": 33,
+   "hit_reaction": 13,
+   "id": "kitana-mileena/roundh",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 68,
+   "y": -3
+  },
+  {
+   "block": 6,
+   "block_reaction": 19,
+   "front": 85,
+   "height": 70,
+   "hit": 32,
+   "hit_reaction": 19,
+   "id": "kitana-mileena/spinchop",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 60,
+   "y": -40
+  },
+  {
+   "block": 5,
+   "block_reaction": 28,
+   "front": 109,
+   "height": 40,
+   "hit": 20,
+   "hit_reaction": 4,
+   "id": "kitana-mileena/sweepk",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 74,
+   "y": 100
+  },
+  {
+   "block": 5,
+   "block_reaction": 16,
+   "front": 77,
+   "height": 32,
+   "hit": 23,
+   "hit_reaction": 17,
+   "id": "kitana-mileena/tsai",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 56,
+   "y": 24
+  },
+  {
+   "block": 10,
+   "block_reaction": 30,
+   "front": 78,
+   "height": 64,
+   "hit": 40,
+   "hit_reaction": 8,
+   "id": "kitana-mileena/uppercut",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 52,
+   "y": -10
+  },
+  {
+   "block": 15,
+   "block_reaction": 32,
+   "front": 22,
+   "height": 19,
+   "hit": 40,
+   "hit_reaction": 6,
+   "id": "goro-kintaro/ro-fireball",
+   "score": 0,
+   "table": "goro-kintaro",
+   "width": 48,
+   "y": -8
+  },
+  {
+   "block": 16,
+   "block_reaction": 32,
+   "front": 122,
+   "height": 48,
+   "hit": 53,
+   "hit_reaction": 0,
+   "id": "goro-kintaro/ro-kick",
+   "score": 0,
+   "table": "goro-kintaro",
+   "width": 96,
+   "y": 32
+  },
+  {
+   "block": 12,
+   "block_reaction": 32,
+   "front": 122,
+   "height": 48,
+   "hit": 40,
+   "hit_reaction": 0,
+   "id": "goro-kintaro/ro-punch",
+   "score": 0,
+   "shared": true,
+   "table": "goro-kintaro",
+   "width": 96,
+   "y": 32
+  },
+  {
+   "block": 13,
+   "block_reaction": 32,
+   "front": 122,
+   "height": 48,
+   "hit": 40,
+   "hit_reaction": 1,
+   "id": "goro-kintaro/ro-uppercut",
+   "score": 0,
+   "table": "goro-kintaro",
+   "width": 96,
+   "y": 32
+  },
+  {
+   "block": 3,
+   "block_reaction": 6,
+   "front": 88,
+   "height": 25,
+   "hit": 14,
+   "hit_reaction": 6,
+   "id": "kung-lao/duckkickh",
+   "score": 0,
+   "table": "kung-lao",
+   "width": 65,
+   "y": 80
+  },
+  {
+   "block": 2,
+   "block_reaction": 7,
+   "front": 93,
+   "height": 25,
+   "hit": 6,
+   "hit_reaction": 7,
+   "id": "kung-lao/duckkickl",
+   "score": 0,
+   "table": "kung-lao",
+   "width": 65,
+   "y": 125
+  },
+  {
+   "block": 2,
+   "block_reaction": 5,
+   "front": 85,
+   "height": 25,
+   "hit": 6,
+   "hit_reaction": 5,
+   "id": "kung-lao/duckpunch",
+   "score": 0,
+   "table": "kung-lao",
+   "width": 50,
+   "y": 64
+  },
+  {
+   "block": 6,
+   "block_reaction": 15,
+   "front": 53,
+   "height": 45,
+   "hit": 24,
+   "hit_reaction": 15,
+   "id": "kung-lao/elbow",
+   "score": 0,
+   "table": "kung-lao",
+   "width": 25,
+   "y": 21
+  },
+  {
+   "block": 7,
+   "block_reaction": 18,
+   "front": 82,
+   "height": 40,
+   "hit": 26,
+   "hit_reaction": 11,
+   "id": "kung-lao/flipk",
+   "score": 0,
+   "table": "kung-lao",
+   "width": 70,
+   "y": 20
+  },
+  {
+   "block": 5,
+   "block_reaction": 18,
+   "front": 80,
+   "height": 55,
+   "hit": 16,
+   "hit_reaction": 12,
+   "id": "kung-lao/flipp",
+   "score": 0,
+   "table": "kung-lao",
+   "width": 55,
+   "y": 5
+  },
+  {
+   "block": 6,
+   "block_reaction": 16,
+   "front": 18,
+   "height": 21,
+   "hit": 24,
+   "hit_reaction": 16,
+   "id": "kung-lao/hat",
+   "score": 0,
+   "table": "kung-lao",
+   "width": 50,
+   "y": -8
+  },
+  {
+   "block": 8,
+   "block_reaction": 0,
+   "front": 94,
+   "height": 24,
+   "hit": 32,
+   "hit_reaction": 0,
+   "id": "kung-lao/hikick",
+   "score": 0,
+   "table": "kung-lao",
+   "width": 68,
+   "y": 17
+  },
+  {
+   "block": 3,
+   "block_reaction": 2,
+   "front": 76,
+   "height": 45,
+   "hit": 11,
+   "hit_reaction": 2,
+   "id": "kung-lao/hipunch",
+   "score": 0,
+   "table": "kung-lao",
+   "width": 45,
+   "y": 12
+  },
+  {
+   "block": 6,
+   "block_reaction": 10,
+   "front": 77,
+   "height": 65,
+   "hit": 32,
+   "hit_reaction": 10,
+   "id": "kung-lao/jumpupk",
+   "score": 0,
+   "table": "kung-lao",
+   "width": 72,
+   "y": 12
+  },
+  {
+   "block": 5,
+   "block_reaction": 9,
+   "front": 80,
+   "height": 55,
+   "hit": 24,
+   "hit_reaction": 9,
+   "id": "kung-lao/jumpupp",
+   "score": 0,
+   "table": "kung-lao",
+   "width": 55,
+   "y": 5
+  },
+  {
+   "block": 6,
+   "block_reaction": 14,
+   "front": 73,
+   "height": 45,
+   "hit": 20,
+   "hit_reaction": 14,
+   "id": "kung-lao/knee",
+   "score": 0,
+   "table": "kung-lao",
+   "width": 40,
+   "y": 47
+  },
+  {
+   "block": 6,
+   "block_reaction": 1,
+   "front": 103,
+   "height": 20,
+   "hit": 26,
+   "hit_reaction": 1,
+   "id": "kung-lao/lokick",
+   "score": 0,
+   "table": "kung-lao",
+   "width": 69,
+   "y": 50
+  },
+  {
+   "block": 2,
+   "block_reaction": 3,
+   "front": 86,
+   "height": 25,
+   "hit": 8,
+   "hit_reaction": 3,
+   "id": "kung-lao/lopunch",
+   "score": 0,
+   "table": "kung-lao",
+   "width": 45,
+   "y": 25
+  },
+  {
+   "block": 9,
+   "block_reaction": 30,
+   "front": 100,
+   "height": 44,
+   "hit": 33,
+   "hit_reaction": 13,
+   "id": "kung-lao/roundh",
+   "score": 0,
+   "table": "kung-lao",
+   "width": 66,
+   "y": 17
+  },
+  {
+   "block": 4,
+   "block_reaction": 26,
+   "front": 48,
+   "height": 148,
+   "hit": 36,
+   "hit_reaction": 23,
+   "id": "kung-lao/spin",
+   "score": 0,
+   "table": "kung-lao",
+   "width": 96,
+   "y": 0
+  },
+  {
+   "block": 5,
+   "block_reaction": 28,
+   "front": 85,
+   "height": 30,
+   "hit": 20,
+   "hit_reaction": 4,
+   "id": "kung-lao/sweepk",
+   "score": 0,
+   "table": "kung-lao",
+   "width": 68,
+   "y": 115
+  },
+  {
+   "block": 10,
+   "block_reaction": 30,
+   "front": 77,
+   "height": 65,
+   "hit": 40,
+   "hit_reaction": 8,
+   "id": "kung-lao/uppercut",
+   "score": 0,
+   "table": "kung-lao",
+   "width": 45,
+   "y": -7
+  },
+  {
+   "block": 5,
+   "block_reaction": 19,
+   "front": 64,
+   "height": 24,
+   "hit": 10,
+   "hit_reaction": 19,
+   "id": "ninjas/ice1",
+   "score": 0,
+   "table": "ninjas",
+   "width": 120,
+   "y": -12
+  },
+  {
+   "block": 5,
+   "block_reaction": 19,
+   "front": 144,
+   "height": 24,
+   "hit": 10,
+   "hit_reaction": 19,
+   "id": "ninjas/ice2",
+   "score": 0,
+   "table": "ninjas",
+   "width": 120,
+   "y": -16
+  },
+  {
+   "block": 6,
+   "block_reaction": 16,
+   "front": 58,
+   "height": 16,
+   "hit": 24,
+   "hit_reaction": 24,
+   "id": "kitana-mileena/jade-boom",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 56,
+   "y": 16
+  },
+  {
+   "block": 6,
+   "block_reaction": 20,
+   "front": 102,
+   "height": 34,
+   "hit": 24,
+   "hit_reaction": 20,
+   "id": "johnny-cage/pp",
+   "score": 0,
+   "table": "johnny-cage",
+   "width": 74,
+   "y": 38
+  },
+  {
+   "block": 4,
+   "block_reaction": 0,
+   "front": 63,
+   "height": 10,
+   "hit": 34,
+   "hit_reaction": 21,
+   "id": "johnny-cage/split",
+   "score": 0,
+   "table": "johnny-cage",
+   "width": 42,
+   "y": 74
+  },
+  {
+   "block": 3,
+   "block_reaction": 6,
+   "front": 76,
+   "height": 50,
+   "hit": 12,
+   "hit_reaction": 6,
+   "id": "johnny-cage/duckkickh",
+   "score": 0,
+   "table": "johnny-cage",
+   "width": 69,
+   "y": 70
+  },
+  {
+   "block": 2,
+   "block_reaction": 7,
+   "front": 92,
+   "height": 34,
+   "hit": 6,
+   "hit_reaction": 7,
+   "id": "johnny-cage/duckkickl",
+   "score": 0,
+   "table": "johnny-cage",
+   "width": 69,
+   "y": 112
+  },
+  {
+   "block": 2,
+   "block_reaction": 5,
+   "front": 92,
+   "height": 18,
+   "hit": 6,
+   "hit_reaction": 5,
+   "id": "johnny-cage/duckpunch",
+   "score": 0,
+   "table": "johnny-cage",
+   "width": 48,
+   "y": 66
+  },
+  {
+   "block": 6,
+   "block_reaction": 15,
+   "front": 56,
+   "height": 18,
+   "hit": 24,
+   "hit_reaction": 15,
+   "id": "johnny-cage/elbow",
+   "score": 0,
+   "table": "johnny-cage",
+   "width": 48,
+   "y": 52
+  },
+  {
+   "block": 7,
+   "block_reaction": 18,
+   "front": 88,
+   "height": 41,
+   "hit": 26,
+   "hit_reaction": 11,
+   "id": "johnny-cage/flipk",
+   "score": 0,
+   "table": "johnny-cage",
+   "width": 68,
+   "y": 46
+  },
+  {
+   "block": 5,
+   "block_reaction": 18,
+   "front": 89,
+   "height": 53,
+   "hit": 16,
+   "hit_reaction": 12,
+   "id": "johnny-cage/flipp",
+   "score": 0,
+   "table": "johnny-cage",
+   "width": 60,
+   "y": 20
+  },
+  {
+   "block": 8,
+   "block_reaction": 0,
+   "front": 92,
+   "height": 35,
+   "hit": 32,
+   "hit_reaction": 0,
+   "id": "johnny-cage/hikick",
+   "score": 0,
+   "table": "johnny-cage",
+   "width": 60,
+   "y": 20
+  },
+  {
+   "block": 3,
+   "block_reaction": 2,
+   "front": 84,
+   "height": 36,
+   "hit": 11,
+   "hit_reaction": 2,
+   "id": "johnny-cage/hipunch",
+   "score": 0,
+   "table": "johnny-cage",
+   "width": 50,
+   "y": 16
+  },
+  {
+   "block": 6,
+   "block_reaction": 10,
+   "front": 84,
+   "height": 50,
+   "hit": 32,
+   "hit_reaction": 10,
+   "id": "johnny-cage/jumpupk",
+   "score": 0,
+   "table": "johnny-cage",
+   "width": 60,
+   "y": 8
+  },
+  {
+   "block": 5,
+   "block_reaction": 9,
+   "front": 88,
+   "height": 54,
+   "hit": 16,
+   "hit_reaction": 9,
+   "id": "johnny-cage/jumpupp",
+   "score": 0,
+   "table": "johnny-cage",
+   "width": 60,
+   "y": 20
+  },
+  {
+   "block": 6,
+   "block_reaction": 30,
+   "front": 75,
+   "height": 83,
+   "hit": 20,
+   "hit_reaction": 14,
+   "id": "johnny-cage/knee",
+   "score": 0,
+   "table": "johnny-cage",
+   "width": 48,
+   "y": 0
+  },
+  {
+   "block": 6,
+   "block_reaction": 1,
+   "front": 103,
+   "height": 16,
+   "hit": 26,
+   "hit_reaction": 1,
+   "id": "johnny-cage/lokick",
+   "score": 0,
+   "table": "johnny-cage",
+   "width": 74,
+   "y": 46
+  },
+  {
+   "block": 2,
+   "block_reaction": 3,
+   "front": 84,
+   "height": 24,
+   "hit": 8,
+   "hit_reaction": 3,
+   "id": "johnny-cage/lopunch",
+   "score": 0,
+   "table": "johnny-cage",
+   "width": 56,
+   "y": 32
+  },
+  {
+   "block": 8,
+   "block_reaction": 30,
+   "front": 96,
+   "height": 44,
+   "hit": 32,
+   "hit_reaction": 13,
+   "id": "johnny-cage/roundh",
+   "score": 0,
+   "table": "johnny-cage",
+   "width": 68,
+   "y": 16
+  },
+  {
+   "block": 7,
+   "block_reaction": 30,
+   "front": 103,
+   "height": 16,
+   "hit": 30,
+   "hit_reaction": 17,
+   "id": "johnny-cage/shadow",
+   "score": 0,
+   "table": "johnny-cage",
+   "width": 74,
+   "y": 46
+  },
+  {
+   "block": 6,
+   "block_reaction": 16,
+   "front": 32,
+   "height": 104,
+   "hit": 29,
+   "hit_reaction": 18,
+   "id": "johnny-cage/shoruken",
+   "score": 0,
+   "table": "johnny-cage",
+   "width": 48,
+   "y": -8
+  },
+  {
+   "block": 5,
+   "block_reaction": 28,
+   "front": 95,
+   "height": 35,
+   "hit": 20,
+   "hit_reaction": 4,
+   "id": "johnny-cage/sweepk",
+   "score": 0,
+   "table": "johnny-cage",
+   "width": 60,
+   "y": 112
+  },
+  {
+   "block": 10,
+   "block_reaction": 30,
+   "front": 78,
+   "height": 64,
+   "hit": 40,
+   "hit_reaction": 8,
+   "id": "johnny-cage/uppercut",
+   "score": 0,
+   "table": "johnny-cage",
+   "width": 58,
+   "y": -8
+  },
+  {
+   "aliases": [
+    "johnny-cage/zap1",
+    "johnny-cage/zap2",
+    "johnny-cage/zap3"
+   ],
+   "block": 5,
+   "block_reaction": 16,
+   "front": 10,
+   "height": 20,
+   "hit": 21,
+   "hit_reaction": 16,
+   "id": "johnny-cage/zap4",
+   "score": 0,
+   "table": "johnny-cage",
+   "width": 50,
+   "y": -8
+  },
+  {
+   "block": 3,
+   "block_reaction": 6,
+   "front": 112,
+   "height": 27,
+   "hit": 12,
+   "hit_reaction": 6,
+   "id": "jax/duckkickh",
+   "score": 0,
+   "table": "jax",
+   "width": 69,
+   "y": 80
+  },
+  {
+   "block": 2,
+   "block_reaction": 7,
+   "front": 96,
+   "height": 20,
+   "hit": 6,
+   "hit_reaction": 7,
+   "id": "jax/duckkickl",
+   "score": 0,
+   "table": "jax",
+   "width": 69,
+   "y": 128
+  },
+  {
+   "block": 2,
+   "block_reaction": 5,
+   "front": 92,
+   "height": 19,
+   "hit": 6,
+   "hit_reaction": 5,
+   "id": "jax/duckpunch",
+   "score": 0,
+   "table": "jax",
+   "width": 48,
+   "y": 71
+  },
+  {
+   "block": 6,
+   "block_reaction": 15,
+   "front": 72,
+   "height": 34,
+   "hit": 24,
+   "hit_reaction": 15,
+   "id": "jax/elbow",
+   "score": 0,
+   "table": "jax",
+   "width": 44,
+   "y": 8
+  },
+  {
+   "block": 7,
+   "block_reaction": 18,
+   "front": 99,
+   "height": 32,
+   "hit": 26,
+   "hit_reaction": 11,
+   "id": "jax/flipk",
+   "score": 0,
+   "table": "jax",
+   "width": 64,
+   "y": 52
+  },
+  {
+   "block": 5,
+   "block_reaction": 18,
+   "front": 89,
+   "height": 36,
+   "hit": 16,
+   "hit_reaction": 12,
+   "id": "jax/flipp",
+   "score": 0,
+   "table": "jax",
+   "width": 48,
+   "y": 22
+  },
+  {
+   "block": 8,
+   "block_reaction": 0,
+   "front": 118,
+   "height": 29,
+   "hit": 32,
+   "hit_reaction": 0,
+   "id": "jax/hikick",
+   "score": 0,
+   "table": "jax",
+   "width": 76,
+   "y": 29
+  },
+  {
+   "block": 3,
+   "block_reaction": 2,
+   "front": 88,
+   "height": 20,
+   "hit": 11,
+   "hit_reaction": 2,
+   "id": "jax/hipunch",
+   "score": 0,
+   "table": "jax",
+   "width": 48,
+   "y": 18
+  },
+  {
+   "block": 6,
+   "block_reaction": 10,
+   "front": 84,
+   "height": 53,
+   "hit": 32,
+   "hit_reaction": 10,
+   "id": "jax/jumpupk",
+   "score": 0,
+   "table": "jax",
+   "width": 64,
+   "y": 8
+  },
+  {
+   "block": 5,
+   "block_reaction": 9,
+   "front": 86,
+   "height": 36,
+   "hit": 16,
+   "hit_reaction": 9,
+   "id": "jax/jumpupp",
+   "score": 0,
+   "table": "jax",
+   "width": 48,
+   "y": 20
+  },
+  {
+   "block": 4,
+   "block_reaction": 14,
+   "front": 68,
+   "height": 32,
+   "hit": 16,
+   "hit_reaction": 14,
+   "id": "jax/knee",
+   "score": 0,
+   "table": "jax",
+   "width": 32,
+   "y": 39
+  },
+  {
+   "block": 6,
+   "block_reaction": 1,
+   "front": 127,
+   "height": 18,
+   "hit": 26,
+   "hit_reaction": 1,
+   "id": "jax/lokick",
+   "score": 0,
+   "table": "jax",
+   "width": 74,
+   "y": 40
+  },
+  {
+   "block": 2,
+   "block_reaction": 3,
+   "front": 90,
+   "height": 24,
+   "hit": 8,
+   "hit_reaction": 3,
+   "id": "jax/lopunch",
+   "score": 0,
+   "table": "jax",
+   "width": 59,
+   "y": 32
+  },
+  {
+   "block": 6,
+   "block_reaction": 18,
+   "front": 102,
+   "height": 34,
+   "hit": 24,
+   "hit_reaction": 18,
+   "id": "jax/powerp",
+   "score": 0,
+   "table": "jax",
+   "width": 74,
+   "y": 38
+  },
+  {
+   "block": 8,
+   "block_reaction": 30,
+   "front": 93,
+   "height": 34,
+   "hit": 32,
+   "hit_reaction": 13,
+   "id": "jax/roundh",
+   "score": 0,
+   "table": "jax",
+   "width": 68,
+   "y": 6
+  },
+  {
+   "block": 5,
+   "block_reaction": 28,
+   "front": 96,
+   "height": 22,
+   "hit": 20,
+   "hit_reaction": 4,
+   "id": "jax/sweepk",
+   "score": 0,
+   "table": "jax",
+   "width": 74,
+   "y": 123
+  },
+  {
+   "block": 10,
+   "block_reaction": 30,
+   "front": 90,
+   "height": 64,
+   "hit": 40,
+   "hit_reaction": 8,
+   "id": "jax/uppercut",
+   "score": 0,
+   "table": "jax",
+   "width": 60,
+   "y": -10
+  },
+  {
+   "block": 5,
+   "block_reaction": 8,
+   "front": 128,
+   "height": 16,
+   "hit": 18,
+   "hit_reaction": 16,
+   "id": "jax/zap",
+   "score": 0,
+   "table": "jax",
+   "width": 64,
+   "y": 24
+  },
+  {
+   "block": 5,
+   "block_reaction": 8,
+   "front": 64,
+   "height": 48,
+   "hit": 21,
+   "hit_reaction": 22,
+   "id": "kitana-mileena/kano",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 64,
+   "y": 16
+  },
+  {
+   "block": 6,
+   "block_reaction": 3,
+   "front": 68,
+   "height": 32,
+   "hit": 48,
+   "hit_reaction": 21,
+   "id": "liu-kang/bike",
+   "score": 0,
+   "table": "liu-kang",
+   "width": 56,
+   "y": 35
+  },
+  {
+   "block": 0,
+   "block_reaction": 24,
+   "front": 65,
+   "height": 60,
+   "hit": 0,
+   "hit_reaction": 24,
+   "id": "liu-kang/dbuc",
+   "score": 0,
+   "table": "liu-kang",
+   "width": 45,
+   "y": -5
+  },
+  {
+   "block": 1,
+   "block_reaction": 24,
+   "front": 80,
+   "height": 40,
+   "hit": 1,
+   "hit_reaction": 24,
+   "id": "shared/lk-wheel",
+   "score": 0,
+   "table": "shared",
+   "width": 70,
+   "y": 35
+  },
+  {
+   "block": 3,
+   "block_reaction": 6,
+   "front": 85,
+   "height": 30,
+   "hit": 12,
+   "hit_reaction": 6,
+   "id": "liu-kang/duckkickh",
+   "score": 0,
+   "table": "liu-kang",
+   "width": 65,
+   "y": 70
+  },
+  {
+   "block": 2,
+   "block_reaction": 7,
+   "front": 85,
+   "height": 21,
+   "hit": 6,
+   "hit_reaction": 7,
+   "id": "liu-kang/duckkickl",
+   "score": 0,
+   "table": "liu-kang",
+   "width": 65,
+   "y": 120
+  },
+  {
+   "block": 2,
+   "block_reaction": 5,
+   "front": 75,
+   "height": 25,
+   "hit": 6,
+   "hit_reaction": 5,
+   "id": "liu-kang/duckpunch",
+   "score": 0,
+   "table": "liu-kang",
+   "width": 50,
+   "y": 64
+  },
+  {
+   "block": 6,
+   "block_reaction": 15,
+   "front": 58,
+   "height": 45,
+   "hit": 24,
+   "hit_reaction": 15,
+   "id": "liu-kang/elbow",
+   "score": 0,
+   "table": "liu-kang",
+   "width": 35,
+   "y": 15
+  },
+  {
+   "block": 7,
+   "block_reaction": 18,
+   "front": 89,
+   "height": 37,
+   "hit": 26,
+   "hit_reaction": 11,
+   "id": "liu-kang/flipk",
+   "score": 0,
+   "table": "liu-kang",
+   "width": 70,
+   "y": 3
+  },
+  {
+   "block": 5,
+   "block_reaction": 18,
+   "front": 80,
+   "height": 45,
+   "hit": 16,
+   "hit_reaction": 12,
+   "id": "liu-kang/flipp",
+   "score": 0,
+   "table": "liu-kang",
+   "width": 55,
+   "y": 5
+  },
+  {
+   "block": 8,
+   "block_reaction": 0,
+   "front": 94,
+   "height": 23,
+   "hit": 32,
+   "hit_reaction": 0,
+   "id": "liu-kang/hikick",
+   "score": 0,
+   "table": "liu-kang",
+   "width": 69,
+   "y": 5
+  },
+  {
+   "block": 3,
+   "block_reaction": 2,
+   "front": 80,
+   "height": 30,
+   "hit": 11,
+   "hit_reaction": 2,
+   "id": "liu-kang/hipunch",
+   "score": 0,
+   "table": "liu-kang",
+   "width": 45,
+   "y": 8
+  },
+  {
+   "block": 6,
+   "block_reaction": 10,
+   "front": 77,
+   "height": 65,
+   "hit": 32,
+   "hit_reaction": 10,
+   "id": "liu-kang/jumpupk",
+   "score": 0,
+   "table": "liu-kang",
+   "width": 55,
+   "y": 12
+  },
+  {
+   "block": 5,
+   "block_reaction": 12,
+   "front": 80,
+   "height": 45,
+   "hit": 16,
+   "hit_reaction": 12,
+   "id": "liu-kang/jumpupp",
+   "score": 0,
+   "table": "liu-kang",
+   "width": 55,
+   "y": 5
+  },
+  {
+   "block": 6,
+   "block_reaction": 14,
+   "front": 60,
+   "height": 45,
+   "hit": 20,
+   "hit_reaction": 14,
+   "id": "liu-kang/knee",
+   "score": 0,
+   "table": "liu-kang",
+   "width": 30,
+   "y": 47
+  },
+  {
+   "block": 6,
+   "block_reaction": 1,
+   "front": 104,
+   "height": 20,
+   "hit": 26,
+   "hit_reaction": 1,
+   "id": "liu-kang/lokick",
+   "score": 0,
+   "table": "liu-kang",
+   "width": 67,
+   "y": 42
+  },
+  {
+   "block": 6,
+   "block_reaction": 1,
+   "front": 56,
+   "height": 20,
+   "hit": 26,
+   "hit_reaction": 1,
+   "id": "shared/lklokick-early",
+   "score": 0,
+   "table": "shared",
+   "width": 67,
+   "y": 42
+  },
+  {
+   "block": 2,
+   "block_reaction": 3,
+   "front": 80,
+   "height": 20,
+   "hit": 8,
+   "hit_reaction": 3,
+   "id": "liu-kang/lopunch",
+   "score": 0,
+   "table": "liu-kang",
+   "width": 45,
+   "y": 20
+  },
+  {
+   "block": 8,
+   "block_reaction": 30,
+   "front": 88,
+   "height": 48,
+   "hit": 32,
+   "hit_reaction": 13,
+   "id": "liu-kang/roundh",
+   "score": 0,
+   "table": "liu-kang",
+   "width": 45,
+   "y": 5
+  },
+  {
+   "block": 7,
+   "block_reaction": 23,
+   "front": 89,
+   "height": 37,
+   "hit": 26,
+   "hit_reaction": 20,
+   "id": "liu-kang/super",
+   "score": 0,
+   "table": "liu-kang",
+   "width": 70,
+   "y": 3
+  },
+  {
+   "block": 5,
+   "block_reaction": 28,
+   "front": 92,
+   "height": 30,
+   "hit": 20,
+   "hit_reaction": 4,
+   "id": "liu-kang/sweepk",
+   "score": 0,
+   "table": "liu-kang",
+   "width": 60,
+   "y": 105
+  },
+  {
+   "block": 10,
+   "block_reaction": 30,
+   "front": 75,
+   "height": 64,
+   "hit": 40,
+   "hit_reaction": 8,
+   "id": "liu-kang/uppercut",
+   "score": 0,
+   "table": "liu-kang",
+   "width": 53,
+   "y": -10
+  },
+  {
+   "block": 5,
+   "block_reaction": 16,
+   "front": 52,
+   "height": 30,
+   "hit": 22,
+   "hit_reaction": 17,
+   "id": "liu-kang/zap1",
+   "score": 0,
+   "table": "liu-kang",
+   "width": 45,
+   "y": 20
+  },
+  {
+   "block": 5,
+   "block_reaction": 16,
+   "front": 112,
+   "height": 20,
+   "hit": 22,
+   "hit_reaction": 17,
+   "id": "liu-kang/zap2",
+   "score": 0,
+   "table": "liu-kang",
+   "width": 100,
+   "y": 25
+  },
+  {
+   "block": 5,
+   "block_reaction": 16,
+   "front": 148,
+   "height": 20,
+   "hit": 22,
+   "hit_reaction": 17,
+   "id": "liu-kang/zap3",
+   "score": 0,
+   "table": "liu-kang",
+   "width": 125,
+   "y": 25
+  },
+  {
+   "block": 6,
+   "block_reaction": 16,
+   "front": 197,
+   "height": 20,
+   "hit": 22,
+   "hit_reaction": 17,
+   "id": "liu-kang/zap4",
+   "score": 0,
+   "table": "liu-kang",
+   "width": 70,
+   "y": 25
+  },
+  {
+   "block": 4,
+   "block_reaction": 16,
+   "front": 32,
+   "height": 48,
+   "hit": 16,
+   "hit_reaction": 16,
+   "id": "ninjas/bang",
+   "score": 0,
+   "table": "ninjas",
+   "width": 64,
+   "y": -24
+  },
+  {
+   "block": 3,
+   "block_reaction": 6,
+   "front": 80,
+   "height": 27,
+   "hit": 12,
+   "hit_reaction": 6,
+   "id": "ninjas/duckkickh",
+   "score": 0,
+   "table": "ninjas",
+   "width": 69,
+   "y": 56
+  },
+  {
+   "block": 2,
+   "block_reaction": 7,
+   "front": 80,
+   "height": 20,
+   "hit": 6,
+   "hit_reaction": 7,
+   "id": "ninjas/duckkickl",
+   "score": 0,
+   "table": "ninjas",
+   "width": 69,
+   "y": 112
+  },
+  {
+   "block": 2,
+   "block_reaction": 5,
+   "front": 70,
+   "height": 28,
+   "hit": 6,
+   "hit_reaction": 5,
+   "id": "ninjas/duckpunch",
+   "score": 0,
+   "table": "ninjas",
+   "width": 48,
+   "y": 58
+  },
+  {
+   "block": 6,
+   "block_reaction": 15,
+   "front": 55,
+   "height": 34,
+   "hit": 24,
+   "hit_reaction": 15,
+   "id": "ninjas/elbow",
+   "score": 0,
+   "table": "ninjas",
+   "width": 44,
+   "y": 8
+  },
+  {
+   "block": 7,
+   "block_reaction": 18,
+   "front": 99,
+   "height": 32,
+   "hit": 26,
+   "hit_reaction": 11,
+   "id": "ninjas/flipk",
+   "score": 0,
+   "table": "ninjas",
+   "width": 64,
+   "y": 36
+  },
+  {
+   "block": 5,
+   "block_reaction": 18,
+   "front": 89,
+   "height": 36,
+   "hit": 16,
+   "hit_reaction": 12,
+   "id": "ninjas/flipp",
+   "score": 0,
+   "table": "ninjas",
+   "width": 48,
+   "y": 13
+  },
+  {
+   "block": 8,
+   "block_reaction": 0,
+   "front": 100,
+   "height": 29,
+   "hit": 32,
+   "hit_reaction": 0,
+   "id": "ninjas/hikick",
+   "score": 0,
+   "table": "ninjas",
+   "width": 60,
+   "y": 12
+  },
+  {
+   "block": 3,
+   "block_reaction": 2,
+   "front": 78,
+   "height": 20,
+   "hit": 11,
+   "hit_reaction": 2,
+   "id": "ninjas/hipunch",
+   "score": 0,
+   "table": "ninjas",
+   "width": 48,
+   "y": 4
+  },
+  {
+   "block": 6,
+   "block_reaction": 10,
+   "front": 80,
+   "height": 32,
+   "hit": 32,
+   "hit_reaction": 10,
+   "id": "ninjas/jumpupk",
+   "score": 0,
+   "table": "ninjas",
+   "width": 64,
+   "y": 20
+  },
+  {
+   "block": 5,
+   "block_reaction": 9,
+   "front": 89,
+   "height": 36,
+   "hit": 16,
+   "hit_reaction": 9,
+   "id": "ninjas/jumpupp",
+   "score": 0,
+   "table": "ninjas",
+   "width": 48,
+   "y": 20
+  },
+  {
+   "block": 4,
+   "block_reaction": 14,
+   "front": 64,
+   "height": 32,
+   "hit": 16,
+   "hit_reaction": 14,
+   "id": "ninjas/knee",
+   "score": 0,
+   "table": "ninjas",
+   "width": 32,
+   "y": 28
+  },
+  {
+   "block": 6,
+   "block_reaction": 1,
+   "front": 109,
+   "height": 18,
+   "hit": 26,
+   "hit_reaction": 1,
+   "id": "ninjas/lokick",
+   "score": 0,
+   "table": "ninjas",
+   "width": 74,
+   "y": 32
+  },
+  {
+   "block": 2,
+   "block_reaction": 3,
+   "front": 74,
+   "height": 20,
+   "hit": 8,
+   "hit_reaction": 3,
+   "id": "ninjas/lopunch",
+   "score": 0,
+   "table": "ninjas",
+   "width": 44,
+   "y": 22
+  },
+  {
+   "block": 8,
+   "block_reaction": 30,
+   "front": 96,
+   "height": 34,
+   "hit": 30,
+   "hit_reaction": 13,
+   "id": "ninjas/roundh",
+   "score": 0,
+   "table": "ninjas",
+   "width": 68,
+   "y": 6
+  },
+  {
+   "block": 2,
+   "block_reaction": 16,
+   "front": 140,
+   "height": 16,
+   "hit": 8,
+   "hit_reaction": 17,
+   "id": "ninjas/spear",
+   "score": 0,
+   "table": "ninjas",
+   "width": 80,
+   "y": 36
+  },
+  {
+   "block": 5,
+   "block_reaction": 28,
+   "front": 96,
+   "height": 22,
+   "hit": 20,
+   "hit_reaction": 4,
+   "id": "ninjas/sweepk",
+   "score": 0,
+   "table": "ninjas",
+   "width": 74,
+   "y": 107
+  },
+  {
+   "block": 10,
+   "block_reaction": 30,
+   "front": 78,
+   "height": 64,
+   "hit": 40,
+   "hit_reaction": 8,
+   "id": "ninjas/uppercut",
+   "score": 0,
+   "table": "ninjas",
+   "width": 56,
+   "y": -16
+  },
+  {
+   "block": 7,
+   "block_reaction": 18,
+   "front": 99,
+   "height": 32,
+   "hit": 26,
+   "hit_reaction": 11,
+   "id": "ninjas/noob-dive",
+   "table": "ninjas",
+   "width": 64,
+   "y": 36
+  },
+  {
+   "block": 6,
+   "block_reaction": 10,
+   "front": 96,
+   "height": 80,
+   "hit": 26,
+   "hit_reaction": 10,
+   "id": "ninjas/noob-kick",
+   "table": "ninjas",
+   "width": 96,
+   "y": 16
+  },
+  {
+   "block": 3,
+   "block_reaction": 16,
+   "front": 72,
+   "height": 64,
+   "hit": 12,
+   "hit_reaction": 27,
+   "id": "ninjas/noob-portal",
+   "table": "ninjas",
+   "width": 144,
+   "y": 90
+  },
+  {
+   "block": 5,
+   "block_reaction": 16,
+   "front": 120,
+   "height": 24,
+   "hit": 22,
+   "hit_reaction": 26,
+   "id": "ninjas/noob-slide",
+   "table": "ninjas",
+   "width": 65,
+   "y": 125
+  },
+  {
+   "block": 0,
+   "block_reaction": 16,
+   "front": 107,
+   "height": 18,
+   "hit": 0,
+   "hit_reaction": 16,
+   "id": "jax/noogy",
+   "score": 0,
+   "table": "jax",
+   "width": 64,
+   "y": 24
+  },
+  {
+   "block": 4,
+   "block_reaction": 16,
+   "front": 40,
+   "height": 144,
+   "hit": 19,
+   "hit_reaction": 18,
+   "id": "shang-tsung/oldskull",
+   "score": 0,
+   "table": "shang-tsung",
+   "width": 80,
+   "y": -144
+  },
+  {
+   "block": 3,
+   "block_reaction": 6,
+   "front": 88,
+   "height": 27,
+   "hit": 12,
+   "hit_reaction": 6,
+   "id": "raiden/duckkickh",
+   "score": 0,
+   "table": "raiden",
+   "width": 69,
+   "y": 56
+  },
+  {
+   "block": 2,
+   "block_reaction": 7,
+   "front": 92,
+   "height": 27,
+   "hit": 6,
+   "hit_reaction": 7,
+   "id": "raiden/duckkickl",
+   "score": 0,
+   "table": "raiden",
+   "width": 69,
+   "y": 120
+  },
+  {
+   "block": 2,
+   "block_reaction": 5,
+   "front": 70,
+   "height": 28,
+   "hit": 6,
+   "hit_reaction": 5,
+   "id": "raiden/duckpunch",
+   "score": 0,
+   "table": "raiden",
+   "width": 48,
+   "y": 61
+  },
+  {
+   "block": 6,
+   "block_reaction": 15,
+   "front": 57,
+   "height": 34,
+   "hit": 24,
+   "hit_reaction": 15,
+   "id": "raiden/elbow",
+   "score": 0,
+   "table": "raiden",
+   "width": 44,
+   "y": 12
+  },
+  {
+   "block": 7,
+   "block_reaction": 18,
+   "front": 101,
+   "height": 39,
+   "hit": 26,
+   "hit_reaction": 11,
+   "id": "raiden/flipk",
+   "score": 0,
+   "table": "raiden",
+   "width": 64,
+   "y": 40
+  },
+  {
+   "block": 5,
+   "block_reaction": 18,
+   "front": 99,
+   "height": 36,
+   "hit": 16,
+   "hit_reaction": 12,
+   "id": "raiden/flipp",
+   "score": 0,
+   "table": "raiden",
+   "width": 64,
+   "y": 8
+  },
+  {
+   "block": 8,
+   "block_reaction": 0,
+   "front": 88,
+   "height": 35,
+   "hit": 32,
+   "hit_reaction": 0,
+   "id": "raiden/hikick",
+   "score": 0,
+   "table": "raiden",
+   "width": 60,
+   "y": 16
+  },
+  {
+   "block": 3,
+   "block_reaction": 2,
+   "front": 73,
+   "height": 36,
+   "hit": 11,
+   "hit_reaction": 2,
+   "id": "raiden/hipunch",
+   "score": 0,
+   "table": "raiden",
+   "width": 59,
+   "y": 20
+  },
+  {
+   "block": 6,
+   "block_reaction": 10,
+   "front": 98,
+   "height": 37,
+   "hit": 32,
+   "hit_reaction": 10,
+   "id": "raiden/jumpupk",
+   "score": 0,
+   "table": "raiden",
+   "width": 64,
+   "y": 20
+  },
+  {
+   "block": 5,
+   "block_reaction": 9,
+   "front": 99,
+   "height": 36,
+   "hit": 16,
+   "hit_reaction": 9,
+   "id": "raiden/jumpupp",
+   "score": 0,
+   "table": "raiden",
+   "width": 48,
+   "y": 8
+  },
+  {
+   "block": 4,
+   "block_reaction": 14,
+   "front": 59,
+   "height": 43,
+   "hit": 16,
+   "hit_reaction": 14,
+   "id": "raiden/knee",
+   "score": 0,
+   "table": "raiden",
+   "width": 48,
+   "y": 21
+  },
+  {
+   "block": 6,
+   "block_reaction": 1,
+   "front": 99,
+   "height": 34,
+   "hit": 26,
+   "hit_reaction": 1,
+   "id": "raiden/lokick",
+   "score": 0,
+   "table": "raiden",
+   "width": 74,
+   "y": 45
+  },
+  {
+   "block": 2,
+   "block_reaction": 3,
+   "front": 74,
+   "height": 24,
+   "hit": 8,
+   "hit_reaction": 3,
+   "id": "raiden/lopunch",
+   "score": 0,
+   "table": "raiden",
+   "width": 60,
+   "y": 33
+  },
+  {
+   "block": 9,
+   "block_reaction": 30,
+   "front": 80,
+   "height": 50,
+   "hit": 33,
+   "hit_reaction": 13,
+   "id": "raiden/roundh",
+   "score": 0,
+   "table": "raiden",
+   "width": 68,
+   "y": 6
+  },
+  {
+   "block": 5,
+   "block_reaction": 28,
+   "front": 103,
+   "height": 34,
+   "hit": 20,
+   "hit_reaction": 4,
+   "id": "raiden/sweepk",
+   "score": 0,
+   "table": "raiden",
+   "width": 74,
+   "y": 107
+  },
+  {
+   "block": 10,
+   "block_reaction": 30,
+   "front": 78,
+   "height": 66,
+   "hit": 40,
+   "hit_reaction": 8,
+   "id": "raiden/uppercut",
+   "score": 0,
+   "table": "raiden",
+   "width": 54,
+   "y": -10
+  },
+  {
+   "block": 4,
+   "block_reaction": 16,
+   "front": 101,
+   "height": 16,
+   "hit": 22,
+   "hit_reaction": 16,
+   "id": "raiden/zap1",
+   "score": 0,
+   "table": "raiden",
+   "width": 64,
+   "y": 36
+  },
+  {
+   "block": 4,
+   "block_reaction": 16,
+   "front": 133,
+   "height": 16,
+   "hit": 22,
+   "hit_reaction": 16,
+   "id": "raiden/zap2",
+   "score": 0,
+   "table": "raiden",
+   "width": 60,
+   "y": 36
+  },
+  {
+   "block": 3,
+   "block_reaction": 19,
+   "front": 72,
+   "height": 43,
+   "hit": 10,
+   "hit_reaction": 19,
+   "id": "baraka/2ndknee",
+   "score": 0,
+   "table": "baraka",
+   "width": 48,
+   "y": 16
+  },
+  {
+   "block": 3,
+   "block_reaction": 6,
+   "front": 77,
+   "height": 50,
+   "hit": 12,
+   "hit_reaction": 6,
+   "id": "baraka/duckkickh",
+   "score": 0,
+   "table": "baraka",
+   "width": 69,
+   "y": 62
+  },
+  {
+   "block": 2,
+   "block_reaction": 7,
+   "front": 77,
+   "height": 27,
+   "hit": 6,
+   "hit_reaction": 7,
+   "id": "baraka/duckkickl",
+   "score": 0,
+   "table": "baraka",
+   "width": 69,
+   "y": 120
+  },
+  {
+   "block": 2,
+   "block_reaction": 5,
+   "front": 74,
+   "height": 18,
+   "hit": 6,
+   "hit_reaction": 5,
+   "id": "baraka/duckpunch",
+   "score": 0,
+   "table": "baraka",
+   "width": 48,
+   "y": 77
+  },
+  {
+   "block": 6,
+   "block_reaction": 15,
+   "front": 57,
+   "height": 34,
+   "hit": 24,
+   "hit_reaction": 15,
+   "id": "baraka/elbow",
+   "score": 0,
+   "table": "baraka",
+   "width": 44,
+   "y": 12
+  },
+  {
+   "block": 7,
+   "block_reaction": 18,
+   "front": 96,
+   "height": 46,
+   "hit": 26,
+   "hit_reaction": 11,
+   "id": "baraka/flipk",
+   "score": 0,
+   "table": "baraka",
+   "width": 68,
+   "y": 40
+  },
+  {
+   "block": 5,
+   "block_reaction": 18,
+   "front": 89,
+   "height": 37,
+   "hit": 16,
+   "hit_reaction": 12,
+   "id": "baraka/flipp",
+   "score": 0,
+   "table": "baraka",
+   "width": 60,
+   "y": 36
+  },
+  {
+   "block": 8,
+   "block_reaction": 0,
+   "front": 83,
+   "height": 35,
+   "hit": 32,
+   "hit_reaction": 0,
+   "id": "baraka/hikick",
+   "score": 0,
+   "table": "baraka",
+   "width": 60,
+   "y": 10
+  },
+  {
+   "block": 3,
+   "block_reaction": 2,
+   "front": 81,
+   "height": 36,
+   "hit": 11,
+   "hit_reaction": 2,
+   "id": "baraka/hipunch",
+   "score": 0,
+   "table": "baraka",
+   "width": 50,
+   "y": 16
+  },
+  {
+   "block": 6,
+   "block_reaction": 10,
+   "front": 70,
+   "height": 50,
+   "hit": 32,
+   "hit_reaction": 10,
+   "id": "baraka/jumpupk",
+   "score": 0,
+   "table": "baraka",
+   "width": 64,
+   "y": 3
+  },
+  {
+   "block": 5,
+   "block_reaction": 9,
+   "front": 88,
+   "height": 54,
+   "hit": 16,
+   "hit_reaction": 9,
+   "id": "baraka/jumpupp",
+   "score": 0,
+   "table": "baraka",
+   "width": 60,
+   "y": 20
+  },
+  {
+   "block": 4,
+   "block_reaction": 14,
+   "front": 53,
+   "height": 43,
+   "hit": 16,
+   "hit_reaction": 14,
+   "id": "baraka/knee",
+   "score": 0,
+   "table": "baraka",
+   "width": 48,
+   "y": 48
+  },
+  {
+   "block": 6,
+   "block_reaction": 1,
+   "front": 96,
+   "height": 34,
+   "hit": 26,
+   "hit_reaction": 1,
+   "id": "baraka/lokick",
+   "score": 0,
+   "table": "baraka",
+   "width": 74,
+   "y": 42
+  },
+  {
+   "block": 2,
+   "block_reaction": 3,
+   "front": 84,
+   "height": 24,
+   "hit": 8,
+   "hit_reaction": 3,
+   "id": "baraka/lopunch",
+   "score": 0,
+   "table": "baraka",
+   "width": 56,
+   "y": 32
+  },
+  {
+   "block": 8,
+   "block_reaction": 30,
+   "front": 96,
+   "height": 44,
+   "hit": 34,
+   "hit_reaction": 13,
+   "id": "baraka/roundh",
+   "score": 0,
+   "table": "baraka",
+   "width": 68,
+   "y": 16
+  },
+  {
+   "block": 5,
+   "block_reaction": 28,
+   "front": 99,
+   "height": 35,
+   "hit": 20,
+   "hit_reaction": 4,
+   "id": "baraka/sweepk",
+   "score": 0,
+   "table": "baraka",
+   "width": 69,
+   "y": 112
+  },
+  {
+   "block": 10,
+   "block_reaction": 30,
+   "front": 78,
+   "height": 64,
+   "hit": 40,
+   "hit_reaction": 8,
+   "id": "baraka/uppercut",
+   "score": 0,
+   "table": "baraka",
+   "width": 51,
+   "y": -8
+  },
+  {
+   "aliases": [
+    "baraka/zap1"
+   ],
+   "block": 5,
+   "block_reaction": 16,
+   "front": 10,
+   "height": 20,
+   "hit": 24,
+   "hit_reaction": 16,
+   "id": "baraka/zap4",
+   "score": 0,
+   "table": "baraka",
+   "width": 50,
+   "y": -8
+  },
+  {
+   "block": 3,
+   "block_reaction": 24,
+   "front": 96,
+   "height": 48,
+   "hit": 0,
+   "hit_reaction": 24,
+   "id": "ninjas/scissor",
+   "score": 0,
+   "table": "ninjas",
+   "width": 48,
+   "y": 3
+  },
+  {
+   "block": 10,
+   "block_reaction": 20,
+   "front": 80,
+   "height": 74,
+   "hit": 40,
+   "hit_reaction": 20,
+   "id": "baraka/shred",
+   "score": 0,
+   "table": "baraka",
+   "width": 60,
+   "y": 12
+  },
+  {
+   "block": 20,
+   "block_reaction": 38,
+   "front": 104,
+   "height": 48,
+   "hit": 64,
+   "hit_reaction": 5,
+   "id": "shao-kahn/bigpow",
+   "score": 0,
+   "table": "shao-kahn",
+   "width": 96,
+   "y": 32
+  },
+  {
+   "block": 18,
+   "block_reaction": 38,
+   "front": 80,
+   "height": 104,
+   "hit": 52,
+   "hit_reaction": 0,
+   "id": "shao-kahn/charge",
+   "score": 0,
+   "table": "shao-kahn",
+   "width": 48,
+   "y": 27
+  },
+  {
+   "block": 0,
+   "block_reaction": 38,
+   "front": 104,
+   "height": 48,
+   "hit": 0,
+   "hit_reaction": 0,
+   "id": "shao-kahn/grab",
+   "score": 0,
+   "table": "shao-kahn",
+   "width": 96,
+   "y": 32
+  },
+  {
+   "block": 5,
+   "block_reaction": 38,
+   "front": 112,
+   "height": 96,
+   "hit": 64,
+   "hit_reaction": 0,
+   "id": "shao-kahn/hammer",
+   "score": 0,
+   "table": "shao-kahn",
+   "width": 96,
+   "y": 0
+  },
+  {
+   "block": 6,
+   "block_reaction": 38,
+   "front": 134,
+   "height": 57,
+   "hit": 39,
+   "hit_reaction": 3,
+   "id": "shao-kahn/hamtop",
+   "score": 0,
+   "table": "shao-kahn",
+   "width": 119,
+   "y": 32
+  },
+  {
+   "block": 18,
+   "block_reaction": 38,
+   "front": 108,
+   "height": 24,
+   "hit": 52,
+   "hit_reaction": 0,
+   "id": "shao-kahn/kick",
+   "score": 0,
+   "table": "shao-kahn",
+   "width": 80,
+   "y": 59
+  },
+  {
+   "block": 5,
+   "block_reaction": 38,
+   "front": 77,
+   "height": 74,
+   "hit": 32,
+   "hit_reaction": 7,
+   "id": "shao-kahn/knee",
+   "score": 0,
+   "table": "shao-kahn",
+   "width": 70,
+   "y": 23
+  },
+  {
+   "block": 16,
+   "block_reaction": 37,
+   "front": 64,
+   "height": 112,
+   "hit": 52,
+   "hit_reaction": 0,
+   "id": "shao-kahn/nupower",
+   "score": 0,
+   "table": "shao-kahn",
+   "width": 144,
+   "y": 0
+  },
+  {
+   "block": 18,
+   "block_reaction": 41,
+   "front": 80,
+   "height": 96,
+   "hit": 60,
+   "hit_reaction": 0,
+   "id": "shao-kahn/portal",
+   "score": 0,
+   "table": "shao-kahn",
+   "width": 128,
+   "y": 0
+  },
+  {
+   "block": 16,
+   "block_reaction": 37,
+   "front": 89,
+   "height": 32,
+   "hit": 48,
+   "hit_reaction": 6,
+   "id": "shao-kahn/punch",
+   "score": 0,
+   "table": "shao-kahn",
+   "width": 64,
+   "y": 40
+  },
+  {
+   "block": 20,
+   "block_reaction": 38,
+   "front": 112,
+   "height": 96,
+   "hit": 60,
+   "hit_reaction": 6,
+   "id": "shao-kahn/slam",
+   "score": 0,
+   "table": "shao-kahn",
+   "width": 88,
+   "y": 37
+  },
+  {
+   "block": 4,
+   "block_reaction": 40,
+   "front": 24,
+   "height": 49,
+   "hit": 16,
+   "hit_reaction": 4,
+   "id": "shao-kahn/sonic",
+   "score": 0,
+   "table": "shao-kahn",
+   "width": 48,
+   "y": 0
+  },
+  {
+   "block": 4,
+   "block_reaction": 40,
+   "front": 16,
+   "height": 132,
+   "hit": 16,
+   "hit_reaction": 4,
+   "id": "shao-kahn/sonic-l",
+   "score": 0,
+   "table": "shao-kahn",
+   "width": 32,
+   "y": 0
+  },
+  {
+   "block": 4,
+   "block_reaction": 40,
+   "front": 22,
+   "height": 98,
+   "hit": 16,
+   "hit_reaction": 4,
+   "id": "shao-kahn/sonic-m",
+   "score": 0,
+   "table": "shao-kahn",
+   "width": 44,
+   "y": 0
+  },
+  {
+   "block": 8,
+   "block_reaction": 37,
+   "front": 120,
+   "height": 16,
+   "hit": 40,
+   "hit_reaction": 2,
+   "id": "shao-kahn/spear",
+   "score": 0,
+   "table": "shao-kahn",
+   "width": 70,
+   "y": 44
+  },
+  {
+   "block": 18,
+   "block_reaction": 38,
+   "front": 86,
+   "height": 61,
+   "hit": 52,
+   "hit_reaction": 0,
+   "id": "shao-kahn/uppercut",
+   "score": 0,
+   "table": "shao-kahn",
+   "width": 53,
+   "y": 21
+  },
+  {
+   "block": 4,
+   "block_reaction": 16,
+   "front": 80,
+   "height": 30,
+   "hit": 19,
+   "hit_reaction": 16,
+   "id": "shang-tsung/skull1",
+   "score": 0,
+   "table": "shang-tsung",
+   "width": 44,
+   "y": 16
+  },
+  {
+   "block": 4,
+   "block_reaction": 16,
+   "front": 138,
+   "height": 30,
+   "hit": 19,
+   "hit_reaction": 16,
+   "id": "shang-tsung/skull2",
+   "score": 0,
+   "table": "shang-tsung",
+   "width": 44,
+   "y": 16
+  },
+  {
+   "block": 6,
+   "block_reaction": 16,
+   "front": 78,
+   "height": 24,
+   "hit": 22,
+   "hit_reaction": 18,
+   "id": "ninjas/slide",
+   "table": "ninjas",
+   "width": 65,
+   "y": 125
+  },
+  {
+   "block": 6,
+   "block_reaction": 2,
+   "front": 116,
+   "height": 18,
+   "hit": 24,
+   "hit_reaction": 22,
+   "id": "baraka/spark1",
+   "score": 0,
+   "table": "baraka",
+   "width": 74,
+   "y": 30
+  },
+  {
+   "block": 6,
+   "block_reaction": 2,
+   "front": 120,
+   "height": 18,
+   "hit": 24,
+   "hit_reaction": 22,
+   "id": "baraka/spark2",
+   "score": 0,
+   "table": "baraka",
+   "width": 70,
+   "y": 30
+  },
+  {
+   "block": 8,
+   "block_reaction": 22,
+   "front": 104,
+   "height": 24,
+   "hit": 32,
+   "hit_reaction": 21,
+   "id": "baraka/spin",
+   "score": 0,
+   "table": "baraka",
+   "width": 70,
+   "y": 20
+  },
+  {
+   "block": 0,
+   "block_reaction": 16,
+   "front": 109,
+   "height": 64,
+   "hit": 0,
+   "hit_reaction": 18,
+   "id": "kitana-mileena/spinfan",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 77,
+   "y": -48
+  },
+  {
+   "block": 3,
+   "block_reaction": 1,
+   "front": 121,
+   "height": 20,
+   "hit": 18,
+   "hit_reaction": 23,
+   "id": "ninjas/spit1",
+   "score": 0,
+   "table": "ninjas",
+   "width": 64,
+   "y": 20
+  },
+  {
+   "block": 3,
+   "block_reaction": 1,
+   "front": 169,
+   "height": 20,
+   "hit": 18,
+   "hit_reaction": 23,
+   "id": "ninjas/spit2",
+   "score": 0,
+   "table": "ninjas",
+   "width": 64,
+   "y": 20
+  },
+  {
+   "block": 5,
+   "block_reaction": 20,
+   "front": 93,
+   "height": 38,
+   "hit": 21,
+   "hit_reaction": 20,
+   "id": "kitana-mileena/square",
+   "score": 0,
+   "table": "kitana-mileena",
+   "width": 60,
+   "y": 36
+  },
+  {
+   "block": 7,
+   "block_reaction": 18,
+   "front": 85,
+   "height": 45,
+   "hit": 26,
+   "hit_reaction": 21,
+   "id": "shang-tsung/backflip",
+   "score": 0,
+   "table": "shang-tsung",
+   "width": 68,
+   "y": 40
+  },
+  {
+   "block": 5,
+   "block_reaction": 38,
+   "front": 64,
+   "height": 48,
+   "hit": 21,
+   "hit_reaction": 22,
+   "id": "shang-tsung/kano-ball",
+   "score": 0,
+   "table": "shang-tsung",
+   "width": 64,
+   "y": 16
+  },
+  {
+   "block": 8,
+   "block_reaction": 0,
+   "front": 80,
+   "height": 44,
+   "hit": 32,
+   "hit_reaction": 0,
+   "id": "shang-tsung/roundpunch",
+   "score": 0,
+   "table": "shang-tsung",
+   "width": 68,
+   "y": 6
+  },
+  {
+   "block": 3,
+   "block_reaction": 6,
+   "front": 93,
+   "height": 34,
+   "hit": 12,
+   "hit_reaction": 6,
+   "id": "shang-tsung/duckkickh",
+   "score": 0,
+   "table": "shang-tsung",
+   "width": 69,
+   "y": 61
+  },
+  {
+   "block": 2,
+   "block_reaction": 7,
+   "front": 92,
+   "height": 27,
+   "hit": 6,
+   "hit_reaction": 7,
+   "id": "shang-tsung/duckkickl",
+   "score": 0,
+   "table": "shang-tsung",
+   "width": 69,
+   "y": 104
+  },
+  {
+   "block": 2,
+   "block_reaction": 5,
+   "front": 66,
+   "height": 34,
+   "hit": 6,
+   "hit_reaction": 5,
+   "id": "shang-tsung/duckpunch",
+   "score": 0,
+   "table": "shang-tsung",
+   "width": 48,
+   "y": 66
+  },
+  {
+   "block": 6,
+   "block_reaction": 15,
+   "front": 57,
+   "height": 34,
+   "hit": 24,
+   "hit_reaction": 15,
+   "id": "shang-tsung/elbow",
+   "score": 0,
+   "table": "shang-tsung",
+   "width": 44,
+   "y": 12
+  },
+  {
+   "block": 7,
+   "block_reaction": 18,
+   "front": 85,
+   "height": 45,
+   "hit": 26,
+   "hit_reaction": 11,
+   "id": "shang-tsung/flipk",
+   "score": 0,
+   "table": "shang-tsung",
+   "width": 68,
+   "y": 40
+  },
+  {
+   "block": 5,
+   "block_reaction": 18,
+   "front": 80,
+   "height": 27,
+   "hit": 16,
+   "hit_reaction": 12,
+   "id": "shang-tsung/flipp",
+   "score": 0,
+   "table": "shang-tsung",
+   "width": 51,
+   "y": 38
+  },
+  {
+   "block": 8,
+   "block_reaction": 0,
+   "front": 93,
+   "height": 43,
+   "hit": 32,
+   "hit_reaction": 0,
+   "id": "shang-tsung/hikick",
+   "score": 0,
+   "table": "shang-tsung",
+   "width": 60,
+   "y": 8
+  },
+  {
+   "block": 3,
+   "block_reaction": 2,
+   "front": 77,
+   "height": 36,
+   "hit": 11,
+   "hit_reaction": 2,
+   "id": "shang-tsung/hipunch",
+   "score": 0,
+   "table": "shang-tsung",
+   "width": 59,
+   "y": 9
+  },
+  {
+   "block": 6,
+   "block_reaction": 10,
+   "front": 66,
+   "height": 50,
+   "hit": 32,
+   "hit_reaction": 10,
+   "id": "shang-tsung/jumpupk",
+   "score": 0,
+   "table": "shang-tsung",
+   "width": 64,
+   "y": 4
+  },
+  {
+   "block": 5,
+   "block_reaction": 9,
+   "front": 83,
+   "height": 40,
+   "hit": 16,
+   "hit_reaction": 9,
+   "id": "shang-tsung/jumpupp",
+   "score": 0,
+   "table": "shang-tsung",
+   "width": 60,
+   "y": 36
+  },
+  {
+   "block": 4,
+   "block_reaction": 14,
+   "front": 59,
+   "height": 43,
+   "hit": 16,
+   "hit_reaction": 14,
+   "id": "shang-tsung/knee",
+   "score": 0,
+   "table": "shang-tsung",
+   "width": 48,
+   "y": 42
+  },
+  {
+   "block": 6,
+   "block_reaction": 1,
+   "front": 93,
+   "height": 34,
+   "hit": 26,
+   "hit_reaction": 1,
+   "id": "shang-tsung/lokick",
+   "score": 0,
+   "table": "shang-tsung",
+   "width": 74,
+   "y": 45
+  },
+  {
+   "block": 2,
+   "block_reaction": 3,
+   "front": 78,
+   "height": 36,
+   "hit": 8,
+   "hit_reaction": 3,
+   "id": "shang-tsung/lopunch",
+   "score": 0,
+   "table": "shang-tsung",
+   "width": 60,
+   "y": 24
+  },
+  {
+   "block": 8,
+   "block_reaction": 30,
+   "front": 80,
+   "height": 44,
+   "hit": 32,
+   "hit_reaction": 13,
+   "id": "shang-tsung/roundh",
+   "score": 0,
+   "table": "shang-tsung",
+   "width": 68,
+   "y": 6
+  },
+  {
+   "block": 5,
+   "block_reaction": 28,
+   "front": 96,
+   "height": 40,
+   "hit": 20,
+   "hit_reaction": 4,
+   "id": "shang-tsung/sweepk",
+   "score": 0,
+   "table": "shang-tsung",
+   "width": 74,
+   "y": 100
+  },
+  {
+   "block": 10,
+   "block_reaction": 30,
+   "front": 78,
+   "height": 64,
+   "hit": 40,
+   "hit_reaction": 8,
+   "id": "shang-tsung/uppercut",
+   "score": 0,
+   "table": "shang-tsung",
+   "width": 54,
+   "y": -16
+  },
+  {
+   "block": 7,
+   "block_reaction": 19,
+   "front": 82,
+   "height": 40,
+   "hit": 26,
+   "hit_reaction": 24,
+   "id": "kung-lao/super-rep",
+   "score": 0,
+   "table": "kung-lao",
+   "width": 70,
+   "y": 20
+  },
+  {
+   "block": 0,
+   "block_reaction": 25,
+   "front": 144,
+   "height": 16,
+   "hit": 0,
+   "hit_reaction": 25,
+   "id": "ninjas/superf",
+   "score": 0,
+   "table": "ninjas",
+   "width": 96,
+   "y": -12
+  },
+  {
+   "block": 8,
+   "block_reaction": 39,
+   "front": 104,
+   "height": 24,
+   "hit": 32,
+   "hit_reaction": 18,
+   "id": "baraka/swipe",
+   "score": 0,
+   "table": "baraka",
+   "width": 70,
+   "y": 20
+  },
+  {
+   "block": 2,
+   "block_reaction": 24,
+   "front": 88,
+   "height": 48,
+   "hit": 0,
+   "hit_reaction": 25,
+   "id": "baraka/swordkick",
+   "score": 0,
+   "table": "baraka",
+   "width": 80,
+   "y": 45
+  },
+  {
+   "block": 5,
+   "block_reaction": 19,
+   "front": 96,
+   "height": 128,
+   "hit": 10,
+   "hit_reaction": 19,
+   "id": "ninjas/tornado",
+   "score": 0,
+   "table": "ninjas",
+   "width": 96,
+   "y": -32
+  }
+ ],
+ "tables": [
+  {
+   "characters": [
+    "baraka"
+   ],
+   "id": "baraka"
+  },
+  {
+   "characters": [
+    "kintaro"
+   ],
+   "id": "goro-kintaro"
+  },
+  {
+   "characters": [
+    "jax"
+   ],
+   "id": "jax"
+  },
+  {
+   "characters": [
+    "johnny-cage"
+   ],
+   "id": "johnny-cage"
+  },
+  {
+   "characters": [
+    "kitana",
+    "mileena",
+    "jade"
+   ],
+   "id": "kitana-mileena"
+  },
+  {
+   "characters": [
+    "kung-lao"
+   ],
+   "id": "kung-lao"
+  },
+  {
+   "characters": [
+    "liu-kang"
+   ],
+   "id": "liu-kang"
+  },
+  {
+   "characters": [
+    "sub-zero",
+    "reptile",
+    "scorpion",
+    "smoke",
+    "noob-saibot"
+   ],
+   "id": "ninjas"
+  },
+  {
+   "characters": [
+    "raiden"
+   ],
+   "id": "raiden"
+  },
+  {
+   "characters": [
+    "shang-tsung"
+   ],
+   "id": "shang-tsung"
+  },
+  {
+   "characters": [
+    "shao-kahn"
+   ],
+   "id": "shao-kahn"
+  }
+ ]
+}

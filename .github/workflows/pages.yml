@@ -1,0 +1,49 @@
+name: pages
+
+# The site IS the repository - one HTML file and three JSON files, no build
+# step - so publishing is a copy. What matters is the gate in front of it:
+# nothing reaches the site that has not passed validate.py, because that is
+# the check that keeps this repository publishable.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: python tools/validate.py
+      - run: python tools/prove_validator.py
+      - run: node tools/selftest.mjs
+
+  deploy:
+    needs: gate
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4
