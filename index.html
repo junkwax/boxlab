@@ -8,12 +8,15 @@
 <style>
 :root{
   --bg:#0e1013; --panel:#161a20; --line:#262c35; --ink:#e6e9ee; --dim:#8b95a3;
-  --hit:#ff4d4d; --body:#3ddc84; --hurt:#ffffff; --anchor:#4da3ff; --warn:#ffb020;
+  --hit:#ff4d4d; --body:#3ddc84; --atk:#a884ff; --hurt:#ffffff;
+  --anchor:#4da3ff; --warn:#ffb020;
+  --bodyfill:rgba(61,220,132,.12); --atkfill:rgba(168,132,255,.12);
   --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace;
 }
 @media (prefers-color-scheme:light){
   :root{ --bg:#f6f7f9; --panel:#fff; --line:#dde1e7; --ink:#12151a; --dim:#5c6672;
-         --hurt:#111820; }
+         --hurt:#111820; --body:#1faa5c; --atk:#7c3aed;
+         --bodyfill:rgba(31,170,92,.13); --atkfill:rgba(124,58,237,.13); }
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);
@@ -36,6 +39,7 @@ input[type=range]{padding:0;width:220px;vertical-align:middle}
 .toggles label{display:flex;align-items:center;gap:6px;text-transform:none;
       letter-spacing:0;font-size:13px;margin:0;cursor:pointer;color:var(--ink)}
 .key{display:inline-block;width:11px;height:11px;border-radius:2px;border:2px solid}
+.key + .key{margin-left:3px}
 .stage{background:var(--panel);border:1px solid var(--line);border-radius:10px;
        padding:10px;overflow-x:auto}
 canvas{display:block;width:100%;height:auto;image-rendering:pixelated;
@@ -89,8 +93,9 @@ a{color:var(--anchor)}
 .rcard{width:64px;border:1px solid transparent;border-radius:8px;padding:4px 2px;
        cursor:pointer;text-align:center}
 .rcard:hover{background:var(--bg)}
-.rcard.atk{border-color:var(--hit)}
-.rcard.def{border-color:var(--anchor)}
+.rcard.atk{border-color:var(--atk)}
+.rcard.def{border-color:var(--body)}
+.rcard.atk.def{border-color:var(--atk)}
 .rcard canvas{display:block;width:56px;height:58px;margin:0 auto}
 .rname{font-size:10.5px;color:var(--dim);margin-top:3px;line-height:1.25}
 .rcard.atk .rname,.rcard.def .rname{color:var(--ink)}
@@ -157,7 +162,8 @@ textarea{width:100%;background:var(--bg);color:var(--ink);
     <label><input type="checkbox" id="t_hit" checked>
       <span class="key" style="border-color:var(--hit)"></span> strike box</label>
     <label><input type="checkbox" id="t_body" checked>
-      <span class="key" style="border-color:var(--body)"></span> pieces (silhouette)</label>
+      <span class="key" style="border-color:var(--atk)"></span><span class="key"
+        style="border-color:var(--body)"></span> pieces — attacker / defender</label>
     <label><input type="checkbox" id="t_hurt" checked>
       <span class="key" style="border-color:var(--hurt)"></span> hurt box, as tested</label>
     <label><input type="checkbox" id="t_full">
@@ -499,8 +505,8 @@ function draw(){
       const c = columnAt(s.def, "duck", s.fi, s.D, s.id);
       if (c) pieces(c.world, C("--dim"), null);
     }
-    pieces(s.defWorld, C("--body"), "rgba(61,220,132,.10)");
-    pieces(s.atkWorld, C("--body"), "rgba(61,220,132,.05)");
+    pieces(s.defWorld, C("--body"), C("--bodyfill"));
+    pieces(s.atkWorld, C("--atk"), C("--atkfill"));
   }
   if ($("t_full").checked && s.hurtFull)
     rect(s.hurtFull, C("--dim"), null, [4,4]);
@@ -638,6 +644,7 @@ function report(s){
    wide one on top. The swords are the long thin ones. Four arms are four arms.
    No artwork is needed here, and artwork would say less. */
 let RMODE = "atk";
+const CARDS = {}, ROLE = { atk: null, def: null };
 let VIEW = null, DRAG = null, PLAY = null;
 
 function buildRoster(){
@@ -651,6 +658,7 @@ function buildRoster(){
     const nm = document.createElement("div");
     nm.className = "rname";
     nm.textContent = c.name;
+    CARDS[c.id] = cv;
     card.append(cv); card.append(nm);
     card.addEventListener("click", () => {
       stopPlay();
@@ -664,19 +672,31 @@ function buildRoster(){
   });
 }
 
+function roleOf(cid){
+  return $("atk").value === cid ? "--atk"
+       : $("def").value === cid ? "--body" : "--dim";
+}
+
 function silhouette(cv, cid){
   const lane = (POSE.stances[cid] || {}).stance || [];
   const rects = lane.length ? POSE.poses[lane[0]] : null;
   if (!rects || !rects.length) return;
   const g = cv.getContext("2d");
+  g.clearRect(0, 0, cv.width, cv.height);
   const b = bbox(rects), pad = 7, W = cv.width, H = cv.height;
   const k = Math.min((W - 2*pad) / Math.max(b[2]-b[0], 1),
                      (H - 2*pad) / Math.max(b[3]-b[1], 1));
   const ox = (W - (b[2]-b[0])*k)/2 - b[0]*k;
   const oy = (H - (b[3]-b[1])*k)/2 - b[1]*k;
-  g.fillStyle = "rgba(61,220,132,.16)";
-  g.strokeStyle = getComputedStyle(document.documentElement)
-                    .getPropertyValue("--body").trim();
+  const css = getComputedStyle(document.documentElement);
+  const role = roleOf(cid);
+  /* Outline at full strength whatever the role - a fighter nobody has picked
+     still has to be recognisable, which is the whole point of the strip. Only
+     the fill carries the role. */
+  g.strokeStyle = css.getPropertyValue(role).trim();
+  g.fillStyle = role === "--atk" ? css.getPropertyValue("--atkfill").trim()
+              : role === "--body" ? css.getPropertyValue("--bodyfill").trim()
+              : "rgba(139,149,163,.14)";
   g.lineWidth = 1.5;
   rects.forEach(([x,y,w,h]) => {
     g.fillRect(ox + x*k, oy + y*k, w*k, h*k);
@@ -685,12 +705,19 @@ function silhouette(cv, cid){
 }
 
 function markRoster(){
+  const atk = $("atk").value, def = $("def").value;
+  if (atk === ROLE.atk && def === ROLE.def) return;   // nothing moved
+  const touched = [ROLE.atk, ROLE.def, atk, def].filter(Boolean);
+  ROLE.atk = atk; ROLE.def = def;
   chars.forEach(c => {
     const e = $("rc_" + c.id);
     if (!e) return;
-    e.className = "rcard" + ($("atk").value === c.id ? " atk" : "") +
-                            ($("def").value === c.id ? " def" : "");
+    e.className = "rcard" + (atk === c.id ? " atk" : "") +
+                            (def === c.id ? " def" : "");
   });
+  /* Repaint only the thumbnails whose role changed - four at most, rather
+     than the whole strip on every slider tick. */
+  touched.forEach(id => { if (CARDS[id]) silhouette(CARDS[id], id); });
 }
 
 function setMode(m){

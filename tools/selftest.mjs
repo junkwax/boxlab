@@ -248,5 +248,16 @@ check("and it whiffs over the crouch on all of them",
 set({ atk: "bigarms", mv: "bigarms/sweepk", def: "headband" });
 check("a sweep is flagged must be blocked low", S().mustDuck, true);
 
+/* 12. The two fighters have to read as two fighters. roleOf drives the canvas
+       fill, the roster border and the thumbnail, so one check covers all
+       three - and a mirror match resolves to the attacker rather than
+       flickering between them. */
+set({ atk: "headband", def: "bigarms" });
+check("attacker, defender and bystander are three different roles",
+      [val('roleOf("headband")'), val('roleOf("bigarms")'), val('roleOf("acid")')],
+      ["--atk", "--body", "--dim"]);
+set({ atk: "headband", def: "headband" });
+check("a mirror match resolves to the attacker", val('roleOf("headband")'), "--atk");
+
 console.log(`\n${n - fails}/${n} checks passed`);
 process.exit(fails ? 1 : 0);
