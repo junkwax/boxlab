@@ -132,21 +132,40 @@ const ANCHORED = val('(BOX.model || {}).column') === "anchor";
    with 2*(W>>3) = 16 on a 66px silhouette; `colwidth` recovers retail's
    own W - 2*((W>>3)+(W>>2)) = 18. Keying the expected number off the
    pack rather than hardcoding it is the whole point of `model`. */
-const SHIFTW = val('(BOX.model || {}).column_width') !== "retail";
+const WIDTHMODE = val('(BOX.model || {}).column_width') || "shift";
+const DIVISOR = val('(BOX.model || {}).column_divisor') || 4;
+/* THREE branches, not two. This was `!== "retail"` and so folded a divisor
+   build in with the old shift, expecting 16 where the build tests 33 - the
+   same two-branch assumption the viewer itself carried. Expected width on a
+   66px silhouette: "retail" 18, "shift" 16, "divisor" 66 >> (d/2). */
+function expectedWidth(W){
+  if (!ANCHORED || WIDTHMODE === "retail") return W - 2 * ((W >> 3) + (W >> 2));
+  if (WIDTHMODE === "divisor") return W >> (DIVISOR >> 1);
+  return 2 * (W >> 3);
+}
 set({ atk: "headband", mv: "headband/hikick", def: "bigarms", pose: "stance",
       fr: 4, dist: 80 });
 let s = S();
 check("bigarms stance frame 5 full width", s.hurtFull[2] - s.hurtFull[0], 66);
 check("bigarms stance frame 5 tested width", s.hurt[2] - s.hurt[0],
-      (ANCHORED && SHIFTW) ? 16 : 18);
+      expectedWidth(66));
 
 /* 3. Where that column sits is the whole difference between the two branches.
       Retail centres it on the SILHOUETTE, so it drifts with the limbs; the
       anchored branch centres it on the character's own anchor, so it does not.
       Assert whichever the pack says, rather than assuming. */
-check(ANCHORED ? "tested column is centred on the anchor"
+/* An ODD surviving width cannot be centred, and the game does not pretend
+   otherwise: it takes the floor on one side and the ceiling on the other, so
+   the spare pixel lands on the RIGHT. `left + right === 2*D` asserted perfect
+   symmetry and was true only while every width came out even - a divisor
+   build makes 66 into 33 and it fails, correctly. Assert the actual split. */
+const wExp = expectedWidth(66);
+check(ANCHORED ? "tested column is anchored, spare pixel to the right"
                : "tested column is not centred on the anchor",
-      s.hurt[0] + s.hurt[2] === 2 * s.D, ANCHORED);
+      ANCHORED ? (s.hurt[0] === s.D - (wExp >> 1) &&
+                  s.hurt[2] === s.D + (wExp - (wExp >> 1)))
+               : (s.hurt[0] + s.hurt[2] !== 2 * s.D),
+      true);
 
 /* 4. Range is a BAND, not a threshold, and the near edge is the interesting
       one: standing on top of someone whiffs, because the box starts well in

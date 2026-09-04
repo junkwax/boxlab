@@ -665,7 +665,7 @@
  "format_version": 1,
  "meta": {
   "author": "",
-  "base_commit": "23d48be",
+  "base_commit": "bca8b75",
   "base_digest": "b14add5dd24a6368",
   "created": "2026-09-04",
   "description": "Every strike box in the build. This file is the one that is applied back to the game, not a copy of it.",
@@ -674,8 +674,8 @@
  },
  "model": {
   "column": "anchor",
-  "column_divisor": 4,
-  "column_width": "retail",
+  "column_divisor": 2,
+  "column_width": "divisor",
   "per_piece": false,
   "phased_boxes": false
  },

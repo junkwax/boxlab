@@ -1293,7 +1293,7 @@
   "digest": "44e40aa7c50d0fb3",
   "generated": "2026-09-04",
   "public": true,
-  "source_commit": "23d48be",
+  "source_commit": "bca8b75",
   "title": "Pose geometry",
   "units": "pixels, relative to the anchor; +x is forward, +y is down"
  },

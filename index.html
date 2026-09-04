@@ -406,8 +406,18 @@ function squeeze(l, r, anchor){
        do not truncate to the same number: "shift" is 2*(W>>3), what the
        anchored branch shipped with, and "retail" is W - 2*((W>>3)+(W>>2)),
        the width it was always described as keeping. Up to 5px apart. */
-    if (model.column_width === "retail"){
-      const w = W - 2 * inset, lo = w >> 1;
+    if (model.column_width === "retail" || model.column_width === "divisor"){
+      /* "divisor" is a THIRD branch, and this page assumed two until a
+         build shipped with column_divisor at 2. When the divisor is not 4
+         the game shifts the full width down by it directly and the quarter
+         arithmetic is never reached, so drawing the quarter would have put
+         the column at half the width actually tested. Only powers of two
+         occur: the processor has no divide instruction, so the divisor is
+         applied as a shift. */
+      const d = model.column_divisor || 4;
+      const w = model.column_width === "divisor" ? (W >> (d >> 1))
+                                                 : W - 2 * inset;
+      const lo = w >> 1;
       return [anchor - lo, anchor + (w - lo)];   /* odd widths keep the px */
     }
     const half = W >> 3;
