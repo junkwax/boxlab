@@ -3,9 +3,9 @@
  "format_version": 1,
  "meta": {
   "digest": "25b0e53350812be1",
-  "generated": "2026-09-01",
+  "generated": "2026-09-04",
   "public": true,
-  "source_commit": "d436a98",
+  "source_commit": "23d48be",
   "title": "Frame timing and advantage",
   "units": "pixels, relative to the anchor; +x is forward, +y is down"
  },

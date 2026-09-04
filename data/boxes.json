@@ -192,6 +192,9 @@
   "final-boss/charge": [
    "squeeze"
   ],
+  "final-boss/eyeshot": [
+   "squeeze"
+  ],
   "final-boss/grab": [
    "squeeze"
   ],
@@ -492,6 +495,9 @@
   "ninjas/roundh": [
    "squeeze"
   ],
+  "ninjas/rp-superk": [
+   "squeeze"
+  ],
   "ninjas/scissor": [
    "squeeze"
   ],
@@ -573,6 +579,15 @@
   "shades/zap4": [
    "squeeze"
   ],
+  "shared/ermac-teleport": [
+   "squeeze"
+  ],
+  "shared/ermac-teleslam": [
+   "squeeze"
+  ],
+  "shared/ermac-zap": [
+   "squeeze"
+  ],
   "shared/hb-lokick-early": [
    "squeeze"
   ],
@@ -650,12 +665,19 @@
  "format_version": 1,
  "meta": {
   "author": "",
-  "base_commit": "d436a98",
-  "base_digest": "61a2c808aaa0e4d7",
-  "created": "2026-09-01",
+  "base_commit": "23d48be",
+  "base_digest": "b14add5dd24a6368",
+  "created": "2026-09-04",
   "description": "Every strike box in the build. This file is the one that is applied back to the game, not a copy of it.",
   "public": true,
   "title": "Strike boxes"
+ },
+ "model": {
+  "column": "anchor",
+  "column_divisor": 4,
+  "column_width": "retail",
+  "per_piece": false,
+  "phased_boxes": false
  },
  "moves": [
   {
@@ -699,6 +721,45 @@
    "y": 0
   },
   {
+   "block": 4,
+   "block_reaction": 17,
+   "front": 76,
+   "height": 42,
+   "hit": 15,
+   "hit_reaction": 22,
+   "id": "shared/ermac-teleport",
+   "score": 0,
+   "table": "shared",
+   "width": 54,
+   "y": 17
+  },
+  {
+   "block": 2,
+   "block_reaction": 4,
+   "front": 206,
+   "height": 90,
+   "hit": 0,
+   "hit_reaction": 28,
+   "id": "shared/ermac-teleslam",
+   "score": 0,
+   "table": "shared",
+   "width": 106,
+   "y": 36
+  },
+  {
+   "block": 3,
+   "block_reaction": 42,
+   "front": 33,
+   "height": 58,
+   "hit": 20,
+   "hit_reaction": 29,
+   "id": "shared/ermac-zap",
+   "score": 0,
+   "table": "shared",
+   "width": 66,
+   "y": -29
+  },
+  {
    "block": 6,
    "block_reaction": 19,
    "front": 90,
@@ -740,14 +801,14 @@
   {
    "block": 3,
    "block_reaction": 30,
-   "front": 103,
-   "height": 16,
+   "front": 97,
+   "height": 20,
    "hit": 19,
    "hit_reaction": 23,
    "id": "female-ninjas/nitro",
    "score": 0,
    "table": "female-ninjas",
-   "width": 74,
+   "width": 91,
    "y": 40
   },
   {
@@ -1311,17 +1372,17 @@
    "y": -16
   },
   {
-   "block": 6,
+   "block": 3,
    "block_reaction": 16,
-   "front": 58,
-   "height": 16,
-   "hit": 24,
+   "front": 23,
+   "height": 34,
+   "hit": 20,
    "hit_reaction": 24,
    "id": "female-ninjas/pole-boom",
    "score": 0,
    "table": "female-ninjas",
-   "width": 56,
-   "y": 16
+   "width": 39,
+   "y": -17
   },
   {
    "block": 6,
@@ -2716,6 +2777,19 @@
    "y": 36
   },
   {
+   "block": 7,
+   "block_reaction": 19,
+   "front": 99,
+   "height": 32,
+   "hit": 26,
+   "hit_reaction": 11,
+   "id": "ninjas/rp-superk",
+   "score": 0,
+   "table": "ninjas",
+   "width": 64,
+   "y": 36
+  },
+  {
    "block": 3,
    "block_reaction": 19,
    "front": 72,
@@ -3003,6 +3077,19 @@
    "table": "final-boss",
    "width": 48,
    "y": 27
+  },
+  {
+   "block": 6,
+   "block_reaction": 42,
+   "front": 33,
+   "height": 49,
+   "hit": 35,
+   "hit_reaction": 8,
+   "id": "final-boss/eyeshot",
+   "score": 0,
+   "table": "final-boss",
+   "width": 52,
+   "y": -29
   },
   {
    "block": 0,

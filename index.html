@@ -381,11 +381,38 @@ const bbox = rects => rects.reduce((a,[x,y,w,h]) => a
   ? [Math.min(a[0],x), Math.min(a[1],y), Math.max(a[2],x+w), Math.max(a[3],y+h)]
   : [x,y,x+w,y+h], null);
 
-/* The squeeze: an inset of W/8 + W/4 is taken off EACH side, by shifts, so
+/* The squeeze. Two branches, because the game has two, and boxes.json says
+   which one this build uses - it is not for this page to guess.
+
+   "silhouette" is retail: an inset of W/8 + W/4 off EACH side, by shifts, so
    integer truncation is part of the answer. What survives is a quarter of the
-   width - not the five eighths the arithmetic is usually described as. */
-function squeeze(l, r){
-  const W = r - l, inset = (W >> 3) + (W >> 2);
+   width - not the five eighths the arithmetic is usually described as.
+
+   "anchor" is what the build ships: the same quarter width, but measured out
+   from the character's own anchor point rather than from the middle of his
+   silhouette. It matters because the middle of a silhouette travels with the
+   animation - extend a leg and the whole hit column walks toward it - and the
+   anchor does not.
+
+   This page drew the retail branch for every build until 2026-09-03, which put
+   the column a median 5.5px (worst 60) away from where the game actually tests,
+   and disagreed with it on 2.89% of hit/miss verdicts. Hence `model`: the pack
+   now carries the rule as well as the numbers, so the two cannot drift apart
+   again. A pack without one is old, and retail is the right guess for it. */
+function squeeze(l, r, anchor){
+  const W = r - l, inset = (W >> 3) + (W >> 2), model = BOX.model || {};
+  if (model.column === "anchor" && anchor !== undefined){
+    /* Where it sits and how wide it is are two separate switches, and they
+       do not truncate to the same number: "shift" is 2*(W>>3), what the
+       anchored branch shipped with, and "retail" is W - 2*((W>>3)+(W>>2)),
+       the width it was always described as keeping. Up to 5px apart. */
+    if (model.column_width === "retail"){
+      const w = W - 2 * inset, lo = w >> 1;
+      return [anchor - lo, anchor + (w - lo)];   /* odd widths keep the px */
+    }
+    const half = W >> 3;
+    return [anchor - half, anchor + half];
+  }
   return [l + inset, r - inset];
 }
 
@@ -410,7 +437,7 @@ function columnAt(def, laneName, fi, D, id){
   const full = bbox(world);
   const hurt = full.slice();
   if ((flags[id] || []).includes("squeeze")){
-    const [l, r] = squeeze(hurt[0], hurt[2]);
+    const [l, r] = squeeze(hurt[0], hurt[2], D);
     hurt[0] = l; hurt[2] = r;
   }
   return { world, full, hurt };
@@ -470,7 +497,7 @@ function state(){
   let hurtFull = defWorld.length ? bbox(defWorld) : null;
   let hurt = hurtFull ? hurtFull.slice() : null;
   const sq = (flags[id] || []).includes("squeeze");
-  if (hurt && sq){ const [l,r] = squeeze(hurt[0], hurt[2]); hurt[0]=l; hurt[2]=r; }
+  if (hurt && sq){ const [l,r] = squeeze(hurt[0], hurt[2], D); hurt[0]=l; hurt[2]=r; }
 
   const overlap = (strike && hurt) ? connects(strike, hurt) : null;
 

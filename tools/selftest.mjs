@@ -119,17 +119,34 @@ if (hasRetail) {
 }
 
 /* 2. The squeeze: the project notes measured Big Arms' stance at 66 px full and
-      18 px squeezed, off the live overlay.  Frame 5 of 7 is the one that is 66. */
+      18 px squeezed, off the live overlay.  Frame 5 of 7 is the one that is 66.
+
+      THE 18 IS A RETAIL MEASUREMENT and this file asserted it long after the
+      build stopped agreeing.  Both branches take a quarter of the width, but
+      they truncate differently: retail leaves W - 2*((W>>3)+(W>>2)) = 18 on a
+      66px silhouette, while the anchored branch is 2*(W>>3) = 16.  So the
+      expected number depends on which model the pack declares, and hard-coding
+      either one is how this test came to assert a build that was not shipping. */
+const ANCHORED = val('(BOX.model || {}).column') === "anchor";
+/* ...and how wide it is, which is a SEPARATE switch. Anchoring shipped
+   with 2*(W>>3) = 16 on a 66px silhouette; `colwidth` recovers retail's
+   own W - 2*((W>>3)+(W>>2)) = 18. Keying the expected number off the
+   pack rather than hardcoding it is the whole point of `model`. */
+const SHIFTW = val('(BOX.model || {}).column_width') !== "retail";
 set({ atk: "headband", mv: "headband/hikick", def: "bigarms", pose: "stance",
       fr: 4, dist: 80 });
 let s = S();
 check("bigarms stance frame 5 full width", s.hurtFull[2] - s.hurtFull[0], 66);
-check("bigarms stance frame 5 tested width", s.hurt[2] - s.hurt[0], 18);
+check("bigarms stance frame 5 tested width", s.hurt[2] - s.hurt[0],
+      (ANCHORED && SHIFTW) ? 16 : 18);
 
-/* 3. The squeeze is centred on the SILHOUETTE, not the anchor, so it drifts
-      with the limbs rather than sitting symmetrically about 0. */
-check("tested column is not centred on the anchor",
-      s.hurt[0] + s.hurt[2] === 2 * s.D, false);
+/* 3. Where that column sits is the whole difference between the two branches.
+      Retail centres it on the SILHOUETTE, so it drifts with the limbs; the
+      anchored branch centres it on the character's own anchor, so it does not.
+      Assert whichever the pack says, rather than assuming. */
+check(ANCHORED ? "tested column is centred on the anchor"
+               : "tested column is not centred on the anchor",
+      s.hurt[0] + s.hurt[2] === 2 * s.D, ANCHORED);
 
 /* 4. Range is a BAND, not a threshold, and the near edge is the interesting
       one: standing on top of someone whiffs, because the box starts well in
