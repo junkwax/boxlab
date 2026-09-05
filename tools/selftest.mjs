@@ -187,6 +187,34 @@ const front = val('byId["headband/hikick"]').front;
 check("connects past the record's front edge", last > front, true);
 console.log(`        front edge ${front} px, still connects at ${last} px`);
 
+/* 5b. Normals and specials are split by counting how many strike TABLES a
+       move name appears in, so nobody maintains a list. Guard both ends of
+       that: a universal normal, and a move only one fighter has. */
+check("the shared vocabulary counts as a normal",
+      val('normalNames().has("hikick")'), true);
+check("uppercut too", val('normalNames().has("uppercut")'), true);
+check("a one-fighter move is a special",
+      val('normalNames().has("fireball")'), false);
+check("...and so is a two-fighter one", val('normalNames().has("spear")'), false);
+set({ atk: "headband" });
+val("refreshMoves()");
+check("the picker groups rather than lists flat",
+      el("mv").kids.every(k => k.tag === "optgroup"), true);
+/* the stub's innerHTML="" does not clear kids, so read the LAST two */
+const grp = el("mv").kids.slice(-2).map(k => k.label.split("  ")[0]);
+check("both groups are present, in order", grp, ["Normals", "Specials"]);
+
+/* 5c. The connecting band is what makes a hit one click away, so it must
+       agree with the verdict the page draws at that distance. */
+set({ atk: "headband", mv: "headband/hikick", def: "bigarms",
+      pose: "stance", fr: 0 });
+const band = val("hitRange()");
+check("headband/hikick has a connecting band", Array.isArray(band), true);
+set({ dist: band[0] });
+check("the band's near edge really connects", S().overlap, true);
+set({ dist: band[0] - 1 });
+check("and one pixel closer does not", S().overlap, false);
+
 /* 6. Every record the viewer can select must render without throwing, on a
       defender who is a different character (the mirroring path). */
 let drawn = 0, broke = [];

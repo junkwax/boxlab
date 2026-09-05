@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Boxlab</title>
-<meta name="description" content="What a 1993 arcade fighter actually tests when you press a button: strike boxes, hurt boxes, and the quarter-width hit column, drawn from the game's own tables.">
+<meta name="description" content="What a 1993 arcade fighter actually tests when you press a button: strike boxes, hurt boxes, and the narrowed hit column, drawn from the game's own tables.">
 <style>
 :root{
   --bg:#0e1013; --panel:#161a20; --line:#262c35; --ink:#e6e9ee; --dim:#8b95a3;
@@ -76,11 +76,38 @@ canvas{display:block;width:100%;height:auto;image-rendering:pixelated;
 .duck b{font-family:var(--mono)}
 .duck .y{color:var(--body)}
 .duck .n{color:var(--hit)}
-.verdict{margin:14px 0;padding:13px 15px;border-radius:10px;border:1px solid var(--line);
-         background:var(--panel);font-size:15px}
+/* --- what this page is for, and the three things you do with it --------- */
+.howto{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+       gap:1px;background:var(--line);border:1px solid var(--line);
+       border-radius:10px;overflow:hidden;margin-bottom:14px}
+.howto .ht{background:var(--panel);padding:12px 14px;font-size:13px;
+       color:var(--dim);display:grid;grid-template-columns:22px 1fr;
+       gap:2px 10px;align-items:start}
+.howto .n{grid-row:1/3;font-family:var(--mono);font-size:12px;font-weight:700;
+       color:var(--anchor);border:1px solid var(--line);border-radius:5px;
+       width:22px;height:22px;display:grid;place-items:center;margin-top:1px}
+.howto b{color:var(--ink);font-size:13.5px;font-weight:600}
+/* --- the connecting band, so a hit is one click away ------------------- */
+.rng{margin-top:7px;display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+.rngtrack{position:relative;width:220px;height:6px;border-radius:3px;
+       background:var(--bg);border:1px solid var(--line);overflow:hidden}
+.rngtrack i{position:absolute;top:0;bottom:0;background:var(--body);opacity:.75}
+.rngtrack u{position:absolute;top:-3px;bottom:-3px;width:2px;background:var(--ink)}
+.rngtxt{font-family:var(--mono);font-size:11.5px;color:var(--dim)}
+button.jump{background:var(--panel);color:var(--ink);border:1px solid var(--line);
+       border-radius:6px;padding:5px 10px;font-size:12.5px;cursor:pointer}
+button.jump:hover:not(:disabled){border-color:var(--body);color:var(--body)}
+button.jump:disabled{opacity:.45;cursor:default}
+button.jump:focus-visible{outline:2px solid var(--anchor);outline-offset:2px}
+.verdict{margin:14px 0;padding:15px 17px;border-radius:10px;border:1px solid var(--line);
+         background:var(--panel);font-size:15px;line-height:1.55}
+.verdict .big{display:block;font-size:19px;font-weight:600;letter-spacing:.2px;
+         margin-bottom:3px;font-family:inherit}
 .verdict b{font-family:var(--mono)}
 .hit-yes{border-left:4px solid var(--body)}
+.hit-yes .big{color:var(--body)}
 .hit-no{border-left:4px solid var(--hit)}
+.hit-no .big{color:var(--hit)}
 .grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));
       margin-top:14px}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px}
@@ -145,13 +172,23 @@ textarea{width:100%;background:var(--bg);color:var(--ink);
   <div class="sub">
     This fighter does not test sprites against sprites. It tests <em>one authored
     rectangle</em> against the <em>bounding box</em> of the other fighter's pieces,
-    narrowed to a quarter of its width. Everything drawn below is that model, read
+    narrowed to <span id="sub_col">a fraction</span> of its width. Everything drawn
+    below is that model, read
     out of the game's own tables. No artwork is used, or needed.
   </div>
 </header>
 
 <main>
 <div id="err"></div>
+
+<div class="howto" id="howto" hidden>
+  <div class="ht"><span class="n">1</span><b>Pick a fighter and a move</b>
+    Normals and specials are listed separately.</div>
+  <div class="ht"><span class="n">2</span><b>Set the distance between them</b>
+    Or press <em>Find a hit</em> to jump straight into the connecting range.</div>
+  <div class="ht"><span class="n">3</span><b>Read the verdict</b>
+    It says whether the box connects, and by how far it misses if it does not.</div>
+</div>
 
 <div class="roster" id="roster" hidden>
   <div class="rbar">
@@ -175,6 +212,11 @@ textarea{width:100%;background:var(--bg);color:var(--ink);
   <div>
     <label for="dist">Distance between anchors — <span id="distv">80</span> px</label>
     <input type="range" id="dist" min="0" max="260" value="80">
+    <div class="rng">
+      <div class="rngtrack" id="rngtrack" title="Where this move connects, over 0–260 px"><i id="rngband"></i><u id="rngnow"></u></div>
+      <span class="rngtxt" id="rngtxt"></span>
+      <button class="jump" id="jump" type="button">Find a hit</button>
+    </div>
   </div>
 </div>
 
@@ -308,6 +350,8 @@ function init(){
   refreshFrames();
   $("controls").hidden = $("tog").hidden = false;
   $("roster").hidden = $("propose").hidden = $("life").hidden = false;
+  $("howto").hidden = false;
+  $("sub_col").textContent = colWords();
   if (RETAIL) $("l_retail").hidden = false;
   buildRoster();
   buildFields();
@@ -345,12 +389,124 @@ function fill(sel, pairs, keep){
    shared: the three female ninjas read one table, and the five ninjas read
    another. Listing them per character rather than per table is the whole
    reason someone opens this page. */
+/* NORMALS vs SPECIALS, derived rather than listed by hand.
+   The universal attack vocabulary - high kick, sweep, uppercut - is authored
+   once per strike TABLE, so those names turn up in nearly every table. A
+   special belongs to one fighter and turns up in one. Counting tables per
+   name splits them without anybody maintaining a list, and it stays right
+   when a new move is added. */
+let NORMAL_NAMES = null;
+let HIT_MID = null;          /* middle of the connecting band, or null */
+function normalNames(){
+  if (NORMAL_NAMES) return NORMAL_NAMES;
+  const tables = new Set(BOX.moves.map(m => m.table));
+  const seen = {};
+  for (const m of BOX.moves){
+    const n = m.id.split("/")[1];
+    (seen[n] ||= new Set()).add(m.table);
+  }
+  const cut = Math.max(2, Math.ceil(tables.size * 0.6));
+  NORMAL_NAMES = new Set(Object.keys(seen).filter(n => seen[n].size >= cut));
+  return NORMAL_NAMES;
+}
+
+/* The narrowed column in words. Hardcoding "a quarter" was true of retail
+   and stopped being true the moment a build shipped a different divisor -
+   the same drift the `model` block exists to prevent, so read it. */
+function colWords(){
+  const m = BOX.model || {};
+  if (m.column_width === "divisor"){
+    const d = m.column_divisor || 4;
+    return d === 2 ? "a half" : d === 4 ? "a quarter" : "a 1/" + d;
+  }
+  return "a quarter";
+}
+
+function fillGrouped(sel, groups, keep){
+  const was = keep ? sel.value : null;
+  let all = [];
+  sel.innerHTML = "";
+  for (const [label, pairs] of groups){
+    if (!pairs.length) continue;
+    const g = document.createElement("optgroup");
+    g.label = label + "  (" + pairs.length + ")";
+    for (const [v,t] of pairs){
+      const o = document.createElement("option");
+      o.value = v; o.textContent = t; g.append(o);
+    }
+    sel.append(g);
+    all = all.concat(pairs);
+  }
+  if (!all.length){
+    const o = document.createElement("option");
+    o.value = ""; o.textContent = "(no records)"; sel.append(o);
+    return;
+  }
+  sel.value = (was && all.some(p => p[0] === was)) ? was : all[0][0];
+}
+
 function refreshMoves(){
   const table = charById[$("atk").value].table;
-  const list = BOX.moves.filter(m => m.table === table)
+  const norm = normalNames();
+  const mine = BOX.moves.filter(m => m.table === table)
     .map(m => [m.id, m.id.split("/")[1].replace(/-/g," ")])
     .sort((a,b) => a[1].localeCompare(b[1]));
-  fill($("mv"), list.length ? list : [["","(no records)"]], true);
+  const isNormal = p => norm.has(p[0].split("/")[1]);
+  fillGrouped($("mv"), [
+    ["Normals",  mine.filter(isNormal)],
+    ["Specials", mine.filter(p => !isNormal(p))],
+  ], true);
+}
+
+/* ---- where this move connects, so a hit is one click away --------------
+   The slider is 260px of guessing otherwise. This runs the same overlap
+   test the page already draws with, once per pixel, against the CURRENT
+   defender pose and frame - so the band moves when the pose does. */
+function hitsAt(D){
+  const id = $("mv").value, rec = effective(id);
+  if (!rec) return false;
+  const lane = (POSE.stances[$("def").value] || {})[$("pose").value] || [];
+  if (!lane.length) return false;
+  const rects = POSE.poses[lane[Math.min(+$("fr").value, lane.length - 1)]];
+  if (!rects || !rects.length) return false;
+  const world = rects.map(([x,y,w,h]) => [D - x - w, y, w, h]);
+  let hurt = bbox(world);
+  if (!hurt) return false;
+  if ((flags[id] || []).includes("squeeze")){
+    const [l,r] = squeeze(hurt[0], hurt[2], D);
+    hurt = [l, hurt[1], r, hurt[3]];
+  }
+  return connects([rec.front - rec.width, rec.y, rec.front,
+                   rec.y + rec.height], hurt);
+}
+
+function hitRange(){
+  let lo = -1, hi = -1;
+  for (let d = 0; d <= 260; d++){
+    if (hitsAt(d)){ if (lo < 0) lo = d; hi = d; }
+  }
+  return lo < 0 ? null : [lo, hi];
+}
+
+function refreshRange(){
+  const band = $("rngband"), now = $("rngnow"),
+        txt = $("rngtxt"), btn = $("jump");
+  if (!band) return;
+  const r = hitRange();
+  const D = +$("dist").value;
+  now.style.left = (D / 260 * 100) + "%";
+  if (!r){
+    band.style.left = "0%"; band.style.width = "0%";
+    txt.textContent = "never connects, at any distance";
+    btn.disabled = true;
+    HIT_MID = null;
+    return;
+  }
+  band.style.left = (r[0] / 260 * 100) + "%";
+  band.style.width = ((r[1] - r[0]) / 260 * 100) + "%";
+  txt.textContent = "connects " + r[0] + "–" + r[1] + " px";
+  btn.disabled = false;
+  HIT_MID = Math.round((r[0] + r[1]) / 2);
 }
 
 function refreshFrames(){
@@ -615,6 +771,7 @@ function draw(){
 function report(s){
   markRoster();
   syncFields();
+  refreshRange();
   const v = $("verdict");
   if (!s.rec){ v.textContent = "No record selected."; return; }
   if (!s.hurt){
@@ -622,7 +779,8 @@ function report(s){
     v.textContent = "No pose geometry for this defender — nothing to test against.";
   } else if (s.overlap){
     v.className = "verdict hit-yes";
-    v.innerHTML = "<b>Connects</b> at " + s.D + " px. The strike box spans <b>" +
+    v.innerHTML = "<span class='big'>Connects at " + s.D + " px</span>" +
+      "The strike box spans <b>" +
       s.strike[0] + "…" + s.strike[2] + "</b> and the tested column spans <b>" +
       s.hurt[0] + "…" + s.hurt[2] + "</b>.";
   } else {
@@ -630,13 +788,13 @@ function report(s){
                : s.hurt[0] > s.strike[2] ? s.hurt[0] - s.strike[2] : 0;
     const vertical = !(s.strike[1] < s.hurt[3] && s.strike[3] > s.hurt[1]);
     v.className = "verdict hit-no";
-    v.innerHTML = "<b>Whiffs</b> at " + s.D + " px — " + (vertical && !gapX
+    v.innerHTML = "<span class='big'>Whiffs at " + s.D + " px</span>" + (vertical && !gapX
       ? "the two overlap horizontally but miss vertically: the box covers <b>" +
         s.strike[1] + "…" + s.strike[3] + "</b> and the body <b>" +
         s.hurt[1] + "…" + s.hurt[3] + "</b>."
       : "short by <b>" + gapX + " px</b>. " + (s.sq
         ? "The silhouette reaches " + s.hurtFull[0] + "…" + s.hurtFull[2] +
-          ", but only the quarter-width column at " + s.hurt[0] + "…" +
+          ", but only the " + colWords() + "-width column at " + s.hurt[0] + "…" +
           s.hurt[2] + " can be hit."
         : "This record does not squeeze, so the whole silhouette is live."));
   }
@@ -663,7 +821,7 @@ function report(s){
     row("must be blocked low", (flags[s.id]||[]).includes("duck") ? "yes":"no");
   $("boxnote").innerHTML = "<b>Reach is not range.</b> <code>front</code> is " +
     "where the box ends, not where the move lands. The victim is cut to a " +
-    "quarter of his width first, so a move connects to roughly " +
+    colWords() + " of his width first, so a move connects to roughly " +
     "<code>front + victim_width/8</code> and no further — widening a box by " +
     "20 px does not buy 20 px of range.";
 
@@ -1088,6 +1246,11 @@ function wirePropose(){
   $("rm_atk").addEventListener("click", () => setMode("atk"));
   $("rm_def").addEventListener("click", () => setMode("def"));
   $("why").addEventListener("input", syncFields);
+  $("jump").addEventListener("click", () => {
+    if (HIT_MID === null) return;
+    $("dist").value = HIT_MID;
+    draw();
+  });
   $("preset").addEventListener("click", () => { delete EDITS[$("mv").value]; draw(); });
 
   $("pcopy").addEventListener("click", () => {
