@@ -215,6 +215,22 @@ check("the band's near edge really connects", S().overlap, true);
 set({ dist: band[0] - 1 });
 check("and one pixel closer does not", S().overlap, false);
 
+/* 5d. The build id a change is live in. The pack stamps the source commit;
+       the ROM stamps `rev-parse --short=6` of the same commit, uppercased,
+       into its own revision string. The page derives one from the other, so
+       a reader can check a changed box against the diagnostic menu of the
+       ROM in front of them - which only works if the derivation is right. */
+const commit = val("BOX.meta.base_commit");
+check("build id is the commit, six chars, uppercased",
+      val("buildId()"), commit.slice(0, 6).toUpperCase());
+
+/* 5e. ...and whether the record moved off retail at all, which is the other
+       half of that sentence. Both classes exist in the committed data. */
+check("a record the mod moved reads as changed",
+      val('vsRetail("hathead/jumpupk")'), "moved");
+check("an untouched record reads as retail",
+      val('vsRetail("female-ninjas/fan-swipe")'), "stock");
+
 /* 6. Every record the viewer can select must render without throwing, on a
       defender who is a different character (the mirroring path). */
 let drawn = 0, broke = [];

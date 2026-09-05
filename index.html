@@ -99,6 +99,23 @@ button.jump{background:var(--panel);color:var(--ink);border:1px solid var(--line
 button.jump:hover:not(:disabled){border-color:var(--body);color:var(--body)}
 button.jump:disabled{opacity:.45;cursor:default}
 button.jump:focus-visible{outline:2px solid var(--anchor);outline-offset:2px}
+/* --- record status: is this retail, and which build carries it --------- */
+.status{display:flex;flex-wrap:wrap;align-items:center;gap:10px;
+        margin:-4px 0 14px;padding:11px 15px;border:1px solid var(--line);
+        border-radius:10px;background:var(--panel);font-size:13.5px;
+        color:var(--dim)}
+.tag{font-family:var(--mono);font-size:11px;font-weight:700;letter-spacing:.06em;
+     text-transform:uppercase;padding:3px 7px;border-radius:5px;
+     border:1px solid var(--line);color:var(--dim);white-space:nowrap}
+.tag.moved{border-color:var(--warn);color:var(--warn)}
+.tag.stock{border-color:var(--line);color:var(--dim)}
+.status .bid{font-family:var(--mono);color:var(--ink);font-weight:600}
+.cta{margin-left:auto;background:transparent;color:var(--anchor);
+     border:1px solid var(--anchor);border-radius:6px;padding:6px 12px;
+     font-size:13px;cursor:pointer;white-space:nowrap}
+.cta:hover{background:var(--anchor);color:var(--bg)}
+.cta:focus-visible{outline:2px solid var(--anchor);outline-offset:2px}
+@media (max-width:560px){ .cta{margin-left:0;width:100%} }
 .verdict{margin:14px 0;padding:15px 17px;border-radius:10px;border:1px solid var(--line);
          background:var(--panel);font-size:15px;line-height:1.55}
 .verdict .big{display:block;font-size:19px;font-weight:600;letter-spacing:.2px;
@@ -188,6 +205,9 @@ textarea{width:100%;background:var(--bg);color:var(--ink);
     Or press <em>Find a hit</em> to jump straight into the connecting range.</div>
   <div class="ht"><span class="n">3</span><b>Read the verdict</b>
     It says whether the box connects, and by how far it misses if it does not.</div>
+  <div class="ht"><span class="n">4</span><b>Disagree? Propose a change</b>
+    Drag the box, say why, open a pull request. Every record here is
+    someone's judgement call, including the ones nobody has questioned.</div>
 </div>
 
 <div class="roster" id="roster" hidden>
@@ -260,6 +280,7 @@ textarea{width:100%;background:var(--bg);color:var(--ink);
 <div class="stage"><canvas id="cv" width="1120" height="470"></canvas></div>
 <div class="verdict" id="verdict">…</div>
 <div class="duck" id="duck"></div>
+<div class="status" id="status" hidden></div>
 
 <div class="grid">
   <div class="card"><h2>The box</h2><table id="tbox"></table>
@@ -768,10 +789,66 @@ function draw(){
 }
 
 /* ---------------------------------------------------------------- readout */
+/* THE BUILD A CHANGE IS LIVE IN.
+   The pack stamps the source commit it was exported from, and the ROM stamps
+   the same commit into its own revision string - `git rev-parse --short=6`,
+   uppercased. So the two line up, and someone reading a changed box here can
+   go and check the diagnostic menu of the ROM in front of them without
+   anybody maintaining a mapping. Six characters, because that is what the
+   ROM has room for. */
+function buildId(){
+  const c = BOX.meta.base_commit || "";
+  return c ? c.slice(0, 6).toUpperCase() : null;
+}
+
+/* Has this record moved off retail, and is the reference pack even loaded?
+   Returns "moved", "stock", or null when there is nothing to compare to. */
+function vsRetail(id){
+  const rt = retailById[id], b = byId[id];
+  if (!RETAIL || !rt || !b) return null;
+  const same = ["front","width","y","height","hit","block"]
+    .every(k => rt[k] === b[k]);
+  return same ? "stock" : "moved";
+}
+
+function showStatus(s){
+  const el = $("status");
+  if (!s.rec){ el.hidden = true; return; }
+  el.hidden = false;
+  const cmp = vsRetail(s.id), bid = buildId();
+  let html = "";
+  if (cmp === "moved"){
+    html += "<span class='tag moved'>changed from retail</span>";
+    html += bid
+      ? "<span>Live in build <span class='bid'>" + bid + "</span> &mdash; " +
+        "the id the game's own diagnostic menu shows, so you can check it " +
+        "against the ROM in front of you.</span>"
+      : "<span>This record differs from the retail reference.</span>";
+  } else if (cmp === "stock"){
+    html += "<span class='tag stock'>retail, unchanged</span>";
+    html += "<span>Nobody has touched this one. If it plays wrong, that is " +
+      "worth saying" + (bid ? " &mdash; current build <span class='bid'>" +
+      bid + "</span>." : ".") + "</span>";
+  } else {
+    html += "<span class='tag stock'>no retail reference</span>";
+    html += "<span>Nothing to compare against" +
+      (bid ? ", current build <span class='bid'>" + bid + "</span>." : ".") +
+      "</span>";
+  }
+  html += "<button class='cta' id='gopropose' type='button'>" +
+          (s.edited ? "Finish your proposal" : "Propose a change") + "</button>";
+  el.innerHTML = html;
+  $("gopropose").addEventListener("click", () => {
+    const t = $("propose");
+    if (t.scrollIntoView) t.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+}
+
 function report(s){
   markRoster();
   syncFields();
   refreshRange();
+  showStatus(s);
   const v = $("verdict");
   if (!s.rec){ v.textContent = "No record selected."; return; }
   if (!s.hurt){
@@ -867,6 +944,7 @@ function report(s){
     row("box digest", BOX.meta.base_digest) +
     row("pose digest", POSE.meta.digest) +
     row("built from", BOX.meta.base_commit || "—") +
+    row("in-game build", buildId() || "—") +
     row("contact pose", conf === "table" ? "resolved by table"
       : conf === "handler-name" ? "resolved by handler"
       : conf === "assumed" ? "assumed — verify" : "not resolved");
@@ -979,7 +1057,11 @@ function buildFields(){
     d.append(l); d.append(i);
     $("pfields").append(d);
   });
-  $("pintro").innerHTML = "<b>Drag the strike box on the canvas</b> - edges, " +
+  $("pintro").innerHTML = "<b>You do not need permission, or a build.</b> If a " +
+    "box looks wrong, move it and say why - the maintainers run it against the " +
+    "game and the crash, behaviour and box gates before anything ships, so a " +
+    "proposal that turns out wrong costs nothing but the reading. " +
+    "<b>Drag the strike box on the canvas</b> - edges, " +
     "corners, or the middle to move it - or type a number here. Either way the " +
     "proposed box is drawn in amber over the current one. Nothing here edits the data. What you send " +
     "is an <em>overlay</em> &mdash; the record, the field, the value it expects " +
