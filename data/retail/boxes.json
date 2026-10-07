@@ -246,7 +246,7 @@
   "hathead/roundh": [
    "squeeze"
   ],
-  "hathead/super-rep": [
+  "hathead/super-acid": [
    "squeeze"
   ],
   "hathead/sweepk": [
@@ -3186,7 +3186,7 @@
    "height": 40,
    "hit": 26,
    "hit_reaction": 24,
-   "id": "hathead/super-rep",
+   "id": "hathead/super-acid",
    "score": 0,
    "table": "hathead",
    "width": 70,

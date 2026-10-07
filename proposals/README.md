@@ -18,7 +18,7 @@ also write one by hand; it is four lines.
 
 "Just edit `data/boxes.json`" is the obvious alternative, and it does not work.
 
-- That file is 228 records the generator owns. A browser that rewrites it
+- That file is 250 records the generator owns. A browser that rewrites it
   reorders keys and reformats numbers, so the diff GitHub renders is thousands
   of lines of noise around the one that matters.
 - Two people proposing two different moves both touch the same file, so they

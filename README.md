@@ -29,7 +29,7 @@ The game does not test sprites against sprites. Per hit check, it does this:
 2. **The hurt box** — *not authored anywhere*. It is computed live as the
    bounding box of every piece of the victim's current sprite.
 3. **The squeeze** — that bounding box is then narrowed to **a quarter of its
-   width**, centred on the silhouette. 204 of the 228 records do this.
+   width**, centred on the silhouette. 226 of the 250 records do this.
 4. **The compare** — a plain rectangle overlap. No per-piece test, no circles,
    no priority.
 
@@ -68,30 +68,30 @@ editing one record can move more than one fighter:
 |---|---|---|
 | `bigarms` | `bigarms` | 20 |
 | `bolt` | `bolt` | 19 |
-| `female-ninjas` | `knockout`, `bombshell`, `pole` | 26 |
-| `final-boss` | `final-boss` | 16 |
-| `fourarms` | `fourarms` | 4 |
+| `female-ninjas` | `knockout`, `bombshell`, `pole` | 27 |
+| `final-boss` | `final-boss` | 17 |
+| `fourarms` | `fourarms` | 6 |
 | `hathead` | `hathead` | 19 |
 | `headband` | `headband` | 23 |
 | `morphman` | `morphman` | 22 |
-| `ninjas` | `frosty`, `acid`, `harpoon`, `2ndhand`, `blackout` | 32 |
-| `shades` | `shades` | 21 |
+| `ninjas` | `frosty`, `acid`, `harpoon`, `2ndhand`, `blackout` | 39 |
+| `shades` | `shades` | 24 |
 | `swordarms` | `swordarms` | 24 |
 
-The two `shared` records belong to no table of their own.
+The ten `shared` records belong to no table of their own.
 
 ## What is in here
 
 | | |
 |---|---|
 | `index.html` | the viewer. One file, no build step, no dependencies |
-| `data/boxes.json` | 228 strike records — box, damage, reactions, flags |
-| `data/poses.json` | 869 poses as rectangles, plus which one each move is live on |
+| `data/boxes.json` | 250 strike records — box, damage, reactions, flags |
+| `data/poses.json` | 868 poses as rectangles, plus which one each move is live on |
 | `data/frames.json` | startup / active / recovery / advantage for 177 moves |
 | `tools/validate.py` | shape + disclosure checks. Runs with no game source |
 | `tools/apply.py` | folds a proposal into the data. Dry run by default |
 | `proposals/` | one open balance change per file — see [proposals/README.md](proposals/README.md) |
-| `tools/prove_validator.py` | injects eight faults and proves each is rejected |
+| `tools/prove_validator.py` | injects twelve faults and proves each is rejected |
 | `tools/selftest.mjs` | runs the viewer's own code against the data |
 
 Run it locally:

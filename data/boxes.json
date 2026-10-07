@@ -165,6 +165,9 @@
   "female-ninjas/pole-boom": [
    "squeeze"
   ],
+  "female-ninjas/pole-boom-ret": [
+   "squeeze"
+  ],
   "female-ninjas/roundh": [
    "squeeze"
   ],
@@ -237,6 +240,12 @@
   "final-boss/uppercut": [
    "squeeze"
   ],
+  "fourarms/backhand": [
+   "squeeze"
+  ],
+  "fourarms/facesmash": [
+   "squeeze"
+  ],
   "fourarms/fireball": [
    "squeeze"
   ],
@@ -294,7 +303,10 @@
   "hathead/roundh": [
    "squeeze"
   ],
-  "hathead/super-rep": [
+  "hathead/spin": [
+   "squeeze"
+  ],
+  "hathead/super-acid": [
    "squeeze"
   ],
   "hathead/sweepk": [
@@ -435,10 +447,19 @@
   "morphman/uppercut": [
    "squeeze"
   ],
+  "ninjas/acid-superk": [
+   "squeeze"
+  ],
   "ninjas/blackout-dive": [
    "squeeze"
   ],
+  "ninjas/blackout-ghost": [
+   "squeeze"
+  ],
   "ninjas/blackout-kick": [
+   "squeeze"
+  ],
+  "ninjas/blackout-slam": [
    "squeeze"
   ],
   "ninjas/blackout-slide": [
@@ -468,6 +489,9 @@
   "ninjas/floor-ice": [
    "squeeze"
   ],
+  "ninjas/harpoon-swipe": [
+   "squeeze"
+  ],
   "ninjas/hikick": [
    "squeeze"
   ],
@@ -492,10 +516,13 @@
   "ninjas/lopunch": [
    "squeeze"
   ],
-  "ninjas/roundh": [
+  "ninjas/purp-roundh": [
    "squeeze"
   ],
-  "ninjas/rp-superk": [
+  "ninjas/purp-zap": [
+   "squeeze"
+  ],
+  "ninjas/roundh": [
    "squeeze"
   ],
   "ninjas/scissor": [
@@ -525,6 +552,12 @@
   "ninjas/uppercut": [
    "squeeze"
   ],
+  "shades/airshadow": [
+   "squeeze"
+  ],
+  "shades/airshadow2": [
+   "squeeze"
+  ],
   "shades/duckkickh": [
    "squeeze"
   ],
@@ -538,6 +571,9 @@
    "squeeze"
   ],
   "shades/flipk": [
+   "squeeze"
+  ],
+  "shades/flipkick": [
    "squeeze"
   ],
   "shades/flipp": [
@@ -579,19 +615,34 @@
   "shades/zap4": [
    "squeeze"
   ],
-  "shared/ermac-teleport": [
+  "shared/hat-escape": [
    "squeeze"
   ],
-  "shared/ermac-teleslam": [
+  "shared/hat-escdive": [
    "squeeze"
   ],
-  "shared/ermac-zap": [
+  "shared/hb-dubknee": [
+   "squeeze"
+  ],
+  "shared/hb-knee-link": [
    "squeeze"
   ],
   "shared/hb-lokick-early": [
    "squeeze"
   ],
   "shared/hb-wheel": [
+   "squeeze"
+  ],
+  "shared/mm-elbow-end": [
+   "squeeze"
+  ],
+  "shared/souls-teleport": [
+   "squeeze"
+  ],
+  "shared/souls-teleslam": [
+   "squeeze"
+  ],
+  "shared/souls-zap": [
    "squeeze"
   ],
   "swordarms/duckkickh": [
@@ -665,9 +716,9 @@
  "format_version": 1,
  "meta": {
   "author": "",
-  "base_commit": "bca8b75",
-  "base_digest": "b14add5dd24a6368",
-  "created": "2026-09-04",
+  "base_commit": "b10d4c33",
+  "base_digest": "f6f674b68ee01fcd",
+  "created": "2026-10-06",
   "description": "Every strike box in the build. This file is the one that is applied back to the game, not a copy of it.",
   "public": true,
   "title": "Strike boxes"
@@ -727,7 +778,7 @@
    "height": 42,
    "hit": 15,
    "hit_reaction": 22,
-   "id": "shared/ermac-teleport",
+   "id": "shared/souls-teleport",
    "score": 0,
    "table": "shared",
    "width": 54,
@@ -740,7 +791,7 @@
    "height": 90,
    "hit": 0,
    "hit_reaction": 28,
-   "id": "shared/ermac-teleslam",
+   "id": "shared/souls-teleslam",
    "score": 0,
    "table": "shared",
    "width": 106,
@@ -753,7 +804,7 @@
    "height": 58,
    "hit": 20,
    "hit_reaction": 29,
-   "id": "shared/ermac-zap",
+   "id": "shared/souls-zap",
    "score": 0,
    "table": "shared",
    "width": 66,
@@ -775,14 +826,14 @@
   {
    "block": 0,
    "block_reaction": 21,
-   "front": 157,
-   "height": 16,
+   "front": 168,
+   "height": 21,
    "hit": 0,
    "hit_reaction": 21,
    "id": "ninjas/floor-ice",
    "score": 0,
    "table": "ninjas",
-   "width": 96,
+   "width": 114,
    "y": 128
   },
   {
@@ -1059,6 +1110,32 @@
    "y": -10
   },
   {
+   "block": 16,
+   "block_reaction": 32,
+   "front": 120,
+   "height": 48,
+   "hit": 48,
+   "hit_reaction": 0,
+   "id": "fourarms/backhand",
+   "score": 0,
+   "table": "fourarms",
+   "width": 96,
+   "y": 32
+  },
+  {
+   "block": 0,
+   "block_reaction": 32,
+   "front": 110,
+   "height": 64,
+   "hit": 0,
+   "hit_reaction": 0,
+   "id": "fourarms/facesmash",
+   "score": 0,
+   "table": "fourarms",
+   "width": 80,
+   "y": 16
+  },
+  {
    "block": 15,
    "block_reaction": 32,
    "front": 22,
@@ -1162,6 +1239,32 @@
    "table": "hathead",
    "width": 25,
    "y": 21
+  },
+  {
+   "block": 5,
+   "block_reaction": 8,
+   "front": 64,
+   "height": 64,
+   "hit": 21,
+   "hit_reaction": 25,
+   "id": "shared/hat-escape",
+   "score": 0,
+   "table": "shared",
+   "width": 64,
+   "y": 16
+  },
+  {
+   "block": 5,
+   "block_reaction": 8,
+   "front": 148,
+   "height": 42,
+   "hit": 21,
+   "hit_reaction": 25,
+   "id": "shared/hat-escdive",
+   "score": 0,
+   "table": "shared",
+   "width": 60,
+   "y": 24
   },
   {
    "block": 7,
@@ -1307,17 +1410,17 @@
    "y": 17
   },
   {
-   "block": 4,
-   "block_reaction": 26,
-   "front": 48,
-   "height": 148,
-   "hit": 36,
+   "block": 3,
+   "block_reaction": 30,
+   "front": 64,
+   "height": 82,
+   "hit": 22,
    "hit_reaction": 23,
    "id": "hathead/spin",
    "score": 0,
    "table": "hathead",
-   "width": 96,
-   "y": 0
+   "width": 84,
+   "y": -7
   },
   {
    "block": 5,
@@ -1385,11 +1488,24 @@
    "y": -17
   },
   {
+   "block": 3,
+   "block_reaction": 16,
+   "front": 23,
+   "height": 34,
+   "hit": 20,
+   "hit_reaction": 25,
+   "id": "female-ninjas/pole-boom-ret",
+   "score": 0,
+   "table": "female-ninjas",
+   "width": 39,
+   "y": -17
+  },
+  {
    "block": 6,
    "block_reaction": 20,
    "front": 102,
    "height": 34,
-   "hit": 24,
+   "hit": 14,
    "hit_reaction": 20,
    "id": "shades/pp",
    "score": 0,
@@ -1409,6 +1525,32 @@
    "table": "shades",
    "width": 42,
    "y": 74
+  },
+  {
+   "block": 7,
+   "block_reaction": 30,
+   "front": 78,
+   "height": 30,
+   "hit": 28,
+   "hit_reaction": 17,
+   "id": "shades/airshadow",
+   "score": 0,
+   "table": "shades",
+   "width": 32,
+   "y": 0
+  },
+  {
+   "block": 7,
+   "block_reaction": 30,
+   "front": 26,
+   "height": 42,
+   "hit": 28,
+   "hit_reaction": 17,
+   "id": "shades/airshadow2",
+   "score": 0,
+   "table": "shades",
+   "width": 26,
+   "y": -34
   },
   {
    "block": 3,
@@ -1474,6 +1616,19 @@
    "table": "shades",
    "width": 68,
    "y": 46
+  },
+  {
+   "block": 7,
+   "block_reaction": 30,
+   "front": 58,
+   "height": 42,
+   "hit": 26,
+   "hit_reaction": 17,
+   "id": "shades/flipkick",
+   "score": 0,
+   "table": "shades",
+   "width": 40,
+   "y": -48
   },
   {
    "block": 5,
@@ -1949,6 +2104,19 @@
    "y": 35
   },
   {
+   "block": 6,
+   "block_reaction": 14,
+   "front": 56,
+   "height": 80,
+   "hit": 14,
+   "hit_reaction": 26,
+   "id": "shared/hb-dubknee",
+   "score": 0,
+   "table": "shared",
+   "width": 60,
+   "y": 0
+  },
+  {
    "block": 3,
    "block_reaction": 6,
    "front": 85,
@@ -2088,6 +2256,19 @@
    "id": "headband/knee",
    "score": 0,
    "table": "headband",
+   "width": 30,
+   "y": 47
+  },
+  {
+   "block": 6,
+   "block_reaction": 14,
+   "front": 60,
+   "height": 45,
+   "hit": 20,
+   "hit_reaction": 25,
+   "id": "shared/hb-knee-link",
+   "score": 0,
+   "table": "shared",
    "width": 30,
    "y": 47
   },
@@ -2481,6 +2662,19 @@
    "y": 36
   },
   {
+   "block": 2,
+   "block_reaction": 16,
+   "front": 147,
+   "height": 31,
+   "hit": 0,
+   "hit_reaction": 31,
+   "id": "ninjas/blackout-ghost",
+   "score": 0,
+   "table": "ninjas",
+   "width": 63,
+   "y": 33
+  },
+  {
    "block": 6,
    "block_reaction": 10,
    "front": 96,
@@ -2503,6 +2697,19 @@
    "table": "ninjas",
    "width": 144,
    "y": 90
+  },
+  {
+   "block": 2,
+   "block_reaction": 16,
+   "front": 78,
+   "height": 96,
+   "hit": 0,
+   "hit_reaction": 16,
+   "id": "ninjas/blackout-slam",
+   "score": 0,
+   "table": "ninjas",
+   "width": 80,
+   "y": -16
   },
   {
    "block": 5,
@@ -2541,6 +2748,45 @@
    "table": "morphman",
    "width": 80,
    "y": -144
+  },
+  {
+   "block": 3,
+   "block_reaction": 16,
+   "front": 24,
+   "height": 96,
+   "hit": 9,
+   "hit_reaction": 29,
+   "id": "ninjas/purp-bolt",
+   "score": 0,
+   "table": "ninjas",
+   "width": 48,
+   "y": -144
+  },
+  {
+   "block": 8,
+   "block_reaction": 30,
+   "front": 96,
+   "height": 34,
+   "hit": 14,
+   "hit_reaction": 28,
+   "id": "ninjas/purp-roundh",
+   "score": 0,
+   "table": "ninjas",
+   "width": 68,
+   "y": 6
+  },
+  {
+   "block": 3,
+   "block_reaction": 16,
+   "front": 177,
+   "height": 18,
+   "hit": 20,
+   "hit_reaction": 30,
+   "id": "ninjas/purp-zap",
+   "score": 0,
+   "table": "ninjas",
+   "width": 38,
+   "y": 39
   },
   {
    "block": 3,
@@ -2783,7 +3029,7 @@
    "height": 32,
    "hit": 26,
    "hit_reaction": 11,
-   "id": "ninjas/rp-superk",
+   "id": "ninjas/acid-superk",
    "score": 0,
    "table": "ninjas",
    "width": 64,
@@ -3025,6 +3271,19 @@
    "table": "swordarms",
    "width": 50,
    "y": -8
+  },
+  {
+   "block": 6,
+   "block_reaction": 19,
+   "front": 106,
+   "height": 22,
+   "hit": 24,
+   "hit_reaction": 32,
+   "id": "ninjas/harpoon-swipe",
+   "score": 0,
+   "table": "ninjas",
+   "width": 60,
+   "y": 20
   },
   {
    "block": 3,
@@ -3486,10 +3745,23 @@
    "front": 57,
    "height": 34,
    "hit": 24,
-   "hit_reaction": 15,
+   "hit_reaction": 23,
    "id": "morphman/elbow",
    "score": 0,
    "table": "morphman",
+   "width": 44,
+   "y": 12
+  },
+  {
+   "block": 6,
+   "block_reaction": 15,
+   "front": 57,
+   "height": 34,
+   "hit": 24,
+   "hit_reaction": 15,
+   "id": "shared/mm-elbow-end",
+   "score": 0,
+   "table": "shared",
    "width": 44,
    "y": 12
   },
@@ -3656,7 +3928,7 @@
    "height": 40,
    "hit": 26,
    "hit_reaction": 24,
-   "id": "hathead/super-rep",
+   "id": "hathead/super-acid",
    "score": 0,
    "table": "hathead",
    "width": 70,

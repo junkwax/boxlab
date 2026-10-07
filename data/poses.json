@@ -91,1209 +91,1209 @@
    "character": "bigarms",
    "confidence": "assumed",
    "move": "bigarms/duckkickh",
-   "pose": "p0766"
+   "pose": "p0765"
   },
   {
    "character": "bigarms",
    "confidence": "assumed",
    "move": "bigarms/duckkickl",
-   "pose": "p0775"
+   "pose": "p0774"
   },
   {
    "character": "bigarms",
    "confidence": "assumed",
    "move": "bigarms/duckpunch",
-   "pose": "p0784"
+   "pose": "p0783"
   },
   {
    "character": "bigarms",
    "confidence": "assumed",
    "move": "bigarms/elbow",
-   "pose": "p0793"
+   "pose": "p0792"
   },
   {
    "character": "bigarms",
    "confidence": "assumed",
    "move": "bigarms/flipk",
-   "pose": "p0803"
+   "pose": "p0802"
   },
   {
    "character": "bigarms",
    "confidence": "assumed",
    "move": "bigarms/flipp",
-   "pose": "p0812"
+   "pose": "p0811"
   },
   {
    "character": "bigarms",
    "confidence": "assumed",
    "move": "bigarms/hikick",
-   "pose": "p0822"
+   "pose": "p0821"
   },
   {
    "character": "bigarms",
    "confidence": "assumed",
    "move": "bigarms/jumpupk",
-   "pose": "p0832"
+   "pose": "p0831"
   },
   {
    "character": "bigarms",
    "confidence": "assumed",
    "move": "bigarms/jumpupp",
-   "pose": "p0812"
+   "pose": "p0811"
   },
   {
    "character": "bigarms",
    "confidence": "assumed",
    "move": "bigarms/knee",
-   "pose": "p0841"
+   "pose": "p0840"
   },
   {
    "character": "bigarms",
    "confidence": "assumed",
    "move": "bigarms/roundh",
-   "pose": "p0859"
+   "pose": "p0858"
   },
   {
    "character": "bigarms",
    "confidence": "assumed",
    "move": "bigarms/sweepk",
-   "pose": "p0868"
+   "pose": "p0867"
   },
   {
    "character": "bolt",
    "confidence": "assumed",
    "move": "bolt/duckkickh",
-   "pose": "p0764"
+   "pose": "p0763"
   },
   {
    "character": "bolt",
    "confidence": "assumed",
    "move": "bolt/duckkickl",
-   "pose": "p0773"
+   "pose": "p0772"
   },
   {
    "character": "bolt",
    "confidence": "assumed",
    "move": "bolt/duckpunch",
-   "pose": "p0782"
+   "pose": "p0781"
   },
   {
    "character": "bolt",
    "confidence": "assumed",
    "move": "bolt/elbow",
-   "pose": "p0791"
+   "pose": "p0790"
   },
   {
    "character": "bolt",
    "confidence": "assumed",
    "move": "bolt/flipk",
-   "pose": "p0801"
+   "pose": "p0800"
   },
   {
    "character": "bolt",
    "confidence": "assumed",
    "move": "bolt/flipp",
-   "pose": "p0810"
+   "pose": "p0809"
   },
   {
    "character": "bolt",
    "confidence": "assumed",
    "move": "bolt/hikick",
-   "pose": "p0820"
+   "pose": "p0819"
   },
   {
    "character": "bolt",
    "confidence": "assumed",
    "move": "bolt/jumpupk",
-   "pose": "p0830"
+   "pose": "p0829"
   },
   {
    "character": "bolt",
    "confidence": "assumed",
    "move": "bolt/jumpupp",
-   "pose": "p0810"
+   "pose": "p0809"
   },
   {
    "character": "bolt",
    "confidence": "assumed",
    "move": "bolt/knee",
-   "pose": "p0839"
+   "pose": "p0838"
   },
   {
    "character": "bolt",
    "confidence": "assumed",
    "move": "bolt/lokick",
-   "pose": "p0849"
+   "pose": "p0848"
   },
   {
    "character": "bolt",
    "confidence": "assumed",
    "move": "bolt/roundh",
-   "pose": "p0857"
+   "pose": "p0856"
   },
   {
    "character": "bolt",
    "confidence": "assumed",
    "move": "bolt/sweepk",
-   "pose": "p0866"
+   "pose": "p0865"
   },
   {
    "character": "bombshell",
    "confidence": "assumed",
    "move": "female-ninjas/duckkickh",
-   "pose": "p0762"
+   "pose": "p0761"
   },
   {
    "character": "knockout",
    "confidence": "assumed",
    "move": "female-ninjas/duckkickh",
-   "pose": "p0762"
+   "pose": "p0761"
   },
   {
    "character": "pole",
    "confidence": "assumed",
    "move": "female-ninjas/duckkickh",
-   "pose": "p0762"
+   "pose": "p0761"
   },
   {
    "character": "bombshell",
    "confidence": "assumed",
    "move": "female-ninjas/duckkickl",
-   "pose": "p0771"
+   "pose": "p0770"
   },
   {
    "character": "knockout",
    "confidence": "assumed",
    "move": "female-ninjas/duckkickl",
-   "pose": "p0771"
+   "pose": "p0770"
   },
   {
    "character": "pole",
    "confidence": "assumed",
    "move": "female-ninjas/duckkickl",
-   "pose": "p0771"
+   "pose": "p0770"
   },
   {
    "character": "bombshell",
    "confidence": "assumed",
    "move": "female-ninjas/duckpunch",
-   "pose": "p0780"
+   "pose": "p0779"
   },
   {
    "character": "knockout",
    "confidence": "assumed",
    "move": "female-ninjas/duckpunch",
-   "pose": "p0780"
+   "pose": "p0779"
   },
   {
    "character": "pole",
    "confidence": "assumed",
    "move": "female-ninjas/duckpunch",
-   "pose": "p0780"
+   "pose": "p0779"
   },
   {
    "character": "bombshell",
    "confidence": "assumed",
    "move": "female-ninjas/elbow",
-   "pose": "p0789"
+   "pose": "p0788"
   },
   {
    "character": "knockout",
    "confidence": "assumed",
    "move": "female-ninjas/elbow",
-   "pose": "p0789"
+   "pose": "p0788"
   },
   {
    "character": "pole",
    "confidence": "assumed",
    "move": "female-ninjas/elbow",
-   "pose": "p0789"
+   "pose": "p0788"
   },
   {
    "character": "knockout",
    "confidence": "table",
    "move": "female-ninjas/fan-swipe",
-   "pose": "p0794"
+   "pose": "p0793"
   },
   {
    "character": "bombshell",
    "confidence": "assumed",
    "move": "female-ninjas/flipk",
-   "pose": "p0799"
+   "pose": "p0798"
   },
   {
    "character": "knockout",
    "confidence": "assumed",
    "move": "female-ninjas/flipk",
-   "pose": "p0799"
+   "pose": "p0798"
   },
   {
    "character": "pole",
    "confidence": "assumed",
    "move": "female-ninjas/flipk",
-   "pose": "p0799"
+   "pose": "p0798"
   },
   {
    "character": "bombshell",
    "confidence": "assumed",
    "move": "female-ninjas/flipp",
-   "pose": "p0808"
+   "pose": "p0807"
   },
   {
    "character": "knockout",
    "confidence": "assumed",
    "move": "female-ninjas/flipp",
-   "pose": "p0808"
+   "pose": "p0807"
   },
   {
    "character": "pole",
    "confidence": "assumed",
    "move": "female-ninjas/flipp",
-   "pose": "p0808"
+   "pose": "p0807"
   },
   {
    "character": "bombshell",
    "confidence": "assumed",
    "move": "female-ninjas/hikick",
-   "pose": "p0818"
+   "pose": "p0817"
   },
   {
    "character": "knockout",
    "confidence": "assumed",
    "move": "female-ninjas/hikick",
-   "pose": "p0818"
+   "pose": "p0817"
   },
   {
    "character": "pole",
    "confidence": "assumed",
    "move": "female-ninjas/hikick",
-   "pose": "p0818"
+   "pose": "p0817"
   },
   {
    "character": "bombshell",
    "confidence": "assumed",
    "move": "female-ninjas/jumpupk",
-   "pose": "p0828"
+   "pose": "p0827"
   },
   {
    "character": "knockout",
    "confidence": "assumed",
    "move": "female-ninjas/jumpupk",
-   "pose": "p0828"
+   "pose": "p0827"
   },
   {
    "character": "pole",
    "confidence": "assumed",
    "move": "female-ninjas/jumpupk",
-   "pose": "p0828"
+   "pose": "p0827"
   },
   {
    "character": "bombshell",
    "confidence": "assumed",
    "move": "female-ninjas/jumpupp",
-   "pose": "p0808"
+   "pose": "p0807"
   },
   {
    "character": "knockout",
    "confidence": "assumed",
    "move": "female-ninjas/jumpupp",
-   "pose": "p0808"
+   "pose": "p0807"
   },
   {
    "character": "pole",
    "confidence": "assumed",
    "move": "female-ninjas/jumpupp",
-   "pose": "p0808"
+   "pose": "p0807"
   },
   {
    "character": "bombshell",
    "confidence": "assumed",
    "move": "female-ninjas/knee",
-   "pose": "p0837"
+   "pose": "p0836"
   },
   {
    "character": "knockout",
    "confidence": "assumed",
    "move": "female-ninjas/knee",
-   "pose": "p0837"
+   "pose": "p0836"
   },
   {
    "character": "pole",
    "confidence": "assumed",
    "move": "female-ninjas/knee",
-   "pose": "p0837"
+   "pose": "p0836"
   },
   {
    "character": "bombshell",
    "confidence": "assumed",
    "move": "female-ninjas/lokick",
-   "pose": "p0847"
+   "pose": "p0846"
   },
   {
    "character": "knockout",
    "confidence": "assumed",
    "move": "female-ninjas/lokick",
-   "pose": "p0847"
+   "pose": "p0846"
   },
   {
    "character": "pole",
    "confidence": "assumed",
    "move": "female-ninjas/lokick",
-   "pose": "p0847"
+   "pose": "p0846"
   },
   {
    "character": "bombshell",
    "confidence": "assumed",
    "move": "female-ninjas/roundh",
-   "pose": "p0855"
+   "pose": "p0854"
   },
   {
    "character": "knockout",
    "confidence": "assumed",
    "move": "female-ninjas/roundh",
-   "pose": "p0855"
+   "pose": "p0854"
   },
   {
    "character": "pole",
    "confidence": "assumed",
    "move": "female-ninjas/roundh",
-   "pose": "p0855"
+   "pose": "p0854"
   },
   {
    "character": "bombshell",
    "confidence": "assumed",
    "move": "female-ninjas/sweepk",
-   "pose": "p0864"
+   "pose": "p0863"
   },
   {
    "character": "knockout",
    "confidence": "assumed",
    "move": "female-ninjas/sweepk",
-   "pose": "p0864"
+   "pose": "p0863"
   },
   {
    "character": "pole",
    "confidence": "assumed",
    "move": "female-ninjas/sweepk",
-   "pose": "p0864"
+   "pose": "p0863"
   },
   {
    "character": "hathead",
    "confidence": "assumed",
    "move": "hathead/duckkickh",
-   "pose": "p0758"
+   "pose": "p0757"
   },
   {
    "character": "hathead",
    "confidence": "assumed",
    "move": "hathead/duckkickl",
-   "pose": "p0767"
+   "pose": "p0766"
   },
   {
    "character": "hathead",
    "confidence": "assumed",
    "move": "hathead/duckpunch",
-   "pose": "p0776"
+   "pose": "p0775"
   },
   {
    "character": "hathead",
    "confidence": "assumed",
    "move": "hathead/elbow",
-   "pose": "p0785"
+   "pose": "p0784"
   },
   {
    "character": "hathead",
    "confidence": "assumed",
    "move": "hathead/flipk",
-   "pose": "p0795"
+   "pose": "p0794"
   },
   {
    "character": "hathead",
    "confidence": "assumed",
    "move": "hathead/flipp",
-   "pose": "p0804"
+   "pose": "p0803"
   },
   {
    "character": "hathead",
    "confidence": "handler-name",
+   "move": "hathead/hikick",
+   "pose": "p0812"
+  },
+  {
+   "character": "hathead",
+   "confidence": "assumed",
    "move": "hathead/hikick",
    "pose": "p0813"
   },
   {
    "character": "hathead",
    "confidence": "assumed",
-   "move": "hathead/hikick",
-   "pose": "p0814"
-  },
-  {
-   "character": "hathead",
-   "confidence": "assumed",
    "move": "hathead/jumpupk",
-   "pose": "p0824"
+   "pose": "p0823"
   },
   {
    "character": "hathead",
    "confidence": "assumed",
    "move": "hathead/jumpupp",
-   "pose": "p0804"
+   "pose": "p0803"
   },
   {
    "character": "hathead",
    "confidence": "assumed",
    "move": "hathead/knee",
-   "pose": "p0833"
+   "pose": "p0832"
   },
   {
    "character": "hathead",
    "confidence": "assumed",
    "move": "hathead/lokick",
-   "pose": "p0843"
+   "pose": "p0842"
   },
   {
    "character": "hathead",
    "confidence": "assumed",
    "move": "hathead/roundh",
-   "pose": "p0851"
+   "pose": "p0850"
   },
   {
    "character": "hathead",
    "confidence": "assumed",
    "move": "hathead/sweepk",
-   "pose": "p0860"
+   "pose": "p0859"
   },
   {
    "character": "headband",
    "confidence": "assumed",
    "move": "headband/duckkickh",
-   "pose": "p0759"
+   "pose": "p0758"
   },
   {
    "character": "headband",
    "confidence": "assumed",
    "move": "headband/duckkickl",
-   "pose": "p0768"
+   "pose": "p0767"
   },
   {
    "character": "headband",
    "confidence": "assumed",
    "move": "headband/duckpunch",
-   "pose": "p0777"
+   "pose": "p0776"
   },
   {
    "character": "headband",
    "confidence": "assumed",
    "move": "headband/elbow",
-   "pose": "p0786"
+   "pose": "p0785"
   },
   {
    "character": "headband",
    "confidence": "assumed",
    "move": "headband/flipk",
-   "pose": "p0796"
+   "pose": "p0795"
   },
   {
    "character": "headband",
    "confidence": "assumed",
    "move": "headband/flipp",
-   "pose": "p0805"
+   "pose": "p0804"
   },
   {
    "character": "headband",
    "confidence": "assumed",
    "move": "headband/hikick",
-   "pose": "p0815"
+   "pose": "p0814"
   },
   {
    "character": "headband",
    "confidence": "handler-name",
    "move": "headband/hikick",
-   "pose": "p0842"
+   "pose": "p0841"
   },
   {
    "character": "headband",
    "confidence": "assumed",
    "move": "headband/jumpupk",
-   "pose": "p0825"
+   "pose": "p0824"
   },
   {
    "character": "headband",
    "confidence": "assumed",
    "move": "headband/jumpupp",
-   "pose": "p0805"
+   "pose": "p0804"
   },
   {
    "character": "headband",
    "confidence": "assumed",
    "move": "headband/knee",
-   "pose": "p0834"
+   "pose": "p0833"
   },
   {
    "character": "headband",
    "confidence": "assumed",
    "move": "headband/lokick",
-   "pose": "p0844"
+   "pose": "p0843"
   },
   {
    "character": "headband",
    "confidence": "assumed",
    "move": "headband/roundh",
-   "pose": "p0852"
+   "pose": "p0851"
   },
   {
    "character": "headband",
    "confidence": "assumed",
    "move": "headband/sweepk",
-   "pose": "p0861"
+   "pose": "p0860"
   },
   {
    "character": "morphman",
    "confidence": "assumed",
    "move": "morphman/duckkickh",
-   "pose": "p0763"
+   "pose": "p0762"
   },
   {
    "character": "morphman",
    "confidence": "assumed",
    "move": "morphman/duckkickl",
-   "pose": "p0772"
+   "pose": "p0771"
   },
   {
    "character": "morphman",
    "confidence": "assumed",
    "move": "morphman/duckpunch",
-   "pose": "p0781"
+   "pose": "p0780"
   },
   {
    "character": "morphman",
    "confidence": "assumed",
    "move": "morphman/elbow",
-   "pose": "p0790"
+   "pose": "p0789"
   },
   {
    "character": "morphman",
    "confidence": "assumed",
    "move": "morphman/flipk",
-   "pose": "p0800"
+   "pose": "p0799"
   },
   {
    "character": "morphman",
    "confidence": "assumed",
    "move": "morphman/flipp",
-   "pose": "p0809"
+   "pose": "p0808"
   },
   {
    "character": "morphman",
    "confidence": "assumed",
    "move": "morphman/hikick",
-   "pose": "p0819"
+   "pose": "p0818"
   },
   {
    "character": "morphman",
    "confidence": "assumed",
    "move": "morphman/jumpupk",
-   "pose": "p0829"
+   "pose": "p0828"
   },
   {
    "character": "morphman",
    "confidence": "assumed",
    "move": "morphman/jumpupp",
-   "pose": "p0809"
+   "pose": "p0808"
   },
   {
    "character": "morphman",
    "confidence": "assumed",
    "move": "morphman/knee",
-   "pose": "p0838"
+   "pose": "p0837"
   },
   {
    "character": "morphman",
    "confidence": "assumed",
    "move": "morphman/lokick",
-   "pose": "p0848"
+   "pose": "p0847"
   },
   {
    "character": "morphman",
    "confidence": "assumed",
    "move": "morphman/roundh",
-   "pose": "p0856"
+   "pose": "p0855"
   },
   {
    "character": "morphman",
    "confidence": "assumed",
    "move": "morphman/sweepk",
-   "pose": "p0865"
+   "pose": "p0864"
   },
   {
    "character": "2ndhand",
    "confidence": "assumed",
    "move": "ninjas/duckkickh",
-   "pose": "p0765"
+   "pose": "p0764"
   },
   {
    "character": "acid",
    "confidence": "assumed",
    "move": "ninjas/duckkickh",
-   "pose": "p0765"
+   "pose": "p0764"
   },
   {
    "character": "blackout",
    "confidence": "assumed",
    "move": "ninjas/duckkickh",
-   "pose": "p0765"
+   "pose": "p0764"
   },
   {
    "character": "frosty",
    "confidence": "assumed",
    "move": "ninjas/duckkickh",
-   "pose": "p0765"
+   "pose": "p0764"
   },
   {
    "character": "harpoon",
    "confidence": "assumed",
    "move": "ninjas/duckkickh",
-   "pose": "p0765"
+   "pose": "p0764"
   },
   {
    "character": "2ndhand",
    "confidence": "assumed",
    "move": "ninjas/duckkickl",
-   "pose": "p0774"
+   "pose": "p0773"
   },
   {
    "character": "acid",
    "confidence": "assumed",
    "move": "ninjas/duckkickl",
-   "pose": "p0774"
+   "pose": "p0773"
   },
   {
    "character": "blackout",
    "confidence": "assumed",
    "move": "ninjas/duckkickl",
-   "pose": "p0774"
+   "pose": "p0773"
   },
   {
    "character": "frosty",
    "confidence": "assumed",
    "move": "ninjas/duckkickl",
-   "pose": "p0774"
+   "pose": "p0773"
   },
   {
    "character": "harpoon",
    "confidence": "assumed",
    "move": "ninjas/duckkickl",
-   "pose": "p0774"
+   "pose": "p0773"
   },
   {
    "character": "2ndhand",
    "confidence": "assumed",
    "move": "ninjas/duckpunch",
-   "pose": "p0783"
+   "pose": "p0782"
   },
   {
    "character": "acid",
    "confidence": "assumed",
    "move": "ninjas/duckpunch",
-   "pose": "p0783"
+   "pose": "p0782"
   },
   {
    "character": "blackout",
    "confidence": "assumed",
    "move": "ninjas/duckpunch",
-   "pose": "p0783"
+   "pose": "p0782"
   },
   {
    "character": "frosty",
    "confidence": "assumed",
    "move": "ninjas/duckpunch",
-   "pose": "p0783"
+   "pose": "p0782"
   },
   {
    "character": "harpoon",
    "confidence": "assumed",
    "move": "ninjas/duckpunch",
-   "pose": "p0783"
+   "pose": "p0782"
   },
   {
    "character": "2ndhand",
    "confidence": "assumed",
    "move": "ninjas/elbow",
-   "pose": "p0792"
+   "pose": "p0791"
   },
   {
    "character": "acid",
    "confidence": "assumed",
    "move": "ninjas/elbow",
-   "pose": "p0792"
+   "pose": "p0791"
   },
   {
    "character": "blackout",
    "confidence": "assumed",
    "move": "ninjas/elbow",
-   "pose": "p0792"
+   "pose": "p0791"
   },
   {
    "character": "frosty",
    "confidence": "assumed",
    "move": "ninjas/elbow",
-   "pose": "p0792"
+   "pose": "p0791"
   },
   {
    "character": "harpoon",
    "confidence": "assumed",
    "move": "ninjas/elbow",
-   "pose": "p0792"
+   "pose": "p0791"
   },
   {
    "character": "2ndhand",
    "confidence": "assumed",
    "move": "ninjas/flipk",
-   "pose": "p0802"
+   "pose": "p0801"
   },
   {
    "character": "acid",
    "confidence": "assumed",
    "move": "ninjas/flipk",
-   "pose": "p0802"
+   "pose": "p0801"
   },
   {
    "character": "blackout",
    "confidence": "assumed",
    "move": "ninjas/flipk",
-   "pose": "p0802"
+   "pose": "p0801"
   },
   {
    "character": "frosty",
    "confidence": "assumed",
    "move": "ninjas/flipk",
-   "pose": "p0802"
+   "pose": "p0801"
   },
   {
    "character": "harpoon",
    "confidence": "assumed",
    "move": "ninjas/flipk",
-   "pose": "p0802"
+   "pose": "p0801"
   },
   {
    "character": "2ndhand",
    "confidence": "assumed",
    "move": "ninjas/flipp",
-   "pose": "p0811"
+   "pose": "p0810"
   },
   {
    "character": "acid",
    "confidence": "assumed",
    "move": "ninjas/flipp",
-   "pose": "p0811"
+   "pose": "p0810"
   },
   {
    "character": "blackout",
    "confidence": "assumed",
    "move": "ninjas/flipp",
-   "pose": "p0811"
+   "pose": "p0810"
   },
   {
    "character": "frosty",
    "confidence": "assumed",
    "move": "ninjas/flipp",
-   "pose": "p0811"
+   "pose": "p0810"
   },
   {
    "character": "harpoon",
    "confidence": "assumed",
    "move": "ninjas/flipp",
-   "pose": "p0811"
+   "pose": "p0810"
   },
   {
    "character": "2ndhand",
    "confidence": "assumed",
    "move": "ninjas/hikick",
-   "pose": "p0821"
+   "pose": "p0820"
   },
   {
    "character": "acid",
    "confidence": "assumed",
    "move": "ninjas/hikick",
-   "pose": "p0821"
+   "pose": "p0820"
   },
   {
    "character": "blackout",
    "confidence": "assumed",
    "move": "ninjas/hikick",
-   "pose": "p0821"
+   "pose": "p0820"
   },
   {
    "character": "frosty",
    "confidence": "assumed",
    "move": "ninjas/hikick",
-   "pose": "p0821"
+   "pose": "p0820"
   },
   {
    "character": "harpoon",
    "confidence": "assumed",
    "move": "ninjas/hikick",
-   "pose": "p0821"
+   "pose": "p0820"
   },
   {
    "character": "2ndhand",
    "confidence": "assumed",
    "move": "ninjas/jumpupk",
-   "pose": "p0831"
+   "pose": "p0830"
   },
   {
    "character": "acid",
    "confidence": "assumed",
    "move": "ninjas/jumpupk",
-   "pose": "p0831"
+   "pose": "p0830"
   },
   {
    "character": "blackout",
    "confidence": "assumed",
    "move": "ninjas/jumpupk",
-   "pose": "p0831"
+   "pose": "p0830"
   },
   {
    "character": "frosty",
    "confidence": "assumed",
    "move": "ninjas/jumpupk",
-   "pose": "p0831"
+   "pose": "p0830"
   },
   {
    "character": "harpoon",
    "confidence": "assumed",
    "move": "ninjas/jumpupk",
-   "pose": "p0831"
+   "pose": "p0830"
   },
   {
    "character": "2ndhand",
    "confidence": "assumed",
    "move": "ninjas/jumpupp",
-   "pose": "p0811"
+   "pose": "p0810"
   },
   {
    "character": "acid",
    "confidence": "assumed",
    "move": "ninjas/jumpupp",
-   "pose": "p0811"
+   "pose": "p0810"
   },
   {
    "character": "blackout",
    "confidence": "assumed",
    "move": "ninjas/jumpupp",
-   "pose": "p0811"
+   "pose": "p0810"
   },
   {
    "character": "frosty",
    "confidence": "assumed",
    "move": "ninjas/jumpupp",
-   "pose": "p0811"
+   "pose": "p0810"
   },
   {
    "character": "harpoon",
    "confidence": "assumed",
    "move": "ninjas/jumpupp",
-   "pose": "p0811"
+   "pose": "p0810"
   },
   {
    "character": "2ndhand",
    "confidence": "assumed",
    "move": "ninjas/knee",
-   "pose": "p0840"
+   "pose": "p0839"
   },
   {
    "character": "acid",
    "confidence": "assumed",
    "move": "ninjas/knee",
-   "pose": "p0840"
+   "pose": "p0839"
   },
   {
    "character": "blackout",
    "confidence": "assumed",
    "move": "ninjas/knee",
-   "pose": "p0840"
+   "pose": "p0839"
   },
   {
    "character": "frosty",
    "confidence": "assumed",
    "move": "ninjas/knee",
-   "pose": "p0840"
+   "pose": "p0839"
   },
   {
    "character": "harpoon",
    "confidence": "assumed",
    "move": "ninjas/knee",
-   "pose": "p0840"
+   "pose": "p0839"
   },
   {
    "character": "2ndhand",
    "confidence": "assumed",
    "move": "ninjas/lokick",
-   "pose": "p0850"
+   "pose": "p0849"
   },
   {
    "character": "acid",
    "confidence": "assumed",
    "move": "ninjas/lokick",
-   "pose": "p0850"
+   "pose": "p0849"
   },
   {
    "character": "blackout",
    "confidence": "assumed",
    "move": "ninjas/lokick",
-   "pose": "p0850"
+   "pose": "p0849"
   },
   {
    "character": "frosty",
    "confidence": "assumed",
    "move": "ninjas/lokick",
-   "pose": "p0850"
+   "pose": "p0849"
   },
   {
    "character": "harpoon",
    "confidence": "assumed",
    "move": "ninjas/lokick",
-   "pose": "p0850"
+   "pose": "p0849"
   },
   {
    "character": "2ndhand",
    "confidence": "assumed",
    "move": "ninjas/roundh",
-   "pose": "p0858"
+   "pose": "p0857"
   },
   {
    "character": "acid",
    "confidence": "assumed",
    "move": "ninjas/roundh",
-   "pose": "p0858"
+   "pose": "p0857"
   },
   {
    "character": "blackout",
    "confidence": "assumed",
    "move": "ninjas/roundh",
-   "pose": "p0858"
+   "pose": "p0857"
   },
   {
    "character": "frosty",
    "confidence": "assumed",
    "move": "ninjas/roundh",
-   "pose": "p0858"
+   "pose": "p0857"
   },
   {
    "character": "harpoon",
    "confidence": "assumed",
    "move": "ninjas/roundh",
-   "pose": "p0858"
+   "pose": "p0857"
   },
   {
    "character": "2ndhand",
    "confidence": "assumed",
    "move": "ninjas/sweepk",
-   "pose": "p0867"
+   "pose": "p0866"
   },
   {
    "character": "acid",
    "confidence": "assumed",
    "move": "ninjas/sweepk",
-   "pose": "p0867"
+   "pose": "p0866"
   },
   {
    "character": "blackout",
    "confidence": "assumed",
    "move": "ninjas/sweepk",
-   "pose": "p0867"
+   "pose": "p0866"
   },
   {
    "character": "frosty",
    "confidence": "assumed",
    "move": "ninjas/sweepk",
-   "pose": "p0867"
+   "pose": "p0866"
   },
   {
    "character": "harpoon",
    "confidence": "assumed",
    "move": "ninjas/sweepk",
-   "pose": "p0867"
+   "pose": "p0866"
   },
   {
    "character": "shades",
    "confidence": "assumed",
    "move": "shades/duckkickh",
-   "pose": "p0760"
+   "pose": "p0759"
   },
   {
    "character": "shades",
    "confidence": "assumed",
    "move": "shades/duckkickl",
-   "pose": "p0769"
+   "pose": "p0768"
   },
   {
    "character": "shades",
    "confidence": "assumed",
    "move": "shades/duckpunch",
-   "pose": "p0778"
+   "pose": "p0777"
   },
   {
    "character": "shades",
    "confidence": "assumed",
    "move": "shades/elbow",
-   "pose": "p0787"
+   "pose": "p0786"
   },
   {
    "character": "shades",
    "confidence": "assumed",
    "move": "shades/flipk",
-   "pose": "p0797"
+   "pose": "p0796"
   },
   {
    "character": "shades",
    "confidence": "assumed",
    "move": "shades/flipp",
-   "pose": "p0806"
+   "pose": "p0805"
   },
   {
    "character": "shades",
    "confidence": "assumed",
    "move": "shades/hikick",
-   "pose": "p0816"
+   "pose": "p0815"
   },
   {
    "character": "shades",
    "confidence": "assumed",
    "move": "shades/jumpupk",
-   "pose": "p0826"
+   "pose": "p0825"
   },
   {
    "character": "shades",
    "confidence": "assumed",
    "move": "shades/jumpupp",
-   "pose": "p0806"
+   "pose": "p0805"
   },
   {
    "character": "shades",
    "confidence": "assumed",
    "move": "shades/knee",
-   "pose": "p0835"
+   "pose": "p0834"
   },
   {
    "character": "shades",
    "confidence": "assumed",
    "move": "shades/lokick",
-   "pose": "p0845"
+   "pose": "p0844"
   },
   {
    "character": "shades",
    "confidence": "assumed",
    "move": "shades/roundh",
-   "pose": "p0853"
+   "pose": "p0852"
   },
   {
    "character": "shades",
    "confidence": "handler-name",
    "move": "shades/split",
-   "pose": "p0823"
+   "pose": "p0822"
   },
   {
    "character": "shades",
    "confidence": "assumed",
    "move": "shades/sweepk",
-   "pose": "p0862"
+   "pose": "p0861"
   },
   {
    "character": "swordarms",
    "confidence": "assumed",
    "move": "swordarms/duckkickh",
-   "pose": "p0761"
+   "pose": "p0760"
   },
   {
    "character": "swordarms",
    "confidence": "assumed",
    "move": "swordarms/duckkickl",
-   "pose": "p0770"
+   "pose": "p0769"
   },
   {
    "character": "swordarms",
    "confidence": "assumed",
    "move": "swordarms/duckpunch",
-   "pose": "p0779"
+   "pose": "p0778"
   },
   {
    "character": "swordarms",
    "confidence": "assumed",
    "move": "swordarms/elbow",
-   "pose": "p0788"
+   "pose": "p0787"
   },
   {
    "character": "swordarms",
    "confidence": "assumed",
    "move": "swordarms/flipk",
-   "pose": "p0798"
+   "pose": "p0797"
   },
   {
    "character": "swordarms",
    "confidence": "assumed",
    "move": "swordarms/flipp",
-   "pose": "p0807"
+   "pose": "p0806"
   },
   {
    "character": "swordarms",
    "confidence": "assumed",
    "move": "swordarms/hikick",
-   "pose": "p0817"
+   "pose": "p0816"
   },
   {
    "character": "swordarms",
    "confidence": "assumed",
    "move": "swordarms/jumpupk",
-   "pose": "p0827"
+   "pose": "p0826"
   },
   {
    "character": "swordarms",
    "confidence": "assumed",
    "move": "swordarms/jumpupp",
-   "pose": "p0807"
+   "pose": "p0806"
   },
   {
    "character": "swordarms",
    "confidence": "assumed",
    "move": "swordarms/knee",
-   "pose": "p0836"
+   "pose": "p0835"
   },
   {
    "character": "swordarms",
    "confidence": "assumed",
    "move": "swordarms/lokick",
-   "pose": "p0846"
+   "pose": "p0845"
   },
   {
    "character": "swordarms",
    "confidence": "assumed",
    "move": "swordarms/roundh",
-   "pose": "p0854"
+   "pose": "p0853"
   },
   {
    "character": "swordarms",
    "confidence": "assumed",
    "move": "swordarms/sweepk",
-   "pose": "p0863"
+   "pose": "p0862"
   },
   {
    "character": "swordarms",
    "confidence": "table",
    "move": "swordarms/swipe",
-   "pose": "p0869"
+   "pose": "p0868"
   }
  ],
  "excluded": {
-  "boss-ani-table": 7,
-  "idle-art": 10,
-  "no-single-contact-pose": 7
+  "boss-ani-table": 9,
+  "idle-art": 11,
+  "no-single-contact-pose": 8
  },
  "format": "boxlab-pose-pack",
  "format_version": 1,
  "meta": {
-  "digest": "44e40aa7c50d0fb3",
-  "generated": "2026-09-04",
+  "digest": "6d7be7f2e9a5760a",
+  "generated": "2026-10-06",
   "public": true,
-  "source_commit": "bca8b75",
+  "source_commit": "b10d4c33",
   "title": "Pose geometry",
   "units": "pixels, relative to the anchor; +x is forward, +y is down"
  },
@@ -3376,6 +3376,12 @@
     134
    ],
    [
+    -19,
+    84,
+    8,
+    28
+   ],
+   [
     18,
     45,
     12,
@@ -3394,6 +3400,12 @@
     14,
     27,
     136
+   ],
+   [
+    -19,
+    83,
+    8,
+    28
    ],
    [
     20,
@@ -3416,6 +3428,12 @@
     137
    ],
    [
+    -19,
+    82,
+    8,
+    28
+   ],
+   [
     21,
     41,
     14,
@@ -3434,6 +3452,12 @@
     15,
     28,
     135
+   ],
+   [
+    -19,
+    82,
+    8,
+    28
    ],
    [
     20,
@@ -3456,6 +3480,12 @@
     134
    ],
    [
+    -19,
+    83,
+    8,
+    28
+   ],
+   [
     20,
     48,
     12,
@@ -3474,6 +3504,12 @@
     17,
     25,
     133
+   ],
+   [
+    -19,
+    84,
+    8,
+    28
    ],
    [
     19,
@@ -3496,6 +3532,12 @@
     133
    ],
    [
+    -19,
+    85,
+    8,
+    28
+   ],
+   [
     18,
     49,
     10,
@@ -3514,6 +3556,12 @@
     67,
     29,
     82
+   ],
+   [
+    -20,
+    83,
+    13,
+    29
    ],
    [
     -3,
@@ -3536,10 +3584,22 @@
     85
    ],
    [
+    -14,
+    81,
+    6,
+    29
+   ],
+   [
     -8,
     65,
     19,
     82
+   ],
+   [
+    -8,
+    82,
+    3,
+    7
    ],
    [
     -33,
@@ -3556,6 +3616,12 @@
     86
    ],
    [
+    -11,
+    81,
+    14,
+    28
+   ],
+   [
     -34,
     12,
     67,
@@ -3570,10 +3636,22 @@
     80
    ],
    [
+    -6,
+    82,
+    10,
+    29
+   ],
+   [
     4,
     67,
     20,
     82
+   ],
+   [
+    4,
+    104,
+    3,
+    6
    ],
    [
     -33,
@@ -3590,10 +3668,22 @@
     79
    ],
    [
+    -6,
+    84,
+    7,
+    24
+   ],
+   [
     1,
     68,
     18,
     83
+   ],
+   [
+    1,
+    85,
+    5,
+    28
    ],
    [
     -31,
@@ -3610,10 +3700,22 @@
     78
    ],
    [
+    -6,
+    85,
+    3,
+    12
+   ],
+   [
     -3,
     69,
     16,
     82
+   ],
+   [
+    -3,
+    84,
+    8,
+    29
    ],
    [
     -30,
@@ -3630,6 +3732,12 @@
     83
    ],
    [
+    -9,
+    84,
+    10,
+    29
+   ],
+   [
     -31,
     14,
     67,
@@ -3642,6 +3750,12 @@
     69,
     23,
     82
+   ],
+   [
+    -10,
+    85,
+    9,
+    29
    ],
    [
     6,
@@ -3664,6 +3778,12 @@
     82
    ],
    [
+    -12,
+    85,
+    9,
+    28
+   ],
+   [
     1,
     69,
     41,
@@ -3684,6 +3804,12 @@
     125
    ],
    [
+    -21,
+    88,
+    14,
+    25
+   ],
+   [
     2,
     24,
     35,
@@ -3698,6 +3824,12 @@
     108
    ],
    [
+    -22,
+    96,
+    16,
+    20
+   ],
+   [
     3,
     41,
     33,
@@ -3710,6 +3842,12 @@
     76,
     27,
     74
+   ],
+   [
+    -19,
+    113,
+    9,
+    5
    ],
    [
     4,
@@ -3878,6 +4016,12 @@
     137
    ],
    [
+    -21,
+    81,
+    15,
+    31
+   ],
+   [
     18,
     43,
     10,
@@ -3896,6 +4040,12 @@
     14,
     26,
     136
+   ],
+   [
+    -19,
+    81,
+    9,
+    31
    ],
    [
     14,
@@ -3928,6 +4078,12 @@
     15,
     31,
     135
+   ],
+   [
+    13,
+    78,
+    10,
+    28
    ]
   ],
   "p0168": [
@@ -3936,6 +4092,12 @@
     68,
     27,
     82
+   ],
+   [
+    -20,
+    110,
+    10,
+    6
    ],
    [
     3,
@@ -3952,6 +4114,12 @@
     86
    ],
    [
+    -20,
+    110,
+    17,
+    5
+   ],
+   [
     5,
     64,
     35,
@@ -3964,6 +4132,12 @@
     20,
     37,
     130
+   ],
+   [
+    -18,
+    83,
+    9,
+    29
    ],
    [
     -4,
@@ -3980,6 +4154,12 @@
     127
    ],
    [
+    -18,
+    84,
+    8,
+    28
+   ],
+   [
     -1,
     40,
     33,
@@ -3992,6 +4172,12 @@
     13,
     34,
     137
+   ],
+   [
+    -17,
+    83,
+    8,
+    29
    ],
    [
     -1,
@@ -4008,6 +4194,12 @@
     134
    ],
    [
+    -13,
+    84,
+    11,
+    29
+   ],
+   [
     0,
     47,
     32,
@@ -4022,6 +4214,12 @@
     135
    ],
    [
+    -13,
+    84,
+    11,
+    29
+   ],
+   [
     -1,
     47,
     33,
@@ -4034,6 +4232,12 @@
     15,
     36,
     135
+   ],
+   [
+    -14,
+    83,
+    10,
+    30
    ],
    [
     1,
@@ -4054,6 +4258,12 @@
     67,
     35,
     77
+   ],
+   [
+    -5,
+    111,
+    4,
+    10
    ]
   ],
   "p0177": [
@@ -4076,6 +4286,12 @@
     29,
     82,
     118
+   ],
+   [
+    -3,
+    67,
+    16,
+    31
    ],
    [
     37,
@@ -4102,6 +4318,12 @@
     72,
     43,
     64
+   ],
+   [
+    13,
+    82,
+    31,
+    14
    ]
   ],
   "p0180": [
@@ -4110,6 +4332,12 @@
     56,
     70,
     91
+   ],
+   [
+    4,
+    110,
+    22,
+    8
    ]
   ],
   "p0181": [
@@ -4118,6 +4346,12 @@
     24,
     58,
     124
+   ],
+   [
+    -14,
+    84,
+    19,
+    25
    ]
   ],
   "p0182": [
@@ -4132,6 +4366,12 @@
     26,
     31,
     118
+   ],
+   [
+    -20,
+    77,
+    12,
+    18
    ],
    [
     14,
@@ -4234,6 +4474,12 @@
     66
    ],
    [
+    -20,
+    126,
+    9,
+    13
+   ],
+   [
     -4,
     105,
     51,
@@ -4296,6 +4542,12 @@
     86
    ],
    [
+    -26,
+    112,
+    18,
+    16
+   ],
+   [
     20,
     88,
     33,
@@ -4316,6 +4568,12 @@
     118
    ],
    [
+    -23,
+    84,
+    15,
+    24
+   ],
+   [
     -2,
     23,
     28,
@@ -4328,6 +4586,12 @@
     65,
     33,
     85
+   ],
+   [
+    -27,
+    111,
+    15,
+    7
    ],
    [
     0,
@@ -4344,6 +4608,12 @@
     76
    ],
    [
+    -29,
+    114,
+    7,
+    5
+   ],
+   [
     -2,
     78,
     36,
@@ -4356,6 +4626,12 @@
     59,
     33,
     91
+   ],
+   [
+    -26,
+    112,
+    17,
+    6
    ],
    [
     1,
@@ -4372,6 +4648,12 @@
     134
    ],
    [
+    -8,
+    84,
+    7,
+    31
+   ],
+   [
     5,
     51,
     30,
@@ -4384,6 +4666,12 @@
     16,
     62,
     134
+   ],
+   [
+    -5,
+    84,
+    11,
+    31
    ]
   ],
   "p0198": [
@@ -4398,6 +4686,12 @@
     52,
     15,
     98
+   ],
+   [
+    -6,
+    82,
+    12,
+    30
    ]
   ],
   "p0199": [
@@ -4418,6 +4712,12 @@
     54,
     20,
     96
+   ],
+   [
+    -2,
+    83,
+    15,
+    31
    ]
   ],
   "p0200": [
@@ -4428,10 +4728,22 @@
     141
    ],
    [
+    -13,
+    94,
+    5,
+    21
+   ],
+   [
     -8,
     9,
     24,
     135
+   ],
+   [
+    -8,
+    94,
+    3,
+    18
    ],
    [
     16,
@@ -4446,6 +4758,12 @@
     17,
     28,
     133
+   ],
+   [
+    -14,
+    84,
+    9,
+    30
    ],
    [
     3,
@@ -4468,6 +4786,12 @@
     123
    ],
    [
+    -15,
+    84,
+    12,
+    30
+   ],
+   [
     3,
     49,
     23,
@@ -4480,6 +4804,12 @@
     17,
     33,
     133
+   ],
+   [
+    -14,
+    83,
+    10,
+    29
    ],
    [
     0,
@@ -4496,6 +4826,12 @@
     133
    ],
    [
+    -17,
+    83,
+    12,
+    29
+   ],
+   [
     -2,
     26,
     28,
@@ -4508,6 +4844,12 @@
     18,
     24,
     132
+   ],
+   [
+    -16,
+    82,
+    10,
+    29
    ],
    [
     -1,
@@ -4524,6 +4866,12 @@
     116
    ],
    [
+    -18,
+    82,
+    8,
+    30
+   ],
+   [
     -2,
     18,
     28,
@@ -4536,6 +4884,12 @@
     18,
     28,
     132
+   ],
+   [
+    -17,
+    83,
+    9,
+    30
    ],
    [
     1,
@@ -13734,38 +14088,6 @@
   ],
   "p0734": [
    [
-    -63,
-    54,
-    48,
-    11
-   ]
-  ],
-  "p0735": [
-   [
-    -54,
-    49,
-    102,
-    10
-   ]
-  ],
-  "p0736": [
-   [
-    -28,
-    45,
-    118,
-    9
-   ]
-  ],
-  "p0737": [
-   [
-    -33,
-    50,
-    158,
-    9
-   ]
-  ],
-  "p0738": [
-   [
     -36,
     40,
     20,
@@ -13790,7 +14112,7 @@
     152
    ]
   ],
-  "p0739": [
+  "p0735": [
    [
     -51,
     44,
@@ -13816,7 +14138,7 @@
     146
    ]
   ],
-  "p0740": [
+  "p0736": [
    [
     -27,
     24,
@@ -13836,7 +14158,7 @@
     151
    ]
   ],
-  "p0741": [
+  "p0737": [
    [
     -27,
     23,
@@ -13850,7 +14172,7 @@
     151
    ]
   ],
-  "p0742": [
+  "p0738": [
    [
     -27,
     20,
@@ -13864,7 +14186,7 @@
     135
    ]
   ],
-  "p0743": [
+  "p0739": [
    [
     13,
     61,
@@ -13884,7 +14206,7 @@
     147
    ]
   ],
-  "p0744": [
+  "p0740": [
    [
     14,
     41,
@@ -13910,7 +14232,7 @@
     155
    ]
   ],
-  "p0745": [
+  "p0741": [
    [
     -48,
     29,
@@ -13936,7 +14258,7 @@
     120
    ]
   ],
-  "p0746": [
+  "p0742": [
    [
     -57,
     40,
@@ -13962,7 +14284,7 @@
     55
    ]
   ],
-  "p0747": [
+  "p0743": [
    [
     -52,
     64,
@@ -13982,7 +14304,7 @@
     51
    ]
   ],
-  "p0748": [
+  "p0744": [
    [
     -54,
     80,
@@ -14008,7 +14330,7 @@
     44
    ]
   ],
-  "p0749": [
+  "p0745": [
    [
     -38,
     18,
@@ -14022,7 +14344,7 @@
     124
    ]
   ],
-  "p0750": [
+  "p0746": [
    [
     -39,
     29,
@@ -14042,7 +14364,7 @@
     76
    ]
   ],
-  "p0751": [
+  "p0747": [
    [
     13,
     56,
@@ -14062,7 +14384,7 @@
     70
    ]
   ],
-  "p0752": [
+  "p0748": [
    [
     -17,
     127,
@@ -14076,7 +14398,7 @@
     146
    ]
   ],
-  "p0753": [
+  "p0749": [
    [
     -12,
     29,
@@ -14090,7 +14412,7 @@
     140
    ]
   ],
-  "p0754": [
+  "p0750": [
    [
     -20,
     129,
@@ -14104,7 +14426,7 @@
     139
    ]
   ],
-  "p0755": [
+  "p0751": [
    [
     -27,
     17,
@@ -14116,6 +14438,98 @@
     16,
     29,
     149
+   ]
+  ],
+  "p0752": [
+   [
+    -43,
+    20,
+    44,
+    149
+   ],
+   [
+    1,
+    20,
+    45,
+    150
+   ],
+   [
+    -24,
+    104,
+    16,
+    47
+   ],
+   [
+    6,
+    25,
+    30,
+    127
+   ]
+  ],
+  "p0753": [
+   [
+    -43,
+    20,
+    44,
+    149
+   ],
+   [
+    1,
+    20,
+    45,
+    150
+   ],
+   [
+    -24,
+    70,
+    25,
+    81
+   ],
+   [
+    1,
+    25,
+    35,
+    127
+   ]
+  ],
+  "p0754": [
+   [
+    -43,
+    20,
+    43,
+    149
+   ],
+   [
+    0,
+    20,
+    46,
+    150
+   ]
+  ],
+  "p0755": [
+   [
+    -43,
+    20,
+    44,
+    149
+   ],
+   [
+    1,
+    20,
+    45,
+    150
+   ],
+   [
+    -42,
+    23,
+    43,
+    128
+   ],
+   [
+    1,
+    23,
+    42,
+    129
    ]
   ],
   "p0756": [
@@ -14130,23 +14544,21 @@
     20,
     45,
     150
+   ],
+   [
+    -42,
+    23,
+    43,
+    130
+   ],
+   [
+    1,
+    23,
+    42,
+    129
    ]
   ],
   "p0757": [
-   [
-    -43,
-    20,
-    43,
-    149
-   ],
-   [
-    0,
-    20,
-    46,
-    150
-   ]
-  ],
-  "p0758": [
    [
     -28,
     95,
@@ -14166,7 +14578,7 @@
     32
    ]
   ],
-  "p0759": [
+  "p0758": [
    [
     -20,
     95,
@@ -14180,7 +14592,7 @@
     79
    ]
   ],
-  "p0760": [
+  "p0759": [
    [
     -36,
     96,
@@ -14200,7 +14612,7 @@
     34
    ]
   ],
-  "p0761": [
+  "p0760": [
    [
     -21,
     101,
@@ -14220,7 +14632,7 @@
     78
    ]
   ],
-  "p0762": [
+  "p0761": [
    [
     -5,
     96,
@@ -14234,7 +14646,7 @@
     76
    ]
   ],
-  "p0763": [
+  "p0762": [
    [
     -15,
     79,
@@ -14248,7 +14660,7 @@
     87
    ]
   ],
-  "p0764": [
+  "p0763": [
    [
     -7,
     88,
@@ -14262,7 +14674,7 @@
     88
    ]
   ],
-  "p0765": [
+  "p0764": [
    [
     -28,
     84,
@@ -14276,7 +14688,7 @@
     101
    ]
   ],
-  "p0766": [
+  "p0765": [
    [
     -1,
     99,
@@ -14302,7 +14714,7 @@
     19
    ]
   ],
-  "p0767": [
+  "p0766": [
    [
     -24,
     104,
@@ -14322,7 +14734,7 @@
     40
    ]
   ],
-  "p0768": [
+  "p0767": [
    [
     -9,
     91,
@@ -14342,7 +14754,7 @@
     27
    ]
   ],
-  "p0769": [
+  "p0768": [
    [
     -20,
     101,
@@ -14368,7 +14780,7 @@
     44
    ]
   ],
-  "p0770": [
+  "p0769": [
    [
     -25,
     85,
@@ -14388,7 +14800,7 @@
     38
    ]
   ],
-  "p0771": [
+  "p0770": [
    [
     -12,
     99,
@@ -14414,7 +14826,7 @@
     24
    ]
   ],
-  "p0772": [
+  "p0771": [
    [
     -10,
     84,
@@ -14434,7 +14846,7 @@
     35
    ]
   ],
-  "p0773": [
+  "p0772": [
    [
     -8,
     80,
@@ -14448,7 +14860,7 @@
     36
    ]
   ],
-  "p0774": [
+  "p0773": [
    [
     -30,
     95,
@@ -14474,7 +14886,7 @@
     30
    ]
   ],
-  "p0775": [
+  "p0774": [
    [
     -5,
     92,
@@ -14500,7 +14912,7 @@
     38
    ]
   ],
-  "p0776": [
+  "p0775": [
    [
     -22,
     67,
@@ -14520,7 +14932,7 @@
     14
    ]
   ],
-  "p0777": [
+  "p0776": [
    [
     -22,
     123,
@@ -14540,7 +14952,7 @@
     12
    ]
   ],
-  "p0778": [
+  "p0777": [
    [
     -27,
     131,
@@ -14554,13 +14966,19 @@
     80
    ],
    [
+    12,
+    117,
+    11,
+    30
+   ],
+   [
     26,
     55,
     66,
     92
    ]
   ],
-  "p0779": [
+  "p0778": [
    [
     -38,
     93,
@@ -14580,7 +14998,7 @@
     17
    ]
   ],
-  "p0780": [
+  "p0779": [
    [
     -18,
     57,
@@ -14594,7 +15012,7 @@
     80
    ]
   ],
-  "p0781": [
+  "p0780": [
    [
     -34,
     70,
@@ -14614,7 +15032,7 @@
     13
    ]
   ],
-  "p0782": [
+  "p0781": [
    [
     -25,
     125,
@@ -14634,7 +15052,7 @@
     97
    ]
   ],
-  "p0783": [
+  "p0782": [
    [
     -27,
     119,
@@ -14660,7 +15078,7 @@
     15
    ]
   ],
-  "p0784": [
+  "p0783": [
    [
     -19,
     137,
@@ -14680,7 +15098,7 @@
     23
    ]
   ],
-  "p0785": [
+  "p0784": [
    [
     -21,
     10,
@@ -14694,7 +15112,7 @@
     137
    ]
   ],
-  "p0786": [
+  "p0785": [
    [
     25,
     5,
@@ -14714,12 +15132,18 @@
     29
    ]
   ],
-  "p0787": [
+  "p0786": [
    [
     -19,
     24,
     41,
     124
+   ],
+   [
+    11,
+    89,
+    11,
+    32
    ],
    [
     22,
@@ -14740,7 +15164,7 @@
     74
    ]
   ],
-  "p0788": [
+  "p0787": [
    [
     -30,
     31,
@@ -14754,7 +15178,7 @@
     130
    ]
   ],
-  "p0789": [
+  "p0788": [
    [
     -22,
     25,
@@ -14774,21 +15198,21 @@
     19
    ]
   ],
-  "p0790": [
+  "p0789": [
    [
     -9,
-    8,
-    34,
-    133
+    5,
+    27,
+    135
    ],
    [
-    25,
-    8,
-    25,
-    129
+    18,
+    7,
+    28,
+    130
    ]
   ],
-  "p0791": [
+  "p0790": [
    [
     -33,
     16,
@@ -14802,7 +15226,7 @@
     128
    ]
   ],
-  "p0792": [
+  "p0791": [
    [
     -21,
     -1,
@@ -14822,7 +15246,7 @@
     138
    ]
   ],
-  "p0793": [
+  "p0792": [
    [
     -26,
     8,
@@ -14842,7 +15266,7 @@
     140
    ]
   ],
-  "p0794": [
+  "p0793": [
    [
     -32,
     13,
@@ -14862,7 +15286,7 @@
     11
    ]
   ],
-  "p0795": [
+  "p0794": [
    [
     -43,
     -12,
@@ -14882,7 +15306,7 @@
     20
    ]
   ],
-  "p0796": [
+  "p0795": [
    [
     -24,
     -19,
@@ -14896,7 +15320,7 @@
     19
    ]
   ],
-  "p0797": [
+  "p0796": [
    [
     -32,
     6,
@@ -14922,7 +15346,7 @@
     14
    ]
   ],
-  "p0798": [
+  "p0797": [
    [
     -16,
     8,
@@ -14936,7 +15360,7 @@
     70
    ]
   ],
-  "p0799": [
+  "p0798": [
    [
     -17,
     2,
@@ -14950,7 +15374,7 @@
     45
    ]
   ],
-  "p0800": [
+  "p0799": [
    [
     -28,
     24,
@@ -14970,7 +15394,7 @@
     45
    ]
   ],
-  "p0801": [
+  "p0800": [
    [
     -5,
     -9,
@@ -14984,7 +15408,7 @@
     27
    ]
   ],
-  "p0802": [
+  "p0801": [
    [
     -27,
     -10,
@@ -15004,7 +15428,7 @@
     46
    ]
   ],
-  "p0803": [
+  "p0802": [
    [
     -15,
     5,
@@ -15024,7 +15448,7 @@
     27
    ]
   ],
-  "p0804": [
+  "p0803": [
    [
     -78,
     33,
@@ -15044,7 +15468,7 @@
     60
    ]
   ],
-  "p0805": [
+  "p0804": [
    [
     -74,
     -23,
@@ -15058,7 +15482,7 @@
     44
    ]
   ],
-  "p0806": [
+  "p0805": [
    [
     -72,
     56,
@@ -15078,7 +15502,7 @@
     64
    ]
   ],
-  "p0807": [
+  "p0806": [
    [
     -77,
     17,
@@ -15086,7 +15510,7 @@
     55
    ]
   ],
-  "p0808": [
+  "p0807": [
    [
     -62,
     9,
@@ -15106,7 +15530,7 @@
     49
    ]
   ],
-  "p0809": [
+  "p0808": [
    [
     -50,
     7,
@@ -15120,7 +15544,7 @@
     36
    ]
   ],
-  "p0810": [
+  "p0809": [
    [
     -51,
     -5,
@@ -15140,7 +15564,7 @@
     17
    ]
   ],
-  "p0811": [
+  "p0810": [
    [
     -61,
     34,
@@ -15160,7 +15584,7 @@
     31
    ]
   ],
-  "p0812": [
+  "p0811": [
    [
     -54,
     40,
@@ -15180,7 +15604,7 @@
     51
    ]
   ],
-  "p0813": [
+  "p0812": [
    [
     -37,
     32,
@@ -15206,7 +15630,7 @@
     75
    ]
   ],
-  "p0814": [
+  "p0813": [
    [
     -25,
     47,
@@ -15220,7 +15644,7 @@
     53
    ]
   ],
-  "p0815": [
+  "p0814": [
    [
     -17,
     25,
@@ -15234,7 +15658,7 @@
     60
    ]
   ],
-  "p0816": [
+  "p0815": [
    [
     -23,
     50,
@@ -15246,9 +15670,15 @@
     24,
     76,
     120
+   ],
+   [
+    26,
+    85,
+    4,
+    17
    ]
   ],
-  "p0817": [
+  "p0816": [
    [
     -25,
     46,
@@ -15268,7 +15698,7 @@
     129
    ]
   ],
-  "p0818": [
+  "p0817": [
    [
     -4,
     13,
@@ -15282,7 +15712,7 @@
     41
    ]
   ],
-  "p0819": [
+  "p0818": [
    [
     -12,
     39,
@@ -15296,7 +15726,7 @@
     128
    ]
   ],
-  "p0820": [
+  "p0819": [
    [
     -28,
     34,
@@ -15310,7 +15740,7 @@
     45
    ]
   ],
-  "p0821": [
+  "p0820": [
    [
     -16,
     33,
@@ -15330,7 +15760,7 @@
     123
    ]
   ],
-  "p0822": [
+  "p0821": [
    [
     -36,
     35,
@@ -15356,7 +15786,7 @@
     52
    ]
   ],
-  "p0823": [
+  "p0822": [
    [
     -75,
     123,
@@ -15364,10 +15794,22 @@
     26
    ],
    [
+    -37,
+    128,
+    18,
+    8
+   ],
+   [
     -8,
     123,
     71,
     26
+   ],
+   [
+    32,
+    138,
+    31,
+    10
    ],
    [
     -23,
@@ -15382,7 +15824,7 @@
     24
    ]
   ],
-  "p0824": [
+  "p0823": [
    [
     -29,
     -6,
@@ -15396,7 +15838,7 @@
     42
    ]
   ],
-  "p0825": [
+  "p0824": [
    [
     -20,
     -10,
@@ -15410,7 +15852,7 @@
     32
    ]
   ],
-  "p0826": [
+  "p0825": [
    [
     -23,
     12,
@@ -15424,7 +15866,7 @@
     37
    ]
   ],
-  "p0827": [
+  "p0826": [
    [
     -52,
     -8,
@@ -15438,7 +15880,7 @@
     31
    ]
   ],
-  "p0828": [
+  "p0827": [
    [
     -24,
     -11,
@@ -15452,7 +15894,7 @@
     63
    ]
   ],
-  "p0829": [
+  "p0828": [
    [
     -23,
     -1,
@@ -15472,7 +15914,7 @@
     26
    ]
   ],
-  "p0830": [
+  "p0829": [
    [
     -33,
     2,
@@ -15486,7 +15928,7 @@
     30
    ]
   ],
-  "p0831": [
+  "p0830": [
    [
     -28,
     3,
@@ -15506,7 +15948,7 @@
     56
    ]
   ],
-  "p0832": [
+  "p0831": [
    [
     -27,
     43,
@@ -15526,7 +15968,7 @@
     37
    ]
   ],
-  "p0833": [
+  "p0832": [
    [
     -11,
     9,
@@ -15540,7 +15982,7 @@
     55
    ]
   ],
-  "p0834": [
+  "p0833": [
    [
     -15,
     17,
@@ -15554,7 +15996,7 @@
     25
    ]
   ],
-  "p0835": [
+  "p0834": [
    [
     11,
     -3,
@@ -15568,7 +16010,7 @@
     12
    ]
   ],
-  "p0836": [
+  "p0835": [
    [
     -17,
     17,
@@ -15582,7 +16024,7 @@
     51
    ]
   ],
-  "p0837": [
+  "p0836": [
    [
     -4,
     11,
@@ -15596,7 +16038,7 @@
     43
    ]
   ],
-  "p0838": [
+  "p0837": [
    [
     -3,
     5,
@@ -15616,7 +16058,7 @@
     43
    ]
   ],
-  "p0839": [
+  "p0838": [
    [
     -58,
     37,
@@ -15636,7 +16078,7 @@
     79
    ]
   ],
-  "p0840": [
+  "p0839": [
    [
     -18,
     7,
@@ -15650,7 +16092,7 @@
     39
    ]
   ],
-  "p0841": [
+  "p0840": [
    [
     -4,
     22,
@@ -15670,7 +16112,7 @@
     55
    ]
   ],
-  "p0842": [
+  "p0841": [
    [
     17,
     15,
@@ -15684,7 +16126,7 @@
     129
    ]
   ],
-  "p0843": [
+  "p0842": [
    [
     -14,
     20,
@@ -15698,7 +16140,7 @@
     14
    ]
   ],
-  "p0844": [
+  "p0843": [
    [
     -13,
     19,
@@ -15706,7 +16148,7 @@
     119
    ]
   ],
-  "p0845": [
+  "p0844": [
    [
     -11,
     26,
@@ -15720,13 +16162,19 @@
     104
    ],
    [
+    26,
+    79,
+    3,
+    24
+   ],
+   [
     96,
     52,
     13,
     15
    ]
   ],
-  "p0846": [
+  "p0845": [
    [
     -28,
     38,
@@ -15746,7 +16194,7 @@
     24
    ]
   ],
-  "p0847": [
+  "p0846": [
    [
     -2,
     6,
@@ -15754,7 +16202,7 @@
     125
    ]
   ],
-  "p0848": [
+  "p0847": [
    [
     -4,
     14,
@@ -15768,7 +16216,7 @@
     13
    ]
   ],
-  "p0849": [
+  "p0848": [
    [
     -23,
     20,
@@ -15782,7 +16230,7 @@
     116
    ]
   ],
-  "p0850": [
+  "p0849": [
    [
     -12,
     12,
@@ -15802,7 +16250,7 @@
     24
    ]
   ],
-  "p0851": [
+  "p0850": [
    [
     -3,
     42,
@@ -15816,7 +16264,7 @@
     59
    ]
   ],
-  "p0852": [
+  "p0851": [
    [
     -4,
     44,
@@ -15836,7 +16284,7 @@
     134
    ]
   ],
-  "p0853": [
+  "p0852": [
    [
     -1,
     28,
@@ -15850,7 +16298,7 @@
     43
    ]
   ],
-  "p0854": [
+  "p0853": [
    [
     -7,
     42,
@@ -15864,7 +16312,7 @@
     46
    ]
   ],
-  "p0855": [
+  "p0854": [
    [
     18,
     5,
@@ -15878,7 +16326,7 @@
     63
    ]
   ],
-  "p0856": [
+  "p0855": [
    [
     -5,
     13,
@@ -15898,7 +16346,7 @@
     47
    ]
   ],
-  "p0857": [
+  "p0856": [
    [
     -25,
     42,
@@ -15918,7 +16366,7 @@
     56
    ]
   ],
-  "p0858": [
+  "p0857": [
    [
     -13,
     29,
@@ -15938,7 +16386,7 @@
     34
    ]
   ],
-  "p0859": [
+  "p0858": [
    [
     -11,
     13,
@@ -15958,7 +16406,7 @@
     53
    ]
   ],
-  "p0860": [
+  "p0859": [
    [
     -33,
     82,
@@ -15972,7 +16420,7 @@
     36
    ]
   ],
-  "p0861": [
+  "p0860": [
    [
     -21,
     86,
@@ -15992,7 +16440,7 @@
     35
    ]
   ],
-  "p0862": [
+  "p0861": [
    [
     -23,
     85,
@@ -16018,7 +16466,7 @@
     46
    ]
   ],
-  "p0863": [
+  "p0862": [
    [
     -36,
     90,
@@ -16038,7 +16486,7 @@
     40
    ]
   ],
-  "p0864": [
+  "p0863": [
    [
     -14,
     69,
@@ -16058,7 +16506,7 @@
     24
    ]
   ],
-  "p0865": [
+  "p0864": [
    [
     -30,
     95,
@@ -16078,7 +16526,7 @@
     39
    ]
   ],
-  "p0866": [
+  "p0865": [
    [
     -25,
     89,
@@ -16098,7 +16546,7 @@
     39
    ]
   ],
-  "p0867": [
+  "p0866": [
    [
     -28,
     74,
@@ -16118,7 +16566,7 @@
     44
    ]
   ],
-  "p0868": [
+  "p0867": [
    [
     -28,
     97,
@@ -16144,7 +16592,7 @@
     49
    ]
   ],
-  "p0869": [
+  "p0868": [
    [
     -54,
     33,
@@ -16990,13 +17438,13 @@
     "p0733"
    ],
    "hit-high": [
+    "p0745",
+    "p0746",
+    "p0747",
+    "p0748",
     "p0749",
     "p0750",
-    "p0751",
-    "p0752",
-    "p0753",
-    "p0754",
-    "p0755"
+    "p0751"
    ],
    "hit-low": [
     "p0331",
@@ -17006,20 +17454,14 @@
     "p0335"
    ],
    "jump-backward": [
-    "p0740",
-    "p0741",
-    "p0742"
-   ],
-   "jump-forward": [
-    "p0738",
-    "p0739",
+    "p0736",
+    "p0737",
     "p0738"
    ],
-   "jump-up": [
+   "jump-forward": [
     "p0734",
     "p0735",
-    "p0736",
-    "p0737"
+    "p0734"
    ],
    "skip-forward": [
     "p0716",
@@ -17036,21 +17478,21 @@
     "p0706"
    ],
    "sweep-fall": [
-    "p0756",
-    "p0756",
-    "p0757",
-    "p0756",
+    "p0752",
+    "p0753",
+    "p0754",
+    "p0755",
     "p0756",
     "p0756",
     "p0756"
    ],
    "turn": [
+    "p0739",
+    "p0740",
+    "p0741",
+    "p0742",
     "p0743",
-    "p0744",
-    "p0745",
-    "p0746",
-    "p0747",
-    "p0748"
+    "p0744"
    ],
    "turn-ducking": [
     "p0715",
